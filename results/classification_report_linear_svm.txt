@@ -1,0 +1,17 @@
+Classification Report - Linear SVM
+================================================================================
+
+                    precision    recall  f1-score   support
+
+  Adventure/Action       0.42      0.43      0.42        94
+         Biography       0.87      0.75      0.80       229
+           Fantasy       0.39      0.21      0.27       127
+Historical Fiction       0.47      0.48      0.47       126
+     Mystery/Crime       0.67      0.75      0.71       131
+           Romance       0.43      0.73      0.54       105
+   Science Fiction       0.51      0.41      0.45       148
+   Thriller/Horror       0.23      0.29      0.25        80
+
+          accuracy                           0.54      1040
+         macro avg       0.50      0.51      0.49      1040
+      weighted avg       0.55      0.54      0.53      1040

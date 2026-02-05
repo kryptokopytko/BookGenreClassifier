@@ -1,0 +1,462 @@
+book_id,title,author,genre,word_count,file_path,url,processed_path
+5862,"The Memoirs of General Ulysses S. Grant, Part 3.",Ulysses S. Grant,Biography,47292.0,raw/Biography/5862.txt,https://www.gutenberg.org/ebooks/5862,processed/Biography/5862.txt
+22136,The Book-Hunter,John Hill Burton,Biography,135725.0,raw/Biography/22136.txt,https://www.gutenberg.org/ebooks/22136,processed/Biography/22136.txt
+20489,"Henry of Monmouth, Volume 2",J. Endell Tyler,Biography,122111.0,raw/Biography/20489.txt,https://www.gutenberg.org/ebooks/20489,processed/Biography/20489.txt
+4728,"Memoir of John Lothrop Motley, Complete","Oliver Wendell Holmes, Sr.",Biography,56768.0,raw/Biography/4728.txt,https://www.gutenberg.org/ebooks/4728,processed/Biography/4728.txt
+6756,Little Memoirs of the Nineteenth Century,George Paston,Biography,110763.0,raw/Biography/6756.txt,https://www.gutenberg.org/ebooks/6756,processed/Biography/6756.txt
+3890,"The Memoirs of Marie Antoinette, Queen Of France, Volume 7",Madame Campan,Biography,30897.0,raw/Biography/3890.txt,https://www.gutenberg.org/ebooks/3890,processed/Biography/3890.txt
+5864,"The Memoirs of General Ulysses S. Grant, Part 5.",Ulysses S. Grant,Biography,40600.0,raw/Biography/5864.txt,https://www.gutenberg.org/ebooks/5864,processed/Biography/5864.txt
+33891,Bartholomew Sastrow,Bartholomew Sastrow,Biography,103857.0,raw/Biography/33891.txt,https://www.gutenberg.org/ebooks/33891,processed/Biography/33891.txt
+21819,"Kalli, the Esquimaux Christian",Thomas Boyles Murray,Biography,13902.0,raw/Biography/21819.txt,https://www.gutenberg.org/ebooks/21819,processed/Biography/21819.txt
+71090,"The Prisoners' Memoirs, or Dartmoor Prison",A Prisoner in England,Biography,62448.0,raw/Biography/71090.txt,https://www.gutenberg.org/ebooks/71090,processed/Biography/71090.txt
+3889,"The Memoirs of Marie Antoinette, Queen Of France, Volume 6",Madame Campan,Biography,32236.0,raw/Biography/3889.txt,https://www.gutenberg.org/ebooks/3889,processed/Biography/3889.txt
+33723,"'Phiz' (Hablot Knight Browne), a Memoir.",Fred. G. Kitton,Biography,13169.0,raw/Biography/33723.txt,https://www.gutenberg.org/ebooks/33723,processed/Biography/33723.txt
+20488,"Henry of Monmouth, Volume 1",J. Endell Tyler,Biography,113897.0,raw/Biography/20488.txt,https://www.gutenberg.org/ebooks/20488,processed/Biography/20488.txt
+3888,"The Memoirs of Marie Antoinette, Queen Of France, Volume 5",Madame Campan,Biography,22984.0,raw/Biography/3888.txt,https://www.gutenberg.org/ebooks/3888,processed/Biography/3888.txt
+3884,"The Memoirs of Marie Antoinette, Queen Of France, Volume 1",Madame Campan,Biography,16903.0,raw/Biography/3884.txt,https://www.gutenberg.org/ebooks/3884,processed/Biography/3884.txt
+3891,"Memoirs Of The Court Of Marie Antoinette, Queen Of France, Complete",Madame Campan,Biography,164120.0,raw/Biography/3891.txt,https://www.gutenberg.org/ebooks/3891,processed/Biography/3891.txt
+5863,"The Memoirs of General Ulysses S. Grant, Part 4.",Ulysses S. Grant,Biography,43640.0,raw/Biography/5863.txt,https://www.gutenberg.org/ebooks/5863,processed/Biography/5863.txt
+36218,The Letters of Ambrose Bierce,Ambrose Bierce,Biography,74340.0,raw/Biography/36218.txt,https://www.gutenberg.org/ebooks/36218,processed/Biography/36218.txt
+7305,Memoir and Letters of Francis W. Newman,I. Giberne Sieveking,Biography,123220.0,raw/Biography/7305.txt,https://www.gutenberg.org/ebooks/7305,processed/Biography/7305.txt
+5865,"The Memoirs of General Ulysses S. Grant, Part 6.",Ulysses S. Grant,Biography,78471.0,raw/Biography/5865.txt,https://www.gutenberg.org/ebooks/5865,processed/Biography/5865.txt
+24498,"Memoirs of the Life of Sir Walter Scott, Volume V (of 10)",John Gibson Lockhart,Biography,109643.0,raw/Biography/24498.txt,https://www.gutenberg.org/ebooks/24498,processed/Biography/24498.txt
+37631,"Memoirs of the Life of Sir Walter Scott, Volume 6",John Gibson Lockhart,Biography,113602.0,raw/Biography/37631.txt,https://www.gutenberg.org/ebooks/37631,processed/Biography/37631.txt
+38128,Memoirs of Leonora Christina,Leonora Christina Ulfeldt,Biography,109174.0,raw/Biography/38128.txt,https://www.gutenberg.org/ebooks/38128,processed/Biography/38128.txt
+10369,"Memoir and Diary of John Yeardley, Minister of the Gospel",John Yeardley,Biography,151512.0,raw/Biography/10369.txt,https://www.gutenberg.org/ebooks/10369,processed/Biography/10369.txt
+14428,"The Life and Correspondence of Sir Isaac Brock, K.B.",Sir Isaac Brock,Biography,126928.0,raw/Biography/14428.txt,https://www.gutenberg.org/ebooks/14428,processed/Biography/14428.txt
+7775,Memoirs of the Life of the Rt. Hon. Richard Brinsley Sheridan — Volume 02,Thomas Moore,Biography,131679.0,raw/Biography/7775.txt,https://www.gutenberg.org/ebooks/7775,processed/Biography/7775.txt
+30823,Memoirs of Life and Literature,W. H. Mallock,Biography,97591.0,raw/Biography/30823.txt,https://www.gutenberg.org/ebooks/30823,processed/Biography/30823.txt
+3887,"The Memoirs of Marie Antoinette, Queen Of France, Volume 4",Madame Campan,Biography,23835.0,raw/Biography/3887.txt,https://www.gutenberg.org/ebooks/3887,processed/Biography/3887.txt
+70658,The life of Rev. Henry Martyn,John Hall,Biography,59839.0,raw/Biography/70658.txt,https://www.gutenberg.org/ebooks/70658,processed/Biography/70658.txt
+24497,"Memoirs of the Life of Sir Walter Scott, Volume I (of 10)",John Gibson Lockhart,Biography,103323.0,raw/Biography/24497.txt,https://www.gutenberg.org/ebooks/24497,processed/Biography/24497.txt
+3885,"The Memoirs of Marie Antoinette, Queen Of France, Volume 2",Madame Campan,Biography,25679.0,raw/Biography/3885.txt,https://www.gutenberg.org/ebooks/3885,processed/Biography/3885.txt
+59489,"Memoirs of Sergeant Bourgogne, 1812-1813",Adrien Jean Baptiste François Bourgogne,Biography,121909.0,raw/Biography/59489.txt,https://www.gutenberg.org/ebooks/59489,processed/Biography/59489.txt
+7117,Memoirs of Sir Wemyss Reid 1842-1885,T. Wemyss Reid,Biography,124332.0,raw/Biography/7117.txt,https://www.gutenberg.org/ebooks/7117,processed/Biography/7117.txt
+39871,Bikey the Skicycle and Other Tales of Jimmieboy,John Kendrick Bangs,Fantasy,43597.0,raw/Fantasy/39871.txt,https://www.gutenberg.org/ebooks/39871,processed/Fantasy/39871.txt
+57799,The House Of Arden,Edith Nesbit,Fantasy,76222.0,raw/Fantasy/57799.txt,https://www.gutenberg.org/ebooks/57799,processed/Fantasy/57799.txt
+26944,The Magic Soap Bubble,David Cory,Fantasy,20047.0,raw/Fantasy/26944.txt,https://www.gutenberg.org/ebooks/26944,processed/Fantasy/26944.txt
+23625,The Magic Pudding,Norman Lindsay,Fantasy,22236.0,raw/Fantasy/23625.txt,https://www.gutenberg.org/ebooks/23625,processed/Fantasy/23625.txt
+4910,The Magic Pudding,Norman Lindsay,Fantasy,21440.0,raw/Fantasy/4910.txt,https://www.gutenberg.org/ebooks/4910,processed/Fantasy/4910.txt
+4271,A Modern Telemachus,Charlotte M. Yonge,Historical Fiction,60979.0,raw/Historical Fiction/4271.txt,https://www.gutenberg.org/ebooks/4271,processed/Historical Fiction/4271.txt
+19146,The Entailed Hat,George Alfred Townsend,Historical Fiction,183059.0,raw/Historical Fiction/19146.txt,https://www.gutenberg.org/ebooks/19146,processed/Historical Fiction/19146.txt
+34858,The Ordeal of Richard Feverel,George Meredith,Historical Fiction,179206.0,raw/Historical Fiction/34858.txt,https://www.gutenberg.org/ebooks/34858,processed/Historical Fiction/34858.txt
+98,A Tale of Two Cities,Charles Dickens,Historical Fiction,138965.0,raw/Historical Fiction/98.txt,https://www.gutenberg.org/ebooks/98,processed/Historical Fiction/98.txt
+18547,Madame Flirt,Charles E. Pearce,Historical Fiction,79534.0,raw/Historical Fiction/18547.txt,https://www.gutenberg.org/ebooks/18547,processed/Historical Fiction/18547.txt
+23863,Shui Hu Zhuan,Nai an Shi,Historical Fiction,18312.0,raw/Historical Fiction/23863.txt,https://www.gutenberg.org/ebooks/23863,processed/Historical Fiction/23863.txt
+917,Barnaby Rudge,Charles Dickens,Historical Fiction,256292.0,raw/Historical Fiction/917.txt,https://www.gutenberg.org/ebooks/917,processed/Historical Fiction/917.txt
+55179,One of The Six Hundred,James Grant,Historical Fiction,166436.0,raw/Historical Fiction/55179.txt,https://www.gutenberg.org/ebooks/55179,processed/Historical Fiction/55179.txt
+57669,The problem of Cell 13,Jacques Futrelle,Mystery/Crime,80875.0,raw/Mystery_Crime/57669.txt,https://www.gutenberg.org/ebooks/57669,processed/Mystery_Crime/57669.txt
+6133,"The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",Maurice Leblanc,Mystery/Crime,56978.0,raw/Mystery_Crime/6133.txt,https://www.gutenberg.org/ebooks/6133,processed/Mystery_Crime/6133.txt
+32854,"Arsène Lupin, gentleman-cambrioleur",Maurice Leblanc,Mystery/Crime,57580.0,raw/Mystery_Crime/32854.txt,https://www.gutenberg.org/ebooks/32854,processed/Mystery_Crime/32854.txt
+17866,Murder in the Gunroom,Henry Beam Piper,Mystery/Crime,70388.0,raw/Mystery_Crime/17866.txt,https://www.gutenberg.org/ebooks/17866,processed/Mystery_Crime/17866.txt
+28333,Messengers of Evil,Pierre Souvestre,Mystery/Crime,96000.0,raw/Mystery_Crime/28333.txt,https://www.gutenberg.org/ebooks/28333,processed/Mystery_Crime/28333.txt
+7691,"Lucretia, Complete",Edward Bulwer-Lytton,Mystery/Crime,168423.0,raw/Mystery_Crime/7691.txt,https://www.gutenberg.org/ebooks/7691,processed/Mystery_Crime/7691.txt
+3044,Desperate Remedies,Thomas Hardy,Romance,143488.0,raw/Romance/3044.txt,https://www.gutenberg.org/ebooks/3044,processed/Romance/3044.txt
+25001,An Old Man's Love,Anthony Trollope,Romance,77223.0,raw/Romance/25001.txt,https://www.gutenberg.org/ebooks/25001,processed/Romance/25001.txt
+50317,Scandal,Cosmo Hamilton,Romance,95293.0,raw/Romance/50317.txt,https://www.gutenberg.org/ebooks/50317,processed/Romance/50317.txt
+2181,"The Marble Faun, Volume I.",Nathaniel Hawthorne,Romance,65698.0,raw/Romance/2181.txt,https://www.gutenberg.org/ebooks/2181,processed/Romance/2181.txt
+3146,Two on a Tower,Thomas Hardy,Romance,97396.0,raw/Romance/3146.txt,https://www.gutenberg.org/ebooks/3146,processed/Romance/3146.txt
+2182,"The Marble Faun, Volume II.",Nathaniel Hawthorne,Romance,80098.0,raw/Romance/2182.txt,https://www.gutenberg.org/ebooks/2182,processed/Romance/2182.txt
+5709,La Vendée,Anthony Trollope,Romance,181413.0,raw/Romance/5709.txt,https://www.gutenberg.org/ebooks/5709,processed/Romance/5709.txt
+49555,The Hermit Doctor of Gaya,I. A. R. Wylie,Romance,140702.0,raw/Romance/49555.txt,https://www.gutenberg.org/ebooks/49555,processed/Romance/49555.txt
+6087,The Vampyre; A Tale,John William Polidori,Science Fiction,15682.0,raw/Science Fiction/6087.txt,https://www.gutenberg.org/ebooks/6087,processed/Science Fiction/6087.txt
+24246,Greener Than You Think,Ward Moore,Science Fiction,123433.0,raw/Science Fiction/24246.txt,https://www.gutenberg.org/ebooks/24246,processed/Science Fiction/24246.txt
+32032,Second Variety,Philip Kindred Dick,Science Fiction,18500.0,raw/Science Fiction/32032.txt,https://www.gutenberg.org/ebooks/32032,processed/Science Fiction/32032.txt
+26563,The Crack of Doom,Robert Cromie,Science Fiction,45849.0,raw/Science Fiction/26563.txt,https://www.gutenberg.org/ebooks/26563,processed/Science Fiction/26563.txt
+23962,Journey to the West,Cheng'en Wu,Science Fiction,26794.0,raw/Science Fiction/23962.txt,https://www.gutenberg.org/ebooks/23962,processed/Science Fiction/23962.txt
+38531,The Beckoning Hand and Other Stories,Grant Allen,Thriller/Horror,132812.0,raw/Thriller_Horror/38531.txt,https://www.gutenberg.org/ebooks/38531,processed/Thriller_Horror/38531.txt
+76621,Sergeant Dick of the Royal Mounted Police :  A thrilling story of the Canadian woods,John G. Rowe,Adventure/Action,57329.0,raw/Adventure_Action/76621.txt,https://www.gutenberg.org/ebooks/76621,processed/Adventure_Action/76621.txt
+6741,Memoirs of the Life of the Rt. Hon. Richard Brinsley Sheridan — Volume 01,Thomas Moore,Biography,112357.0,raw/Biography/6741.txt,https://www.gutenberg.org/ebooks/6741,processed/Biography/6741.txt
+34795,The Golden Triangle: The Return of Arsène Lupin,Maurice Leblanc,Mystery/Crime,93474.0,raw/Mystery_Crime/34795.txt,https://www.gutenberg.org/ebooks/34795,processed/Mystery_Crime/34795.txt
+434,The Circular Staircase,Mary Roberts Rinehart,Mystery/Crime,69933.0,raw/Mystery_Crime/434.txt,https://www.gutenberg.org/ebooks/434,processed/Mystery_Crime/434.txt
+12590,The Shadow of the Rope,E. W. Hornung,Mystery/Crime,77431.0,raw/Mystery_Crime/12590.txt,https://www.gutenberg.org/ebooks/12590,processed/Mystery_Crime/12590.txt
+10556,The Old Man in the Corner,Baroness Emmuska Orczy Orczy,Mystery/Crime,70001.0,raw/Mystery_Crime/10556.txt,https://www.gutenberg.org/ebooks/10556,processed/Mystery_Crime/10556.txt
+24839,The Blonde Lady,Maurice Leblanc,Mystery/Crime,66193.0,raw/Mystery_Crime/24839.txt,https://www.gutenberg.org/ebooks/24839,processed/Mystery_Crime/24839.txt
+1563,The Crystal Stopper,Maurice Leblanc,Mystery/Crime,77481.0,raw/Mystery_Crime/1563.txt,https://www.gutenberg.org/ebooks/1563,processed/Mystery_Crime/1563.txt
+57314,The Yellow Face,Fred M. White,Mystery/Crime,124620.0,raw/Mystery_Crime/57314.txt,https://www.gutenberg.org/ebooks/57314,processed/Mystery_Crime/57314.txt
+75476,The poisoned chocolates case,Anthony Berkeley,Mystery/Crime,66289.0,raw/Mystery_Crime/75476.txt,https://www.gutenberg.org/ebooks/75476,processed/Mystery_Crime/75476.txt
+28264,"Cleek, the Master Detective",Thomas W. Hanshew,Mystery/Crime,113872.0,raw/Mystery_Crime/28264.txt,https://www.gutenberg.org/ebooks/28264,processed/Mystery_Crime/28264.txt
+4694,Mademoiselle of Monte Carlo,William Le Queux,Mystery/Crime,83895.0,raw/Mystery_Crime/4694.txt,https://www.gutenberg.org/ebooks/4694,processed/Mystery_Crime/4694.txt
+807,Hunted Down: The Detective Stories of Charles Dickens,Charles Dickens,Mystery/Crime,11732.0,raw/Mystery_Crime/807.txt,https://www.gutenberg.org/ebooks/807,processed/Mystery_Crime/807.txt
+32198,Cleek of Scotland Yard: Detective Stories,Thomas W. Hanshew,Mystery/Crime,114246.0,raw/Mystery_Crime/32198.txt,https://www.gutenberg.org/ebooks/32198,processed/Mystery_Crime/32198.txt
+7884,In the Fog,Richard Harding Davis,Mystery/Crime,25393.0,raw/Mystery_Crime/7884.txt,https://www.gutenberg.org/ebooks/7884,processed/Mystery_Crime/7884.txt
+2019,The Bat,"Stephen Vincent Benét, Mary Roberts Rinehart, and Avery Hopwood",Mystery/Crime,64366.0,raw/Mystery_Crime/2019.txt,https://www.gutenberg.org/ebooks/2019,processed/Mystery_Crime/2019.txt
+71037,The gamblers,William Le Queux,Mystery/Crime,80051.0,raw/Mystery_Crime/71037.txt,https://www.gutenberg.org/ebooks/71037,processed/Mystery_Crime/71037.txt
+14167,The Red Redmaynes,Eden Phillpotts,Mystery/Crime,94227.0,raw/Mystery_Crime/14167.txt,https://www.gutenberg.org/ebooks/14167,processed/Mystery_Crime/14167.txt
+33271,The Riddle of the Night,Thomas W. Hanshew,Mystery/Crime,81036.0,raw/Mystery_Crime/33271.txt,https://www.gutenberg.org/ebooks/33271,processed/Mystery_Crime/33271.txt
+72869,Meet the Tiger,Leslie Charteris,Mystery/Crime,80142.0,raw/Mystery_Crime/72869.txt,https://www.gutenberg.org/ebooks/72869,processed/Mystery_Crime/72869.txt
+1703,Dead Men Tell No Tales,E. W. Hornung,Mystery/Crime,58911.0,raw/Mystery_Crime/1703.txt,https://www.gutenberg.org/ebooks/1703,processed/Mystery_Crime/1703.txt
+43362,Riddle of the Storm,Roy J. Snell,Mystery/Crime,47270.0,raw/Mystery_Crime/43362.txt,https://www.gutenberg.org/ebooks/43362,processed/Mystery_Crime/43362.txt
+27147,The Stretton Street Affair,William Le Queux,Mystery/Crime,88048.0,raw/Mystery_Crime/27147.txt,https://www.gutenberg.org/ebooks/27147,processed/Mystery_Crime/27147.txt
+70877,The mystery at lovers' cave,Anthony Berkeley,Mystery/Crime,74064.0,raw/Mystery_Crime/70877.txt,https://www.gutenberg.org/ebooks/70877,processed/Mystery_Crime/70877.txt
+48882,The Mystery of the Ravenspurs,Fred M. White,Mystery/Crime,90512.0,raw/Mystery_Crime/48882.txt,https://www.gutenberg.org/ebooks/48882,processed/Mystery_Crime/48882.txt
+1869,The Man in Lower Ten,Mary Roberts Rinehart,Mystery/Crime,67551.0,raw/Mystery_Crime/1869.txt,https://www.gutenberg.org/ebooks/1869,processed/Mystery_Crime/1869.txt
+45474,"Uncle Sam, Detective",William Atherton DuPuy,Mystery/Crime,48229.0,raw/Mystery_Crime/45474.txt,https://www.gutenberg.org/ebooks/45474,processed/Mystery_Crime/45474.txt
+44336,The Shadow,Arthur Stringer,Mystery/Crime,49662.0,raw/Mystery_Crime/44336.txt,https://www.gutenberg.org/ebooks/44336,processed/Mystery_Crime/44336.txt
+13058,The Teeth of the Tiger,Maurice Leblanc,Mystery/Crime,126015.0,raw/Mystery_Crime/13058.txt,https://www.gutenberg.org/ebooks/13058,processed/Mystery_Crime/13058.txt
+67082,"Nick Carter Stories No. 11, November 23, 1912: Nick Carter Strikes Oil; or, Uncovering More Than a Murder",Nicholas Carter and Alden F. Bradshaw,Mystery/Crime,37947.0,raw/Mystery_Crime/67082.txt,https://www.gutenberg.org/ebooks/67082,processed/Mystery_Crime/67082.txt
+11127,The Case of Jennie Brice,Mary Roberts Rinehart,Mystery/Crime,35752.0,raw/Mystery_Crime/11127.txt,https://www.gutenberg.org/ebooks/11127,processed/Mystery_Crime/11127.txt
+1963,The Confession,Mary Roberts Rinehart,Mystery/Crime,31984.0,raw/Mystery_Crime/1963.txt,https://www.gutenberg.org/ebooks/1963,processed/Mystery_Crime/1963.txt
+30827,The Count's Chauffeur,William Le Queux,Mystery/Crime,76213.0,raw/Mystery_Crime/30827.txt,https://www.gutenberg.org/ebooks/30827,processed/Mystery_Crime/30827.txt
+70924,"The adventures of Dora Bell, detective",Mrs. George Corbett,Mystery/Crime,27067.0,raw/Mystery_Crime/70924.txt,https://www.gutenberg.org/ebooks/70924,processed/Mystery_Crime/70924.txt
+18671,Never-Fail Blake,Arthur Stringer,Mystery/Crime,52949.0,raw/Mystery_Crime/18671.txt,https://www.gutenberg.org/ebooks/18671,processed/Mystery_Crime/18671.txt
+19403,Murder at Bridge,Anne Austin,Mystery/Crime,90194.0,raw/Mystery_Crime/19403.txt,https://www.gutenberg.org/ebooks/19403,processed/Mystery_Crime/19403.txt
+4715,An African Millionaire: Episodes in the Life of the Illustrious Colonel Clay,Grant Allen,Mystery/Crime,68529.0,raw/Mystery_Crime/4715.txt,https://www.gutenberg.org/ebooks/4715,processed/Mystery_Crime/4715.txt
+34939,The Secret of Sarek,Maurice Leblanc,Mystery/Crime,99963.0,raw/Mystery_Crime/34939.txt,https://www.gutenberg.org/ebooks/34939,processed/Mystery_Crime/34939.txt
+68123,The chronicles of Michael Danevitch of the Russian Secret Service,Dick Donovan,Mystery/Crime,105785.0,raw/Mystery_Crime/68123.txt,https://www.gutenberg.org/ebooks/68123,processed/Mystery_Crime/68123.txt
+72581,Lady Molly of Scotland Yard,Baroness Emmuska Orczy Orczy,Mystery/Crime,81777.0,raw/Mystery_Crime/72581.txt,https://www.gutenberg.org/ebooks/72581,processed/Mystery_Crime/72581.txt
+54445,The Hospital Murders,Means Davis,Mystery/Crime,64356.0,raw/Mystery_Crime/54445.txt,https://www.gutenberg.org/ebooks/54445,processed/Mystery_Crime/54445.txt
+41001,The Red Room,William Le Queux,Mystery/Crime,68606.0,raw/Mystery_Crime/41001.txt,https://www.gutenberg.org/ebooks/41001,processed/Mystery_Crime/41001.txt
+34653,The Three Eyes,Maurice Leblanc,Mystery/Crime,66832.0,raw/Mystery_Crime/34653.txt,https://www.gutenberg.org/ebooks/34653,processed/Mystery_Crime/34653.txt
+25849,The Launch Boys' Adventures in Northern Waters,Edward Sylvester Ellis,Mystery/Crime,58651.0,raw/Mystery_Crime/25849.txt,https://www.gutenberg.org/ebooks/25849,processed/Mystery_Crime/25849.txt
+9795,The Four Faces: A Mystery,William Le Queux,Mystery/Crime,91484.0,raw/Mystery_Crime/9795.txt,https://www.gutenberg.org/ebooks/9795,processed/Mystery_Crime/9795.txt
+68237,Unravelled Knots,Baroness Emmuska Orczy Orczy,Mystery/Crime,104919.0,raw/Mystery_Crime/68237.txt,https://www.gutenberg.org/ebooks/68237,processed/Mystery_Crime/68237.txt
+9746,The Ashiel mystery :  a detective story,Marion Bryce,Mystery/Crime,89998.0,raw/Mystery_Crime/9746.txt,https://www.gutenberg.org/ebooks/9746,processed/Mystery_Crime/9746.txt
+48144,The Mystery of the Iron Box,Bruce Campbell,Mystery/Crime,52908.0,raw/Mystery_Crime/48144.txt,https://www.gutenberg.org/ebooks/48144,processed/Mystery_Crime/48144.txt
+21264,The Four-Pools Mystery,Jean Webster,Mystery/Crime,61657.0,raw/Mystery_Crime/21264.txt,https://www.gutenberg.org/ebooks/21264,processed/Mystery_Crime/21264.txt
+62824,When the Sea Gives Up Its Dead: A Thrilling Detective Story,Mrs. George Corbett,Mystery/Crime,61468.0,raw/Mystery_Crime/62824.txt,https://www.gutenberg.org/ebooks/62824,processed/Mystery_Crime/62824.txt
+1960,Sight Unseen,Mary Roberts Rinehart,Mystery/Crime,37390.0,raw/Mystery_Crime/1960.txt,https://www.gutenberg.org/ebooks/1960,processed/Mystery_Crime/1960.txt
+32730,The Heart of a Woman,Baroness Emmuska Orczy Orczy,Mystery/Crime,82722.0,raw/Mystery_Crime/32730.txt,https://www.gutenberg.org/ebooks/32730,processed/Mystery_Crime/32730.txt
+58711,"Traced and Tracked; Or, Memoirs of a City Detective",James M'Govan,Mystery/Crime,151487.0,raw/Mystery_Crime/58711.txt,https://www.gutenberg.org/ebooks/58711,processed/Mystery_Crime/58711.txt
+41909,The Crimson Thread: An Adventure Story for Girls,Roy J. Snell,Mystery/Crime,52021.0,raw/Mystery_Crime/41909.txt,https://www.gutenberg.org/ebooks/41909,processed/Mystery_Crime/41909.txt
+54273,Locked Doors,Mary Roberts Rinehart,Mystery/Crime,17358.0,raw/Mystery_Crime/54273.txt,https://www.gutenberg.org/ebooks/54273,processed/Mystery_Crime/54273.txt
+71521,The horror expert,Frank Belknap Long,Mystery/Crime,61719.0,raw/Mystery_Crime/71521.txt,https://www.gutenberg.org/ebooks/71521,processed/Mystery_Crime/71521.txt
+27549,The Seven Secrets,William Le Queux,Mystery/Crime,76176.0,raw/Mystery_Crime/27549.txt,https://www.gutenberg.org/ebooks/27549,processed/Mystery_Crime/27549.txt
+42755,The Firebug,Roy J. Snell,Mystery/Crime,44088.0,raw/Mystery_Crime/42755.txt,https://www.gutenberg.org/ebooks/42755,processed/Mystery_Crime/42755.txt
+41078,The Hunchback of Westminster,William Le Queux,Mystery/Crime,76938.0,raw/Mystery_Crime/41078.txt,https://www.gutenberg.org/ebooks/41078,processed/Mystery_Crime/41078.txt
+72883,The Layton Court mystery,Anthony Berkeley,Mystery/Crime,73288.0,raw/Mystery_Crime/72883.txt,https://www.gutenberg.org/ebooks/72883,processed/Mystery_Crime/72883.txt
+45557,Green Eyes,Roy J. Snell,Mystery/Crime,39685.0,raw/Mystery_Crime/45557.txt,https://www.gutenberg.org/ebooks/45557,processed/Mystery_Crime/45557.txt
+59434,Tracked by Wireless,William Le Queux,Mystery/Crime,77116.0,raw/Mystery_Crime/59434.txt,https://www.gutenberg.org/ebooks/59434,processed/Mystery_Crime/59434.txt
+34020,The Window at the White Cat,Mary Roberts Rinehart,Mystery/Crime,71181.0,raw/Mystery_Crime/34020.txt,https://www.gutenberg.org/ebooks/34020,processed/Mystery_Crime/34020.txt
+28337,Hushed Up! A Mystery of London,William Le Queux,Mystery/Crime,73667.0,raw/Mystery_Crime/28337.txt,https://www.gutenberg.org/ebooks/28337,processed/Mystery_Crime/28337.txt
+37338,The Crime Doctor,E. W. Hornung,Mystery/Crime,62853.0,raw/Mystery_Crime/37338.txt,https://www.gutenberg.org/ebooks/37338,processed/Mystery_Crime/37338.txt
+42137,The Magic Curtain,Roy J. Snell,Mystery/Crime,46840.0,raw/Mystery_Crime/42137.txt,https://www.gutenberg.org/ebooks/42137,processed/Mystery_Crime/42137.txt
+3261,"News from Nowhere; Or, An Epoch of Rest",William Morris,Science Fiction,80842.0,raw/Science Fiction/3261.txt,https://www.gutenberg.org/ebooks/3261,processed/Science Fiction/3261.txt
+4366,Can Such Things Be?,Ambrose Bierce,Science Fiction,63202.0,raw/Science Fiction/4366.txt,https://www.gutenberg.org/ebooks/4366,processed/Science Fiction/4366.txt
+3479,The Metal Monster,Abraham Merritt,Science Fiction,84366.0,raw/Science Fiction/3479.txt,https://www.gutenberg.org/ebooks/3479,processed/Science Fiction/3479.txt
+23661,The Book of Dragons,E. Nesbit,Science Fiction,45300.0,raw/Science Fiction/23661.txt,https://www.gutenberg.org/ebooks/23661,processed/Science Fiction/23661.txt
+37470,The Great War in England in 1897,William Le Queux,Science Fiction,103848.0,raw/Science Fiction/37470.txt,https://www.gutenberg.org/ebooks/37470,processed/Science Fiction/37470.txt
+169,The Well at the World's End: A Tale,William Morris,Science Fiction,225445.0,raw/Science Fiction/169.txt,https://www.gutenberg.org/ebooks/169,processed/Science Fiction/169.txt
+2778,Jewel: A Chapter in Her Life,Clara Louise Burnham,Science Fiction,85667.0,raw/Science Fiction/2778.txt,https://www.gutenberg.org/ebooks/2778,processed/Science Fiction/2778.txt
+26966,A Place in the Sun,Stephen Marlowe,Science Fiction,10983.0,raw/Science Fiction/26966.txt,https://www.gutenberg.org/ebooks/26966,processed/Science Fiction/26966.txt
+4920,The Blind Spot,Austin Hall and Homer Eon Flint,Science Fiction,108814.0,raw/Science Fiction/4920.txt,https://www.gutenberg.org/ebooks/4920,processed/Science Fiction/4920.txt
+68811,"Black no more :  Being an account of the strange and wonderful workings of science in the land of the free, A.D. 1933-1940",George S. Schuyler,Science Fiction,53404.0,raw/Science Fiction/68811.txt,https://www.gutenberg.org/ebooks/68811,processed/Science Fiction/68811.txt
+837,The Story of the Amulet,E. Nesbit,Science Fiction,71614.0,raw/Science Fiction/837.txt,https://www.gutenberg.org/ebooks/837,processed/Science Fiction/837.txt
+31324,The Angel of the Revolution: A Tale of the Coming Terror,George Chetwynd Griffith,Science Fiction,147767.0,raw/Science Fiction/31324.txt,https://www.gutenberg.org/ebooks/31324,processed/Science Fiction/31324.txt
+5745,She and Allan,H. Rider Haggard,Science Fiction,124046.0,raw/Science Fiction/5745.txt,https://www.gutenberg.org/ebooks/5745,processed/Science Fiction/5745.txt
+31377,Weird Tales. Vol. 1 (of 2),E. T. A. Hoffmann,Science Fiction,117338.0,raw/Science Fiction/31377.txt,https://www.gutenberg.org/ebooks/31377,processed/Science Fiction/31377.txt
+48860,The Brown Owl: A Fairy Story,Ford Madox Ford,Science Fiction,26121.0,raw/Science Fiction/48860.txt,https://www.gutenberg.org/ebooks/48860,processed/Science Fiction/48860.txt
+765,The Moon Pool,Abraham Merritt,Science Fiction,100319.0,raw/Science Fiction/765.txt,https://www.gutenberg.org/ebooks/765,processed/Science Fiction/765.txt
+27202,"Wagner, the Wehr-Wolf",George W. M. Reynolds,Science Fiction,191994.0,raw/Science Fiction/27202.txt,https://www.gutenberg.org/ebooks/27202,processed/Science Fiction/27202.txt
+5228,"Ayesha, the Return of She",H. Rider Haggard,Science Fiction,119442.0,raw/Science Fiction/5228.txt,https://www.gutenberg.org/ebooks/5228,processed/Science Fiction/5228.txt
+1368,When the World Shook,H. Rider Haggard,Science Fiction,120229.0,raw/Science Fiction/1368.txt,https://www.gutenberg.org/ebooks/1368,processed/Science Fiction/1368.txt
+6341,Nachtstücke (German),E. T. A. Hoffmann,Science Fiction,110026.0,raw/Science Fiction/6341.txt,https://www.gutenberg.org/ebooks/6341,processed/Science Fiction/6341.txt
+31439,"Weird Tales, Vol. 2 (of 2)",E. T. A. Hoffmann,Science Fiction,134796.0,raw/Science Fiction/31439.txt,https://www.gutenberg.org/ebooks/31439,processed/Science Fiction/31439.txt
+27903,The Magic World,E. Nesbit,Science Fiction,61980.0,raw/Science Fiction/27903.txt,https://www.gutenberg.org/ebooks/27903,processed/Science Fiction/27903.txt
+73727,Metropolis,Thea von Harbou,Science Fiction,71614.0,raw/Science Fiction/73727.txt,https://www.gutenberg.org/ebooks/73727,processed/Science Fiction/73727.txt
+32530,Armageddon—2419 A.D.,Philip Francis Nowlan,Science Fiction,30508.0,raw/Science Fiction/32530.txt,https://www.gutenberg.org/ebooks/32530,processed/Science Fiction/32530.txt
+36155,The Invasion,William Le Queux,Science Fiction,101826.0,raw/Science Fiction/36155.txt,https://www.gutenberg.org/ebooks/36155,processed/Science Fiction/36155.txt
+20212,Police Your Planet,Lester Del Rey,Science Fiction,48007.0,raw/Science Fiction/20212.txt,https://www.gutenberg.org/ebooks/20212,processed/Science Fiction/20212.txt
+27633,To Mars via the Moon: An Astronomical Story,Mark Wicks,Science Fiction,96961.0,raw/Science Fiction/27633.txt,https://www.gutenberg.org/ebooks/27633,processed/Science Fiction/27633.txt
+19231,The mummy and Miss Nitocris : a phantasy of the fourth dimension,George Chetwynd Griffith,Science Fiction,81368.0,raw/Science Fiction/19231.txt,https://www.gutenberg.org/ebooks/19231,processed/Science Fiction/19231.txt
+32761,"Caxton's Book: A Collection of Essays, Poems, Tales, and Sketches.",W. H. Rhodes,Science Fiction,86528.0,raw/Science Fiction/32761.txt,https://www.gutenberg.org/ebooks/32761,processed/Science Fiction/32761.txt
+51905,"The Invasion of 1910, with a full account of the siege of London",William Le Queux,Science Fiction,169663.0,raw/Science Fiction/51905.txt,https://www.gutenberg.org/ebooks/51905,processed/Science Fiction/51905.txt
+49913,Nine Unlikely Tales,E. Nesbit,Science Fiction,44758.0,raw/Science Fiction/49913.txt,https://www.gutenberg.org/ebooks/49913,processed/Science Fiction/49913.txt
+40321,Grim Tales,E. Nesbit,Science Fiction,23735.0,raw/Science Fiction/40321.txt,https://www.gutenberg.org/ebooks/40321,processed/Science Fiction/40321.txt
+20606,The Magic City,E. Nesbit,Science Fiction,62853.0,raw/Science Fiction/20606.txt,https://www.gutenberg.org/ebooks/20606,processed/Science Fiction/20606.txt
+6585,The Works of Lucian of Samosata — Volume 02,of Samosata Lucian,Science Fiction,94979.0,raw/Science Fiction/6585.txt,https://www.gutenberg.org/ebooks/6585,processed/Science Fiction/6585.txt
+31668,"The Serapion Brethren, Vol. II",E. T. A. Hoffmann,Science Fiction,202755.0,raw/Science Fiction/31668.txt,https://www.gutenberg.org/ebooks/31668,processed/Science Fiction/31668.txt
+67652,Bring the Jubilee,Ward Moore,Science Fiction,63954.0,raw/Science Fiction/67652.txt,https://www.gutenberg.org/ebooks/67652,processed/Science Fiction/67652.txt
+27922,David and the Phoenix,Edward Ormondroyd,Science Fiction,33304.0,raw/Science Fiction/27922.txt,https://www.gutenberg.org/ebooks/27922,processed/Science Fiction/27922.txt
+76533,Limanora :  the island of progress,Godfrey Sweven,Science Fiction,211119.0,raw/Science Fiction/76533.txt,https://www.gutenberg.org/ebooks/76533,processed/Science Fiction/76533.txt
+59165,Uncanny Stories,May Sinclair,Science Fiction,59662.0,raw/Science Fiction/59165.txt,https://www.gutenberg.org/ebooks/59165,processed/Science Fiction/59165.txt
+10337,Lady into Fox,David Garnett,Science Fiction,24551.0,raw/Science Fiction/10337.txt,https://www.gutenberg.org/ebooks/10337,processed/Science Fiction/10337.txt
+51125,Mars is My Destination,Frank Belknap Long,Science Fiction,63980.0,raw/Science Fiction/51125.txt,https://www.gutenberg.org/ebooks/51125,processed/Science Fiction/51125.txt
+10430,Trips to the Moon,of Samosata Lucian,Science Fiction,39984.0,raw/Science Fiction/10430.txt,https://www.gutenberg.org/ebooks/10430,processed/Science Fiction/10430.txt
+6050,The Roots of the Mountains,William Morris,Science Fiction,157624.0,raw/Science Fiction/6050.txt,https://www.gutenberg.org/ebooks/6050,processed/Science Fiction/6050.txt
+234,Child Christopher and Goldilind the Fair,William Morris,Science Fiction,51821.0,raw/Science Fiction/234.txt,https://www.gutenberg.org/ebooks/234,processed/Science Fiction/234.txt
+38028,The World Masters,George Chetwynd Griffith,Science Fiction,88437.0,raw/Science Fiction/38028.txt,https://www.gutenberg.org/ebooks/38028,processed/Science Fiction/38028.txt
+66538,Revolt of the Outworlds,Stephen Marlowe,Science Fiction,18492.0,raw/Science Fiction/66538.txt,https://www.gutenberg.org/ebooks/66538,processed/Science Fiction/66538.txt
+76261,Tales of terror,Dick Donovan,Science Fiction,118259.0,raw/Science Fiction/76261.txt,https://www.gutenberg.org/ebooks/76261,processed/Science Fiction/76261.txt
+2885,The House of the Wolfings,William Morris,Historical Fiction,87985.0,raw/Historical Fiction/2885.txt,https://www.gutenberg.org/ebooks/2885,processed/Historical Fiction/2885.txt
+3155,She,H. Rider Haggard,Historical Fiction,115311.0,raw/Historical Fiction/3155.txt,https://www.gutenberg.org/ebooks/3155,processed/Historical Fiction/3155.txt
+33,The Scarlet Letter,Nathaniel Hawthorne,Historical Fiction,86059.0,raw/Historical Fiction/33.txt,https://www.gutenberg.org/ebooks/33,processed/Historical Fiction/33.txt
+45858,Lucian's True History,of Samosata Lucian,Historical Fiction,19819.0,raw/Historical Fiction/45858.txt,https://www.gutenberg.org/ebooks/45858,processed/Historical Fiction/45858.txt
+17314,Five Children and It,E. Nesbit,Historical Fiction,56734.0,raw/Historical Fiction/17314.txt,https://www.gutenberg.org/ebooks/17314,processed/Historical Fiction/17314.txt
+2788,Little Men: Life at Plumfield With Jo's Boys,Louisa May Alcott,Historical Fiction,104990.0,raw/Historical Fiction/2788.txt,https://www.gutenberg.org/ebooks/2788,processed/Historical Fiction/2788.txt
+64836,"Jane Seton; or, The King's Advocate: A Scottish Historical Romance",James Grant,Historical Fiction,163933.0,raw/Historical Fiction/64836.txt,https://www.gutenberg.org/ebooks/64836,processed/Historical Fiction/64836.txt
+47935,Fathers and Sons,Ivan Sergeevich Turgenev,Historical Fiction,79747.0,raw/Historical Fiction/47935.txt,https://www.gutenberg.org/ebooks/47935,processed/Historical Fiction/47935.txt
+25327,兒女英雄傳 (Chinese),active 1842-1851 Wenkang,Historical Fiction,10737.0,raw/Historical Fiction/25327.txt,https://www.gutenberg.org/ebooks/25327,processed/Historical Fiction/25327.txt
+5700,Love and Life: An Old Story in Eighteenth Century Costume,Charlotte M. Yonge,Historical Fiction,107602.0,raw/Historical Fiction/5700.txt,https://www.gutenberg.org/ebooks/5700,processed/Historical Fiction/5700.txt
+5253,The Maid of the Whispering Hills,Vingie E. Roe,Historical Fiction,74044.0,raw/Historical Fiction/5253.txt,https://www.gutenberg.org/ebooks/5253,processed/Historical Fiction/5253.txt
+5156,Beechcroft at Rockstone,Charlotte M. Yonge,Historical Fiction,125103.0,raw/Historical Fiction/5156.txt,https://www.gutenberg.org/ebooks/5156,processed/Historical Fiction/5156.txt
+24,O Pioneers!,Willa Cather,Historical Fiction,55634.0,raw/Historical Fiction/24.txt,https://www.gutenberg.org/ebooks/24,processed/Historical Fiction/24.txt
+75518,The just steward,Richard Dehan,Historical Fiction,200778.0,raw/Historical Fiction/75518.txt,https://www.gutenberg.org/ebooks/75518,processed/Historical Fiction/75518.txt
+27432,The Fifth Queen Crowned,Ford Madox Ford,Historical Fiction,63273.0,raw/Historical Fiction/27432.txt,https://www.gutenberg.org/ebooks/27432,processed/Historical Fiction/27432.txt
+2787,An Old-Fashioned Girl,Louisa May Alcott,Historical Fiction,105295.0,raw/Historical Fiction/2787.txt,https://www.gutenberg.org/ebooks/2787,processed/Historical Fiction/2787.txt
+27439,Sundry Accounts,Irvin S. Cobb,Historical Fiction,105973.0,raw/Historical Fiction/27439.txt,https://www.gutenberg.org/ebooks/27439,processed/Historical Fiction/27439.txt
+77653,Asoka's alibi,Talbot Mundy,Historical Fiction,35057.0,raw/Historical Fiction/77653.txt,https://www.gutenberg.org/ebooks/77653,processed/Historical Fiction/77653.txt
+13334,"The Collected Works of Ambrose Bierce, Volume 02",Ambrose Bierce,Historical Fiction,76133.0,raw/Historical Fiction/13334.txt,https://www.gutenberg.org/ebooks/13334,processed/Historical Fiction/13334.txt
+70431,Between two thieves,Richard Dehan,Historical Fiction,258568.0,raw/Historical Fiction/70431.txt,https://www.gutenberg.org/ebooks/70431,processed/Historical Fiction/70431.txt
+770,The Story of the Treasure Seekers,E. Nesbit,Historical Fiction,52586.0,raw/Historical Fiction/770.txt,https://www.gutenberg.org/ebooks/770,processed/Historical Fiction/770.txt
+6066,King--of the Khyber Rifles: A Romance of Adventure,Talbot Mundy,Historical Fiction,103687.0,raw/Historical Fiction/6066.txt,https://www.gutenberg.org/ebooks/6066,processed/Historical Fiction/6066.txt
+7371,A Sicilian Romance,Ann Ward Radcliffe,Historical Fiction,70586.0,raw/Historical Fiction/7371.txt,https://www.gutenberg.org/ebooks/7371,processed/Historical Fiction/7371.txt
+43595,Alive in the jungle :  A story for the young,Eleanor Stredder,Historical Fiction,43010.0,raw/Historical Fiction/43595.txt,https://www.gutenberg.org/ebooks/43595,processed/Historical Fiction/43595.txt
+1916,"The Great Stone Face, and Other Tales of the White Mountains",Nathaniel Hawthorne,Historical Fiction,22453.0,raw/Historical Fiction/1916.txt,https://www.gutenberg.org/ebooks/1916,processed/Historical Fiction/1916.txt
+37544,Cupid in Africa,Percival Christopher Wren,Historical Fiction,93087.0,raw/Historical Fiction/37544.txt,https://www.gutenberg.org/ebooks/37544,processed/Historical Fiction/37544.txt
+1752,El Dorado: An Adventure of the Scarlet Pimpernel,Baroness Emmuska Orczy Orczy,Historical Fiction,125682.0,raw/Historical Fiction/1752.txt,https://www.gutenberg.org/ebooks/1752,processed/Historical Fiction/1752.txt
+57334,"Si Klegg, Complete, Books 1-6",John McElroy,Historical Fiction,360553.0,raw/Historical Fiction/57334.txt,https://www.gutenberg.org/ebooks/57334,processed/Historical Fiction/57334.txt
+9296,Clarissa Harlowe; or the history of a young lady — Volume 1,Samuel Richardson,Historical Fiction,110027.0,raw/Historical Fiction/9296.txt,https://www.gutenberg.org/ebooks/9296,processed/Historical Fiction/9296.txt
+508,Twice-Told Tales,Nathaniel Hawthorne,Historical Fiction,87889.0,raw/Historical Fiction/508.txt,https://www.gutenberg.org/ebooks/508,processed/Historical Fiction/508.txt
+40410,Dickens and His Illustrators,Frederic George Kitton,Historical Fiction,91831.0,raw/Historical Fiction/40410.txt,https://www.gutenberg.org/ebooks/40410,processed/Historical Fiction/40410.txt
+30723,Fathers and Children,Ivan Sergeevich Turgenev,Historical Fiction,77872.0,raw/Historical Fiction/30723.txt,https://www.gutenberg.org/ebooks/30723,processed/Historical Fiction/30723.txt
+69730,Death comes for the archbishop,Willa Cather,Historical Fiction,69758.0,raw/Historical Fiction/69730.txt,https://www.gutenberg.org/ebooks/69730,processed/Historical Fiction/69730.txt
+33798,"Sinister Street, vol. 2",Compton MacKenzie,Historical Fiction,197484.0,raw/Historical Fiction/33798.txt,https://www.gutenberg.org/ebooks/33798,processed/Historical Fiction/33798.txt
+513,"The snow-image, and other twice-told tales",Nathaniel Hawthorne,Historical Fiction,76208.0,raw/Historical Fiction/513.txt,https://www.gutenberg.org/ebooks/513,processed/Historical Fiction/513.txt
+26716,The Crown of Wild Olive,John Ruskin,Historical Fiction,315370.0,raw/Historical Fiction/26716.txt,https://www.gutenberg.org/ebooks/26716,processed/Historical Fiction/26716.txt
+72466,Charles Dickens and other Victorians,Arthur Quiller-Couch,Historical Fiction,66049.0,raw/Historical Fiction/72466.txt,https://www.gutenberg.org/ebooks/72466,processed/Historical Fiction/72466.txt
+21222,The Armourer's Prentices,Charlotte M. Yonge,Historical Fiction,116919.0,raw/Historical Fiction/21222.txt,https://www.gutenberg.org/ebooks/21222,processed/Historical Fiction/21222.txt
+1711,Child of Storm,H. Rider Haggard,Historical Fiction,97038.0,raw/Historical Fiction/1711.txt,https://www.gutenberg.org/ebooks/1711,processed/Historical Fiction/1711.txt
+73601,The story of Don Miff :  as told by his friend John Bouche Whacker: a symphony of life,Virginius Dabney,Historical Fiction,164363.0,raw/Historical Fiction/73601.txt,https://www.gutenberg.org/ebooks/73601,processed/Historical Fiction/73601.txt
+3166,Doctor Thorne,Anthony Trollope,Historical Fiction,217042.0,raw/Historical Fiction/3166.txt,https://www.gutenberg.org/ebooks/3166,processed/Historical Fiction/3166.txt
+54593,"Adventures of an Aide-de-Camp; or, A Campaign in Calabria, Volume 1 (of 3)",James Grant,Historical Fiction,76549.0,raw/Historical Fiction/54593.txt,https://www.gutenberg.org/ebooks/54593,processed/Historical Fiction/54593.txt
+22646,The Hunters of the Ozark,Edward Sylvester Ellis,Historical Fiction,77469.0,raw/Historical Fiction/22646.txt,https://www.gutenberg.org/ebooks/22646,processed/Historical Fiction/22646.txt
+2802,Ramona,Helen Hunt Jackson,Historical Fiction,153606.0,raw/Historical Fiction/2802.txt,https://www.gutenberg.org/ebooks/2802,processed/Historical Fiction/2802.txt
+5251,The Long Vacation,Charlotte M. Yonge,Historical Fiction,93666.0,raw/Historical Fiction/5251.txt,https://www.gutenberg.org/ebooks/5251,processed/Historical Fiction/5251.txt
+34766,"Shorter novels, vol. 3 :  Eighteenth century","Samuel Johnson, Horace Walpole, and William Beckford",Historical Fiction,130448.0,raw/Historical Fiction/34766.txt,https://www.gutenberg.org/ebooks/34766,processed/Historical Fiction/34766.txt
+71286,"Oliver Ellis :  or, The fusiliers",James Grant,Historical Fiction,131848.0,raw/Historical Fiction/71286.txt,https://www.gutenberg.org/ebooks/71286,processed/Historical Fiction/71286.txt
+65415,"The Yellow Frigate; or, The Three Sisters",James Grant,Historical Fiction,194648.0,raw/Historical Fiction/65415.txt,https://www.gutenberg.org/ebooks/65415,processed/Historical Fiction/65415.txt
+2785,The Elusive Pimpernel,Baroness Emmuska Orczy Orczy,Historical Fiction,86463.0,raw/Historical Fiction/2785.txt,https://www.gutenberg.org/ebooks/2785,processed/Historical Fiction/2785.txt
+4443,Vittoria — Complete,George Meredith,Historical Fiction,196742.0,raw/Historical Fiction/4443.txt,https://www.gutenberg.org/ebooks/4443,processed/Historical Fiction/4443.txt
+35117,Lord Tony's Wife: An Adventure of the Scarlet Pimpernel,Baroness Emmuska Orczy Orczy,Historical Fiction,92529.0,raw/Historical Fiction/35117.txt,https://www.gutenberg.org/ebooks/35117,processed/Historical Fiction/35117.txt
+62691,El criticón (tomo 1 de 2) (Spanish),Baltasar Gracián y Morales,Historical Fiction,102520.0,raw/Historical Fiction/62691.txt,https://www.gutenberg.org/ebooks/62691,processed/Historical Fiction/62691.txt
+7795,Pelle the Conqueror — Complete,Martin Andersen Nexø,Historical Fiction,427217.0,raw/Historical Fiction/7795.txt,https://www.gutenberg.org/ebooks/7795,processed/Historical Fiction/7795.txt
+49782,The Czar :  A tale of the time of the first Napoleon,Deborah Alcock,Historical Fiction,138500.0,raw/Historical Fiction/49782.txt,https://www.gutenberg.org/ebooks/49782,processed/Historical Fiction/49782.txt
+48883,Sea-gift: A Novel,Edwin W. Fuller,Historical Fiction,135815.0,raw/Historical Fiction/48883.txt,https://www.gutenberg.org/ebooks/48883,processed/Historical Fiction/48883.txt
+34616,Barren Honour: A Novel,George A. Lawrence,Historical Fiction,116216.0,raw/Historical Fiction/34616.txt,https://www.gutenberg.org/ebooks/34616,processed/Historical Fiction/34616.txt
+65773,Playing with Fire: A Story of the Soudan War,James Grant,Historical Fiction,123133.0,raw/Historical Fiction/65773.txt,https://www.gutenberg.org/ebooks/65773,processed/Historical Fiction/65773.txt
+76794,Lalla Rookh :  An Oriental romance,Thomas Moore,Romance,73863.0,raw/Romance/76794.txt,https://www.gutenberg.org/ebooks/76794,processed/Romance/76794.txt
+1958,Hermann and Dorothea,Johann Wolfgang von Goethe,Romance,27008.0,raw/Romance/1958.txt,https://www.gutenberg.org/ebooks/1958,processed/Romance/1958.txt
+35282,Fräulein Schmidt and Mr. Anstruther,Elizabeth Von Arnim,Romance,86584.0,raw/Romance/35282.txt,https://www.gutenberg.org/ebooks/35282,processed/Romance/35282.txt
+34920,"Silver Pitchers: and Independence, a Centennial Love Story",Louisa May Alcott,Romance,87174.0,raw/Romance/34920.txt,https://www.gutenberg.org/ebooks/34920,processed/Romance/34920.txt
+2271,He Fell in Love with His Wife,Edward Payson Roe,Romance,105796.0,raw/Romance/2271.txt,https://www.gutenberg.org/ebooks/2271,processed/Romance/2271.txt
+403,Soldiers of Fortune,Richard Harding Davis,Romance,80899.0,raw/Romance/403.txt,https://www.gutenberg.org/ebooks/403,processed/Romance/403.txt
+20247,Wayside Courtships,Hamlin Garland,Romance,71825.0,raw/Romance/20247.txt,https://www.gutenberg.org/ebooks/20247,processed/Romance/20247.txt
+8694,"The Abbot's Ghost, or Maurice Treherne's Temptation: A Christmas Story",Louisa May Alcott,Romance,29033.0,raw/Romance/8694.txt,https://www.gutenberg.org/ebooks/8694,processed/Romance/8694.txt
+15766,The Claverings,Anthony Trollope,Romance,209312.0,raw/Romance/15766.txt,https://www.gutenberg.org/ebooks/15766,processed/Romance/15766.txt
+67612,"Love in Excess; or, the Fatal Enquiry",Eliza Fowler Haywood,Romance,89519.0,raw/Romance/67612.txt,https://www.gutenberg.org/ebooks/67612,processed/Romance/67612.txt
+21930,Salthaven,W. W. Jacobs,Romance,57037.0,raw/Romance/21930.txt,https://www.gutenberg.org/ebooks/21930,processed/Romance/21930.txt
+15473,Love Stories,Mary Roberts Rinehart,Romance,75866.0,raw/Romance/15473.txt,https://www.gutenberg.org/ebooks/15473,processed/Romance/15473.txt
+69202,"The cost of wings, and other stories",Richard Dehan,Romance,91320.0,raw/Romance/69202.txt,https://www.gutenberg.org/ebooks/69202,processed/Romance/69202.txt
+13731,Romance Island,Zona Gale,Romance,88151.0,raw/Romance/13731.txt,https://www.gutenberg.org/ebooks/13731,processed/Romance/13731.txt
+41455,The Lady in the Car,William Le Queux,Romance,66572.0,raw/Romance/41455.txt,https://www.gutenberg.org/ebooks/41455,processed/Romance/41455.txt
+30299,The Romance of a Plain Man,Ellen Anderson Gholson Glasgow,Romance,126444.0,raw/Romance/30299.txt,https://www.gutenberg.org/ebooks/30299,processed/Romance/30299.txt
+41354,The Incredible Honeymoon,E. Nesbit,Romance,67804.0,raw/Romance/41354.txt,https://www.gutenberg.org/ebooks/41354,processed/Romance/41354.txt
+43019,Love After Marriage; and Other Stories of the Heart,Caroline Lee Hentz,Romance,100023.0,raw/Romance/43019.txt,https://www.gutenberg.org/ebooks/43019,processed/Romance/43019.txt
+37107,A Life For a Love: A Novel,L. T. Meade,Romance,99788.0,raw/Romance/37107.txt,https://www.gutenberg.org/ebooks/37107,processed/Romance/37107.txt
+30622,The Unknown Quantity: A Book of Romance and Some Half-Told Tales,Henry Van Dyke,Romance,66254.0,raw/Romance/30622.txt,https://www.gutenberg.org/ebooks/30622,processed/Romance/30622.txt
+461,The Quest of the Golden Girl: A Romance,Richard Le Gallienne,Romance,54295.0,raw/Romance/461.txt,https://www.gutenberg.org/ebooks/461,processed/Romance/461.txt
+39324,The Literary Sense,E. Nesbit,Romance,61229.0,raw/Romance/39324.txt,https://www.gutenberg.org/ebooks/39324,processed/Romance/39324.txt
+3709,Love Eternal,H. Rider Haggard,Romance,105489.0,raw/Romance/3709.txt,https://www.gutenberg.org/ebooks/3709,processed/Romance/3709.txt
+25799,The Girl and the Bill,Bannister Merwin,Romance,70728.0,raw/Romance/25799.txt,https://www.gutenberg.org/ebooks/25799,processed/Romance/25799.txt
+42801,The Young Lovell: A Romance,Ford Madox Ford,Romance,94918.0,raw/Romance/42801.txt,https://www.gutenberg.org/ebooks/42801,processed/Romance/42801.txt
+54676,Friendship Village Love Stories,Zona Gale,Romance,73593.0,raw/Romance/54676.txt,https://www.gutenberg.org/ebooks/54676,processed/Romance/54676.txt
+358,The Scarlet Car,Richard Harding Davis,Romance,24537.0,raw/Romance/358.txt,https://www.gutenberg.org/ebooks/358,processed/Romance/358.txt
+33380,Love's Usuries,Louis Creswicke,Romance,45839.0,raw/Romance/33380.txt,https://www.gutenberg.org/ebooks/33380,processed/Romance/33380.txt
+60398,Westover of Wanalah: A story of love and life in Old Virginia,George Cary Eggleston,Romance,79937.0,raw/Romance/60398.txt,https://www.gutenberg.org/ebooks/60398,processed/Romance/60398.txt
+12876,A Young Girl's Wooing,Edward Payson Roe,Romance,115619.0,raw/Romance/12876.txt,https://www.gutenberg.org/ebooks/12876,processed/Romance/12876.txt
+73308,Love,Elizabeth Von Arnim,Romance,106186.0,raw/Romance/73308.txt,https://www.gutenberg.org/ebooks/73308,processed/Romance/73308.txt
+71761,Aunt Patty's paying guests,Eglanton Thorne,Romance,71340.0,raw/Romance/71761.txt,https://www.gutenberg.org/ebooks/71761,processed/Romance/71761.txt
+31021,The Bandbox,Louis Joseph Vance,Romance,68491.0,raw/Romance/31021.txt,https://www.gutenberg.org/ebooks/31021,processed/Romance/31021.txt
+20358,Jerry Junior,Jean Webster,Romance,41220.0,raw/Romance/20358.txt,https://www.gutenberg.org/ebooks/20358,processed/Romance/20358.txt
+8664,The Glory of the Conquered: The Story of a Great Love,Susan Glaspell,Romance,94908.0,raw/Romance/8664.txt,https://www.gutenberg.org/ebooks/8664,processed/Romance/8664.txt
+52110,The Key Note: A Novel,Clara Louise Burnham,Romance,68297.0,raw/Romance/52110.txt,https://www.gutenberg.org/ebooks/52110,processed/Romance/52110.txt
+52148,Dorothy South: A Love Story of Virginia Just Before the War,George Cary Eggleston,Romance,93010.0,raw/Romance/52148.txt,https://www.gutenberg.org/ebooks/52148,processed/Romance/52148.txt
+6113,A Day of Fate,Edward Payson Roe,Romance,111628.0,raw/Romance/6113.txt,https://www.gutenberg.org/ebooks/6113,processed/Romance/6113.txt
+57312,The Nether Millstone,Fred M. White,Romance,110013.0,raw/Romance/57312.txt,https://www.gutenberg.org/ebooks/57312,processed/Romance/57312.txt
+65995,The Mine with the Iron Door,Harold Bell Wright,Romance,81174.0,raw/Romance/65995.txt,https://www.gutenberg.org/ebooks/65995,processed/Romance/65995.txt
+26135,Love at Paddington,W. Pett Ridge,Romance,38453.0,raw/Romance/26135.txt,https://www.gutenberg.org/ebooks/26135,processed/Romance/26135.txt
+30572,Silver and Gold: A Story of Luck and Love in a Western Mining Camp,Dane Coolidge,Romance,66195.0,raw/Romance/30572.txt,https://www.gutenberg.org/ebooks/30572,processed/Romance/30572.txt
+69715,The scarlet car; The Princess Aline,Richard Harding Davis,Romance,47175.0,raw/Romance/69715.txt,https://www.gutenberg.org/ebooks/69715,processed/Romance/69715.txt
+49787,Love's Golden Thread,E. C. Kenyon,Romance,63333.0,raw/Romance/49787.txt,https://www.gutenberg.org/ebooks/49787,processed/Romance/49787.txt
+74340,"In love's hands :  or, For her heart's sake",Bertha M. Clay,Romance,54317.0,raw/Romance/74340.txt,https://www.gutenberg.org/ebooks/74340,processed/Romance/74340.txt
+20357,Jerry,Jean Webster,Romance,40808.0,raw/Romance/20357.txt,https://www.gutenberg.org/ebooks/20357,processed/Romance/20357.txt
+69880,The valley of Arcana,Arthur Preston Hankins,Romance,69621.0,raw/Romance/69880.txt,https://www.gutenberg.org/ebooks/69880,processed/Romance/69880.txt
+4535,Sylvia's Lovers — Volume 2,Elizabeth Cleghorn Gaskell,Romance,65355.0,raw/Romance/4535.txt,https://www.gutenberg.org/ebooks/4535,processed/Romance/4535.txt
+17359,Arms and the Woman,Harold MacGrath,Romance,73698.0,raw/Romance/17359.txt,https://www.gutenberg.org/ebooks/17359,processed/Romance/17359.txt
+63479,The Three Lovers,Frank Swinnerton,Romance,92501.0,raw/Romance/63479.txt,https://www.gutenberg.org/ebooks/63479,processed/Romance/63479.txt
+13019,"Raphael; Or, Pages of the Book of Life at Twenty",Alphonse de Lamartine,Romance,63689.0,raw/Romance/13019.txt,https://www.gutenberg.org/ebooks/13019,processed/Romance/13019.txt
+6578,The Man on the Box,Harold MacGrath,Romance,70881.0,raw/Romance/6578.txt,https://www.gutenberg.org/ebooks/6578,processed/Romance/6578.txt
+69168,"The phantom hunter; or, love after death",Edward Sylvester Ellis,Romance,35235.0,raw/Romance/69168.txt,https://www.gutenberg.org/ebooks/69168,processed/Romance/69168.txt
+41090,At the Sign of the Sword: A Story of Love and War in Belgium,William Le Queux,Romance,46850.0,raw/Romance/41090.txt,https://www.gutenberg.org/ebooks/41090,processed/Romance/41090.txt
+3539,The Love-chase,James Sheridan Knowles,Romance,20315.0,raw/Romance/3539.txt,https://www.gutenberg.org/ebooks/3539,processed/Romance/3539.txt
+29481,The Fifth String,John Philip Sousa,Romance,18285.0,raw/Romance/29481.txt,https://www.gutenberg.org/ebooks/29481,processed/Romance/29481.txt
+72477,"These charming people :  being a tapestry of the fortunes, follies, adventures, gallantries and general activities of Shelmerdene (that lovely lady), Lord Tarlyon, Mr. Michael Wagstaffe, Mr. Ralph Wyndham Trevor and some others of their friends of the lighter sort",Michael Arlen,Romance,60476.0,raw/Romance/72477.txt,https://www.gutenberg.org/ebooks/72477,processed/Romance/72477.txt
+4536,Sylvia's Lovers — Volume 3,Elizabeth Cleghorn Gaskell,Romance,64006.0,raw/Romance/4536.txt,https://www.gutenberg.org/ebooks/4536,processed/Romance/4536.txt
+71769,"A tragedy of love and hate :  or, a woman's vow",Bertha M. Clay,Mystery/Crime,80884.0,raw/Mystery_Crime/71769.txt,https://www.gutenberg.org/ebooks/71769,processed/Mystery_Crime/71769.txt
+836,The Phoenix and the Carpet,E. Nesbit,Science Fiction,64549.0,raw/Science Fiction/836.txt,https://www.gutenberg.org/ebooks/836,processed/Science Fiction/836.txt
+2026,The Coming Conquest of England,August Niemann,Science Fiction,107687.0,raw/Science Fiction/2026.txt,https://www.gutenberg.org/ebooks/2026,processed/Science Fiction/2026.txt
+34219,The Enchanted Castle,E. Nesbit,Science Fiction,71976.0,raw/Science Fiction/34219.txt,https://www.gutenberg.org/ebooks/34219,processed/Science Fiction/34219.txt
+47887,Sir Charles Napier,Sir William Francis Butler,Adventure/Action,62536.0,raw/Adventure_Action/47887.txt,https://www.gutenberg.org/ebooks/47887,processed/Adventure_Action/47887.txt
+44225,The Glory of the Coming,Irvin S. Cobb,Adventure/Action,106692.0,raw/Adventure_Action/44225.txt,https://www.gutenberg.org/ebooks/44225,processed/Adventure_Action/44225.txt
+68315,On chloroform and other anæsthetics: their action and administration,John Snow,Adventure/Action,171678.0,raw/Adventure_Action/68315.txt,https://www.gutenberg.org/ebooks/68315,processed/Adventure_Action/68315.txt
+66600,Short Story-Writing: An Art or a Trade?,N. Bryllion Fagin,Adventure/Action,32312.0,raw/Adventure_Action/66600.txt,https://www.gutenberg.org/ebooks/66600,processed/Adventure_Action/66600.txt
+40891,The Art of Invigorating and Prolonging Life,William Kitchiner,Adventure/Action,46170.0,raw/Adventure_Action/40891.txt,https://www.gutenberg.org/ebooks/40891,processed/Adventure_Action/40891.txt
+33790,Delayed Action,Charles V. De Vet,Adventure/Action,9310.0,raw/Adventure_Action/33790.txt,https://www.gutenberg.org/ebooks/33790,processed/Adventure_Action/33790.txt
+68962,Best o' luck: How a fighting Kentuckian won the thanks of Britain's King,Alexander McClintock,Adventure/Action,26771.0,raw/Adventure_Action/68962.txt,https://www.gutenberg.org/ebooks/68962,processed/Adventure_Action/68962.txt
+63900,Action on Azura,Robertson Osborne,Adventure/Action,14115.0,raw/Adventure_Action/63900.txt,https://www.gutenberg.org/ebooks/63900,processed/Adventure_Action/63900.txt
+6761,The Adventures of Ferdinand Count Fathom — Complete,T. Smollett,Adventure/Action,161673.0,raw/Adventure_Action/6761.txt,https://www.gutenberg.org/ebooks/6761,processed/Adventure_Action/6761.txt
+4085,The Adventures of Roderick Random,T. Smollett,Adventure/Action,190607.0,raw/Adventure_Action/4085.txt,https://www.gutenberg.org/ebooks/4085,processed/Adventure_Action/4085.txt
+2591,Grimms' Fairy Tales,Jacob Grimm and Wilhelm Grimm,Adventure/Action,104168.0,raw/Adventure_Action/2591.txt,https://www.gutenberg.org/ebooks/2591,processed/Adventure_Action/2591.txt
+45033,"The Sea: Its Stirring Story of Adventure, Peril, & Heroism. Volume 4",Frederick Whymper,Adventure/Action,173457.0,raw/Adventure_Action/45033.txt,https://www.gutenberg.org/ebooks/45033,processed/Adventure_Action/45033.txt
+4499,Complete Short Works of George Meredith,George Meredith,Adventure/Action,171969.0,raw/Adventure_Action/4499.txt,https://www.gutenberg.org/ebooks/4499,processed/Adventure_Action/4499.txt
+39341,"The Sea: Its Stirring Story of Adventure, Peril, & Heroism. Volume 1",Frederick Whymper,Adventure/Action,159834.0,raw/Adventure_Action/39341.txt,https://www.gutenberg.org/ebooks/39341,processed/Adventure_Action/39341.txt
+39342,"The Sea: Its Stirring Story of Adventure, Peril, & Heroism. Volume 2",Frederick Whymper,Adventure/Action,170090.0,raw/Adventure_Action/39342.txt,https://www.gutenberg.org/ebooks/39342,processed/Adventure_Action/39342.txt
+60,The Scarlet Pimpernel,Baroness Emmuska Orczy Orczy,Adventure/Action,88761.0,raw/Adventure_Action/60.txt,https://www.gutenberg.org/ebooks/60,processed/Adventure_Action/60.txt
+393,The Blue Lagoon: A Romance,H. De Vere Stacpoole,Adventure/Action,67607.0,raw/Adventure_Action/393.txt,https://www.gutenberg.org/ebooks/393,processed/Adventure_Action/393.txt
+49987,Forest Days: A Romance of Old Times,G. P. R. James,Adventure/Action,168967.0,raw/Adventure_Action/49987.txt,https://www.gutenberg.org/ebooks/49987,processed/Adventure_Action/49987.txt
+4271,A Modern Telemachus,Charlotte M. Yonge,Adventure/Action,60979.0,raw/Adventure_Action/4271.txt,https://www.gutenberg.org/ebooks/4271,processed/Adventure_Action/4271.txt
+2166,King Solomon's Mines,H. Rider Haggard,Adventure/Action,85284.0,raw/Adventure_Action/2166.txt,https://www.gutenberg.org/ebooks/2166,processed/Adventure_Action/2166.txt
+968,Martin Chuzzlewit,Charles Dickens,Adventure/Action,339768.0,raw/Adventure_Action/968.txt,https://www.gutenberg.org/ebooks/968,processed/Adventure_Action/968.txt
+56597,The Legends and Myths of Hawaii: The fables and folk-lore of a strange people,King of Hawaii David Kalakaua,Adventure/Action,183166.0,raw/Adventure_Action/56597.txt,https://www.gutenberg.org/ebooks/56597,processed/Adventure_Action/56597.txt
+39343,"The Sea: Its Stirring Story of Adventure, Peril, & Heroism. Volume 3",Frederick Whymper,Adventure/Action,166260.0,raw/Adventure_Action/39343.txt,https://www.gutenberg.org/ebooks/39343,processed/Adventure_Action/39343.txt
+4084,The Adventures of Peregrine Pickle,T. Smollett,Adventure/Action,320240.0,raw/Adventure_Action/4084.txt,https://www.gutenberg.org/ebooks/4084,processed/Adventure_Action/4084.txt
+77653,Asoka's alibi,Talbot Mundy,Adventure/Action,35057.0,raw/Adventure_Action/77653.txt,https://www.gutenberg.org/ebooks/77653,processed/Adventure_Action/77653.txt
+11582,Old Greek Stories,James Baldwin,Adventure/Action,43553.0,raw/Adventure_Action/11582.txt,https://www.gutenberg.org/ebooks/11582,processed/Adventure_Action/11582.txt
+770,The Story of the Treasure Seekers,E. Nesbit,Adventure/Action,52586.0,raw/Adventure_Action/770.txt,https://www.gutenberg.org/ebooks/770,processed/Adventure_Action/770.txt
+6066,King--of the Khyber Rifles: A Romance of Adventure,Talbot Mundy,Adventure/Action,103687.0,raw/Adventure_Action/6066.txt,https://www.gutenberg.org/ebooks/6066,processed/Adventure_Action/6066.txt
+19805,The Tale of Mr. Tod,Beatrix Potter,Adventure/Action,8002.0,raw/Adventure_Action/19805.txt,https://www.gutenberg.org/ebooks/19805,processed/Adventure_Action/19805.txt
+43595,Alive in the jungle :  A story for the young,Eleanor Stredder,Adventure/Action,43010.0,raw/Adventure_Action/43595.txt,https://www.gutenberg.org/ebooks/43595,processed/Adventure_Action/43595.txt
+1752,El Dorado: An Adventure of the Scarlet Pimpernel,Baroness Emmuska Orczy Orczy,Adventure/Action,125682.0,raw/Adventure_Action/1752.txt,https://www.gutenberg.org/ebooks/1752,processed/Adventure_Action/1752.txt
+28638,Rimrock Trail,J. Allan Dunn,Adventure/Action,104164.0,raw/Adventure_Action/28638.txt,https://www.gutenberg.org/ebooks/28638,processed/Adventure_Action/28638.txt
+2785,The Elusive Pimpernel,Baroness Emmuska Orczy Orczy,Adventure/Action,86463.0,raw/Adventure_Action/2785.txt,https://www.gutenberg.org/ebooks/2785,processed/Adventure_Action/2785.txt
+35117,Lord Tony's Wife: An Adventure of the Scarlet Pimpernel,Baroness Emmuska Orczy Orczy,Adventure/Action,92529.0,raw/Adventure_Action/35117.txt,https://www.gutenberg.org/ebooks/35117,processed/Adventure_Action/35117.txt
+19007,"Danger signals :  Remarkable, exciting and unique examples of the bravery, daring and stoicism in the midst of danger of train dispatchers and railroad engineers",John A. Hill and Jasper Ewing Brady,Adventure/Action,108265.0,raw/Adventure_Action/19007.txt,https://www.gutenberg.org/ebooks/19007,processed/Adventure_Action/19007.txt
+6759,The Adventures of Ferdinand Count Fathom — Volume 01,T. Smollett,Adventure/Action,83690.0,raw/Adventure_Action/6759.txt,https://www.gutenberg.org/ebooks/6759,processed/Adventure_Action/6759.txt
+68059,"The man among the monkeys; or, Ninety days in apeland",Léon Gozlan,Adventure/Action,101443.0,raw/Adventure_Action/68059.txt,https://www.gutenberg.org/ebooks/68059,processed/Adventure_Action/68059.txt
+43381,The Story of Rolf and the Viking's Bow,Allen French,Adventure/Action,60024.0,raw/Adventure_Action/43381.txt,https://www.gutenberg.org/ebooks/43381,processed/Adventure_Action/43381.txt
+23625,The Magic Pudding,Norman Lindsay,Adventure/Action,22236.0,raw/Adventure_Action/23625.txt,https://www.gutenberg.org/ebooks/23625,processed/Adventure_Action/23625.txt
+30970,Miss Cayley's Adventures,Grant Allen,Adventure/Action,87060.0,raw/Adventure_Action/30970.txt,https://www.gutenberg.org/ebooks/30970,processed/Adventure_Action/30970.txt
+794,The Wouldbegoods: Being the Further Adventures of the Treasure Seekers,E. Nesbit,Adventure/Action,81308.0,raw/Adventure_Action/794.txt,https://www.gutenberg.org/ebooks/794,processed/Adventure_Action/794.txt
+29572,Whispering Smith,Frank H. Spearman,Adventure/Action,97471.0,raw/Adventure_Action/29572.txt,https://www.gutenberg.org/ebooks/29572,processed/Adventure_Action/29572.txt
+2714,Long Live the King!,Mary Roberts Rinehart,Adventure/Action,114051.0,raw/Adventure_Action/2714.txt,https://www.gutenberg.org/ebooks/2714,processed/Adventure_Action/2714.txt
+33214,"The White Queen of Okoyong: A True Story of Adventure, Heroism and Faith",W. P. Livingstone,Adventure/Action,52741.0,raw/Adventure_Action/33214.txt,https://www.gutenberg.org/ebooks/33214,processed/Adventure_Action/33214.txt
+64657,The Brass Check: A Study of American Journalism,Upton Sinclair,Adventure/Action,173072.0,raw/Adventure_Action/64657.txt,https://www.gutenberg.org/ebooks/64657,processed/Adventure_Action/64657.txt
+3268,The Mysteries of Udolpho,Ann Ward Radcliffe,Thriller/Horror,293425.0,raw/Thriller_Horror/3268.txt,https://www.gutenberg.org/ebooks/3268,processed/Thriller_Horror/3268.txt
+13334,"The Collected Works of Ambrose Bierce, Volume 02",Ambrose Bierce,Thriller/Horror,76133.0,raw/Thriller_Horror/13334.txt,https://www.gutenberg.org/ebooks/13334,processed/Thriller_Horror/13334.txt
+39280,"""Lest We Forget"": Chicago's Awful Theater Horror",Marshall Everett,Thriller/Horror,95196.0,raw/Thriller_Horror/39280.txt,https://www.gutenberg.org/ebooks/39280,processed/Thriller_Horror/39280.txt
+73984,"Sinking of the ""Titanic"" :  most appalling ocean horror; with graphic descriptions of hundreds swept to eternity beneath the waves ...",Jay Henry Mowbray,Thriller/Horror,100072.0,raw/Thriller_Horror/73984.txt,https://www.gutenberg.org/ebooks/73984,processed/Thriller_Horror/73984.txt
+24879,"Curious, if True",Elizabeth Cleghorn Gaskell,Thriller/Horror,98508.0,raw/Thriller_Horror/24879.txt,https://www.gutenberg.org/ebooks/24879,processed/Thriller_Horror/24879.txt
+76261,Tales of terror,Dick Donovan,Thriller/Horror,118259.0,raw/Thriller_Horror/76261.txt,https://www.gutenberg.org/ebooks/76261,processed/Thriller_Horror/76261.txt
+2548,The Poor Clare,Elizabeth Cleghorn Gaskell,Thriller/Horror,25550.0,raw/Thriller_Horror/2548.txt,https://www.gutenberg.org/ebooks/2548,processed/Thriller_Horror/2548.txt
+74643,"The Italian, Volume 1 (of 3) :  or, the confessional of the Black Penitents",Ann Ward Radcliffe,Thriller/Horror,54331.0,raw/Thriller_Horror/74643.txt,https://www.gutenberg.org/ebooks/74643,processed/Thriller_Horror/74643.txt
+2549,The Doom of the Griffiths,Elizabeth Cleghorn Gaskell,Thriller/Horror,17432.0,raw/Thriller_Horror/2549.txt,https://www.gutenberg.org/ebooks/2549,processed/Thriller_Horror/2549.txt
+7120,"Knock, Knock, Knock and Other Stories",Ivan Sergeevich Turgenev,Thriller/Horror,65980.0,raw/Thriller_Horror/7120.txt,https://www.gutenberg.org/ebooks/7120,processed/Thriller_Horror/7120.txt
+71521,The horror expert,Frank Belknap Long,Thriller/Horror,61719.0,raw/Thriller_Horror/71521.txt,https://www.gutenberg.org/ebooks/71521,processed/Thriller_Horror/71521.txt
+4387,Present at a Hanging and Other Ghost Stories,Ambrose Bierce,Thriller/Horror,20480.0,raw/Thriller_Horror/4387.txt,https://www.gutenberg.org/ebooks/4387,processed/Thriller_Horror/4387.txt
+70606,The last test,Adolphe Danziger,Thriller/Horror,22252.0,raw/Thriller_Horror/70606.txt,https://www.gutenberg.org/ebooks/70606,processed/Thriller_Horror/70606.txt
+74640,"The Italian, Volume 2 (of 3) :  or, the confessional of the Black Penitents",Ann Ward Radcliffe,Thriller/Horror,53820.0,raw/Thriller_Horror/74640.txt,https://www.gutenberg.org/ebooks/74640,processed/Thriller_Horror/74640.txt
+3715,The Parenticide Club,Ambrose Bierce,Thriller/Horror,10606.0,raw/Thriller_Horror/3715.txt,https://www.gutenberg.org/ebooks/3715,processed/Thriller_Horror/3715.txt
+32710,Doom of the House of Duryea,Earl Peirce,Thriller/Horror,8734.0,raw/Thriller_Horror/32710.txt,https://www.gutenberg.org/ebooks/32710,processed/Thriller_Horror/32710.txt
+70817,Scream at midnight,Joseph Payne Brennan,Thriller/Horror,28184.0,raw/Thriller_Horror/70817.txt,https://www.gutenberg.org/ebooks/70817,processed/Thriller_Horror/70817.txt
+33781,"I misteri del castello d'Udolfo, vol. 1 (Italian)",Ann Ward Radcliffe,Thriller/Horror,44143.0,raw/Thriller_Horror/33781.txt,https://www.gutenberg.org/ebooks/33781,processed/Thriller_Horror/33781.txt
+41458,The Gay Triangle: The Romance of the First Air Adventurers,William Le Queux,Thriller/Horror,48761.0,raw/Thriller_Horror/41458.txt,https://www.gutenberg.org/ebooks/41458,processed/Thriller_Horror/41458.txt
+24913,The Monster,S. M. Tenneshaw,Thriller/Horror,17504.0,raw/Thriller_Horror/24913.txt,https://www.gutenberg.org/ebooks/24913,processed/Thriller_Horror/24913.txt
+22198,Two Sides of the Face: Midwinter Tales,Arthur Quiller-Couch,Thriller/Horror,68184.0,raw/Thriller_Horror/22198.txt,https://www.gutenberg.org/ebooks/22198,processed/Thriller_Horror/22198.txt
+43652,Les mystères d'Udolphe (French),Ann Ward Radcliffe,Thriller/Horror,156863.0,raw/Thriller_Horror/43652.txt,https://www.gutenberg.org/ebooks/43652,processed/Thriller_Horror/43652.txt
+33783,"I misteri del castello d'Udolfo, vol. 3 (Italian)",Ann Ward Radcliffe,Thriller/Horror,43170.0,raw/Thriller_Horror/33783.txt,https://www.gutenberg.org/ebooks/33783,processed/Thriller_Horror/33783.txt
+33782,"I misteri del castello d'Udolfo, vol. 2 (Italian)",Ann Ward Radcliffe,Thriller/Horror,42793.0,raw/Thriller_Horror/33782.txt,https://www.gutenberg.org/ebooks/33782,processed/Thriller_Horror/33782.txt
+63248,"Les châteaux d'Athlin et de Dunbayne (1/2), Histoire arrivée dans les Montagnes d'Écosse. (French)",Ann Ward Radcliffe,Thriller/Horror,21179.0,raw/Thriller_Horror/63248.txt,https://www.gutenberg.org/ebooks/63248,processed/Thriller_Horror/63248.txt
+33784,"I misteri del castello d'Udolfo, vol. 4 (Italian)",Ann Ward Radcliffe,Thriller/Horror,44238.0,raw/Thriller_Horror/33784.txt,https://www.gutenberg.org/ebooks/33784,processed/Thriller_Horror/33784.txt
+63904,"Les châteaux d'Athlin et de Dunbayne (2/2), Histoire arrivée dans les Montagnes d'Écosse. (French)",Ann Ward Radcliffe,Thriller/Horror,21008.0,raw/Thriller_Horror/63904.txt,https://www.gutenberg.org/ebooks/63904,processed/Thriller_Horror/63904.txt
+6133,"The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",Maurice Leblanc,Thriller/Horror,56978.0,raw/Thriller_Horror/6133.txt,https://www.gutenberg.org/ebooks/6133,processed/Thriller_Horror/6133.txt
+564,The Mystery of Edwin Drood,Charles Dickens,Thriller/Horror,95771.0,raw/Thriller_Horror/564.txt,https://www.gutenberg.org/ebooks/564,processed/Thriller_Horror/564.txt
+27475,That Girl Montana,Marah Ellis Ryan,Thriller/Horror,106167.0,raw/Thriller_Horror/27475.txt,https://www.gutenberg.org/ebooks/27475,processed/Thriller_Horror/27475.txt
+32854,"Arsène Lupin, gentleman-cambrioleur (French)",Maurice Leblanc,Thriller/Horror,57580.0,raw/Thriller_Horror/32854.txt,https://www.gutenberg.org/ebooks/32854,processed/Thriller_Horror/32854.txt
+57669,The problem of Cell 13,Jacques Futrelle,Thriller/Horror,80875.0,raw/Thriller_Horror/57669.txt,https://www.gutenberg.org/ebooks/57669,processed/Thriller_Horror/57669.txt
+47530,"Oliver Twist, Vol. 2 (of 3)",Charles Dickens,Thriller/Horror,50661.0,raw/Thriller_Horror/47530.txt,https://www.gutenberg.org/ebooks/47530,processed/Thriller_Horror/47530.txt
+40361,The Air Pirate,Guy Thorne,Thriller/Horror,65254.0,raw/Thriller_Horror/40361.txt,https://www.gutenberg.org/ebooks/40361,processed/Thriller_Horror/40361.txt
+10102,The Czar's Spy: The Mystery of a Silent Love,William Le Queux,Thriller/Horror,90907.0,raw/Thriller_Horror/10102.txt,https://www.gutenberg.org/ebooks/10102,processed/Thriller_Horror/10102.txt
+51649,"The Mysteries of London, v. 4/4",George W. M. Reynolds,Thriller/Horror,425872.0,raw/Thriller_Horror/51649.txt,https://www.gutenberg.org/ebooks/51649,processed/Thriller_Horror/51649.txt
+47312,"The Mysteries of London, v. 1/4",George W. M. Reynolds,Thriller/Horror,427025.0,raw/Thriller_Horror/47312.txt,https://www.gutenberg.org/ebooks/47312,processed/Thriller_Horror/47312.txt
+4014,Arsène Lupin,Maurice Leblanc,Thriller/Horror,69387.0,raw/Thriller_Horror/4014.txt,https://www.gutenberg.org/ebooks/4014,processed/Thriller_Horror/4014.txt
+33173,"A Thief in the Night: Further adventures of A. J. Raffles, Cricketer and Cracksman",E. W. Hornung,Thriller/Horror,66965.0,raw/Thriller_Horror/33173.txt,https://www.gutenberg.org/ebooks/33173,processed/Thriller_Horror/33173.txt
+56190,Warren Commission (14 of 26): Hearings Vol. XIV (of 15),United States. Warren Commission,Thriller/Horror,413593.0,raw/Thriller_Horror/56190.txt,https://www.gutenberg.org/ebooks/56190,processed/Thriller_Horror/56190.txt
+52301,Some Distinguished Victims of the Scaffold,Horace Bleackley,Thriller/Horror,80731.0,raw/Thriller_Horror/52301.txt,https://www.gutenberg.org/ebooks/52301,processed/Thriller_Horror/52301.txt
+73706,Mysteries of the missing,Edward H. Smith,Thriller/Horror,87749.0,raw/Thriller_Horror/73706.txt,https://www.gutenberg.org/ebooks/73706,processed/Thriller_Horror/73706.txt
+40203,Arsène Lupin versus Herlock Sholmes,Maurice Leblanc,Thriller/Horror,61165.0,raw/Thriller_Horror/40203.txt,https://www.gutenberg.org/ebooks/40203,processed/Thriller_Horror/40203.txt
+51294,"The Mysteries of London, v. 2/4",George W. M. Reynolds,Thriller/Horror,415733.0,raw/Thriller_Horror/51294.txt,https://www.gutenberg.org/ebooks/51294,processed/Thriller_Horror/51294.txt
+4017,The Hollow Needle; Further adventures of Arsène Lupin,Maurice Leblanc,Thriller/Horror,68327.0,raw/Thriller_Horror/4017.txt,https://www.gutenberg.org/ebooks/4017,processed/Thriller_Horror/4017.txt
+10496,Red Masquerade: Being the Story of the Lone Wolf's Daughter,Louis Joseph Vance,Thriller/Horror,66543.0,raw/Thriller_Horror/10496.txt,https://www.gutenberg.org/ebooks/10496,processed/Thriller_Horror/10496.txt
+28093,The Confessions of Arsène Lupin,Maurice Leblanc,Thriller/Horror,70021.0,raw/Thriller_Horror/28093.txt,https://www.gutenberg.org/ebooks/28093,processed/Thriller_Horror/28093.txt
+706,The Amateur Cracksman,E. W. Hornung,Thriller/Horror,51994.0,raw/Thriller_Horror/706.txt,https://www.gutenberg.org/ebooks/706,processed/Thriller_Horror/706.txt
+52056,"The Mysteries of London, v. 3/4",George W. M. Reynolds,Thriller/Horror,424970.0,raw/Thriller_Horror/52056.txt,https://www.gutenberg.org/ebooks/52056,processed/Thriller_Horror/52056.txt
+34795,The Golden Triangle: The Return of Arsène Lupin,Maurice Leblanc,Thriller/Horror,93474.0,raw/Thriller_Horror/34795.txt,https://www.gutenberg.org/ebooks/34795,processed/Thriller_Horror/34795.txt
+434,The Circular Staircase,Mary Roberts Rinehart,Thriller/Horror,69933.0,raw/Thriller_Horror/434.txt,https://www.gutenberg.org/ebooks/434,processed/Thriller_Horror/434.txt
+64701,"The Romance of the Forest, interspersed with some pieces of poetry.",Ann Ward Radcliffe,Thriller/Horror,135961.0,raw/Thriller_Horror/64701.txt,https://www.gutenberg.org/ebooks/64701,processed/Thriller_Horror/64701.txt
+34758,813,Maurice Leblanc,Thriller/Horror,119448.0,raw/Thriller_Horror/34758.txt,https://www.gutenberg.org/ebooks/34758,processed/Thriller_Horror/34758.txt
+707,Raffles: Further Adventures of the Amateur Cracksman,E. W. Hornung,Thriller/Horror,57907.0,raw/Thriller_Horror/707.txt,https://www.gutenberg.org/ebooks/707,processed/Thriller_Horror/707.txt
+1563,The Crystal Stopper,Maurice Leblanc,Thriller/Horror,77481.0,raw/Thriller_Horror/1563.txt,https://www.gutenberg.org/ebooks/1563,processed/Thriller_Horror/1563.txt
+924,To Be Read at Dusk,Charles Dickens,Thriller/Horror,7624.0,raw/Thriller_Horror/924.txt,https://www.gutenberg.org/ebooks/924,processed/Thriller_Horror/924.txt
+10327,Alias the Lone Wolf,Louis Joseph Vance,Thriller/Horror,93512.0,raw/Thriller_Horror/10327.txt,https://www.gutenberg.org/ebooks/10327,processed/Thriller_Horror/10327.txt
+12590,The Shadow of the Rope,E. W. Hornung,Thriller/Horror,77431.0,raw/Thriller_Horror/12590.txt,https://www.gutenberg.org/ebooks/12590,processed/Thriller_Horror/12590.txt
+24839,The Blonde Lady,Maurice Leblanc,Thriller/Horror,66193.0,raw/Thriller_Horror/24839.txt,https://www.gutenberg.org/ebooks/24839,processed/Thriller_Horror/24839.txt
+40321,Grim Tales,E. Nesbit,Thriller/Horror,23735.0,raw/Thriller_Horror/40321.txt,https://www.gutenberg.org/ebooks/40321,processed/Thriller_Horror/40321.txt
+59072,The Secret Tomb,Maurice Leblanc,Thriller/Horror,74834.0,raw/Thriller_Horror/59072.txt,https://www.gutenberg.org/ebooks/59072,processed/Thriller_Horror/59072.txt
+10556,The Old Man in the Corner,Baroness Emmuska Orczy Orczy,Thriller/Horror,70001.0,raw/Thriller_Horror/10556.txt,https://www.gutenberg.org/ebooks/10556,processed/Thriller_Horror/10556.txt
+40837,Whoso Findeth a Wife,William Le Queux,Thriller/Horror,97637.0,raw/Thriller_Horror/40837.txt,https://www.gutenberg.org/ebooks/40837,processed/Thriller_Horror/40837.txt
+57314,The Yellow Face,Fred M. White,Thriller/Horror,124620.0,raw/Thriller_Horror/57314.txt,https://www.gutenberg.org/ebooks/57314,processed/Thriller_Horror/57314.txt
+6087,The Vampyre; a Tale,John William Polidori,Fantasy,15682.0,raw/Fantasy/6087.txt,https://www.gutenberg.org/ebooks/6087,processed/Fantasy/6087.txt
+512,Mosses from an old manse,Nathaniel Hawthorne,Fantasy,159963.0,raw/Fantasy/512.txt,https://www.gutenberg.org/ebooks/512,processed/Fantasy/512.txt
+2885,The House of the Wolfings,William Morris,Fantasy,87985.0,raw/Fantasy/2885.txt,https://www.gutenberg.org/ebooks/2885,processed/Fantasy/2885.txt
+23962,西遊記 (Chinese),Cheng'en Wu,Fantasy,26794.0,raw/Fantasy/23962.txt,https://www.gutenberg.org/ebooks/23962,processed/Fantasy/23962.txt
+19476,A Honeymoon in Space,George Chetwynd Griffith,Fantasy,66870.0,raw/Fantasy/19476.txt,https://www.gutenberg.org/ebooks/19476,processed/Fantasy/19476.txt
+2434,New Atlantis,Francis Bacon,Fantasy,15714.0,raw/Fantasy/2434.txt,https://www.gutenberg.org/ebooks/2434,processed/Fantasy/2434.txt
+26563,The Crack of Doom,Robert Cromie,Fantasy,45849.0,raw/Fantasy/26563.txt,https://www.gutenberg.org/ebooks/26563,processed/Fantasy/26563.txt
+50290,Space Station 1,Frank Belknap Long,Fantasy,50146.0,raw/Fantasy/50290.txt,https://www.gutenberg.org/ebooks/50290,processed/Fantasy/50290.txt
+24246,Greener Than You Think,Ward Moore,Fantasy,123433.0,raw/Fantasy/24246.txt,https://www.gutenberg.org/ebooks/24246,processed/Fantasy/24246.txt
+3155,She,H. Rider Haggard,Fantasy,115311.0,raw/Fantasy/3155.txt,https://www.gutenberg.org/ebooks/3155,processed/Fantasy/3155.txt
+45858,Lucian's True History,of Samosata Lucian,Fantasy,19819.0,raw/Fantasy/45858.txt,https://www.gutenberg.org/ebooks/45858,processed/Fantasy/45858.txt
+17314,Five Children and It,E. Nesbit,Fantasy,56734.0,raw/Fantasy/17314.txt,https://www.gutenberg.org/ebooks/17314,processed/Fantasy/17314.txt
+3261,"News from Nowhere; Or, An Epoch of Rest",William Morris,Fantasy,80842.0,raw/Fantasy/3261.txt,https://www.gutenberg.org/ebooks/3261,processed/Fantasy/3261.txt
+4366,Can Such Things Be?,Ambrose Bierce,Fantasy,63202.0,raw/Fantasy/4366.txt,https://www.gutenberg.org/ebooks/4366,processed/Fantasy/4366.txt
+3479,The Metal Monster,Abraham Merritt,Fantasy,84366.0,raw/Fantasy/3479.txt,https://www.gutenberg.org/ebooks/3479,processed/Fantasy/3479.txt
+23661,The Book of Dragons,E. Nesbit,Fantasy,45300.0,raw/Fantasy/23661.txt,https://www.gutenberg.org/ebooks/23661,processed/Fantasy/23661.txt
+34215,Shadowings,Lafcadio Hearn,Fantasy,41984.0,raw/Fantasy/34215.txt,https://www.gutenberg.org/ebooks/34215,processed/Fantasy/34215.txt
+37470,The Great War in England in 1897,William Le Queux,Fantasy,103848.0,raw/Fantasy/37470.txt,https://www.gutenberg.org/ebooks/37470,processed/Fantasy/37470.txt
+169,The Well at the World's End: A Tale,William Morris,Fantasy,225445.0,raw/Fantasy/169.txt,https://www.gutenberg.org/ebooks/169,processed/Fantasy/169.txt
+4920,The Blind Spot,Austin Hall and Homer Eon Flint,Fantasy,108814.0,raw/Fantasy/4920.txt,https://www.gutenberg.org/ebooks/4920,processed/Fantasy/4920.txt
+26966,A Place in the Sun,Stephen Marlowe,Fantasy,10983.0,raw/Fantasy/26966.txt,https://www.gutenberg.org/ebooks/26966,processed/Fantasy/26966.txt
+836,The Phoenix and the Carpet,E. Nesbit,Fantasy,64549.0,raw/Fantasy/836.txt,https://www.gutenberg.org/ebooks/836,processed/Fantasy/836.txt
+68811,"Black no more :  Being an account of the strange and wonderful workings of science in the land of the free, A.D. 1933-1940",George S. Schuyler,Fantasy,53404.0,raw/Fantasy/68811.txt,https://www.gutenberg.org/ebooks/68811,processed/Fantasy/68811.txt
+31114,Wunderbare Reise des kleinen Nils Holgersson mit den Wildgänsen: Ein Kinderbuch (German),Selma Lagerlöf,Fantasy,209935.0,raw/Fantasy/31114.txt,https://www.gutenberg.org/ebooks/31114,processed/Fantasy/31114.txt
+711,Allan Quatermain,H. Rider Haggard,Fantasy,109332.0,raw/Fantasy/711.txt,https://www.gutenberg.org/ebooks/711,processed/Fantasy/711.txt
+837,The Story of the Amulet,E. Nesbit,Fantasy,71614.0,raw/Fantasy/837.txt,https://www.gutenberg.org/ebooks/837,processed/Fantasy/837.txt
+10935,The Wonderful Adventures of Nils,Selma Lagerlöf,Fantasy,153396.0,raw/Fantasy/10935.txt,https://www.gutenberg.org/ebooks/10935,processed/Fantasy/10935.txt
+31324,The Angel of the Revolution: A Tale of the Coming Terror,George Chetwynd Griffith,Fantasy,147767.0,raw/Fantasy/31324.txt,https://www.gutenberg.org/ebooks/31324,processed/Fantasy/31324.txt
+5745,She and Allan,H. Rider Haggard,Fantasy,124046.0,raw/Fantasy/5745.txt,https://www.gutenberg.org/ebooks/5745,processed/Fantasy/5745.txt
+45766,In Byways of Scottish History,Louis A. Barbé,Fantasy,94849.0,raw/Fantasy/45766.txt,https://www.gutenberg.org/ebooks/45766,processed/Fantasy/45766.txt
+31377,Weird Tales. Vol. 1 (of 2),E. T. A. Hoffmann,Fantasy,117338.0,raw/Fantasy/31377.txt,https://www.gutenberg.org/ebooks/31377,processed/Fantasy/31377.txt
+34219,The Enchanted Castle,E. Nesbit,Fantasy,71976.0,raw/Fantasy/34219.txt,https://www.gutenberg.org/ebooks/34219,processed/Fantasy/34219.txt
+48860,The Brown Owl: A Fairy Story,Ford Madox Ford,Fantasy,26121.0,raw/Fantasy/48860.txt,https://www.gutenberg.org/ebooks/48860,processed/Fantasy/48860.txt
+27202,"Wagner, the Wehr-Wolf",George W. M. Reynolds,Fantasy,191994.0,raw/Fantasy/27202.txt,https://www.gutenberg.org/ebooks/27202,processed/Fantasy/27202.txt
+6866,The Story of Siegfried,James Baldwin,Fantasy,81432.0,raw/Fantasy/6866.txt,https://www.gutenberg.org/ebooks/6866,processed/Fantasy/6866.txt
+765,The Moon Pool,Abraham Merritt,Fantasy,100319.0,raw/Fantasy/765.txt,https://www.gutenberg.org/ebooks/765,processed/Fantasy/765.txt
+5228,"Ayesha, the Return of She",H. Rider Haggard,Fantasy,119442.0,raw/Fantasy/5228.txt,https://www.gutenberg.org/ebooks/5228,processed/Fantasy/5228.txt
+1368,When the World Shook,H. Rider Haggard,Fantasy,120229.0,raw/Fantasy/1368.txt,https://www.gutenberg.org/ebooks/1368,processed/Fantasy/1368.txt
+6341,Nachtstücke (German),E. T. A. Hoffmann,Fantasy,110026.0,raw/Fantasy/6341.txt,https://www.gutenberg.org/ebooks/6341,processed/Fantasy/6341.txt
+31439,"Weird Tales, Vol. 2 (of 2)",E. T. A. Hoffmann,Fantasy,134796.0,raw/Fantasy/31439.txt,https://www.gutenberg.org/ebooks/31439,processed/Fantasy/31439.txt
+27903,The Magic World,E. Nesbit,Fantasy,61980.0,raw/Fantasy/27903.txt,https://www.gutenberg.org/ebooks/27903,processed/Fantasy/27903.txt
+32530,Armageddon—2419 A.D.,Philip Francis Nowlan,Fantasy,30508.0,raw/Fantasy/32530.txt,https://www.gutenberg.org/ebooks/32530,processed/Fantasy/32530.txt
+73727,Metropolis,Thea von Harbou,Fantasy,71614.0,raw/Fantasy/73727.txt,https://www.gutenberg.org/ebooks/73727,processed/Fantasy/73727.txt
+36155,The Invasion,William Le Queux,Fantasy,101826.0,raw/Fantasy/36155.txt,https://www.gutenberg.org/ebooks/36155,processed/Fantasy/36155.txt
+6769,The People of the Mist,H. Rider Haggard,Fantasy,148916.0,raw/Fantasy/6769.txt,https://www.gutenberg.org/ebooks/6769,processed/Fantasy/6769.txt
+20212,Police Your Planet,Lester Del Rey,Fantasy,48007.0,raw/Fantasy/20212.txt,https://www.gutenberg.org/ebooks/20212,processed/Fantasy/20212.txt
+27633,To Mars via the Moon: An Astronomical Story,Mark Wicks,Fantasy,96961.0,raw/Fantasy/27633.txt,https://www.gutenberg.org/ebooks/27633,processed/Fantasy/27633.txt
+19231,The mummy and Miss Nitocris : a phantasy of the fourth dimension,George Chetwynd Griffith,Fantasy,81368.0,raw/Fantasy/19231.txt,https://www.gutenberg.org/ebooks/19231,processed/Fantasy/19231.txt
+20606,The Magic City,E. Nesbit,Fantasy,62853.0,raw/Fantasy/20606.txt,https://www.gutenberg.org/ebooks/20606,processed/Fantasy/20606.txt
+51905,"The Invasion of 1910, with a full account of the siege of London",William Le Queux,Fantasy,169663.0,raw/Fantasy/51905.txt,https://www.gutenberg.org/ebooks/51905,processed/Fantasy/51905.txt
+49913,Nine Unlikely Tales,E. Nesbit,Fantasy,44758.0,raw/Fantasy/49913.txt,https://www.gutenberg.org/ebooks/49913,processed/Fantasy/49913.txt
+72223,"Lolly Willowes :  or, the loving huntsman",Sylvia Townsend Warner,Fantasy,51807.0,raw/Fantasy/72223.txt,https://www.gutenberg.org/ebooks/72223,processed/Fantasy/72223.txt
+20559,R. Holmes & Co.,John Kendrick Bangs,Mystery/Crime,35885.0,raw/Mystery_Crime/20559.txt,https://www.gutenberg.org/ebooks/20559,processed/Mystery_Crime/20559.txt
+10909,Unknown,Hartzenbusch and,Romance,34366.0,raw/Romance/10909.txt,https://www.gutenberg.org/ebooks/10909,processed/Romance/10909.txt
