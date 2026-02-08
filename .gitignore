@@ -39,12 +39,12 @@ ENV/
 *.ipynb
 
 # Data files (large)
-data/raw/**/*.txt
+
 data/processed/**/*.txt
 data/processed/**/*.pkl
 
 # Keep structure but ignore content
-!data/raw/.gitkeep
+
 !data/processed/.gitkeep
 
 # Models (large)
