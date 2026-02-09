@@ -20,6 +20,7 @@ book-genre-classifier/
 **Źródło:** Project Gutenberg (darmowe e-booki)
 
 **Gatunki książek**
+
 - Adventure,
 - Biographies,
 - Poetry,
@@ -33,14 +34,16 @@ book-genre-classifier/
 - Cooking & Drinking
 
 **Rozmiar danych:**
-- **Całość:**  4400 książek, po 400 dla każdego gatunku.
-- Zbiór treningowy:  70%
-- Zbiór walidacyjny:  15%
-- Zbiór testowy:  15%
+
+- **Całość:** 4400 książek, po 400 dla każdego gatunku.
+- Zbiór treningowy: 70%
+- Zbiór walidacyjny: 15%
+- Zbiór testowy: 15%
 
 Dane zostały podzielone po autorach aby zapobiec data leakage.
 
 ### Modele
+
 - **Linear SVM**
 - **Logistic Regression**
 - **Random Forest**
@@ -59,10 +62,10 @@ python3 scripts/download_books.py
 # wyodrębnienie features
 python3 scripts/extract_features.py --skip_pos --skip_keywords
 
-# trenowanie modeli
-python3 scripts/train_simple.py
+# trenowanie i testowanie modeli
+python3 scripts/train_ultra_fast.py
 
-# testowanie modeli
+# samo (wolne) testowanie modeli
 python3 scripts/test_and_optimize.py
 ```
 
@@ -70,17 +73,17 @@ python3 scripts/test_and_optimize.py
 
 ### Wytrenowane Modele (Dataset: 3,703 książki)
 
-| Model                   | Test Acc  | Precision | Recall | F1 Score |
-| ----------------------- | --------- | --------- | ------ | -------- |
-| **Linear SVM**   | %     |           |        |          |
-| **Linear SVM (Opt)**    | %     |           |        |          |
-| **Logistic Regression** | %     |           |        |          |
-| **Random Forest**       | %     |           |        |          |
-| **Naive Bayes**         | %     |           |        |          |
-| **Ridge Classifier**         | %     |           |        |          |
-| **Nearest Centroid**         | %     |           |        |          |
-| **KNN**         | %     |           |        |          |
-| **Style-based**         | %     |           |        |          |
-| **XGBoost**         | %     |           |        |          |
-| **LightGBM**         | %     |           |        |          |
-| **Ensemble**         | %     |           |        |          |
+| Model                   | Test Acc | Precision | Recall | F1 Score |
+| ----------------------- | -------- | --------- | ------ | -------- |
+| **Linear SVM**          | %        |           |        |          |
+| **Linear SVM (Opt)**    | %        |           |        |          |
+| **Logistic Regression** | %        |           |        |          |
+| **Random Forest**       | %        |           |        |          |
+| **Naive Bayes**         | %        |           |        |          |
+| **Ridge Classifier**    | %        |           |        |          |
+| **Nearest Centroid**    | %        |           |        |          |
+| **KNN**                 | %        |           |        |          |
+| **Style-based**         | %        |           |        |          |
+| **XGBoost**             | %        |           |        |          |
+| **LightGBM**            | %        |           |        |          |
+| **Ensemble**            | %        |           |        |          |

@@ -1,3 +1,6 @@
+Classification Report - Complement Naive Bayes
+================================================================================
+
                                 precision    recall  f1-score   support
 
                      Adventure       0.84      0.34      0.49        61

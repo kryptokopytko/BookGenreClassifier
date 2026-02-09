@@ -1,3 +1,6 @@
+Classification Report - Decision Tree
+================================================================================
+
                                 precision    recall  f1-score   support
 
                      Adventure       0.34      0.41      0.37        61

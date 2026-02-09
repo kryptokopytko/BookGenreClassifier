@@ -1,0 +1,43 @@
+
+================================================================================
+GENRE CLASSIFICATION ANALYSIS SUMMARY
+================================================================================
+
+Model: Linear SVM (C=10.0)
+Overall Test Accuracy: 75.61%
+Total Test Samples: 660
+
+================================================================================
+PER-GENRE PERFORMANCE
+================================================================================
+
+Genre                            Accuracy  Precision     Recall   F1-Score    Count
+--------------------------------------------------------------------------------
+Cooking & Drinking                 94.2%    100.0%     94.2%     97.0%       52
+Engineering & Technology           88.1%     92.9%     88.1%     90.4%       59
+Poetry                             85.5%     85.5%     85.5%     85.5%       62
+Politics                           83.0%     78.6%     83.0%     80.7%       53
+Crime, Thrillers & Mystery         81.3%     80.3%     81.3%     80.8%       75
+Adventure                          77.0%     60.3%     77.0%     67.6%       61
+Biographies                        72.9%     82.7%     72.9%     77.5%       59
+History - Other                    70.0%     70.0%     70.0%     70.0%       60
+Romance                            68.9%     60.0%     68.9%     64.1%       61
+Children & Young Adult Reading     58.9%     56.9%     58.9%     57.9%       56
+Science-Fiction & Fantasy          53.2%     76.7%     53.2%     62.9%       62
+
+================================================================================
+Best Genre:                    Cooking & Drinking (94.2%)
+Worst Genre:                   Science-Fiction & Fantasy (53.2%)
+Average Accuracy:              75.7%
+Std Dev:                       11.9%
+
+================================================================================
+TOP 5 MOST CONFUSED PAIRS
+================================================================================
+Science-Fiction & Fantasy → Children & Young Adult Reading    12 misclassifications
+Crime, Thrillers & Mystery → Romance         9 misclassifications
+Adventure → Romance                          9 misclassifications
+Science-Fiction & Fantasy → Crime, Thrillers & Mystery     6 misclassifications
+Science-Fiction & Fantasy → Adventure        6 misclassifications
+
+================================================================================

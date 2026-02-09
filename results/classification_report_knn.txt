@@ -1,3 +1,6 @@
+Classification Report - KNN
+================================================================================
+
                                 precision    recall  f1-score   support
 
                      Adventure       0.43      0.62      0.51        61

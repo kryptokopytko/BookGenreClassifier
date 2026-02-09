@@ -1,3 +1,6 @@
+Classification Report - Multinomial Naive Bayes
+================================================================================
+
                                 precision    recall  f1-score   support
 
                      Adventure       0.57      0.54      0.55        61
