@@ -1,0 +1,661 @@
+book_id,title,author,genre,word_count,file_path,url,processed_path
+48695,The Stag Cook Book: Written for Men by Men,Unknown,Cooking & Drinking,29956,raw/Cooking & Drinking/48695.txt,,processed/Cooking & Drinking/48695.txt
+37881,The Golden Fleece and The Heroes Who Lived Before Achilles,Padraic Colum,Adventure,78773,raw/Adventure/37881.txt,https://www.gutenberg.org/ebooks/37881,processed/Adventure/37881.txt
+4351,The English Constitution,"Bagehot, Walter, 1826-1877",Politics,100401,raw/Politics/4351.txt,,processed/Politics/4351.txt
+14496,"Charles the Bold, Last Duke of Burgundy, 1433-1477","Putnam, Ruth, 1856-1931",Biographies,119361,raw/Biographies/14496.txt,,processed/Biographies/14496.txt
+57421,"Rockets, Missiles, and Spacecraft of the National Air and Space Museum, Smithsonian Institution","Murphy, Lynne C.",Engineering & Technology,22148,raw/Engineering & Technology/57421.txt,,processed/Engineering & Technology/57421.txt
+74887,"Memoranda of art and artists, anecdotal and biographical","Sandell, Joseph",Biographies,59145,raw/Biographies/74887.txt,,processed/Biographies/74887.txt
+34163,The Roman Poets of the Augustan Age: Virgil,"Sellar, W. Y. (William Young), 1825-1890",Poetry,154443,raw/Poetry/34163.txt,,processed/Poetry/34163.txt
+47113,The Message,"Tracy, Louis, 1863-1928","Crime, Thrillers & Mystery",79968,"raw/Crime, Thrillers & Mystery/47113.txt",,"processed/Crime, Thrillers & Mystery/47113.txt"
+57900,Lighthouses and LightshipsA Descriptive and Historical Account of Their Mode of Construction and Organization,"Adams, W. H. Davenport (William Henry Davenport), 1828-1891",Engineering & Technology,77509,raw/Engineering & Technology/57900.txt,,processed/Engineering & Technology/57900.txt
+25439,Looking Backward: 2000-1887,Edward Bellamy,Science-Fiction & Fantasy,85566,raw/Science-Fiction & Fantasy/25439.txt,https://www.gutenberg.org/ebooks/25439,processed/Science-Fiction & Fantasy/25439.txt
+32236,The Story of the Trapper,"Laut, Agnes C., 1871-1936",Adventure,83882,raw/Adventure/32236.txt,,processed/Adventure/32236.txt
+899,"Wonderful Balloon Ascents; Or, The Conquest of the SkiesA History of Balloons and Balloon Voyages","Marion, Fulgence",Engineering & Technology,53214,raw/Engineering & Technology/899.txt,,processed/Engineering & Technology/899.txt
+6836,Three Men and a Maid,P. G. Wodehouse,Romance,58264,raw/Romance/6836.txt,https://www.gutenberg.org/ebooks/6836,processed/Romance/6836.txt
+61262,Poirot Investigates,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",52655,"raw/Crime, Thrillers & Mystery/61262.txt",,"processed/Crime, Thrillers & Mystery/61262.txt"
+19660,Man of Many Minds,E. Everett Evans,Science-Fiction & Fantasy,70125,raw/Science-Fiction & Fantasy/19660.txt,https://www.gutenberg.org/ebooks/19660,processed/Science-Fiction & Fantasy/19660.txt
+4670,Lightfoot the Deer,Thornton W. Burgess,Children & Young Adult Reading,24205,raw/Children & Young Adult Reading/4670.txt,https://www.gutenberg.org/ebooks/4670,processed/Children & Young Adult Reading/4670.txt
+21978,An Analysis of the Lever Escapement,"Playtner, H. R.",Engineering & Technology,20279,raw/Engineering & Technology/21978.txt,,processed/Engineering & Technology/21978.txt
+2148,The Works of Edgar Allan Poe — Volume 2,"Poe, Edgar Allan, 1809-1849","Crime, Thrillers & Mystery",95061,"raw/Crime, Thrillers & Mystery/2148.txt",,"processed/Crime, Thrillers & Mystery/2148.txt"
+64365,Anne of Green Gables,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,102816,raw/Children & Young Adult Reading/64365.txt,,processed/Children & Young Adult Reading/64365.txt
+8602,The Uninhabited House,"Riddell, J. H., Mrs., 1832-1906","Crime, Thrillers & Mystery",55241,"raw/Crime, Thrillers & Mystery/8602.txt",,"processed/Crime, Thrillers & Mystery/8602.txt"
+22893,Pygmalion's Spectacles,"Weinbaum, Stanley G. (Stanley Grauman), 1902-1935",Science-Fiction & Fantasy,10059,raw/Science-Fiction & Fantasy/22893.txt,,processed/Science-Fiction & Fantasy/22893.txt
+73891,"The letters of Robert Browning and Elizabeth Barrett Barrett, Vol. 2 (of 2) 1845-1846","Browning, Elizabeth Barrett, 1806-1861",Romance,198684,raw/Romance/73891.txt,,processed/Romance/73891.txt
+3162,The Enchanted Typewriter,John Kendrick Bangs,Science-Fiction & Fantasy,30575,raw/Science-Fiction & Fantasy/3162.txt,https://www.gutenberg.org/ebooks/3162,processed/Science-Fiction & Fantasy/3162.txt
+66446,The Plymouth Express Affair,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",4865,"raw/Crime, Thrillers & Mystery/66446.txt",,"processed/Crime, Thrillers & Mystery/66446.txt"
+10011,365 Foreign DishesA Foreign Dish for Every Day in the Year,Unknown,Cooking & Drinking,23324,raw/Cooking & Drinking/10011.txt,,processed/Cooking & Drinking/10011.txt
+54525,The Book of the Thousand Nights and a Night — Volume 06 (of 10),Unknown,Adventure,139117,raw/Adventure/54525.txt,,processed/Adventure/54525.txt
+27577,"The Works of Lord Byron, Vol. 7. Poetry","Byron, George Gordon Byron, Baron, 1788-1824",Poetry,145114,raw/Poetry/27577.txt,,processed/Poetry/27577.txt
+22099,Witch-Doctors,"Beadle, Charles, 1881-1944?",Adventure,79279,raw/Adventure/22099.txt,,processed/Adventure/22099.txt
+25340,The Works of Lord Byron. Vol. 2,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,156114,raw/Poetry/25340.txt,,processed/Poetry/25340.txt
+21219,A Voice in the Wilderness,"Hill, Grace Livingston, 1865-1947",Romance,105038,raw/Romance/21219.txt,,processed/Romance/21219.txt
+1140,Latter-Day Pamphlets,"Carlyle, Thomas, 1795-1881",Politics,73589,raw/Politics/1140.txt,,processed/Politics/1140.txt
+76857,"I, Mars",Ray Bradbury,Science-Fiction & Fantasy,3083,raw/Science-Fiction & Fantasy/76857.txt,https://www.gutenberg.org/ebooks/76857,processed/Science-Fiction & Fantasy/76857.txt
+24065,A History of Nursery Rhymes,"Green, Percy B.",History - Other,28908,raw/History - Other/24065.txt,,processed/History - Other/24065.txt
+26330,"Frenzied Finance, Vol. 1: The Crime of Amalgamated","Lawson, Thomas William, 1857-1925",Politics,205445,raw/Politics/26330.txt,,processed/Politics/26330.txt
+27098,Technology and Books for All,"Lebert, Marie",Engineering & Technology,23402,raw/Engineering & Technology/27098.txt,,processed/Engineering & Technology/27098.txt
+45200,The Romance of a Poor Young Man,Unknown,Romance,62494,raw/Romance/45200.txt,,processed/Romance/45200.txt
+23743,"The Atlantic Monthly, Volume 18, No. 107, September, 1866",Various,Politics,86119,raw/Politics/23743.txt,https://www.gutenberg.org/ebooks/23743,processed/Politics/23743.txt
+96,The Monster Men,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,60698,raw/Science-Fiction & Fantasy/96.txt,,processed/Science-Fiction & Fantasy/96.txt
+59713,"Practical Cooking and Dinner GivingA Treatise Containing Practical Instructions in Cooking; in the Combination and Serving of Dishes; and in the Fashionable Modes of Entertaining at Breakfast, Lunch, and Dinner","Henderson, Mary F. (Mary Foote), 1842-1931",Cooking & Drinking,126049,raw/Cooking & Drinking/59713.txt,,processed/Cooking & Drinking/59713.txt
+81,The Return of Tarzan,"Burroughs, Edgar Rice, 1875-1950",Adventure,92262,raw/Adventure/81.txt,,processed/Adventure/81.txt
+19987,Chapters from My Autobiography,"Twain, Mark, 1835-1910",Biographies,112376,raw/Biographies/19987.txt,,processed/Biographies/19987.txt
+545,At the Earth's Core,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,52526,raw/Science-Fiction & Fantasy/545.txt,,processed/Science-Fiction & Fantasy/545.txt
+73816,The greedy book :  A gastronomical anthology,"Schloesser, Frank, -1913",Cooking & Drinking,47933,raw/Cooking & Drinking/73816.txt,,processed/Cooking & Drinking/73816.txt
+3628,The Kingdom of Love,"Wilcox, Ella Wheeler, 1850-1919",Poetry,21771,raw/Poetry/3628.txt,,processed/Poetry/3628.txt
+18762,The Works of Lord Byron. Vol. 6,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,190630,raw/Poetry/18762.txt,,processed/Poetry/18762.txt
+27137,The Scholfield Wool-Carding Machines,"Cooper, Grace Rogers, 1924-2004",Engineering & Technology,8408,raw/Engineering & Technology/27137.txt,,processed/Engineering & Technology/27137.txt
+18757,"Prince Henry the Navigator, the Hero of Portugal and of Modern Discovery, 1394-1460 A.D.With an Account of Geographical Progress Throughout the Middle Ages As the Preparation for His Work.","Beazley, C. Raymond (Charles Raymond), 1868-1955",Biographies,97245,raw/Biographies/18757.txt,,processed/Biographies/18757.txt
+44002,Warren Commission (02 of 26): Hearings Vol. II (of 15),United States. Warren Commission,Politics,330145,raw/Politics/44002.txt,,processed/Politics/44002.txt
+45772,Chats on Old Clocks,"Hayden, Arthur, 1868-1946",Engineering & Technology,40220,raw/Engineering & Technology/45772.txt,,processed/Engineering & Technology/45772.txt
+70691,A fighting man of Mars,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,88879,raw/Science-Fiction & Fantasy/70691.txt,,processed/Science-Fiction & Fantasy/70691.txt
+2020,Tarzan the Terrible,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,96498,raw/Science-Fiction & Fantasy/2020.txt,,processed/Science-Fiction & Fantasy/2020.txt
+14004,The Every-day Life of Abraham LincolnA Narrative And Descriptive Biography With Pen-Pictures And PersonalRecollections By Those Who Knew Him,"Browne, Francis F. (Francis Fisher), 1843-1913",Biographies,208101,raw/Biographies/14004.txt,,processed/Biographies/14004.txt
+56777,The Evolution of Naval Armament,"Robertson, Frederick Leslie",Engineering & Technology,125226,raw/Engineering & Technology/56777.txt,,processed/Engineering & Technology/56777.txt
+32373,The Golden TreasurySelected from the Best Songs and Lyrical Poems in the English Language and arranged with Notes,Unknown,Poetry,90522,raw/Poetry/32373.txt,,processed/Poetry/32373.txt
+45167,"The Siberian Overland Route from Peking to Petersburg,Through the Deserts and Steppes of Mongolia, Tartary, &c.","Michie, Alexander, 1833-1902",History - Other,132627,raw/History - Other/45167.txt,,processed/History - Other/45167.txt
+47831,Railroads: Rates and Regulations,"Ripley, William Zebina, 1867-1941",Politics,223543,raw/Politics/47831.txt,,processed/Politics/47831.txt
+59122,Index of the Project Gutenberg Works of Lord Byron,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,11121,raw/Poetry/59122.txt,,processed/Poetry/59122.txt
+363,The Oakdale Affair,"Burroughs, Edgar Rice, 1875-1950","Crime, Thrillers & Mystery",44820,"raw/Crime, Thrillers & Mystery/363.txt",,"processed/Crime, Thrillers & Mystery/363.txt"
+15040,McGuffey's Fifth Eclectic Reader,"McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,101753,raw/Children & Young Adult Reading/15040.txt,,processed/Children & Young Adult Reading/15040.txt
+58866,The Murder on the Links,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",67659,"raw/Crime, Thrillers & Mystery/58866.txt",,"processed/Crime, Thrillers & Mystery/58866.txt"
+11533,"Theocritus, translated into English Verse","Theocritus, 301 BCE-261 BCE",Poetry,28102,raw/Poetry/11533.txt,,processed/Poetry/11533.txt
+46254,"Mrs. Hale's Receipts for the MillionContaining Four Thousand Five Hundred and Forty-five Receipts, Facts, Directions, etc. in the Useful, Ornamental, and Domestic Arts","Hale, Sarah Josepha Buell, 1788-1879",Cooking & Drinking,248769,raw/Cooking & Drinking/46254.txt,,processed/Cooking & Drinking/46254.txt
+26159,"Past and PresentThomas Carlyle's Collected Works, Vol. XIII.","Carlyle, Thomas, 1795-1881",Politics,111353,raw/Politics/26159.txt,,processed/Politics/26159.txt
+33062,A Short History of French Literature,"Saintsbury, George, 1845-1933",History - Other,235959,raw/History - Other/33062.txt,,processed/History - Other/33062.txt
+17762,"The Burglar's Fate, and The Detectives",Allan Pinkerton,"Crime, Thrillers & Mystery",60312,"raw/Crime, Thrillers & Mystery/17762.txt",https://www.gutenberg.org/ebooks/17762,"processed/Crime, Thrillers & Mystery/17762.txt"
+29411,"Scientific American magazine Vol 2. No. 3 Oct 10 1846The Advocate of Industry and Journal of Scientific,Mechanical and Other Improvements",Various,Engineering & Technology,22958,raw/Engineering & Technology/29411.txt,,processed/Engineering & Technology/29411.txt
+69300,"Korea and her neighborsA narrative of travel, with an account of the recent vicissitudes and present position of the country","Bird, Isabella L. (Isabella Lucy), 1831-1904",History - Other,164599,raw/History - Other/69300.txt,,processed/History - Other/69300.txt
+73350,"The modern packing house :  A complete treatise on the design, construction, equipment and operation of meat packing houses, according to present American praactice, including methods of converting by-products into commercial articles","Wilder, F. W. (Fred William), 1853-1906",Engineering & Technology,135211,raw/Engineering & Technology/73350.txt,,processed/Engineering & Technology/73350.txt
+62636,To the Person Sitting in Darkness,"Twain, Mark, 1835-1910",Politics,4751,raw/Politics/62636.txt,,processed/Politics/62636.txt
+14377,"The Queen-like Closet or Rich CabinetStored with all manner of rare receipts for preserving, candying and cookery. Very pleasant and beneficial to all ingenious persons of the female sex","Woolley, Hannah, active 1670",Cooking & Drinking,66164,raw/Cooking & Drinking/14377.txt,,processed/Cooking & Drinking/14377.txt
+17625,Artificial Light: Its Influence upon Civilization,"Luckiesh, Matthew, 1883-1967",Engineering & Technology,98848,raw/Engineering & Technology/17625.txt,,processed/Engineering & Technology/17625.txt
+4229,"The South Pole; an account of the Norwegian Antarctic expedition in the ""Fram,"" 1910-12 — Volume 1 and Volume 2","Amundsen, Roald, 1872-1928",Adventure,227627,raw/Adventure/4229.txt,,processed/Adventure/4229.txt
+1980,Stories by English Authors: Africa (Selected by Scribners),Unknown,"Crime, Thrillers & Mystery",53237,"raw/Crime, Thrillers & Mystery/1980.txt",,"processed/Crime, Thrillers & Mystery/1980.txt"
+38464,Tempting curry dishes,"Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",Cooking & Drinking,9161,raw/Cooking & Drinking/38464.txt,,processed/Cooking & Drinking/38464.txt
+45269,Inventions of the Great War,"Bond, A. Russell (Alexander Russell), 1876-1937",Engineering & Technology,67199,raw/Engineering & Technology/45269.txt,,processed/Engineering & Technology/45269.txt
+70592,"Elizabeth Montagu, the queen of the bluestockings, Volume 2 (of 2) :  Her correspondence from 1720 to 1761","Montagu, Mrs. (Elizabeth), 1718-1800",Biographies,107449,raw/Biographies/70592.txt,,processed/Biographies/70592.txt
+38763,"Witch, Warlock, and MagicianHistorical Sketches of Magic and Witchcraft in England and Scotland","Adams, W. H. Davenport (William Henry Davenport), 1828-1891",Biographies,118155,raw/Biographies/38763.txt,,processed/Biographies/38763.txt
+92,Tarzan and the Jewels of Opar,"Burroughs, Edgar Rice, 1875-1950",Adventure,69079,raw/Adventure/92.txt,,processed/Adventure/92.txt
+50573,Correspondence and Report from His Majesty's Consul at Boma Respecting the Administration of the Independent State of the Congo [and Further Correspondence],"Casement, Roger, 1864-1916",History - Other,129078,raw/History - Other/50573.txt,,processed/History - Other/50573.txt
+37804,"The Poetical Works of Robert Bridges, Excluding the Eight Dramas",Robert Bridges,Poetry,98723,raw/Poetry/37804.txt,https://www.gutenberg.org/ebooks/37804,processed/Poetry/37804.txt
+2002,Sonnets from the Portuguese,"Browning, Elizabeth Barrett, 1806-1861",Poetry,8664,raw/Poetry/2002.txt,,processed/Poetry/2002.txt
+34028,Races and Immigrants in America,"Commons, John R. (John Rogers), 1862-1945",Politics,63072,raw/Politics/34028.txt,,processed/Politics/34028.txt
+50696,Railway Construction,"Mills, William Hemingway, 1834-1918",Engineering & Technology,102257,raw/Engineering & Technology/50696.txt,,processed/Engineering & Technology/50696.txt
+6768,The Man Upstairs and Other Stories,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Romance,103341,raw/Romance/6768.txt,,processed/Romance/6768.txt
+11018,"Samuel F. B. Morse, His Letters and JournalsIn Two Volumes, Volume II","Morse, Samuel Finley Breese, 1791-1872",Engineering & Technology,167424,raw/Engineering & Technology/11018.txt,,processed/Engineering & Technology/11018.txt
+61963,We,"Zamiatin, Evgenii Ivanovich, 1884-1937",Science-Fiction & Fantasy,64192,raw/Science-Fiction & Fantasy/61963.txt,,processed/Science-Fiction & Fantasy/61963.txt
+29255,Astounding Stories of Super-Science September 1930,Various,Science-Fiction & Fantasy,83475,raw/Science-Fiction & Fantasy/29255.txt,,processed/Science-Fiction & Fantasy/29255.txt
+70456,"Tomato products: pulp, ketchup, and chili sauce.","Stevenson, A. E.",Cooking & Drinking,34414,raw/Cooking & Drinking/70456.txt,,processed/Cooking & Drinking/70456.txt
+22096,Stories the Iroquois Tell Their Children,"Powers, Mabel",Children & Young Adult Reading,29488,raw/Children & Young Adult Reading/22096.txt,,processed/Children & Young Adult Reading/22096.txt
+36132,"The Parent's Assistant; Or, Stories for Children",Maria Edgeworth,Children & Young Adult Reading,173416,raw/Children & Young Adult Reading/36132.txt,https://www.gutenberg.org/ebooks/36132,processed/Children & Young Adult Reading/36132.txt
+53304,The Gourmet's Guide to London,"Newnham-Davis, Lieut.-Col. (Nathaniel), 1854-1917",Cooking & Drinking,110288,raw/Cooking & Drinking/53304.txt,,processed/Cooking & Drinking/53304.txt
+66382,A Girl of To-day,Ellinor Davenport Adams,Children & Young Adult Reading,83231,raw/Children & Young Adult Reading/66382.txt,https://www.gutenberg.org/ebooks/66382,processed/Children & Young Adult Reading/66382.txt
+37950,"The South American Republics, Part 2 of 2","Dawson, Thomas Cleland, 1835-1912",History - Other,117509,raw/History - Other/37950.txt,,processed/History - Other/37950.txt
+72171,"How music grew, from prehistoric times to the present day",Ethel R. Peyser and Marion Bauer,History - Other,175621,raw/History - Other/72171.txt,https://www.gutenberg.org/ebooks/72171,processed/History - Other/72171.txt
+3796,Rilla of Ingleside,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,106399,raw/Children & Young Adult Reading/3796.txt,,processed/Children & Young Adult Reading/3796.txt
+59977,"Canning, Freezing, Storing Garden Produce",Unknown,Cooking & Drinking,46109,raw/Cooking & Drinking/59977.txt,,processed/Cooking & Drinking/59977.txt
+58360,The Book of the Thousand Nights and a Night — Volume 10 (of 10),Unknown,Adventure,264711,raw/Adventure/58360.txt,,processed/Adventure/58360.txt
+65406,"The Girl's Own Paper, Vol. VIII, No. 364, December 18, 1886",Various,Cooking & Drinking,21571,raw/Cooking & Drinking/65406.txt,,processed/Cooking & Drinking/65406.txt
+2622,The Home Book of Verse — Volume 4,"Stevenson, Burton Egbert, 1872-1962",Poetry,68794,raw/Poetry/2622.txt,,processed/Poetry/2622.txt
+4686,"Underground: Hacking, madness and obsession on the electronic frontier","Dreyfus, Suelette",Engineering & Technology,154209,raw/Engineering & Technology/4686.txt,,processed/Engineering & Technology/4686.txt
+19630,Maha-bharataThe Epic of Ancient India Condensed into English Verse,Unknown,Poetry,54126,raw/Poetry/19630.txt,,processed/Poetry/19630.txt
+15359,The Negro,"Du Bois, W. E. B. (William Edward Burghardt), 1868-1963",History - Other,60153,raw/History - Other/15359.txt,,processed/History - Other/15359.txt
+1250,Anthem,"Rand, Ayn, 1905-1982",Science-Fiction & Fantasy,19171,raw/Science-Fiction & Fantasy/1250.txt,,processed/Science-Fiction & Fantasy/1250.txt
+29704,Masterpieces of Mystery in Four Volumes: Riddle Stories,Unknown,"Crime, Thrillers & Mystery",65831,"raw/Crime, Thrillers & Mystery/29704.txt",https://www.gutenberg.org/ebooks/29704,"processed/Crime, Thrillers & Mystery/29704.txt"
+48015,"Arrows of the Chace, vol. 2/2being a collection of scattered letters published chiefly in the daily newspapers 1840-1880","Ruskin, John, 1819-1900",Politics,81939,raw/Politics/48015.txt,,processed/Politics/48015.txt
+70968,The Danube,Walter Jerrold,History - Other,114560,raw/History - Other/70968.txt,https://www.gutenberg.org/ebooks/70968,processed/History - Other/70968.txt
+65398,The Calumet Book of Oven Triumphs!,General Foods Corporation,Cooking & Drinking,14333,raw/Cooking & Drinking/65398.txt,,processed/Cooking & Drinking/65398.txt
+4367,"Personal Memoirs of U. S. Grant, Complete","Grant, Ulysses S. (Ulysses Simpson), 1822-1885",Biographies,281146,raw/Biographies/4367.txt,,processed/Biographies/4367.txt
+71739,Life in the forests of the Far East (vol. 2 of 2),Sir Spenser St. John,Adventure,124272,raw/Adventure/71739.txt,https://www.gutenberg.org/ebooks/71739,processed/Adventure/71739.txt
+44192,The Crystal Palace :  its architectural history and constructive marvels,"Fowler, Charles, Jr.",Engineering & Technology,55802,raw/Engineering & Technology/44192.txt,,processed/Engineering & Technology/44192.txt
+15210,Darkwater: Voices from Within the Veil,"Du Bois, W. E. B. (William Edward Burghardt), 1868-1963",Biographies,70399,raw/Biographies/15210.txt,,processed/Biographies/15210.txt
+20533,Jill the Reckless,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Romance,115991,raw/Romance/20533.txt,,processed/Romance/20533.txt
+49221,"The works of John Dryden, now first collected in eighteen volumes. Volume 09","Dryden, John, 1631-1700",Poetry,146319,raw/Poetry/49221.txt,,processed/Poetry/49221.txt
+44005,Warren Commission (05 of 26): Hearings Vol. V (of 15),United States. Warren Commission,Politics,410120,raw/Politics/44005.txt,,processed/Politics/44005.txt
+51,Anne of the Island,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,76577,raw/Children & Young Adult Reading/51.txt,,processed/Children & Young Adult Reading/51.txt
+60324,The Young Enchanted: A Romantic Story,"Walpole, Hugh, 1884-1941",Romance,114265,raw/Romance/60324.txt,,processed/Romance/60324.txt
+35597,A Treatise on the Brewing of Beer,"Hughes, E.",Cooking & Drinking,10103,raw/Cooking & Drinking/35597.txt,,processed/Cooking & Drinking/35597.txt
+7193,"The Adventures of Tom Sawyer, Part 1.","Twain, Mark, 1835-1910",Adventure,9707,raw/Adventure/7193.txt,,processed/Adventure/7193.txt
+20158,The Works of Lord Byron. Vol. 4,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,172890,raw/Poetry/20158.txt,,processed/Poetry/20158.txt
+14640,"McGuffey's First Eclectic Reader, Revised Edition","McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,7632,raw/Children & Young Adult Reading/14640.txt,,processed/Children & Young Adult Reading/14640.txt
+21569,Southern Arabia,"Bent, Theodore, Mrs., 1847-1929",History - Other,148298,raw/History - Other/21569.txt,,processed/History - Other/21569.txt
+75377,The life of Henry Labouchere,Algar Thorold,Biographies,205463,raw/Biographies/75377.txt,https://www.gutenberg.org/ebooks/75377,processed/Biographies/75377.txt
+38014,"Government in the United States, National, State and Local","Garner, James Wilford, 1871-1938",Politics,133506,raw/Politics/38014.txt,,processed/Politics/38014.txt
+12345,"Friday, the Thirteenth: A Novel","Lawson, Thomas William, 1857-1925","Crime, Thrillers & Mystery",47391,"raw/Crime, Thrillers & Mystery/12345.txt",,"processed/Crime, Thrillers & Mystery/12345.txt"
+55757,"The Art of Paper-MakingA Practical Handbook of the Manufacture of Paper from Rags, Esparto, Straw, and Other Fibrous Materials, Including the Manufacture of Pulp from Wood Fibre","Watt, Alexander",Engineering & Technology,116089,raw/Engineering & Technology/55757.txt,,processed/Engineering & Technology/55757.txt
+55538,A Cruising Voyage Around the World,Woodes Rogers,Adventure,161951,raw/Adventure/55538.txt,https://www.gutenberg.org/ebooks/55538,processed/Adventure/55538.txt
+22661,Clarimonde,"Gautier, Théophile, 1811-1872",Science-Fiction & Fantasy,16271,raw/Science-Fiction & Fantasy/22661.txt,,processed/Science-Fiction & Fantasy/22661.txt
+67672,The Wright Brothers,"Kelly, Fred C. (Fred Charters), 1882-1959",Engineering & Technology,92858,raw/Engineering & Technology/67672.txt,,processed/Engineering & Technology/67672.txt
+17598,Beth Norvell: A Romance of the West,Randall Parrish,Romance,86997,raw/Romance/17598.txt,https://www.gutenberg.org/ebooks/17598,processed/Romance/17598.txt
+11197,Bambi,"Cooke, Marjorie Benton, 1876-1920",Romance,68735,raw/Romance/11197.txt,,processed/Romance/11197.txt
+44609,"The Northfield Tragedy; or, the Robber's RaidA Thrilling Narrative; A history of the remarkable attempt to rob the bank at Northfield, Minnesota; the Cold-Blooded Murder of the Brave Cashier and an Inoffensive Citizen. The Slaying of Two of the Brigands. The Wonderful Robber Hunt and Capture Graphically Described. Biographies of the Victims, the Captors & the Notorious Younger and James Gang of Desperadoes","Hanson, J. H. (Joseph Have)","Crime, Thrillers & Mystery",43228,"raw/Crime, Thrillers & Mystery/44609.txt",,"processed/Crime, Thrillers & Mystery/44609.txt"
+37388,Tobacco Leaves: Being a Book of Facts for Smokers,William Augustine Brennan,History - Other,36901,raw/History - Other/37388.txt,https://www.gutenberg.org/ebooks/37388,processed/History - Other/37388.txt
+60192,"Spices, Their Histories: Valuable Information for Grocers","Fielding, Robert O.",Cooking & Drinking,14689,raw/Cooking & Drinking/60192.txt,,processed/Cooking & Drinking/60192.txt
+40289,"The ViolinSome Account of That Leading Instrument and Its Most Eminent Professors, from Its Earliest Date to the Present Time; with Hints to Amateurs, Anecdotes, etc.","Dubourg, George, 1799-1882",History - Other,124670,raw/History - Other/40289.txt,,processed/History - Other/40289.txt
+8075,"The Junior Classics, Volume 8: Animal and Nature Stories",Unknown,Children & Young Adult Reading,139421,raw/Children & Young Adult Reading/8075.txt,,processed/Children & Young Adult Reading/8075.txt
+24707,By Proxy,Randall Garrett,Science-Fiction & Fantasy,17251,raw/Science-Fiction & Fantasy/24707.txt,https://www.gutenberg.org/ebooks/24707,processed/Science-Fiction & Fantasy/24707.txt
+8144,"Acetylene, the Principles of Its Generation and UseA Practical Handbook on the Production, Purification, and Subsequent Treatment of Acetylene for the Development of Light, Heat, and Power","Butterfield, W. J. Atkinson (William John Atkinson)",Engineering & Technology,170122,raw/Engineering & Technology/8144.txt,,processed/Engineering & Technology/8144.txt
+5182,The Old English Baron: a Gothic Story,"Reeve, Clara, 1729-1807",Science-Fiction & Fantasy,57973,raw/Science-Fiction & Fantasy/5182.txt,,processed/Science-Fiction & Fantasy/5182.txt
+20293,A Popular History of the Art of MusicFrom the Earliest Times Until the Present,"Mathews, W. S. B. (William Smythe Babcock), 1837-1912",History - Other,127011,raw/History - Other/20293.txt,,processed/History - Other/20293.txt
+64687,"To Be ""Talked About"" Use Cookie 'n' Cracker Cookin'","Festen, Alfred",Cooking & Drinking,8811,raw/Cooking & Drinking/64687.txt,,processed/Cooking & Drinking/64687.txt
+90,The Son of Tarzan,"Burroughs, Edgar Rice, 1875-1950",Adventure,97564,raw/Adventure/90.txt,,processed/Adventure/90.txt
+21201,Journal of a Voyage to Brazil,Lady Maria Callcott,History - Other,129761,raw/History - Other/21201.txt,https://www.gutenberg.org/ebooks/21201,processed/History - Other/21201.txt
+498,Rebecca of Sunnybrook Farm,"Wiggin, Kate Douglas Smith, 1856-1923",Children & Young Adult Reading,73656,raw/Children & Young Adult Reading/498.txt,,processed/Children & Young Adult Reading/498.txt
+26378,The Care of Books,"Clark, John Willis, 1833-1910",History - Other,118740,raw/History - Other/26378.txt,,processed/History - Other/26378.txt
+73369,"The historians' history of the world in twenty-five volumes, volume 17 :  Switzerland (concluded), Russia and Poland",Unknown,History - Other,396155,raw/History - Other/73369.txt,,processed/History - Other/73369.txt
+18038,Days of the Discoverers,"Lamprey, Louise, 1869-1951",Children & Young Adult Reading,86568,raw/Children & Young Adult Reading/18038.txt,,processed/Children & Young Adult Reading/18038.txt
+44292,The Bruce,"Barbour, John, -1395",Poetry,179378,raw/Poetry/44292.txt,,processed/Poetry/44292.txt
+60576,Americans by Choice,John Palmer Gavit,Politics,146950,raw/Politics/60576.txt,https://www.gutenberg.org/ebooks/60576,processed/Politics/60576.txt
+21811,The Works of Lord Byron. Vol. 3,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,135602,raw/Poetry/21811.txt,,processed/Poetry/21811.txt
+27195,Negro Folk RhymesWise and Otherwise: With a Study,"Talley, Thomas Washington",Poetry,54722,raw/Poetry/27195.txt,,processed/Poetry/27195.txt
+701,The King of the Golden River,"Ruskin, John, 1819-1900",Children & Young Adult Reading,13049,raw/Children & Young Adult Reading/701.txt,,processed/Children & Young Adult Reading/701.txt
+61236,Emily of New Moon,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,113493,raw/Children & Young Adult Reading/61236.txt,,processed/Children & Young Adult Reading/61236.txt
+69606,"Weird Tales, Volume 1, Number 2, April, 1923: The unique magazine",Various,"Crime, Thrillers & Mystery",108129,"raw/Crime, Thrillers & Mystery/69606.txt",,"processed/Crime, Thrillers & Mystery/69606.txt"
+932,The Fall of the House of Usher,"Poe, Edgar Allan, 1809-1849",Science-Fiction & Fantasy,10109,raw/Science-Fiction & Fantasy/932.txt,,processed/Science-Fiction & Fantasy/932.txt
+1510,Love's Labour's Lost,"Shakespeare, William, 1564-1616",Romance,22618,raw/Romance/1510.txt,,processed/Romance/1510.txt
+1372,"The Adventures of Captain Bonneville, U. S. A., in the Rocky Mountains and the Far West",Washington Irving and Benjamin Louis Eulalie de Bonneville,Adventure,117484,raw/Adventure/1372.txt,https://www.gutenberg.org/ebooks/1372,processed/Adventure/1372.txt
+73729,The shooting party,"Chekhov, Anton Pavlovich, 1860-1904","Crime, Thrillers & Mystery",77887,"raw/Crime, Thrillers & Mystery/73729.txt",,"processed/Crime, Thrillers & Mystery/73729.txt"
+20511,The Little Mother Goose,Unknown,Children & Young Adult Reading,18973,raw/Children & Young Adult Reading/20511.txt,,processed/Children & Young Adult Reading/20511.txt
+21498,France and the RepublicA Record of Things Seen and Learned in the French Provinces During the 'Centennial' Year 1889,"Hurlbert, William Henry, 1827-1895",Politics,205002,raw/Politics/21498.txt,,processed/Politics/21498.txt
+5,The United States Constitution,United States,Politics,4737,raw/Politics/5.txt,,processed/Politics/5.txt
+63224,With the Persian Expedition,"Donohoe, Martin Henry, 1869-1927",Adventure,65701,raw/Adventure/63224.txt,,processed/Adventure/63224.txt
+14052,Rousseau (Volume 1 and 2),John Morley,Biographies,188207,raw/Biographies/14052.txt,https://www.gutenberg.org/ebooks/14052,processed/Biographies/14052.txt
+13364,"Matthew Arnold's Sohrab and Rustum, and other poems","Arnold, Matthew, 1822-1888",Poetry,56136,raw/Poetry/13364.txt,,processed/Poetry/13364.txt
+65793,International Harvester Refrigerator Recipes,"Harding, Irma",Cooking & Drinking,9220,raw/Cooking & Drinking/65793.txt,,processed/Cooking & Drinking/65793.txt
+32677,The Invention of the Sewing Machine,"Cooper, Grace Rogers, 1924-2004",Engineering & Technology,57541,raw/Engineering & Technology/32677.txt,,processed/Engineering & Technology/32677.txt
+31479,Celebrated Women Travellers of the Nineteenth Century,"Adams, W. H. Davenport (William Henry Davenport), 1828-1891",Biographies,113839,raw/Biographies/31479.txt,,processed/Biographies/31479.txt
+12045,"Women in the fine arts, from the Seventh Century B.C. to the Twentieth Century A.D.","Waters, Clara Erskine Clement, 1834-1916",History - Other,111437,raw/History - Other/12045.txt,,processed/History - Other/12045.txt
+38480,"Scientific American, Vol. XXXIX.—No. 24. [New Series.], December 14, 1878A Weekly Journal of Practical Information, Art, Science, Mechanics, Chemistry, and Manufactures",Various,Engineering & Technology,45732,raw/Engineering & Technology/38480.txt,,processed/Engineering & Technology/38480.txt
+6408,Letters of Anton Chekhov to His Family and Friends,"Chekhov, Anton Pavlovich, 1860-1904",Biographies,117569,raw/Biographies/6408.txt,,processed/Biographies/6408.txt
+38511,The Sufistic Quatrains of Omar Khayyam,"Omar Khayyam, 1048-1122",Poetry,90713,raw/Poetry/38511.txt,,processed/Poetry/38511.txt
+38594,Poems,"Rilke, Rainer Maria, 1875-1926",Poetry,13306,raw/Poetry/38594.txt,,processed/Poetry/38594.txt
+11274,"The Anti-Slavery Examiner, Part 4 of 4",American Anti-Slavery Society,Politics,72358,raw/Politics/11274.txt,,processed/Politics/11274.txt
+72869,Meet the Tiger,"Charteris, Leslie, 1907-1993","Crime, Thrillers & Mystery",80142,"raw/Crime, Thrillers & Mystery/72869.txt",,"processed/Crime, Thrillers & Mystery/72869.txt"
+26209,The Golden Age Cook Book,"Dwight, Henrietta Latham",Cooking & Drinking,52341,raw/Cooking & Drinking/26209.txt,,processed/Cooking & Drinking/26209.txt
+69346,Dishes made without meat,"Peel, C. S., Mrs., 1868-1934",Cooking & Drinking,17052,raw/Cooking & Drinking/69346.txt,,processed/Cooking & Drinking/69346.txt
+38739,The Wright Brothers' Engines and Their Design,"Hobbs, Leonard S., 1896-1977",Engineering & Technology,29293,raw/Engineering & Technology/38739.txt,,processed/Engineering & Technology/38739.txt
+74,"The Adventures of Tom Sawyer, Complete","Twain, Mark, 1835-1910",Adventure,70826,raw/Adventure/74.txt,,processed/Adventure/74.txt
+57,Aladdin and the Magic Lamp,Unknown,Adventure,8309,raw/Adventure/57.txt,,processed/Adventure/57.txt
+53508,Airplane Photography,Herbert Eugene Ives,Engineering & Technology,78274,raw/Engineering & Technology/53508.txt,https://www.gutenberg.org/ebooks/53508,processed/Engineering & Technology/53508.txt
+69025,"The filtration of public water-suppliesThird edition, revised and enlarged.","Hazen, Allen, 1869-1930",Engineering & Technology,111919,raw/Engineering & Technology/69025.txt,,processed/Engineering & Technology/69025.txt
+25007,Fifty soups,"Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",Cooking & Drinking,10540,raw/Cooking & Drinking/25007.txt,,processed/Cooking & Drinking/25007.txt
+25145,A Patriotic Schoolgirl,"Brazil, Angela, 1869-1947",Children & Young Adult Reading,69940,raw/Children & Young Adult Reading/25145.txt,,processed/Children & Young Adult Reading/25145.txt
+70879,The mirrors of Tuzun Thune,Robert E. Howard,Science-Fiction & Fantasy,6477,raw/Science-Fiction & Fantasy/70879.txt,https://www.gutenberg.org/ebooks/70879,processed/Science-Fiction & Fantasy/70879.txt
+39826,The Trial of Callista Blake,"Pangborn, Edgar, 1909-1976","Crime, Thrillers & Mystery",101651,"raw/Crime, Thrillers & Mystery/39826.txt",,"processed/Crime, Thrillers & Mystery/39826.txt"
+36702,Verse and Worse,"Graham, Harry, 1874-1936",Poetry,23320,raw/Poetry/36702.txt,,processed/Poetry/36702.txt
+5347,Understood Betsy,"Fisher, Dorothy Canfield, 1879-1958",Children & Young Adult Reading,50344,raw/Children & Young Adult Reading/5347.txt,,processed/Children & Young Adult Reading/5347.txt
+5888,Crime and Corruption,Samuel Vaknin,Politics,27976,raw/Politics/5888.txt,https://www.gutenberg.org/ebooks/5888,processed/Politics/5888.txt
+22557,Canada,"Bourinot, John George, 1837-1902",History - Other,120540,raw/History - Other/22557.txt,,processed/History - Other/22557.txt
+316,The Golden Road,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,75696,raw/Children & Young Adult Reading/316.txt,,processed/Children & Young Adult Reading/316.txt
+11531,"The Life of Marie de Medicis, Queen of France, Consort of Henri IV, and Regent of the Kingdom under Louis XIII — Volume 1",Miss Pardoe,Biographies,128863,raw/Biographies/11531.txt,https://www.gutenberg.org/ebooks/11531,processed/Biographies/11531.txt
+1356,"The Cruise of the ""Cachalot"" Round the World After Sperm Whales",Frank Thomas Bullen,Adventure,115233,raw/Adventure/1356.txt,https://www.gutenberg.org/ebooks/1356,processed/Adventure/1356.txt
+36985,The eBook is 40 (1971-2011),"Lebert, Marie",Engineering & Technology,39165,raw/Engineering & Technology/36985.txt,,processed/Engineering & Technology/36985.txt
+34181,Irene Iddesleigh,"Ros, Amanda McKittrick, 1860-1939",Romance,36924,raw/Romance/34181.txt,,processed/Romance/34181.txt
+38091,"The Letters of William James, Vol. 2","James, William, 1842-1910",Biographies,121291,raw/Biographies/38091.txt,,processed/Biographies/38091.txt
+27432,The Fifth Queen Crowned,"Ford, Ford Madox, 1873-1939",Romance,63273,raw/Romance/27432.txt,,processed/Romance/27432.txt
+52817,Lightships and Lighthouses,"Talbot, Frederick Arthur Ambrose, 1880-1924",Engineering & Technology,114892,raw/Engineering & Technology/52817.txt,,processed/Engineering & Technology/52817.txt
+52551,"The Art of Preserving All Kinds of Animal and Vegetable Substances for Several Years, 2nd ed.A work published by the order of the French minister of the interior, on the report of the Board of arts and manufactures","Appert, Nicolas, 1749-1841",Cooking & Drinking,23567,raw/Cooking & Drinking/52551.txt,,processed/Cooking & Drinking/52551.txt
+54778,The Book of the Thousand Nights and a Night — Volume 07 (of 10),Unknown,Adventure,174379,raw/Adventure/54778.txt,https://www.gutenberg.org/ebooks/54778,processed/Adventure/54778.txt
+15483,Rambles and Recollections of an Indian Official,"Sleeman, W. H. (William Henry), Sir, 1788-1856",History - Other,306018,raw/History - Other/15483.txt,,processed/History - Other/15483.txt
+402,Penrod,"Tarkington, Booth, 1869-1946",Children & Young Adult Reading,60393,raw/Children & Young Adult Reading/402.txt,,processed/Children & Young Adult Reading/402.txt
+2621,The Home Book of Verse — Volume 3,"Stevenson, Burton Egbert, 1872-1962",Poetry,100116,raw/Poetry/2621.txt,,processed/Poetry/2621.txt
+2151,The Works of Edgar Allan Poe — Volume 5,"Poe, Edgar Allan, 1809-1849",Poetry,75511,raw/Poetry/2151.txt,,processed/Poetry/2151.txt
+7303,Equality,"Bellamy, Edward, 1850-1898",Science-Fiction & Fantasy,157794,raw/Science-Fiction & Fantasy/7303.txt,,processed/Science-Fiction & Fantasy/7303.txt
+25017,A Son of the Immortals,"Tracy, Louis, 1863-1928",Romance,79239,raw/Romance/25017.txt,,processed/Romance/25017.txt
+40865,Paris and the Social RevolutionA Study of the Revolutionary Elements in the Various Classes of Parisian Society,"Sanborn, Alvan F. (Alvan Francis), 1866-1966",Politics,119851,raw/Politics/40865.txt,,processed/Politics/40865.txt
+44548,"The Englishman in China During the Victorian Era, Vol. 2 (of 2)As Illustrated in the Career of Sir Rutherford Alcock, K.C.B., D.C.L., Many Years Consul and Minister in China and Japan","Michie, Alexander, 1833-1902",History - Other,146001,raw/History - Other/44548.txt,,processed/History - Other/44548.txt
+76880,"The Monist, Vol. 2, 1891-1892 :  A quarterly magazine",Various,Politics,286912,raw/Politics/76880.txt,,processed/Politics/76880.txt
+21558,The Children of the New Forest,"Marryat, Frederick, 1792-1848",Children & Young Adult Reading,116717,raw/Children & Young Adult Reading/21558.txt,,processed/Children & Young Adult Reading/21558.txt
+60979,Reminiscences of a Stock Operator,"Lefevre, Edwin, 1871-1943",Biographies,109143,raw/Biographies/60979.txt,,processed/Biographies/60979.txt
+73560,The cult of the chafing dish,"Schloesser, Frank, -1913",Cooking & Drinking,36094,raw/Cooking & Drinking/73560.txt,,processed/Cooking & Drinking/73560.txt
+56784,The Theory and Practice of Brewing,"Combrune, Michael, -1773",Cooking & Drinking,83026,raw/Cooking & Drinking/56784.txt,,processed/Cooking & Drinking/56784.txt
+36612,The Princess and Curdie,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,60047,raw/Science-Fiction & Fantasy/36612.txt,,processed/Science-Fiction & Fantasy/36612.txt
+46587,The Russian Opera,"Newmarch, Rosa, 1857-1940",History - Other,93153,raw/History - Other/46587.txt,,processed/History - Other/46587.txt
+41344,Wisconsin in Story and Song;Selections from the Prose and Poetry of Badger State Writers,Unknown,Poetry,84484,raw/Poetry/41344.txt,,processed/Poetry/41344.txt
+34426,The Enchanted Barn,"Hill, Grace Livingston, 1865-1947",Romance,96679,raw/Romance/34426.txt,,processed/Romance/34426.txt
+48454,"Inventors at Work, with Chapters on Discovery","Iles, George, 1852-1942",Engineering & Technology,164781,raw/Engineering & Technology/48454.txt,,processed/Engineering & Technology/48454.txt
+74272,The charm of Venice :  An anthology,Unknown,Poetry,100597,raw/Poetry/74272.txt,https://www.gutenberg.org/ebooks/74272,processed/Poetry/74272.txt
+34919,Vision House,C. N. Williamson and A. M. Williamson,Romance,82727,raw/Romance/34919.txt,https://www.gutenberg.org/ebooks/34919,processed/Romance/34919.txt
+44307,A. D. 2000,Alvarado M. Fuller,Science-Fiction & Fantasy,95480,raw/Science-Fiction & Fantasy/44307.txt,https://www.gutenberg.org/ebooks/44307,processed/Science-Fiction & Fantasy/44307.txt
+17034,English Fairy Tales,"Steel, Flora Annie Webster, 1847-1929",Children & Young Adult Reading,81623,raw/Children & Young Adult Reading/17034.txt,,processed/Children & Young Adult Reading/17034.txt
+42870,Mildred Keith,"Finley, Martha, 1828-1909",Children & Young Adult Reading,64912,raw/Children & Young Adult Reading/42870.txt,,processed/Children & Young Adult Reading/42870.txt
+51854,The Rat Race,"Franklin, Jay, 1897-1967",Science-Fiction & Fantasy,79740,raw/Science-Fiction & Fantasy/51854.txt,,processed/Science-Fiction & Fantasy/51854.txt
+48134,Electric Transmission of Water Power,"Adams, Alton D. (Alton Dermont), 1864-1943",Engineering & Technology,118380,raw/Engineering & Technology/48134.txt,,processed/Engineering & Technology/48134.txt
+56621,Aurora Leigh,"Browning, Elizabeth Barrett, 1806-1861",Poetry,89820,raw/Poetry/56621.txt,,processed/Poetry/56621.txt
+18671,Never-Fail Blake,Arthur Stringer,"Crime, Thrillers & Mystery",52949,"raw/Crime, Thrillers & Mystery/18671.txt",https://www.gutenberg.org/ebooks/18671,"processed/Crime, Thrillers & Mystery/18671.txt"
+38542,A Century of Sail and Steam on the Niagara River,"Cumberland, Barlow, 1846-1913",History - Other,59992,raw/History - Other/38542.txt,,processed/History - Other/38542.txt
+63784,"Lead Smelting and Refining, With Some Notes on Lead Mining",Unknown,Engineering & Technology,100448,raw/Engineering & Technology/63784.txt,,processed/Engineering & Technology/63784.txt
+73671,Camping and camp cooking,"Bates, Frank A., 1858-1915",Cooking & Drinking,23317,raw/Cooking & Drinking/73671.txt,,processed/Cooking & Drinking/73671.txt
+24428,Our Fathers Have Told UsPart I. The Bible of Amiens,"Ruskin, John, 1819-1900",Children & Young Adult Reading,64507,raw/Children & Young Adult Reading/24428.txt,,processed/Children & Young Adult Reading/24428.txt
+64673,Pillar of Fire,Ray Bradbury,Science-Fiction & Fantasy,13730,raw/Science-Fiction & Fantasy/64673.txt,https://www.gutenberg.org/ebooks/64673,processed/Science-Fiction & Fantasy/64673.txt
+22922,The Posy Ring: A Book of Verse for Children,Unknown,Children & Young Adult Reading,38698,raw/Children & Young Adult Reading/22922.txt,,processed/Children & Young Adult Reading/22922.txt
+544,Anne's House of Dreams,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,79399,raw/Children & Young Adult Reading/544.txt,,processed/Children & Young Adult Reading/544.txt
+21092,On the Trail of the Space Pirates,"Rockwell, Carey",Science-Fiction & Fantasy,52542,raw/Science-Fiction & Fantasy/21092.txt,,processed/Science-Fiction & Fantasy/21092.txt
+35587,The Headless Horseman: A Strange Tale of Texas,"Reid, Mayne, 1818-1883",Adventure,210643,raw/Adventure/35587.txt,,processed/Adventure/35587.txt
+18722,"Transactions of the American Society of Civil Engineers, vol. LXVIII, Sept. 1910The New York Tunnel Extension of the Pennsylvania Railroad.The East River Tunnels. Paper No. 1159","Woodard, S. H.",Engineering & Technology,29626,raw/Engineering & Technology/18722.txt,,processed/Engineering & Technology/18722.txt
+8901,The Works of Lord Byron: Letters and Journals. Vol. 1,"Byron, George Gordon Byron, Baron, 1788-1824",Biographies,132329,raw/Biographies/8901.txt,,processed/Biographies/8901.txt
+38415,"Gas-Engines and Producer-Gas PlantsA Practice Treatise Setting Forth the Principles of Gas-Engines and Producer Design, the Selection and Installation of an Engine, Conditions of Perfect Operation, Producer-Gas Engines and Their Possibilities, the Care of Gas-Engines and Producer-Gas Plants, with a Chapter on Volatile Hydrocarbon and Oil Engines","Mathot, Rodolphe Edgard, 1866-",Engineering & Technology,63044,raw/Engineering & Technology/38415.txt,,processed/Engineering & Technology/38415.txt
+63233,"China's Revolution, 1911-1912: A Historical and Political Record of the Civil War","Dingle, Edwin John, 1881-1972",History - Other,99518,raw/History - Other/63233.txt,,processed/History - Other/63233.txt
+34562,John Deere's Steel Plow,"Kendall, Edward C.",Engineering & Technology,8923,raw/Engineering & Technology/34562.txt,,processed/Engineering & Technology/34562.txt
+6684,Uneasy Money,P. G. Wodehouse,Romance,68727,raw/Romance/6684.txt,https://www.gutenberg.org/ebooks/6684,processed/Romance/6684.txt
+63559,A Sack of Shakings,Frank Thomas Bullen,Adventure,102738,raw/Adventure/63559.txt,https://www.gutenberg.org/ebooks/63559,processed/Adventure/63559.txt
+1249,Anthem,Ayn Rand,Science-Fiction & Fantasy,23383,raw/Science-Fiction & Fantasy/1249.txt,https://www.gutenberg.org/ebooks/1249,processed/Science-Fiction & Fantasy/1249.txt
+25665,Popular Adventure Tales,"Reid, Mayne, 1818-1883",Children & Young Adult Reading,258473,raw/Children & Young Adult Reading/25665.txt,,processed/Children & Young Adult Reading/25665.txt
+35646,"Hand-Book of Practical Cookery, for Ladies and Professional CooksContaining the Whole Science and Art of Preparing Human Food","Blot, Pierre, 1818-1874",Cooking & Drinking,144450,raw/Cooking & Drinking/35646.txt,,processed/Cooking & Drinking/35646.txt
+24200,American Men of Mind,"Stevenson, Burton Egbert, 1872-1962",Biographies,96776,raw/Biographies/24200.txt,,processed/Biographies/24200.txt
+18859,Cross Purposes and The Shadows,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,21288,raw/Science-Fiction & Fantasy/18859.txt,,processed/Science-Fiction & Fantasy/18859.txt
+26451,"A Stable for Nightmares; or, Weird Tales","Young, Charles L. (Charles Lawrence), Sir, 1839-1887","Crime, Thrillers & Mystery",62564,"raw/Crime, Thrillers & Mystery/26451.txt",,"processed/Crime, Thrillers & Mystery/26451.txt"
+28164,The Big Bow Mystery,"Zangwill, Israel, 1864-1926","Crime, Thrillers & Mystery",46657,"raw/Crime, Thrillers & Mystery/28164.txt",,"processed/Crime, Thrillers & Mystery/28164.txt"
+49445,Mechanics: The Science of Machinery,"Bond, A. Russell (Alexander Russell), 1876-1937",Engineering & Technology,97538,raw/Engineering & Technology/49445.txt,,processed/Engineering & Technology/49445.txt
+72822,"Famous composers and their works, Vol. 3",Unknown,Biographies,122656,raw/Biographies/72822.txt,,processed/Biographies/72822.txt
+27045,Project Gutenberg (1971-2008),"Lebert, Marie",Politics,13575,raw/Politics/27045.txt,,processed/Politics/27045.txt
+42156,"The Nursery, July 1881, Vol. XXXA Monthly Magazine for Youngest Readers",Various,Children & Young Adult Reading,4955,raw/Children & Young Adult Reading/42156.txt,,processed/Children & Young Adult Reading/42156.txt
+75709,Tales of the peerage and the peasantry,Arabella Jane Sullivan,Romance,159816,raw/Romance/75709.txt,https://www.gutenberg.org/ebooks/75709,processed/Romance/75709.txt
+61065,Modern American Drinks: How to Mix and Serve All Kinds of Cups and Drinks,"Kappeler, George J.",Cooking & Drinking,17873,raw/Cooking & Drinking/61065.txt,,processed/Cooking & Drinking/61065.txt
+24799,The Escape of Mr. TrimmHis Plight and other Plights,"Cobb, Irvin S. (Irvin Shrewsbury), 1876-1944","Crime, Thrillers & Mystery",69738,"raw/Crime, Thrillers & Mystery/24799.txt",,"processed/Crime, Thrillers & Mystery/24799.txt"
+20889,Facts About Champagne and Other Sparkling Wines,"Vizetelly, Henry, 1820-1894",Cooking & Drinking,76205,raw/Cooking & Drinking/20889.txt,,processed/Cooking & Drinking/20889.txt
+13616,"The Philippine Islands, 1493-1803 — Volume 03 of 55",Unknown,History - Other,79885,raw/History - Other/13616.txt,https://www.gutenberg.org/ebooks/13616,processed/History - Other/13616.txt
+23140,The Death Shot: A Story Retold,"Reid, Mayne, 1818-1883",Romance,136509,raw/Romance/23140.txt,,processed/Romance/23140.txt
+34185,Recipes for Eatmor Fresh Cranberries,Unknown,Cooking & Drinking,3860,raw/Cooking & Drinking/34185.txt,,processed/Cooking & Drinking/34185.txt
+14916,Fairy Tales Every Child Should Know,Unknown,Children & Young Adult Reading,108002,raw/Children & Young Adult Reading/14916.txt,,processed/Children & Young Adult Reading/14916.txt
+41304,The Mother of Parliaments,"Graham, Harry, 1874-1936",Politics,111527,raw/Politics/41304.txt,,processed/Politics/41304.txt
+67160,The Hunter's Lodge Case,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",4365,"raw/Crime, Thrillers & Mystery/67160.txt",,"processed/Crime, Thrillers & Mystery/67160.txt"
+5676,A Double Story,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,37227,raw/Science-Fiction & Fantasy/5676.txt,,processed/Science-Fiction & Fantasy/5676.txt
+2619,The Home Book of Verse — Volume 1,"Stevenson, Burton Egbert, 1872-1962",Poetry,115242,raw/Poetry/2619.txt,,processed/Poetry/2619.txt
+20717,The Girl on the Boat,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Romance,71041,raw/Romance/20717.txt,,processed/Romance/20717.txt
+14363,"The Worst Journey in the World: Antarctic, 1910-1913","Cherry-Garrard, Apsley, 1886-1959",Adventure,246170,raw/Adventure/14363.txt,,processed/Adventure/14363.txt
+6635,A Romance of Billy-Goat Hill,"Rice, Alice Caldwell Hegan, 1870-1942",Romance,85139,raw/Romance/6635.txt,,processed/Romance/6635.txt
+44215,The Book of Camp-Lore and Woodcraft,Daniel Carter Beard,Children & Young Adult Reading,56819,raw/Children & Young Adult Reading/44215.txt,https://www.gutenberg.org/ebooks/44215,processed/Children & Young Adult Reading/44215.txt
+11310,Hindu Tales from the Sanskrit,Unknown,Children & Young Adult Reading,43299,raw/Children & Young Adult Reading/11310.txt,https://www.gutenberg.org/ebooks/11310,processed/Children & Young Adult Reading/11310.txt
+12425,"De Orbe Novo, Volume 1 (of 2)The Eight Decades of Peter Martyr D'Anghera","Anghiera, Pietro Martire d', 1457-1526",Biographies,129431,raw/Biographies/12425.txt,,processed/Biographies/12425.txt
+123,At the Earth's Core,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,49534,raw/Science-Fiction & Fantasy/123.txt,,processed/Science-Fiction & Fantasy/123.txt
+32241,Dickens' Stories About Children Every Child Can Read,Charles Dickens,Children & Young Adult Reading,66280,raw/Children & Young Adult Reading/32241.txt,https://www.gutenberg.org/ebooks/32241,processed/Children & Young Adult Reading/32241.txt
+939,"The Life of Thomas Telford, Civil EngineerWith an Introductory History of Roads and Travelling in Great Britain","Smiles, Samuel, 1812-1904",Engineering & Technology,105697,raw/Engineering & Technology/939.txt,,processed/Engineering & Technology/939.txt
+8913,The Portent and Other Stories,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,88761,raw/Science-Fiction & Fantasy/8913.txt,,processed/Science-Fiction & Fantasy/8913.txt
+1837,The Prince and the Pauper,"Twain, Mark, 1835-1910",Children & Young Adult Reading,73104,raw/Children & Young Adult Reading/1837.txt,,processed/Children & Young Adult Reading/1837.txt
+53254,The Book of the Thousand Nights and a Night — Volume 04 (of 10),Unknown,Romance,137582,raw/Romance/53254.txt,,processed/Romance/53254.txt
+43674,The Cardinal Moth,Fred M. White,"Crime, Thrillers & Mystery",69252,"raw/Crime, Thrillers & Mystery/43674.txt",https://www.gutenberg.org/ebooks/43674,"processed/Crime, Thrillers & Mystery/43674.txt"
+49012,The postal power of Congress: A study in constitutional expansion,"Rogers, Lindsay, 1891-1970",Politics,65830,raw/Politics/49012.txt,,processed/Politics/49012.txt
+33911,Beggars on Horseback,"Jesse, F. Tennyson (Fryniwyd Tennyson), 1888-1958",Romance,77426,raw/Romance/33911.txt,,processed/Romance/33911.txt
+32105,"Belford's Magazine, Vol 2, December 1888",Various,Poetry,80266,raw/Poetry/32105.txt,,processed/Poetry/32105.txt
+54985,Poems,"Arnold, Matthew, 1822-1888",Poetry,77774,raw/Poetry/54985.txt,,processed/Poetry/54985.txt
+68163,An outline of humorBeing a true chronicle from prehistoric ages to the twentieth century,Unknown,History - Other,222777,raw/History - Other/68163.txt,,processed/History - Other/68163.txt
+5131,Childe Harold's Pilgrimage,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,40415,raw/Poetry/5131.txt,,processed/Poetry/5131.txt
+15125,The Awakening of China,W. A. P. Martin,History - Other,86628,raw/History - Other/15125.txt,https://www.gutenberg.org/ebooks/15125,processed/History - Other/15125.txt
+21700,Don Juan,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,125140,raw/Poetry/21700.txt,,processed/Poetry/21700.txt
+2343,The Adventure of Wisteria Lodge,Arthur Conan Doyle,"Crime, Thrillers & Mystery",14450,"raw/Crime, Thrillers & Mystery/2343.txt",https://www.gutenberg.org/ebooks/2343,"processed/Crime, Thrillers & Mystery/2343.txt"
+51652,"The works of John Dryden, now first collected in eighteen volumes. Volume 10","Dryden, John, 1631-1700",Poetry,137312,raw/Poetry/51652.txt,,processed/Poetry/51652.txt
+14415,"From John O'Groats to Land's EndOr, 1372 miles on foot; A book of days and chronicle of adventures by two pedestrians on tour","Naylor, Robert Anderton",Adventure,286540,raw/Adventure/14415.txt,,processed/Adventure/14415.txt
+2510,The Invention of a New Religion,"Chamberlain, Basil Hall, 1850-1935",Politics,7995,raw/Politics/2510.txt,,processed/Politics/2510.txt
+53804,The Red Fox's Son: A Romance of Bharbazonia,Edgar M. Dilley,Romance,79831,raw/Romance/53804.txt,https://www.gutenberg.org/ebooks/53804,processed/Romance/53804.txt
+46485,Our Little Spanish Cousin,Mary F. Nixon-Roulet,Children & Young Adult Reading,21024,raw/Children & Young Adult Reading/46485.txt,https://www.gutenberg.org/ebooks/46485,processed/Children & Young Adult Reading/46485.txt
+14766,McGuffey's Third Eclectic Reader,"McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,27660,raw/Children & Young Adult Reading/14766.txt,,processed/Children & Young Adult Reading/14766.txt
+3438,The Book of the Thousand Nights and a Night — Volume 04 (of 10),Unknown,Adventure,136422,raw/Adventure/3438.txt,,processed/Adventure/3438.txt
+52684,Cricket,"Lyttelton, R. H. (Robert Henry), 1854-1939",History - Other,146789,raw/History - Other/52684.txt,,processed/History - Other/52684.txt
+3152,"The Junior Classics, Volume 1: Fairy and wonder tales",Unknown,Children & Young Adult Reading,138044,raw/Children & Young Adult Reading/3152.txt,https://www.gutenberg.org/ebooks/3152,processed/Children & Young Adult Reading/3152.txt
+16768,"The history of Sumatra :  Containing an account of the government, laws, customs and manners of the native inhabitants","Marsden, William, 1754-1836",History - Other,200534,raw/History - Other/16768.txt,,processed/History - Other/16768.txt
+21826,"My Pet Recipes, Tried and TrueContributed by the Ladies and Friends of St. Andrew's Church, Quebec",Various,Cooking & Drinking,34345,raw/Cooking & Drinking/21826.txt,,processed/Cooking & Drinking/21826.txt
+56732,A Vagabond Journey Around the World: A Narrative of Personal Experience,"Franck, Harry Alverson, 1881-1962",Adventure,217401,raw/Adventure/56732.txt,,processed/Adventure/56732.txt
+68238,A political pilgrim in Europe,"Snowden, Ethel, 1881-1951",Politics,94368,raw/Politics/68238.txt,,processed/Politics/68238.txt
+44422,Eccentricities of the Animal Creation.,"Timbs, John, 1801-1875",History - Other,88237,raw/History - Other/44422.txt,,processed/History - Other/44422.txt
+70813,Hand-book on cheese making,"Newell, George E.",Cooking & Drinking,22590,raw/Cooking & Drinking/70813.txt,,processed/Cooking & Drinking/70813.txt
+18975,The North Pole: Its Discovery in 1909 under the auspices of the Peary Arctic Club,"Peary, Robert E. (Robert Edwin), 1856-1920",Adventure,109347,raw/Adventure/18975.txt,,processed/Adventure/18975.txt
+24091,Despoilers of the Golden Empire,Randall Garrett,Science-Fiction & Fantasy,19699,raw/Science-Fiction & Fantasy/24091.txt,https://www.gutenberg.org/ebooks/24091,processed/Science-Fiction & Fantasy/24091.txt
+24205,Breakfast dainties,"Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",Cooking & Drinking,13024,raw/Cooking & Drinking/24205.txt,,processed/Cooking & Drinking/24205.txt
+46953,"A History of Champagne, with Notes on the Other Sparkling Wines of France","Vizetelly, Henry, 1820-1894",Cooking & Drinking,146040,raw/Cooking & Drinking/46953.txt,,processed/Cooking & Drinking/46953.txt
+20007,Lord George Bentinck: A Political Biography,"Disraeli, Benjamin, Earl of Beaconsfield, 1804-1881",Biographies,47276,raw/Biographies/20007.txt,,processed/Biographies/20007.txt
+3414,"The South Pole; an account of the Norwegian Antarctic expedition in the ""Fram,"" 1910-1912 — Volume 1","Amundsen, Roald, 1872-1928",Adventure,111354,raw/Adventure/3414.txt,,processed/Adventure/3414.txt
+13695,A Love Episode,"Zola, Émile, 1840-1902",Romance,118117,raw/Romance/13695.txt,,processed/Romance/13695.txt
+22281,The Facts About Shakespeare,"Thorndike, Ashley Horace, 1871-1933",Biographies,72188,raw/Biographies/22281.txt,,processed/Biographies/22281.txt
+38131,On Secret ServiceDetective-Mystery Stories Based on Real Cases Solved by Government Agents,"Taft, William Nelson","Crime, Thrillers & Mystery",105608,"raw/Crime, Thrillers & Mystery/38131.txt",,"processed/Crime, Thrillers & Mystery/38131.txt"
+53415,Poems You Ought to Know,"Peattie, Elia Wilkinson, 1862-1935",Poetry,43660,raw/Poetry/53415.txt,,processed/Poetry/53415.txt
+53339,Rodmoor: A Romance,"Powys, John Cowper, 1872-1963",Romance,126582,raw/Romance/53339.txt,,processed/Romance/53339.txt
+30240,The Big Trip Up Yonder,"Vonnegut, Kurt, 1922-2007",Science-Fiction & Fantasy,3684,raw/Science-Fiction & Fantasy/30240.txt,,processed/Science-Fiction & Fantasy/30240.txt
+64521,In the wake of the buccaneers,"Verrill, A. Hyatt (Alpheus Hyatt), 1871-1954",Adventure,81296,raw/Adventure/64521.txt,,processed/Adventure/64521.txt
+73568,Bismarck: some secret pages of his history (Vol. 3 of 3). Being a diary kept by Dr. Moritz Busch during twenty-five years' official and private intercourse with the great Chancellor,"Busch, Moritz, 1821-1899",Politics,128786,raw/Politics/73568.txt,,processed/Politics/73568.txt
+224,A pair of blue eyes,"Hardy, Thomas, 1840-1928",Romance,133375,raw/Romance/224.txt,,processed/Romance/224.txt
+21279,2 B R 0 2 B,"Vonnegut, Kurt, 1922-2007",Science-Fiction & Fantasy,5643,raw/Science-Fiction & Fantasy/21279.txt,,processed/Science-Fiction & Fantasy/21279.txt
+5047,State of the Union Addresses,"Bush, George, 1924-2018",Politics,15482,raw/Politics/5047.txt,,processed/Politics/5047.txt
+23183,Edmond Dantès,Edmund Flagg,Adventure,87441,raw/Adventure/23183.txt,https://www.gutenberg.org/ebooks/23183,processed/Adventure/23183.txt
+15532,Novelas Cortas,"Alarcón, Pedro Antonio de, 1833-1891",Adventure,67389,raw/Adventure/15532.txt,,processed/Adventure/15532.txt
+63545,A short history of the printing press and of the improvements in printing machinery from the time of Gutenberg up to the present day,"Hoe, Robert, 1839-1909",Engineering & Technology,15048,raw/Engineering & Technology/63545.txt,,processed/Engineering & Technology/63545.txt
+7926,Endymion,"Disraeli, Benjamin, Earl of Beaconsfield, 1804-1881",Romance,174550,raw/Romance/7926.txt,,processed/Romance/7926.txt
+66758,"Nick Carter Stories No. 139, May 8, 1915: The Pressing Peril","Phillips, Roland Ashford","Crime, Thrillers & Mystery",33740,"raw/Crime, Thrillers & Mystery/66758.txt",,"processed/Crime, Thrillers & Mystery/66758.txt"
+85,The Beasts of Tarzan,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,66582,raw/Science-Fiction & Fantasy/85.txt,,processed/Science-Fiction & Fantasy/85.txt
+42868,A Thousand Ways to Please a Husband with Bettina's Best Recipes,"LeCron, Helen Cowles, 1886-1963",Cooking & Drinking,103005,raw/Cooking & Drinking/42868.txt,,processed/Cooking & Drinking/42868.txt
+10770,The Former Philippines Thru Foreign Eyes,"Wilkes, Charles, 1798-1877",History - Other,221010,raw/History - Other/10770.txt,,processed/History - Other/10770.txt
+76732,Songs and rhymes of a lead miner,"Gracie, Thomas Grierson, 1861-1938",Poetry,19697,raw/Poetry/76732.txt,,processed/Poetry/76732.txt
+22246,The Upper Berth; By the Waters of Paradise,"Crawford, F. Marion (Francis Marion), 1854-1909","Crime, Thrillers & Mystery",21398,"raw/Crime, Thrillers & Mystery/22246.txt",,"processed/Crime, Thrillers & Mystery/22246.txt"
+69328,"The nightless city; or, The ""history of the Yoshiwara Yūkwaku""","De Becker, J. E. (Joseph Ernest), 1863-1929",History - Other,113365,raw/History - Other/69328.txt,,processed/History - Other/69328.txt
+65706,Money-Saving Main Dishes,Unknown,Cooking & Drinking,17123,raw/Cooking & Drinking/65706.txt,,processed/Cooking & Drinking/65706.txt
+915,Library Work with Children,"Hazeltine, Alice Isabel, 1878-1959",Children & Young Adult Reading,135876,raw/Children & Young Adult Reading/915.txt,,processed/Children & Young Adult Reading/915.txt
+3823,Thelma,"Corelli, Marie, 1855-1924",Romance,202709,raw/Romance/3823.txt,,processed/Romance/3823.txt
+75545,The romance of comets,Mary Proctor,History - Other,44196,raw/History - Other/75545.txt,https://www.gutenberg.org/ebooks/75545,processed/History - Other/75545.txt
+1041,Shakespeare's Sonnets,"Shakespeare, William, 1564-1616",Poetry,17694,raw/Poetry/1041.txt,,processed/Poetry/1041.txt
+71928,"The gunsmith's manual :  A complete handbook for the American gunsmith, being a practical guide to all branches of the trade","Harrison, Wm. B. (William B.)",Engineering & Technology,89974,raw/Engineering & Technology/71928.txt,,processed/Engineering & Technology/71928.txt
+17085,Juliana Horatia Ewing And Her Books,"Eden, Horatia K. F.",Children & Young Adult Reading,87919,raw/Children & Young Adult Reading/17085.txt,,processed/Children & Young Adult Reading/17085.txt
+23475,The Works of Lord Byron. Vol. 5Poetry,"Byron, George Gordon Byron, Baron, 1788-1824",Poetry,189332,raw/Poetry/23475.txt,,processed/Poetry/23475.txt
+18977,"The Continental Monthly, Vol. 1, No. 1, January 1862Devoted to Literature and National Policy",Various,Politics,76447,raw/Politics/18977.txt,,processed/Politics/18977.txt
+37645,"The works of John Dryden, now first collected in eighteen volumes. Volume 03","Dryden, John, 1631-1700",Romance,113043,raw/Romance/37645.txt,,processed/Romance/37645.txt
+23960,...After a Few Words...,Randall Garrett,Science-Fiction & Fantasy,5988,raw/Science-Fiction & Fantasy/23960.txt,https://www.gutenberg.org/ebooks/23960,processed/Science-Fiction & Fantasy/23960.txt
+23299,Stradella,"Crawford, F. Marion (Francis Marion), 1854-1909",Romance,114888,raw/Romance/23299.txt,,processed/Romance/23299.txt
+48826,"The Art of Home Candy Making, with Illustrations",Home Candy Makers,Cooking & Drinking,35638,raw/Cooking & Drinking/48826.txt,,processed/Cooking & Drinking/48826.txt
+55566,I Go A-Marketing,"Sowle, Henrietta",Cooking & Drinking,51769,raw/Cooking & Drinking/55566.txt,,processed/Cooking & Drinking/55566.txt
+33571,The Green Fairy Book,Unknown,Children & Young Adult Reading,122636,raw/Children & Young Adult Reading/33571.txt,,processed/Children & Young Adult Reading/33571.txt
+10884,"A Publisher and His FriendsMemoir and Correspondence of John Murray; with an Account of the Origin and Progress of the House, 1768-1843","Smiles, Samuel, 1812-1904",Biographies,153098,raw/Biographies/10884.txt,,processed/Biographies/10884.txt
+37635,Victor Hugo: His Life and Work,"Smith, George Barnett, 1841-1909",Biographies,66633,raw/Biographies/37635.txt,,processed/Biographies/37635.txt
+60561,Mushroom and ToadstoolsHow to Distinguish Easily the Differences Between Edible and Poisonous Fungi,"Smith, Worthington George, 1835-1917",Cooking & Drinking,12928,raw/Cooking & Drinking/60561.txt,,processed/Cooking & Drinking/60561.txt
+55266,The art of glass-blowing :  or Plain instructions for making the chemical and philosophical instruments which are formed of glass,"Danger, T.-P.",Engineering & Technology,30650,raw/Engineering & Technology/55266.txt,,processed/Engineering & Technology/55266.txt
+16702,"The New York Times Current History of the European War, Vol. 1, January 9, 1915What Americans Say to Europe",Various,Politics,133328,raw/Politics/16702.txt,,processed/Politics/16702.txt
+2043,The Lock and Key Library: The most interesting stories of all nations: American,Unknown,"Crime, Thrillers & Mystery",130263,"raw/Crime, Thrillers & Mystery/2043.txt",,"processed/Crime, Thrillers & Mystery/2043.txt"
+65061,The Boston cooking-school cook book,"Farmer, Fannie Merritt, 1857-1915",Cooking & Drinking,182960,raw/Cooking & Drinking/65061.txt,,processed/Cooking & Drinking/65061.txt
+19771,Henrietta Temple: A Love Story,"Disraeli, Benjamin, Earl of Beaconsfield, 1804-1881",Romance,145739,raw/Romance/19771.txt,,processed/Romance/19771.txt
+36336,Gabriel Conroy,Bret Harte,Adventure,151664,raw/Adventure/36336.txt,https://www.gutenberg.org/ebooks/36336,processed/Adventure/36336.txt
+20179,"The Ship of Fools, Volume 1","Brant, Sebastian, 1458-1521",Poetry,89865,raw/Poetry/20179.txt,,processed/Poetry/20179.txt
+25016,The House of Souls,"Machen, Arthur, 1863-1947",Science-Fiction & Fantasy,89698,raw/Science-Fiction & Fantasy/25016.txt,,processed/Science-Fiction & Fantasy/25016.txt
+38648,"Julia Ward Howe, 1819-1910","Hall, Florence Howe, 1845-1922",Biographies,219165,raw/Biographies/38648.txt,,processed/Biographies/38648.txt
+14098,Hieroglyphic Tales,"Walpole, Horace, 1717-1797",Science-Fiction & Fantasy,11364,raw/Science-Fiction & Fantasy/14098.txt,,processed/Science-Fiction & Fantasy/14098.txt
+22815,"The Philippine IslandsA Political, Geographical, Ethnographical, Social and Commercial History of the Philippine Archipelago, Embracing the Whole Period of Spanish Rule","Foreman, John, F.R.G.S.",History - Other,321702,raw/History - Other/22815.txt,,processed/History - Other/22815.txt
+3180,A Double Barrelled Detective Story,"Twain, Mark, 1835-1910","Crime, Thrillers & Mystery",22101,"raw/Crime, Thrillers & Mystery/3180.txt",,"processed/Crime, Thrillers & Mystery/3180.txt"
+53521,Oysters and fish,"Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",Cooking & Drinking,17012,raw/Cooking & Drinking/53521.txt,,processed/Cooking & Drinking/53521.txt
+30501,Collected Poems: Volume One,Alfred Noyes,Poetry,108194,raw/Poetry/30501.txt,https://www.gutenberg.org/ebooks/30501,processed/Poetry/30501.txt
+20212,Police Your Planet,"Del Rey, Lester, 1915-1993",Science-Fiction & Fantasy,48007,raw/Science-Fiction & Fantasy/20212.txt,,processed/Science-Fiction & Fantasy/20212.txt
+32702,The Romance of the Reaper,"Casson, Herbert Newton, 1869-1951",Engineering & Technology,38539,raw/Engineering & Technology/32702.txt,,processed/Engineering & Technology/32702.txt
+93,"Tom Sawyer, Detective","Twain, Mark, 1835-1910","Crime, Thrillers & Mystery",26308,"raw/Crime, Thrillers & Mystery/93.txt",,"processed/Crime, Thrillers & Mystery/93.txt"
+10582,For Luncheon and Supper Guests,"Bradley, Alice, 1875-1946",Cooking & Drinking,12915,raw/Cooking & Drinking/10582.txt,,processed/Cooking & Drinking/10582.txt
+27724,"The Romance of a Mummy and EgyptThe Works of Theophile Gautier, Volume 5","Gautier, Théophile, 1811-1872",Adventure,71755,raw/Adventure/27724.txt,,processed/Adventure/27724.txt
+2607,"Psmith, Journalist","Wodehouse, P. G. (Pelham Grenville), 1881-1975","Crime, Thrillers & Mystery",60220,"raw/Crime, Thrillers & Mystery/2607.txt",,"processed/Crime, Thrillers & Mystery/2607.txt"
+29882,"Astounding Stories of Super-Science, October, 1930",Various,Science-Fiction & Fantasy,82601,raw/Science-Fiction & Fantasy/29882.txt,,processed/Science-Fiction & Fantasy/29882.txt
+47,Anne of Avonlea,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,91107,raw/Children & Young Adult Reading/47.txt,,processed/Children & Young Adult Reading/47.txt
+2345,The Adventure of the Red Circle,Arthur Conan Doyle,"Crime, Thrillers & Mystery",10340,"raw/Crime, Thrillers & Mystery/2345.txt",https://www.gutenberg.org/ebooks/2345,"processed/Crime, Thrillers & Mystery/2345.txt"
+27996,The Free Lances: A Romance of the Mexican Valley,"Reid, Mayne, 1818-1883",Romance,90797,raw/Romance/27996.txt,,processed/Romance/27996.txt
+5343,Rainbow Valley,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,80934,raw/Children & Young Adult Reading/5343.txt,,processed/Children & Young Adult Reading/5343.txt
+25388,The Herapath Property,J. S. Fletcher,"Crime, Thrillers & Mystery",76732,"raw/Crime, Thrillers & Mystery/25388.txt",https://www.gutenberg.org/ebooks/25388,"processed/Crime, Thrillers & Mystery/25388.txt"
+5341,Kilmeny of the Orchard,"Montgomery, L. M. (Lucy Maud), 1874-1942",Romance,43234,raw/Romance/5341.txt,,processed/Romance/5341.txt
+73533,The poetic Edda :  Translated from the Icelandic with an introduction and notes,Unknown,Poetry,156226,raw/Poetry/73533.txt,,processed/Poetry/73533.txt
+2031,The Lock and Key Library: The Most Interesting Stories of All Nations: Real Life,Unknown,"Crime, Thrillers & Mystery",73774,"raw/Crime, Thrillers & Mystery/2031.txt",,"processed/Crime, Thrillers & Mystery/2031.txt"
+72043,"Engineering reminiscences contributed to ""Power"" and ""American machinist""","Porter, Charles T. (Charles Talbot), 1826-1910",Engineering & Technology,122579,raw/Engineering & Technology/72043.txt,,processed/Engineering & Technology/72043.txt
+2767,The Devil's Paw,E. Phillips Oppenheim,"Crime, Thrillers & Mystery",66515,"raw/Crime, Thrillers & Mystery/2767.txt",https://www.gutenberg.org/ebooks/2767,"processed/Crime, Thrillers & Mystery/2767.txt"
+57942,Tent life with English Gipsies in Norway,"Smith, Hubert (Solicitor)",Adventure,155704,raw/Adventure/57942.txt,,processed/Adventure/57942.txt
+50473,Letters of Felix Mendelssohn-Bartholdy from 1833 to 1847,"Mendelssohn-Bartholdy, Felix, 1809-1847",Biographies,128082,raw/Biographies/50473.txt,,processed/Biographies/50473.txt
+24345,A Boy's Voyage Round the World,"Smiles, Samuel, 1852?-",Adventure,83012,raw/Adventure/24345.txt,,processed/Adventure/24345.txt
+25525,"The Works of Edgar Allan Poe, The Raven EditionTable Of Contents And Index Of The Five Volumes","Poe, Edgar Allan, 1809-1849",Poetry,443646,raw/Poetry/25525.txt,,processed/Poetry/25525.txt
+7195,"The Adventures of Tom Sawyer, Part 3.","Twain, Mark, 1835-1910",Children & Young Adult Reading,12108,raw/Children & Young Adult Reading/7195.txt,,processed/Children & Young Adult Reading/7195.txt
+9911,The Torrents of Spring,"Turgenev, Ivan Sergeevich, 1818-1883",Romance,88658,raw/Romance/9911.txt,,processed/Romance/9911.txt
+36192,The Balkan Wars: 1912-1913Second Edition,"Schurman, Jacob Gould, 1854-1942",History - Other,26191,raw/History - Other/36192.txt,,processed/History - Other/36192.txt
+22210,"In the forbidden land :  an account of a journey into Tibet, capture by the Tibetan lamas and soldiers, imprisonment, torture and ultimate release","Landor, Arnold Henry Savage, 1865-1924",History - Other,151983,raw/History - Other/22210.txt,,processed/History - Other/22210.txt
+55494,"John Chambers, Servant of Christ and Master of Hearts, and His Ministry in Philadelphia","Griffis, William Elliot, 1843-1928",Biographies,48864,raw/Biographies/55494.txt,,processed/Biographies/55494.txt
+2149,The Works of Edgar Allan Poe — Volume 3,"Poe, Edgar Allan, 1809-1849",Adventure,102751,raw/Adventure/2149.txt,,processed/Adventure/2149.txt
+44827,Under the Witches' Moon: A Romantic Tale of Mediaeval Rome,"Gallizier, Nathan, 1866-1927",Romance,130597,raw/Romance/44827.txt,,processed/Romance/44827.txt
+3829,Love Among the Chickens,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Romance,53575,raw/Romance/3829.txt,,processed/Romance/3829.txt
+69087,The murder of Roger Ackroyd,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",70745,"raw/Crime, Thrillers & Mystery/69087.txt",,"processed/Crime, Thrillers & Mystery/69087.txt"
+67979,The Blue Castle: a novel,"Montgomery, L. M. (Lucy Maud), 1874-1942",Romance,68292,raw/Romance/67979.txt,,processed/Romance/67979.txt
+20815,A Soldier of the Legion,C. N. Williamson and A. M. Williamson,Romance,105406,raw/Romance/20815.txt,https://www.gutenberg.org/ebooks/20815,processed/Romance/20815.txt
+27787,The American Empire,"Nearing, Scott, 1883-1983",Politics,82785,raw/Politics/27787.txt,,processed/Politics/27787.txt
+42856,"Journals of Dorothy Wordsworth, Vol. 1 (of 2)","Wordsworth, Dorothy, 1771-1855",Biographies,85347,raw/Biographies/42856.txt,,processed/Biographies/42856.txt
+67972,Moving Pictures: How They Are Made and Worked,"Talbot, Frederick Arthur Ambrose, 1880-1924",Engineering & Technology,115998,raw/Engineering & Technology/67972.txt,,processed/Engineering & Technology/67972.txt
+37737,A History of the Republican Party,"Platt, George Washington, 1875-",Politics,94134,raw/Politics/37737.txt,,processed/Politics/37737.txt
+59589,"10 Luscious New Cakes, Made by Spry's Amazing New One-Bowl Method",Unknown,Cooking & Drinking,6237,raw/Cooking & Drinking/59589.txt,,processed/Cooking & Drinking/59589.txt
+27526,The Public Domain: Enclosing the Commons of the Mind,"Boyle, James, 1959-",Politics,132171,raw/Politics/27526.txt,,processed/Politics/27526.txt
+76810,"A sailor's life under four sovereigns, Volume 3 (of 3)","Keppel, Henry, Sir, 1809-1904",Biographies,95584,raw/Biographies/76810.txt,,processed/Biographies/76810.txt
+73736,"Robert Merry's Museum, Volumes V-VI (1843)",Various,Children & Young Adult Reading,187617,raw/Children & Young Adult Reading/73736.txt,https://www.gutenberg.org/ebooks/73736,processed/Children & Young Adult Reading/73736.txt
+69088,Fabian Essays in Socialism,Unknown,Politics,98269,raw/Politics/69088.txt,,processed/Politics/69088.txt
+12228,Home Geography for Primary Grades,"Long, C. C.",Children & Young Adult Reading,17345,raw/Children & Young Adult Reading/12228.txt,,processed/Children & Young Adult Reading/12228.txt
+2233,A Damsel in Distress,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Romance,79737,raw/Romance/2233.txt,,processed/Romance/2233.txt
+47760,Three Hundred Things a Bright Boy Can Do,Unknown,Children & Young Adult Reading,125410,raw/Children & Young Adult Reading/47760.txt,,processed/Children & Young Adult Reading/47760.txt
+25542,Black Oxen,"Atherton, Gertrude Franklin Horn, 1857-1948",Romance,124023,raw/Romance/25542.txt,,processed/Romance/25542.txt
+24907,The Lady and the Pirate,Emerson Hough,Adventure,94551,raw/Adventure/24907.txt,https://www.gutenberg.org/ebooks/24907,processed/Adventure/24907.txt
+53079,Dinners and Diners: Where and How to Dine in London,"Newnham-Davis, Lieut.-Col. (Nathaniel), 1854-1917",Cooking & Drinking,85725,raw/Cooking & Drinking/53079.txt,,processed/Cooking & Drinking/53079.txt
+41401,"Harper's New Monthly Magazine, Vol. II, No. X., March 1851",Various,Poetry,137725,raw/Poetry/41401.txt,,processed/Poetry/41401.txt
+49449,The Still-Room,"Roberts, Harry, 1871-1946",Cooking & Drinking,31228,raw/Cooking & Drinking/49449.txt,,processed/Cooking & Drinking/49449.txt
+29003,Latin America and the United StatesAddresses by Elihu Root,"Root, Elihu, 1845-1937",Politics,98398,raw/Politics/29003.txt,,processed/Politics/29003.txt
+66750,"Nick Carter Stories No. 136, April 17, 1915: The Man They Held Back","Phillips, Roland Ashford","Crime, Thrillers & Mystery",35624,"raw/Crime, Thrillers & Mystery/66750.txt",,"processed/Crime, Thrillers & Mystery/66750.txt"
+1057,"Poems, with The Ballad of Reading Gaol","Wilde, Oscar, 1854-1900",Poetry,40664,raw/Poetry/1057.txt,,processed/Poetry/1057.txt
+11982,Eighty Years and More; Reminiscences 1815-1897,"Stanton, Elizabeth Cady, 1815-1902",Biographies,134595,raw/Biographies/11982.txt,,processed/Biographies/11982.txt
+58984,Audubon the Naturalist: A History of His Life and Time. Vol. 2 (of 2),"Herrick, Francis Hobart, 1858-1940",Biographies,154176,raw/Biographies/58984.txt,,processed/Biographies/58984.txt
+8896,"Outlines of Universal History, Designed as a Text-book and for Private Reading","Fisher, George Park, 1827-1909",History - Other,324282,raw/History - Other/8896.txt,,processed/History - Other/8896.txt
+66868,The Railway Conquest of the World,"Talbot, Frederick Arthur Ambrose, 1880-1924",Engineering & Technology,117522,raw/Engineering & Technology/66868.txt,,processed/Engineering & Technology/66868.txt
+64353,"Fields, factories and workshops :  or, Industry combined with agriculture and brain work with manual work","Kropotkin, Petr Alekseevich, kniaz, 1842-1921",Politics,108571,raw/Politics/64353.txt,,processed/Politics/64353.txt
+62846,Take a Can of Salmon,Unknown,Cooking & Drinking,3396,raw/Cooking & Drinking/62846.txt,,processed/Cooking & Drinking/62846.txt
+50439,English Eccentrics and Eccentricities,"Timbs, John, 1801-1875",Biographies,179800,raw/Biographies/50439.txt,,processed/Biographies/50439.txt
+42059,Christopher Columbus and How He Received and Imparted the Spirit of Discovery,"Winsor, Justin, 1831-1897",Biographies,216254,raw/Biographies/42059.txt,,processed/Biographies/42059.txt
+86,A Connecticut Yankee in King Arthur's Court,"Twain, Mark, 1835-1910",Science-Fiction & Fantasy,117828,raw/Science-Fiction & Fantasy/86.txt,,processed/Science-Fiction & Fantasy/86.txt
+25424,In the Mayor's Parlour,J. S. Fletcher,"Crime, Thrillers & Mystery",74861,"raw/Crime, Thrillers & Mystery/25424.txt",https://www.gutenberg.org/ebooks/25424,"processed/Crime, Thrillers & Mystery/25424.txt"
+8861,"The Works of Lord Byron, Vol. 1. Poetry","Byron, George Gordon Byron, Baron, 1788-1824",Poetry,122697,raw/Poetry/8861.txt,,processed/Poetry/8861.txt
+49806,"Addie's Husband; or, Through clouds to sunshine","Gordon Smythies, Mrs., 1813?-1883",Romance,85913,raw/Romance/49806.txt,,processed/Romance/49806.txt
+76,Adventures of Huckleberry Finn,"Twain, Mark, 1835-1910",Adventure,111103,raw/Adventure/76.txt,,processed/Adventure/76.txt
+51651,Conditionally Human,"Miller, Walter M., 1923-1996",Science-Fiction & Fantasy,12229,raw/Science-Fiction & Fantasy/51651.txt,,processed/Science-Fiction & Fantasy/51651.txt
+29725,The Fairchild Family,Mary Martha Sherwood,Children & Young Adult Reading,140172,raw/Children & Young Adult Reading/29725.txt,https://www.gutenberg.org/ebooks/29725,processed/Children & Young Adult Reading/29725.txt
+70410,A history of commerce,"Day, Clive, 1871-1951",History - Other,223803,raw/History - Other/70410.txt,,processed/History - Other/70410.txt
+7530,The Renascence of Hebrew Literature (1743-1885),Nahum Slouschz,History - Other,61558,raw/History - Other/7530.txt,https://www.gutenberg.org/ebooks/7530,processed/History - Other/7530.txt
+16441,The Closet of Sir Kenelm Digby Knight Opened,"Digby, Kenelm, 1603-1665",Cooking & Drinking,97153,raw/Cooking & Drinking/16441.txt,,processed/Cooking & Drinking/16441.txt
+41047,International Law. A Treatise. Volume 2 (of 2)War and Neutrality. Second Edition,"Oppenheim, L. (Lassa), 1858-1919",Politics,276812,raw/Politics/41047.txt,,processed/Politics/41047.txt
+14957,The Brimming Cup,"Fisher, Dorothy Canfield, 1879-1958",Romance,136532,raw/Romance/14957.txt,,processed/Romance/14957.txt
+3985,Gerfaut — Complete,"Bernard, Charles de, 1804-1850",Romance,99408,raw/Romance/3985.txt,,processed/Romance/3985.txt
+246,The Rubaiyat of Omar Khayyam,"Omar Khayyam, 1048-1122",Poetry,11737,raw/Poetry/246.txt,,processed/Poetry/246.txt
+20163,The Jolliest School of All,"Brazil, Angela, 1869-1947",Children & Young Adult Reading,76777,raw/Children & Young Adult Reading/20163.txt,,processed/Children & Young Adult Reading/20163.txt
+38404,"A Journey from Prince of Wales's Fort in Hudson's Bay to the Northern Ocean in the Years 1769, 1770, 1771, 1772New Edition with Introduction, Notes, and Illustrations","Hearne, Samuel, 1745-1792",History - Other,171657,raw/History - Other/38404.txt,,processed/History - Other/38404.txt
+15415,Tramping on LifeAn Autobiographical Narrative,"Kemp, Harry, 1883-1960",Biographies,164815,raw/Biographies/15415.txt,,processed/Biographies/15415.txt
+7100,"Adventures of Huckleberry Finn, Chapters 01 to 05","Twain, Mark, 1835-1910",Adventure,11682,raw/Adventure/7100.txt,,processed/Adventure/7100.txt
+36091,An Anthology of Jugoslav Poetry; Serbian Lyrics,Unknown,Poetry,27470,raw/Poetry/36091.txt,,processed/Poetry/36091.txt
+1564,"Boswell's Life of JohnsonAbridged and edited, with an introduction by Charles Grosvenor Osgood","Boswell, James, 1740-1795",Biographies,217390,raw/Biographies/1564.txt,,processed/Biographies/1564.txt
+48893,"Mademoiselle de Maupin, Volume 1 (of 2)","Gautier, Théophile, 1811-1872",Romance,67733,raw/Romance/48893.txt,,processed/Romance/48893.txt
+58776,"The Life of Bismarck, Private and PoliticalWith Descriptive Notices of His Ancestry","Hesekiel, George, 1819-1874",Biographies,153229,raw/Biographies/58776.txt,,processed/Biographies/58776.txt
+37793,The Story of Florence,Edmund G. Gardner,History - Other,123101,raw/History - Other/37793.txt,https://www.gutenberg.org/ebooks/37793,processed/History - Other/37793.txt
+1024,The Wrecker,"Osbourne, Lloyd, 1868-1947",Adventure,138322,raw/Adventure/1024.txt,,processed/Adventure/1024.txt
+2817,Chamber Music,James Joyce,Poetry,5919,raw/Poetry/2817.txt,https://www.gutenberg.org/ebooks/2817,processed/Poetry/2817.txt
+68889,A history of social thought,"Bogardus, Emory S. (Emory Stephen), 1882-1973",History - Other,113608,raw/History - Other/68889.txt,,processed/History - Other/68889.txt
+38571,Hero Tales and Legends of the Serbians,"Karadžić, Vuk Stefanović, 1787-1864",Poetry,127791,raw/Poetry/38571.txt,,processed/Poetry/38571.txt
+31133,Home Life of Great Authors,"Griswold, Hattie Tyng, 1840-1909",Biographies,129269,raw/Biographies/31133.txt,,processed/Biographies/31133.txt
+23428,The Conquest of Bread,"Kropotkin, Petr Alekseevich, kniaz, 1842-1921",Politics,76502,raw/Politics/23428.txt,,processed/Politics/23428.txt
+44336,The Shadow,Arthur Stringer,"Crime, Thrillers & Mystery",49662,"raw/Crime, Thrillers & Mystery/44336.txt",https://www.gutenberg.org/ebooks/44336,"processed/Crime, Thrillers & Mystery/44336.txt"
+59311,Gas and Petroleum Engines,"Graffigny, H. de (Henry), 1863-1934",Engineering & Technology,32018,raw/Engineering & Technology/59311.txt,,processed/Engineering & Technology/59311.txt
+22483,Across Unknown South America,"Landor, Arnold Henry Savage, 1865-1924",Adventure,266419,raw/Adventure/22483.txt,,processed/Adventure/22483.txt
+8176,"Death at the Excelsior, and other stories","Wodehouse, P. G. (Pelham Grenville), 1881-1975","Crime, Thrillers & Mystery",37908,"raw/Crime, Thrillers & Mystery/8176.txt",,"processed/Crime, Thrillers & Mystery/8176.txt"
+1513,Romeo and Juliet,"Shakespeare, William, 1564-1616",Romance,25976,raw/Romance/1513.txt,,processed/Romance/1513.txt
+16646,The Letters of Elizabeth Barrett Browning (Volume 2 of 2),"Browning, Elizabeth Barrett, 1806-1861",Biographies,161856,raw/Biographies/16646.txt,,processed/Biographies/16646.txt
+74867,Oxy-acetylene welding manual,"Campbell, Lorn, 1891-1955",Engineering & Technology,43893,raw/Engineering & Technology/74867.txt,,processed/Engineering & Technology/74867.txt
+15516,"The Religions of Japan, from the Dawn of History to the Era of Méiji","Griffis, William Elliot, 1843-1928",History - Other,125126,raw/History - Other/15516.txt,,processed/History - Other/15516.txt
+76996,The poems of Edgar Allan Poe,"Poe, Edgar Allan, 1809-1849",Poetry,39709,raw/Poetry/76996.txt,,processed/Poetry/76996.txt
+624,"Looking Backward, 2000 to 1887","Bellamy, Edward, 1850-1898",Science-Fiction & Fantasy,80884,raw/Science-Fiction & Fantasy/624.txt,,processed/Science-Fiction & Fantasy/624.txt
+1044,Extract from Captain Stormfield's Visit to Heaven,"Twain, Mark, 1835-1910",Science-Fiction & Fantasy,17968,raw/Science-Fiction & Fantasy/1044.txt,,processed/Science-Fiction & Fantasy/1044.txt
+67173,The Missing Will,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",3277,"raw/Crime, Thrillers & Mystery/67173.txt",,"processed/Crime, Thrillers & Mystery/67173.txt"
+3146,Two on a Tower,"Hardy, Thomas, 1840-1928",Romance,97396,raw/Romance/3146.txt,,processed/Romance/3146.txt
+408,The Souls of Black Folk,"Du Bois, W. E. B. (William Edward Burghardt), 1868-1963",Politics,71700,raw/Politics/408.txt,,processed/Politics/408.txt
+14880,McGuffey's Fourth Eclectic Reader,"McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,66732,raw/Children & Young Adult Reading/14880.txt,,processed/Children & Young Adult Reading/14880.txt
+902,"The Happy Prince, and Other Tales","Wilde, Oscar, 1854-1900",Children & Young Adult Reading,19421,raw/Children & Young Adult Reading/902.txt,,processed/Children & Young Adult Reading/902.txt
+13065,"Beethoven's Letters 1790-1826, Volume 1","Beethoven, Ludwig van, 1770-1827",Biographies,58466,raw/Biographies/13065.txt,,processed/Biographies/13065.txt
+35260,"Rubáiyát of Omar Khayyam, Rendered into English Verse","Omar Khayyam, 1048-1122",Poetry,20791,raw/Poetry/35260.txt,,processed/Poetry/35260.txt
+26447,The Strange Case of Mortimer Fenley,"Tracy, Louis, 1863-1928","Crime, Thrillers & Mystery",78040,"raw/Crime, Thrillers & Mystery/26447.txt",,"processed/Crime, Thrillers & Mystery/26447.txt"
+59936,Peter Jameson: A Modern Romance,"Frankau, Gilbert, 1884-1952",Romance,130446,raw/Romance/59936.txt,,processed/Romance/59936.txt
+1430,Beautiful Stories from Shakespeare,"Shakespeare, William, 1564-1616",Children & Young Adult Reading,49579,raw/Children & Young Adult Reading/1430.txt,,processed/Children & Young Adult Reading/1430.txt
+43366,Through the Heart of Patagonia,H. Hesketh-Prichard,Adventure,124466,raw/Adventure/43366.txt,https://www.gutenberg.org/ebooks/43366,processed/Adventure/43366.txt
+55849,Truth [Vérité],Émile Zola,"Crime, Thrillers & Mystery",247125,"raw/Crime, Thrillers & Mystery/55849.txt",https://www.gutenberg.org/ebooks/55849,"processed/Crime, Thrillers & Mystery/55849.txt"
+27683,The World I Live In,Helen Keller,Biographies,26312,raw/Biographies/27683.txt,https://www.gutenberg.org/ebooks/27683,processed/Biographies/27683.txt
+40383,"Musical Myths and Facts, Volume 1 (of 2)",Carl Engel,History - Other,76660,raw/History - Other/40383.txt,https://www.gutenberg.org/ebooks/40383,processed/History - Other/40383.txt
+42664,Gods of the North,Robert E. Howard,Science-Fiction & Fantasy,3380,raw/Science-Fiction & Fantasy/42664.txt,https://www.gutenberg.org/ebooks/42664,processed/Science-Fiction & Fantasy/42664.txt
+36822,Japan and the California Problem,"Sato, Kennosuke, 1891-",Politics,54264,raw/Politics/36822.txt,,processed/Politics/36822.txt
+3044,Desperate Remedies,"Hardy, Thomas, 1840-1928",Romance,143488,raw/Romance/3044.txt,,processed/Romance/3044.txt
+23994,There was a King in Egypt,Norma Lorimer,Romance,170050,raw/Romance/23994.txt,https://www.gutenberg.org/ebooks/23994,processed/Romance/23994.txt
+72583,"The genuine works of Hippocrates, Vol. 1 (of 2) :  Translated from the Greek, with a preliminary discourse and annotations",Hippocrates,Biographies,191726,raw/Biographies/72583.txt,https://www.gutenberg.org/ebooks/72583,processed/Biographies/72583.txt
+389,The Great God Pan,"Machen, Arthur, 1863-1947","Crime, Thrillers & Mystery",24763,"raw/Crime, Thrillers & Mystery/389.txt",,"processed/Crime, Thrillers & Mystery/389.txt"
+17192,The Raven,"Poe, Edgar Allan, 1809-1849",Poetry,10216,raw/Poetry/17192.txt,,processed/Poetry/17192.txt
+58318,The Blacksmith in Eighteenth-Century WilliamsburgAn Account of His Life & Times and of His Craft,"Gill, Harold B.",Engineering & Technology,11520,raw/Engineering & Technology/58318.txt,,processed/Engineering & Technology/58318.txt
+45,Anne of Green Gables,"Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,102519,raw/Children & Young Adult Reading/45.txt,,processed/Children & Young Adult Reading/45.txt
+45188,The International Development of China,"Sun, Yat-sen, 1866-1925",Politics,61342,raw/Politics/45188.txt,,processed/Politics/45188.txt
+3442,The Book of the Thousand Nights and a Night — Volume 08 (of 10),Unknown,Adventure,157607,raw/Adventure/3442.txt,https://www.gutenberg.org/ebooks/3442,processed/Adventure/3442.txt
+28638,Rimrock Trail,J. Allan Dunn,Adventure,104164,raw/Adventure/28638.txt,https://www.gutenberg.org/ebooks/28638,processed/Adventure/28638.txt
+7871,Dutch Fairy Tales for Young Folks,"Griffis, William Elliot, 1843-1928",Children & Young Adult Reading,52370,raw/Children & Young Adult Reading/7871.txt,,processed/Children & Young Adult Reading/7871.txt
+13634,"The Continental Monthly, Vol. 1, No. 2, February, 1862Devoted To Literature And National Policy",Various,Politics,84843,raw/Politics/13634.txt,,processed/Politics/13634.txt
+57611,Heroines of the Modern Stage,"Izard, Forrest",Biographies,106178,raw/Biographies/57611.txt,,processed/Biographies/57611.txt
+51492,"Armenia, Travels and Studies (Volume 1 of 2)",H. F. B. Lynch,History - Other,203006,raw/History - Other/51492.txt,https://www.gutenberg.org/ebooks/51492,processed/History - Other/51492.txt
+7370,Second Treatise of Government,"Locke, John, 1632-1704",Politics,59564,raw/Politics/7370.txt,,processed/Politics/7370.txt
+8084,Hunting with the Bow & Arrow,Saxton T. Pope,Adventure,76265,raw/Adventure/8084.txt,https://www.gutenberg.org/ebooks/8084,processed/Adventure/8084.txt
+67414,"Chronicles of Pharmacy, Vol. 2 (of 2)","Wootton, A. C., -1910",History - Other,91357,raw/History - Other/67414.txt,,processed/History - Other/67414.txt
+49694,The Duke in the Suburbs,Unknown,Romance,51062,raw/Romance/49694.txt,,processed/Romance/49694.txt
+60042,The Moon Princess: A Fairy Tale,"Harrison, Edith Ogden, 1862-1955",Science-Fiction & Fantasy,28715,raw/Science-Fiction & Fantasy/60042.txt,,processed/Science-Fiction & Fantasy/60042.txt
+75817,The illustrated Tarzan book no. 1 :  Picturized from the novel Tarzan of the apes,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,15647,raw/Science-Fiction & Fantasy/75817.txt,,processed/Science-Fiction & Fantasy/75817.txt
+48414,An Account of the Bell Rock Light-HouseIncluding the Details of the Erection and Peculiar Structure of That Edifice; to Which Is Prefixed a Historical View of the Institution and Progress of the Northern Light-Houses,"Stevenson, Robert, 1772-1850",Engineering & Technology,249557,raw/Engineering & Technology/48414.txt,,processed/Engineering & Technology/48414.txt
+34513,A Biographical Dictionary of Freethinkers of All Ages and Nations,"Wheeler, J. M. (Joseph Mazzini), 1850-1898",Biographies,129038,raw/Biographies/34513.txt,,processed/Biographies/34513.txt
+1027,The Lone Star Ranger: A Romance of the Border,Zane Grey,Adventure,94730,raw/Adventure/1027.txt,https://www.gutenberg.org/ebooks/1027,processed/Adventure/1027.txt
+53490,William Shakespeare,Victor Hugo,Biographies,99332,raw/Biographies/53490.txt,https://www.gutenberg.org/ebooks/53490,processed/Biographies/53490.txt
+33077,"The Treaty With China, its Provisions ExplainedNew York Tribune, Tuesday, August 28, 1868","Twain, Mark, 1835-1910",Politics,10120,raw/Politics/33077.txt,,processed/Politics/33077.txt
+7423,Mike,"Wodehouse, P. G. (Pelham Grenville), 1881-1975",Children & Young Adult Reading,106999,raw/Children & Young Adult Reading/7423.txt,,processed/Children & Young Adult Reading/7423.txt
+75288,The Seven Dials mystery,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",65351,"raw/Crime, Thrillers & Mystery/75288.txt",,"processed/Crime, Thrillers & Mystery/75288.txt"
+2435,The Crimson Fairy Book,Andrew Lang,Children & Young Adult Reading,100989,raw/Children & Young Adult Reading/2435.txt,https://www.gutenberg.org/ebooks/2435,processed/Children & Young Adult Reading/2435.txt
+76871,The magnificent possession,Isaac Asimov,Science-Fiction & Fantasy,6148,raw/Science-Fiction & Fantasy/76871.txt,https://www.gutenberg.org/ebooks/76871,processed/Science-Fiction & Fantasy/76871.txt
+64264,Zero Hour,Ray Bradbury,Science-Fiction & Fantasy,3155,raw/Science-Fiction & Fantasy/64264.txt,https://www.gutenberg.org/ebooks/64264,processed/Science-Fiction & Fantasy/64264.txt
+33102,Bloodletting Instruments in the National Museum of History and Technology,"Appel, Toby A., 1945-",History - Other,49132,raw/History - Other/33102.txt,,processed/History - Other/33102.txt
+12843,PoemsHousehold Edition,"Emerson, Ralph Waldo, 1803-1882",Poetry,59875,raw/Poetry/12843.txt,,processed/Poetry/12843.txt
+37955,"The Life and Letters of Mary Wollstonecraft Shelley, Volume 1 (of 2)","Marshall, Julian, Mrs., 1843-1922",Biographies,108138,raw/Biographies/37955.txt,,processed/Biographies/37955.txt
+51060,"The Narrative of Arthur Gordon Pym of NantucketComprising the details of a mutiny and atrocious butchery on board the American brig Grampus, on her way to the South Seas, in the month of June, 1827.","Poe, Edgar Allan, 1809-1849",Adventure,71340,raw/Adventure/51060.txt,,processed/Adventure/51060.txt
+5735,The Valley of the Giants,"Kyne, Peter B. (Peter Bernard), 1880-1957",Adventure,100628,raw/Adventure/5735.txt,,processed/Adventure/5735.txt
+863,The Mysterious Affair at Styles,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",56553,"raw/Crime, Thrillers & Mystery/863.txt",,"processed/Crime, Thrillers & Mystery/863.txt"
+453,Emma McChesney and Co.,Edna Ferber,Romance,44774,raw/Romance/453.txt,https://www.gutenberg.org/ebooks/453,processed/Romance/453.txt
+10031,The Complete Poetical Works of Edgar Allan PoeIncluding Essays on Poetry,"Poe, Edgar Allan, 1809-1849",Poetry,60885,raw/Poetry/10031.txt,,processed/Poetry/10031.txt
+43741,Old friends and new fancies :  an imaginary sequel to the novels of Jane Austen,"Brinton, Sybil G. (Sybil Grace), 1874-1928",Romance,109885,raw/Romance/43741.txt,,processed/Romance/43741.txt
+55781,"Willem Adriaan Van Der Stel, and Other Historical Sketches",George McCall Theal,History - Other,113263,raw/History - Other/55781.txt,https://www.gutenberg.org/ebooks/55781,processed/History - Other/55781.txt
+9813,Santo Domingo: A Country with a Future,"Schoenrich, Otto, 1876-",History - Other,119623,raw/History - Other/9813.txt,,processed/History - Other/9813.txt
+1478,"A Parody Outline of HistoryWherein May Be Found a Curiously Irreverent Treatment of American Historical Events, Imagining Them as They Would Be Narrated by America's Most Characteristic Contemporary Authors","Stewart, Donald Ogden, 1894-1980","Crime, Thrillers & Mystery",23390,"raw/Crime, Thrillers & Mystery/1478.txt",,"processed/Crime, Thrillers & Mystery/1478.txt"
+39397,One of Cleopatra's Nights and Other Fantastic Romances,"Gautier, Théophile, 1811-1872",Science-Fiction & Fantasy,71571,raw/Science-Fiction & Fantasy/39397.txt,,processed/Science-Fiction & Fantasy/39397.txt
+1091,"On Heroes, Hero-Worship, and the Heroic in History","Carlyle, Thomas, 1795-1881",History - Other,88551,raw/History - Other/1091.txt,,processed/History - Other/1091.txt
+20110,Canada: the Empire of the NorthBeing the Romantic Story of the New Dominion's Growth from Colony to Kingdom,"Laut, Agnes C., 1871-1936",History - Other,150512,raw/History - Other/20110.txt,,processed/History - Other/20110.txt
+70114,The Big Four,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",58601,"raw/Crime, Thrillers & Mystery/70114.txt",,"processed/Crime, Thrillers & Mystery/70114.txt"
+37246,Why I am opposed to socialism,Unknown,Politics,20512,raw/Politics/37246.txt,,processed/Politics/37246.txt
+23408,Far from Home,J. A. Taylor,Science-Fiction & Fantasy,9672,raw/Science-Fiction & Fantasy/23408.txt,https://www.gutenberg.org/ebooks/23408,processed/Science-Fiction & Fantasy/23408.txt
+40307,"The Letters of William James, Vol. 1","James, William, 1842-1910",Biographies,110604,raw/Biographies/40307.txt,,processed/Biographies/40307.txt
+45584,Facts and Speculations on the Origin and History of Playing Cards,"Chatto, William Andrew, 1799-1864",History - Other,117368,raw/History - Other/45584.txt,,processed/History - Other/45584.txt
+34317,Caribbee,Thomas Hoover,Adventure,169595,raw/Adventure/34317.txt,https://www.gutenberg.org/ebooks/34317,processed/Adventure/34317.txt
+29607,"Astounding Stories of Super-Science, March 1930",Various,Science-Fiction & Fantasy,78435,raw/Science-Fiction & Fantasy/29607.txt,,processed/Science-Fiction & Fantasy/29607.txt
+63277,"The Dabistán, or School of manners, Volume 3 (of 3)translated from the original Persian, with notes and illustrations",Unknown,History - Other,113491,raw/History - Other/63277.txt,,processed/History - Other/63277.txt
+35686,Mississippi Outlaws and the Detectives,Allan Pinkerton,"Crime, Thrillers & Mystery",97428,"raw/Crime, Thrillers & Mystery/35686.txt",https://www.gutenberg.org/ebooks/35686,"processed/Crime, Thrillers & Mystery/35686.txt"
+80,The Online World,"De Presno, Odd, 1944-",Engineering & Technology,89874,raw/Engineering & Technology/80.txt,,processed/Engineering & Technology/80.txt
+72824,The mystery of the Blue Train,"Christie, Agatha, 1890-1976","Crime, Thrillers & Mystery",70234,"raw/Crime, Thrillers & Mystery/72824.txt",,"processed/Crime, Thrillers & Mystery/72824.txt"
+45238,"Wyeth's Oregon, or a Short History of a Long Journey, 1832; and Townsend's Narrative of a Journey across the Rocky Mountains, 1834","Townsend, John Kirk, 1809-1851",Adventure,116453,raw/Adventure/45238.txt,,processed/Adventure/45238.txt
+53996,Where Love Is,William John Locke,Romance,97016,raw/Romance/53996.txt,https://www.gutenberg.org/ebooks/53996,processed/Romance/53996.txt
+50207,Tea-Blending as a Fine Art,"Walsh, Joseph M.",Cooking & Drinking,21811,raw/Cooking & Drinking/50207.txt,,processed/Cooking & Drinking/50207.txt
+23744,Ahead of the Army,"Stoddard, William O., 1835-1925",Adventure,64024,raw/Adventure/23744.txt,,processed/Adventure/23744.txt
+16479,The Latin & Irish Lives of CiaranTranslations Of Christian Literature. Series V. Lives OfThe Celtic Saints,Unknown,Biographies,58295,raw/Biographies/16479.txt,,processed/Biographies/16479.txt
+1699,The Vanished Messenger,E. Phillips Oppenheim,"Crime, Thrillers & Mystery",85388,"raw/Crime, Thrillers & Mystery/1699.txt",https://www.gutenberg.org/ebooks/1699,"processed/Crime, Thrillers & Mystery/1699.txt"
+38253,A Description of the Coasts of East Africa and Malabar in the Beginning of the Sixteenth Century,Unknown,History - Other,88074,raw/History - Other/38253.txt,,processed/History - Other/38253.txt
+49194,The History of Coaches,"Thrupp, George Athelstane, 1822-1905",Engineering & Technology,44783,raw/Engineering & Technology/49194.txt,,processed/Engineering & Technology/49194.txt
+56190,Warren Commission (14 of 26): Hearings Vol. XIV (of 15),United States. Warren Commission,"Crime, Thrillers & Mystery",413593,"raw/Crime, Thrillers & Mystery/56190.txt",,"processed/Crime, Thrillers & Mystery/56190.txt"
+245,Life on the Mississippi,"Twain, Mark, 1835-1910",Biographies,147524,raw/Biographies/245.txt,,processed/Biographies/245.txt
+31383,The Industrial Canal and Inner Harbor of New Orleans,Thomas Ewing Dabney,Engineering & Technology,22651,raw/Engineering & Technology/31383.txt,https://www.gutenberg.org/ebooks/31383,processed/Engineering & Technology/31383.txt
+30120,"The Happy Prince, and Other Tales","Wilde, Oscar, 1854-1900",Children & Young Adult Reading,16638,raw/Children & Young Adult Reading/30120.txt,,processed/Children & Young Adult Reading/30120.txt
+1608,Camille (La Dame aux Camilias),"Dumas, Alexandre, 1824-1895",Romance,69623,raw/Romance/1608.txt,,processed/Romance/1608.txt
+39970,The Hill of Venus,"Gallizier, Nathan, 1866-1927",Romance,98861,raw/Romance/39970.txt,,processed/Romance/39970.txt
+46343,The Man with the Black Feather,Gaston Leroux,"Crime, Thrillers & Mystery",64985,"raw/Crime, Thrillers & Mystery/46343.txt",https://www.gutenberg.org/ebooks/46343,"processed/Crime, Thrillers & Mystery/46343.txt"
+24873,"Lucy Maud Montgomery Short Stories, 1896 to 1901","Montgomery, L. M. (Lucy Maud), 1874-1942",Children & Young Adult Reading,66088,raw/Children & Young Adult Reading/24873.txt,,processed/Children & Young Adult Reading/24873.txt
+24542,Fifty salads,"Murrey, Thomas J. (Thomas Jefferson), 1844?-1900",Cooking & Drinking,8564,raw/Cooking & Drinking/24542.txt,,processed/Cooking & Drinking/24542.txt
+57208,"The Jew, The Gypsy and El Islam",Sir Richard Francis Burton,History - Other,88627,raw/History - Other/57208.txt,https://www.gutenberg.org/ebooks/57208,processed/History - Other/57208.txt
+53380,"The Republic of the Southern Cross, and other stories",Valery Yakovlevich Bryusov,Science-Fiction & Fantasy,39926,raw/Science-Fiction & Fantasy/53380.txt,https://www.gutenberg.org/ebooks/53380,processed/Science-Fiction & Fantasy/53380.txt
+30529,A Stake in the Land,"Speek, Peter A. (Peter Alexander), 1873-",Politics,66614,raw/Politics/30529.txt,,processed/Politics/30529.txt
+25493,A Cathedral Courtship,"Wiggin, Kate Douglas Smith, 1856-1923",Romance,18097,raw/Romance/25493.txt,,processed/Romance/25493.txt
+1095,The Light of the Western Stars,Zane Grey,Adventure,123440,raw/Adventure/1095.txt,https://www.gutenberg.org/ebooks/1095,processed/Adventure/1095.txt
+32048,"Cottage Building in Cob, Pisé, Chalk and Clay: A Renaissance (2nd edition)","Williams-Ellis, Clough, 1883-1978",Engineering & Technology,42590,raw/Engineering & Technology/32048.txt,,processed/Engineering & Technology/32048.txt
+6912,School and Home Cooking,"Greer, Carlotta C. (Carlotta Cherryholmes), 1879-1965",Cooking & Drinking,140718,raw/Cooking & Drinking/6912.txt,,processed/Cooking & Drinking/6912.txt
+41728,"The Traditional Games of England, Scotland, and Ireland (Vol 2 of 2)With Tunes, Singing-Rhymes, and Methods of Playing etc.","Gomme, Alice Bertha, 1853-1938",Children & Young Adult Reading,164354,raw/Children & Young Adult Reading/41728.txt,,processed/Children & Young Adult Reading/41728.txt
+27585,"Hilaire Belloc, the man and his work","Shanks, Edward, 1892-1953",Politics,54392,raw/Politics/27585.txt,,processed/Politics/27585.txt
+13487,The Ideal Bartender,"Bullock, Tom, 1873-1964",Cooking & Drinking,8675,raw/Cooking & Drinking/13487.txt,,processed/Cooking & Drinking/13487.txt
+49107,"A History of Matrimonial Institutions, Vol. 1 of 3",George Elliott Howard,History - Other,192852,raw/History - Other/49107.txt,https://www.gutenberg.org/ebooks/49107,processed/History - Other/49107.txt
+3181,The Stolen White Elephant,"Twain, Mark, 1835-1910","Crime, Thrillers & Mystery",9784,"raw/Crime, Thrillers & Mystery/3181.txt",,"processed/Crime, Thrillers & Mystery/3181.txt"
+21136,For Fortune and Glory: A Story of the Soudan War,Lewis Hough,Adventure,110182,raw/Adventure/21136.txt,https://www.gutenberg.org/ebooks/21136,processed/Adventure/21136.txt
+39347,Caricature and Other Comic Art in All Times and Many Lands.,"Parton, James, 1822-1891",History - Other,136856,raw/History - Other/39347.txt,,processed/History - Other/39347.txt
+8170,"Gargantua and Pantagruel, Illustrated, Book 5","Rabelais, François, 1490?-1553?",Science-Fiction & Fantasy,50913,raw/Science-Fiction & Fantasy/8170.txt,,processed/Science-Fiction & Fantasy/8170.txt
+18449,The Treasure of Heaven: A Romance of Riches,"Corelli, Marie, 1855-1924",Romance,166852,raw/Romance/18449.txt,,processed/Romance/18449.txt
+35784,Gwen Wynn: A Romance of the Wye,"Reid, Mayne, 1818-1883",Romance,134582,raw/Romance/35784.txt,,processed/Romance/35784.txt
+23493,Under the Waves: Diving in Deep Waters,R. M. Ballantyne,Adventure,94548,raw/Adventure/23493.txt,https://www.gutenberg.org/ebooks/23493,processed/Adventure/23493.txt
+62739,King Leopold's Soliloquy: A Defense of His Congo Rule,"Twain, Mark, 1835-1910",Politics,12993,raw/Politics/62739.txt,,processed/Politics/62739.txt
+54576,"Lightning Conductors: Their History, Nature, and Mode of Application","Anderson, Richard, F.C.S.",Engineering & Technology,89861,raw/Engineering & Technology/54576.txt,,processed/Engineering & Technology/54576.txt
+654,Grace Abounding to the Chief of Sinners,"Bunyan, John, 1628-1688",Biographies,61357,raw/Biographies/654.txt,,processed/Biographies/654.txt
+62754,Mussolini as revealed in his political speeches (November 1914-August 1923),"Mussolini, Benito, 1883-1945",Politics,111898,raw/Politics/62754.txt,,processed/Politics/62754.txt
+44263,500 of the Best Cockney War Stories,Various,"Crime, Thrillers & Mystery",75814,"raw/Crime, Thrillers & Mystery/44263.txt",,"processed/Crime, Thrillers & Mystery/44263.txt"
+15728,The Indiscreet Letter,Eleanor Hallowell Abbott,Romance,13891,raw/Romance/15728.txt,https://www.gutenberg.org/ebooks/15728,processed/Romance/15728.txt
+725,Men of Invention and Industry,"Smiles, Samuel, 1812-1904",Engineering & Technology,117623,raw/Engineering & Technology/725.txt,,processed/Engineering & Technology/725.txt
+56223,Oat Meal: The War Winner,"Grieve, James Ritchie, 1840-",Cooking & Drinking,8371,raw/Cooking & Drinking/56223.txt,,processed/Cooking & Drinking/56223.txt
+91,Tom Sawyer Abroad,"Twain, Mark, 1835-1910",Adventure,37035,raw/Adventure/91.txt,,processed/Adventure/91.txt
+33246,Civic League Cook Book,"Civic League (Williston, North Dakota)",Cooking & Drinking,64308,raw/Cooking & Drinking/33246.txt,,processed/Cooking & Drinking/33246.txt
+7111,The Land of Midian (Revisited) — Volume 1,Sir Richard Francis Burton,Adventure,84499,raw/Adventure/7111.txt,https://www.gutenberg.org/ebooks/7111,processed/Adventure/7111.txt
+46877,Glass,"Dillon, Edward, -1914",History - Other,137556,raw/History - Other/46877.txt,,processed/History - Other/46877.txt
+12851,Folk Tales from the Russian,"Blumenthal, Verra Xenophontovna Kalamatiano de, 1864-1942",Children & Young Adult Reading,22611,raw/Children & Young Adult Reading/12851.txt,,processed/Children & Young Adult Reading/12851.txt
+42155,Tom Slade on the River,"Fitzhugh, Percy Keese, 1876-1950",Children & Young Adult Reading,45333,raw/Children & Young Adult Reading/42155.txt,,processed/Children & Young Adult Reading/42155.txt
+42951,"A New Century of InventionsBeing Designs & Descriptions of One Hundred Machines, Relating to Arts, Manufactures, & Domestic Life","White, James (Civil engineer)",Engineering & Technology,98865,raw/Engineering & Technology/42951.txt,,processed/Engineering & Technology/42951.txt
+14959,The Hymns of Prudentius,"Prudentius, 348-",Poetry,33069,raw/Poetry/14959.txt,,processed/Poetry/14959.txt
+23053,Night of the Living Dead,"Romero, George A.",Science-Fiction & Fantasy,3066,raw/Science-Fiction & Fantasy/23053.txt,,processed/Science-Fiction & Fantasy/23053.txt
+50603,Minute Mysteries [Detectograms],"Ripley, H. A. (Harold Austin), 1896-","Crime, Thrillers & Mystery",25355,"raw/Crime, Thrillers & Mystery/50603.txt",,"processed/Crime, Thrillers & Mystery/50603.txt"
+54693,"A Book for a Rainy Day; or, Recollections of the Events of the Years 1766-1833","Smith, John Thomas, 1766-1833",Biographies,111374,raw/Biographies/54693.txt,,processed/Biographies/54693.txt
+25789,Emily Brontë,"Robinson, A. Mary F. (Agnes Mary Frances), 1857-1944",Biographies,72397,raw/Biographies/25789.txt,,processed/Biographies/25789.txt
+16059,Modern Spanish Lyrics,Unknown,Poetry,76802,raw/Poetry/16059.txt,,processed/Poetry/16059.txt
+325,Phantastes: A Faerie Romance for Men and Women,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,72185,raw/Science-Fiction & Fantasy/325.txt,,processed/Science-Fiction & Fantasy/325.txt
+14668,McGuffey's Second Eclectic Reader,"McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,20496,raw/Children & Young Adult Reading/14668.txt,,processed/Children & Young Adult Reading/14668.txt
+30954,"The Works of Robert Louis Stevenson - Swanston Edition, Vol. 13","Osbourne, Lloyd, 1868-1947",Adventure,141447,raw/Adventure/30954.txt,,processed/Adventure/30954.txt
+75258,The perfume of the lady in black,Gaston Leroux,"Crime, Thrillers & Mystery",106801,"raw/Crime, Thrillers & Mystery/75258.txt",https://www.gutenberg.org/ebooks/75258,"processed/Crime, Thrillers & Mystery/75258.txt"
+59931,The Love-Story of Aliette Brunton,"Frankau, Gilbert, 1884-1952",Romance,151223,raw/Romance/59931.txt,,processed/Romance/59931.txt
+10357,"Life of Johnson, Volume 41780-1784","Boswell, James, 1740-1795",Biographies,202224,raw/Biographies/10357.txt,,processed/Biographies/10357.txt
+15939,Definition & Reality in the General Theory of Political Economy,"Cool, Thomas (Thomas Herman Anthonius Maria), 1954-",Politics,149520,raw/Politics/15939.txt,,processed/Politics/15939.txt
+3027,The Orange Fairy Book,Andrew Lang,Children & Young Adult Reading,101063,raw/Children & Young Adult Reading/3027.txt,https://www.gutenberg.org/ebooks/3027,processed/Children & Young Adult Reading/3027.txt
+16776,Poems of Passion,"Wilcox, Ella Wheeler, 1850-1919",Romance,17430,raw/Romance/16776.txt,,processed/Romance/16776.txt
+66331,"A Treatise on Bread, and Bread-making","Graham, Sylvester, 1794-1851",Cooking & Drinking,24927,raw/Cooking & Drinking/66331.txt,,processed/Cooking & Drinking/66331.txt
+15202,"Young Folks' Treasury, Volume 2 (of 12)Myths and Legendary Heroes",Unknown,Children & Young Adult Reading,193677,raw/Children & Young Adult Reading/15202.txt,,processed/Children & Young Adult Reading/15202.txt
+26019,Europa's Fairy Book,Joseph Jacobs,Children & Young Adult Reading,61654,raw/Children & Young Adult Reading/26019.txt,https://www.gutenberg.org/ebooks/26019,processed/Children & Young Adult Reading/26019.txt
+819,The History of the Telephone,"Casson, Herbert Newton, 1869-1951",Engineering & Technology,57289,raw/Engineering & Technology/819.txt,,processed/Engineering & Technology/819.txt
+49415,The Boy's Own Book of Indoor Games and RecreationsA Popular Encyclopædia for Boys,"Stables, Gordon, 1840-1910",Children & Young Adult Reading,226308,raw/Children & Young Adult Reading/49415.txt,,processed/Children & Young Adult Reading/49415.txt
+29730,Desserts and Salads,"Lemcke, Gesine, 1841-1904",Cooking & Drinking,128376,raw/Cooking & Drinking/29730.txt,,processed/Cooking & Drinking/29730.txt
+45413,The North Pacific: A Story of the Russo-Japanese War,Willis Boyd Allen,Adventure,69946,raw/Adventure/45413.txt,https://www.gutenberg.org/ebooks/45413,processed/Adventure/45413.txt
+1112,Romeo and Juliet,"Shakespeare, William, 1564-1616",Romance,25875,raw/Romance/1112.txt,,processed/Romance/1112.txt
+58983,Audubon the Naturalist: A History of His Life and Time. Vol. 1 (of 2),"Herrick, Francis Hobart, 1858-1940",Biographies,155249,raw/Biographies/58983.txt,,processed/Biographies/58983.txt
+19104,Secret societies and subversive movements,"Webster, Nesta Helen, 1876-1960",History - Other,176973,raw/History - Other/19104.txt,,processed/History - Other/19104.txt
+27710,Lives of the EngineersThe Locomotive.  George and Robert Stephenson,"Smiles, Samuel, 1812-1904",Engineering & Technology,137024,raw/Engineering & Technology/27710.txt,,processed/Engineering & Technology/27710.txt
+55749,"The Raven, and The Philosophy of Composition","Poe, Edgar Allan, 1809-1849",Poetry,6156,raw/Poetry/55749.txt,,processed/Poetry/55749.txt
+43659,"The Old Woman Who Lived in a Shoe; Or, There's No Place Like Home",Amanda M. Douglas,Children & Young Adult Reading,83503,raw/Children & Young Adult Reading/43659.txt,https://www.gutenberg.org/ebooks/43659,processed/Children & Young Adult Reading/43659.txt
+37920,"The South American Republics, Part 1 of 2","Dawson, Thomas Cleland, 1835-1912",History - Other,119495,raw/History - Other/37920.txt,,processed/History - Other/37920.txt
+57038,The Monomaniac (La bête humaine),"Zola, Émile, 1840-1902","Crime, Thrillers & Mystery",139593,"raw/Crime, Thrillers & Mystery/57038.txt",,"processed/Crime, Thrillers & Mystery/57038.txt"
+40796,Foods and Household Management: A Textbook of the Household Arts,"Cooley, Anna M. (Anna Maria), 1874-1955",Cooking & Drinking,115051,raw/Cooking & Drinking/40796.txt,,processed/Cooking & Drinking/40796.txt
+3545,The Complete Poetical Works of Oliver Goldsmith,"Goldsmith, Oliver, 1730?-1774",Poetry,81117,raw/Poetry/3545.txt,,processed/Poetry/3545.txt
+69620,"Library of the best American literatureContaining the lives of our authors in story form, their portraits, their homes, and their personal traits, how they worked and what they wrote; choice selections from eminent writers, embracing great American poets and novelists, foremost women in American letters, distinguished critics and essayists, our national humorists, noted journalists and magazine contributors, popular writers for young people, great orators and public lecturers",Unknown,Biographies,286065,raw/Biographies/69620.txt,,processed/Biographies/69620.txt
+41873,"The History of Prostitution: Its Extent, Causes, and Effects throughout the World","Sanger, William W., 1819-1872",History - Other,286448,raw/History - Other/41873.txt,,processed/History - Other/41873.txt
+9866,Freeland: A Social Anticipation,"Hertzka, Theodor, 1845-1924",Science-Fiction & Fantasy,194322,raw/Science-Fiction & Fantasy/9866.txt,,processed/Science-Fiction & Fantasy/9866.txt
+22965,Ten Thousand Miles with a Dog SledA Narrative of Winter Travel in Interior Alaska,"Stuck, Hudson, 1863-1920",Adventure,125244,raw/Adventure/22965.txt,,processed/Adventure/22965.txt
+40614,Gabrielle of the Lagoon: A Romance of the South Seas,Unknown,Romance,82945,raw/Romance/40614.txt,,processed/Romance/40614.txt
+13018,The Letters of Elizabeth Barrett Browning (Volume 1 of 2),"Browning, Elizabeth Barrett, 1806-1861",Biographies,165951,raw/Biographies/13018.txt,,processed/Biographies/13018.txt
+37122,Hunting in Many Lands: The Book of the Boone and Crockett Club,Unknown,Adventure,97216,raw/Adventure/37122.txt,https://www.gutenberg.org/ebooks/37122,processed/Adventure/37122.txt
+3836,Swiss Family Robinson,Johann David Wyss,Adventure,129363,raw/Adventure/3836.txt,https://www.gutenberg.org/ebooks/3836,processed/Adventure/3836.txt
+7008,The City of Fire,"Hill, Grace Livingston, 1865-1947","Crime, Thrillers & Mystery",109520,"raw/Crime, Thrillers & Mystery/7008.txt",,"processed/Crime, Thrillers & Mystery/7008.txt"
+28648,A Little Girl in Old Philadelphia,Amanda M. Douglas,Children & Young Adult Reading,107185,raw/Children & Young Adult Reading/28648.txt,https://www.gutenberg.org/ebooks/28648,processed/Children & Young Adult Reading/28648.txt
+3655,"The Parent's Assistant; Or, Stories for Children",Maria Edgeworth,Children & Young Adult Reading,170350,raw/Children & Young Adult Reading/3655.txt,https://www.gutenberg.org/ebooks/3655,processed/Children & Young Adult Reading/3655.txt
+14642,"McGuffey's Eclectic Primer, Revised Edition","McGuffey, William Holmes, 1800-1873",Children & Young Adult Reading,4101,raw/Children & Young Adult Reading/14642.txt,,processed/Children & Young Adult Reading/14642.txt
+921,De Profundis,"Wilde, Oscar, 1854-1900",Biographies,20733,raw/Biographies/921.txt,,processed/Biographies/921.txt
+9863,The Letters of Robert Burns,Robert Burns,Biographies,124173,raw/Biographies/9863.txt,https://www.gutenberg.org/ebooks/9863,processed/Biographies/9863.txt
+24016,Photographic Reproduction Processes,"Duchochois, Peter C.",Engineering & Technology,36243,raw/Engineering & Technology/24016.txt,,processed/Engineering & Technology/24016.txt
+2376,Up from Slavery: An Autobiography,"Washington, Booker T., 1856-1915",Biographies,76760,raw/Biographies/2376.txt,,processed/Biographies/2376.txt
+2861,The Sleuth of St. James's Square,Melville Davisson Post,"Crime, Thrillers & Mystery",82901,"raw/Crime, Thrillers & Mystery/2861.txt",https://www.gutenberg.org/ebooks/2861,"processed/Crime, Thrillers & Mystery/2861.txt"
+30482,The International SpyBeing the Secret History of the Russo-Japanese War,"Upward, Allen, 1863-1926","Crime, Thrillers & Mystery",64986,"raw/Crime, Thrillers & Mystery/30482.txt",,"processed/Crime, Thrillers & Mystery/30482.txt"
+43879,Substitutes for Flesh Foods: Vegetarian Cook Book,"Fulton, Edwin Giles, 1867-",Cooking & Drinking,38517,raw/Cooking & Drinking/43879.txt,,processed/Cooking & Drinking/43879.txt
+10315,"The Persian Literature, Comprising The Shah Nameh, The Rubaiyat, The Divan, and The Gulistan, Volume 1","Omar Khayyam, 1048-1122",Poetry,142896,raw/Poetry/10315.txt,,processed/Poetry/10315.txt
+34838,The Life of Napoleon Bonaparte. Vol. 4 (of 4),"Sloane, William Milligan, 1850-1928",Biographies,202318,raw/Biographies/34838.txt,,processed/Biographies/34838.txt
+78,Tarzan of the Apes,"Burroughs, Edgar Rice, 1875-1950",Adventure,85803,raw/Adventure/78.txt,,processed/Adventure/78.txt
+1640,Lilith: A Romance,"MacDonald, George, 1824-1905",Science-Fiction & Fantasy,96879,raw/Science-Fiction & Fantasy/1640.txt,,processed/Science-Fiction & Fantasy/1640.txt
+58589,"The Boys' and Girls' PlinyBeing parts of Pliny's ""Natural History"" edited for boys and girls, with an Introduction","Pliny, the Elder, 24?-79",Children & Young Adult Reading,116017,raw/Children & Young Adult Reading/58589.txt,,processed/Children & Young Adult Reading/58589.txt
+65872,"Chronicles of Pharmacy, Vol. 1 (of 2)","Wootton, A. C., -1910",History - Other,115431,raw/History - Other/65872.txt,,processed/History - Other/65872.txt
+76178,I am a woman,"Bannon, Ann, 1932-",Romance,75030,raw/Romance/76178.txt,,processed/Romance/76178.txt
+27981,The Plant Hunters: Adventures Among the Himalaya Mountains,Mayne Reid,Adventure,90704,raw/Adventure/27981.txt,https://www.gutenberg.org/ebooks/27981,processed/Adventure/27981.txt
+73109,Sonnets and madrigals of Michelangelo Buonarroti,"Michelangelo Buonarroti, 1475-1564",Poetry,23242,raw/Poetry/73109.txt,,processed/Poetry/73109.txt
+55049,"The Poems of Madison Cawein, Volume 1 (of 5)Lyrics and old world idylls","Cawein, Madison Julius, 1865-1914",Poetry,64508,raw/Poetry/55049.txt,,processed/Poetry/55049.txt
+17320,"Political and Literary essays, 1908-1913","Cromer, Evelyn Baring, Earl of, 1841-1917",Politics,100272,raw/Politics/17320.txt,,processed/Politics/17320.txt
+11272,"The Anti-Slavery Examiner, Part 2 of 4",American Anti-Slavery Society,Politics,307425,raw/Politics/11272.txt,,processed/Politics/11272.txt
+25632,"A History of Art for Beginners and Students: Painting, Sculpture, Architecture","Waters, Clara Erskine Clement, 1834-1916",History - Other,86619,raw/History - Other/25632.txt,,processed/History - Other/25632.txt
+27106,Kinematics of Mechanisms from the Time of Watt,"Ferguson, Eugene S., 1916-2004",Engineering & Technology,24139,raw/Engineering & Technology/27106.txt,,processed/Engineering & Technology/27106.txt
+12632,Yesterdays with Authors,"Fields, James Thomas, 1817-1881",Biographies,156021,raw/Biographies/12632.txt,,processed/Biographies/12632.txt
+8920,The Light of Asia,"Arnold, Edwin, Sir, 1832-1904",Poetry,37629,raw/Poetry/8920.txt,,processed/Poetry/8920.txt
+35245,"The World and Its People, Book VII: Views in Africa","Badlam, Anna B., 1855-1947",Children & Young Adult Reading,142099,raw/Children & Young Adult Reading/35245.txt,,processed/Children & Young Adult Reading/35245.txt
+20023,"The letters of Queen Victoria, vol. 1, 1837-1843 :  A selection from Her Majesty's correspondence between the years 1837 and 1861.","Victoria, Queen of Great Britain, 1819-1901",Biographies,219865,raw/Biographies/20023.txt,,processed/Biographies/20023.txt
+76731,"Sibylla :  or, The revival of prophecy","Mace, C. A. (Cecil Alec), 1894-1971",Politics,10942,raw/Politics/76731.txt,,processed/Politics/76731.txt
+72529,A history of Vermont's maple sugar industry,Unknown,Cooking & Drinking,15281,raw/Cooking & Drinking/72529.txt,,processed/Cooking & Drinking/72529.txt
+56285,"The Oyster: Where, How and When to Find, Breed, Cook and Eat It","Murray, Eustace Clare Grenville, 1824-1881",Cooking & Drinking,24398,raw/Cooking & Drinking/56285.txt,,processed/Cooking & Drinking/56285.txt
+30055,The 1893 Duryea Automobile In the Museum of History and Technology,"Berkebile, Donald H., 1926-2008",Engineering & Technology,13515,raw/Engineering & Technology/30055.txt,,processed/Engineering & Technology/30055.txt
+59604,A Selection of Cartoons from Puck,"Keppler, Joseph Ferdinand, 1838-1894",Politics,19483,raw/Politics/59604.txt,,processed/Politics/59604.txt
+605,Pellucidar,"Burroughs, Edgar Rice, 1875-1950",Science-Fiction & Fantasy,60366,raw/Science-Fiction & Fantasy/605.txt,,processed/Science-Fiction & Fantasy/605.txt
+1523,As You Like It,"Shakespeare, William, 1564-1616",Romance,23163,raw/Romance/1523.txt,,processed/Romance/1523.txt
+13534,Past and Present,"Carlyle, Thomas, 1795-1881",Politics,108916,raw/Politics/13534.txt,,processed/Politics/13534.txt
