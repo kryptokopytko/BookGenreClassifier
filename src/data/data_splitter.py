@@ -11,6 +11,8 @@ from ..utils.config import (
 
 logger = get_logger(__name__)
 
+SPECIAL_AUTHORS = {"Unknown", "Anonymous", "Various"}
+
 class DataSplitter:
     def __init__(self, random_state: int = RANDOM_STATE):
         self.random_state = random_state
@@ -25,18 +27,21 @@ class DataSplitter:
         assert abs(train_ratio + val_ratio + test_ratio - 1.0) < 0.001, \
             "Ratios must sum to 1.0"
 
-        authors = df['author'].unique()
-        logger.info(f"Total unique authors: {len(authors)}")
+        all_authors = set(df["author"].unique())
+        normal_authors = sorted(all_authors - SPECIAL_AUTHORS)
+        special_authors = all_authors & SPECIAL_AUTHORS
+
+        logger.info(f"Total unique normal authors: {len(normal_authors)}")
 
         np.random.seed(self.random_state)
-        np.random.shuffle(authors)
+        np.random.shuffle(normal_authors)
 
-        n_train = int(len(authors) * train_ratio)
-        n_val = int(len(authors) * val_ratio)
+        n_train = int(len(normal_authors) * train_ratio)
+        n_val = int(len(normal_authors) * val_ratio)
 
-        train_authors = authors[:n_train]
-        val_authors = authors[n_train:n_train + n_val]
-        test_authors = authors[n_train + n_val:]
+        train_authors = normal_authors[:n_train]
+        val_authors = normal_authors[n_train:n_train + n_val]
+        test_authors = normal_authors[n_train + n_val:]
 
         logger.info(f"Train authors: {len(train_authors)}")
         logger.info(f"Val authors: {len(val_authors)}")
@@ -45,6 +50,27 @@ class DataSplitter:
         train_df = df[df['author'].isin(train_authors)].copy()
         val_df = df[df['author'].isin(val_authors)].copy()
         test_df = df[df['author'].isin(test_authors)].copy()
+
+        total_books = len(df)
+        target_train = int(total_books * train_ratio)
+        target_val = int(total_books * val_ratio)
+        target_test = total_books - target_train - target_val
+
+        special_df = df[df["author"].isin(special_authors)].sample(
+            frac=1, random_state=self.random_state
+        )
+
+        for _, row in special_df.iterrows():
+            if len(train_df) < target_train:
+                train_df = pd.concat([train_df, row.to_frame().T])
+            elif len(val_df) < target_val:
+                val_df = pd.concat([val_df, row.to_frame().T])
+            else:
+                test_df = pd.concat([test_df, row.to_frame().T])
+
+        train_df = train_df.sample(frac=1, random_state=self.random_state)
+        val_df = val_df.sample(frac=1, random_state=self.random_state)
+        test_df = test_df.sample(frac=1, random_state=self.random_state)
 
         logger.info(f"Train books: {len(train_df)}")
         logger.info(f"Val books: {len(val_df)}")
@@ -57,22 +83,26 @@ class DataSplitter:
         return train_df, val_df, test_df
 
     def stratified_split_by_author(
-        self,
-        df: pd.DataFrame,
-        train_ratio: float = TRAIN_RATIO,
-        val_ratio: float = VAL_RATIO,
-        test_ratio: float = TEST_RATIO,
-        stratify_by: str = 'genre'
-    ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-        author_genres = df.groupby('author')[stratify_by].agg(
+    self,
+    df: pd.DataFrame,
+    train_ratio: float = TRAIN_RATIO,
+    val_ratio: float = VAL_RATIO,
+    test_ratio: float = TEST_RATIO,
+    stratify_by: str = 'genre'
+) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+
+        all_authors = set(df['author'].unique())
+        normal_authors = sorted(all_authors - SPECIAL_AUTHORS)
+        special_authors = all_authors & SPECIAL_AUTHORS
+
+        author_genres = df[df['author'].isin(normal_authors)].groupby('author')[stratify_by].agg(
             lambda x: x.mode()[0] if len(x.mode()) > 0 else x.iloc[0]
         ).reset_index()
         author_genres.columns = ['author', 'primary_genre']
 
-        logger.info(f"Splitting {len(author_genres)} authors stratified by {stratify_by}")
+        logger.info(f"Splitting {len(author_genres)} normal authors stratified by {stratify_by}")
 
         try:
-
             train_authors, temp_authors, train_genres, temp_genres = train_test_split(
                 author_genres['author'],
                 author_genres['primary_genre'],
@@ -82,7 +112,6 @@ class DataSplitter:
             )
 
             val_ratio_adjusted = val_ratio / (val_ratio + test_ratio)
-
             val_authors, test_authors = train_test_split(
                 temp_authors,
                 train_size=val_ratio_adjusted,
@@ -90,25 +119,41 @@ class DataSplitter:
                 random_state=self.random_state
             )
 
-            logger.info("Using stratified split by genre")
-
         except ValueError as e:
             logger.warning(f"Stratified split failed: {e}")
             logger.warning("Falling back to non-stratified split by author")
-
             return self.split_by_author(df, train_ratio, val_ratio, test_ratio)
 
         train_df = df[df['author'].isin(train_authors)].copy()
         val_df = df[df['author'].isin(val_authors)].copy()
         test_df = df[df['author'].isin(test_authors)].copy()
 
-        logger.info(f"Stratified split complete:")
-        logger.info(f"  Train: {len(train_authors)} authors, {len(train_df)} books")
-        logger.info(f"  Val: {len(val_authors)} authors, {len(val_df)} books")
-        logger.info(f"  Test: {len(test_authors)} authors, {len(test_df)} books")
+        total_books = len(df)
+        target_train = int(total_books * train_ratio)
+        target_val = int(total_books * val_ratio)
+        target_test = total_books - target_train - target_val
+
+        special_df = df[df['author'].isin(special_authors)].sample(
+            frac=1, random_state=self.random_state
+        )
+
+        for _, row in special_df.iterrows():
+            if len(train_df) < target_train:
+                train_df = pd.concat([train_df, row.to_frame().T])
+            elif len(val_df) < target_val:
+                val_df = pd.concat([val_df, row.to_frame().T])
+            else:
+                test_df = pd.concat([test_df, row.to_frame().T])
+
+        train_df = train_df.sample(frac=1, random_state=self.random_state)
+        val_df = val_df.sample(frac=1, random_state=self.random_state)
+        test_df = test_df.sample(frac=1, random_state=self.random_state)
+
+        logger.info(f"Train books: {len(train_df)}")
+        logger.info(f"Val books: {len(val_df)}")
+        logger.info(f"Test books: {len(test_df)}")
 
         self._verify_no_author_overlap(train_df, val_df, test_df)
-
         self._log_genre_distribution(train_df, val_df, test_df)
 
         return train_df, val_df, test_df
@@ -123,10 +168,10 @@ class DataSplitter:
         val_authors = set(val_df['author'].unique())
         test_authors = set(test_df['author'].unique())
 
-        overlap_train_val = train_authors & val_authors
-        overlap_train_test = train_authors & test_authors
-        overlap_val_test = val_authors & test_authors
-
+        overlap_train_val = (train_authors & val_authors) - SPECIAL_AUTHORS
+        overlap_train_test = (train_authors & test_authors) - SPECIAL_AUTHORS
+        overlap_val_test = (val_authors & test_authors) - SPECIAL_AUTHORS
+        
         if overlap_train_val:
             logger.warning(f"Author overlap between train and val: {overlap_train_val}")
         if overlap_train_test:

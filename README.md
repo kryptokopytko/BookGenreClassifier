@@ -19,20 +19,26 @@ book-genre-classifier/
 
 **Źródło:** Project Gutenberg (darmowe e-booki)
 
-**Rozmiar:**
+**Gatunki książek**
+- Adventure,
+- Biographies,
+- Poetry,
+- Romance,
+- Science-Fiction & Fantasy,
+- Crime, Thrillers & Mystery,
+- Children & Young Adult Reading,
+- Engineering & Technology,
+- History - Other,
+- Politics,
+- Cooking & Drinking
 
-- **Całość:**  książki
-- Zbiór treningowy:  (%)
-- Zbiór walidacyjny:  (%)
-- Zbiór testowy:  (%)
+**Rozmiar danych:**
+- **Całość:**  4400 książek, po 400 dla każdego gatunku.
+- Zbiór treningowy:  70%
+- Zbiór walidacyjny:  15%
+- Zbiór testowy:  15%
 
 Dane zostały podzielone po autorach aby zapobiec data leakage.
-
-**Rozkład gatunków:**
-
-| Gatunek               | Liczba książek w zbiorze |
-| --------------------- | ------------------------ |
-|                       |                          |
 
 ### Modele
 - **Linear SVM**
@@ -49,9 +55,6 @@ python3 scripts/install_requirenments.py
 # pobranie danych, preprocessing i podział danych
 # pominięcie wybranego kroku: --skip_download --skip_preprocessing --skip_splitting
 python3 scripts/download_books.py
-
-# generowanie metadanych dla książek
-python3 scripts/generate_metadata_from_existing.py
 
 # wyodrębnienie features
 python3 scripts/extract_features.py --skip_pos --skip_keywords
