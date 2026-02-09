@@ -67,13 +67,23 @@ if (MODELS_DIR / 'tfidf_vectorizer.pkl').exists():
     print(f"   Transformed to TF-IDF: {X_test_tfidf.shape}")
 
 models_to_test = [
-    ('Logistic Regression', 'logistic_regression.pkl', 'tfidf', None),
-    ('Linear SVM', 'linear_svm.pkl', 'tfidf', None),
-    ('Naive Bayes', 'naive_bayes.pkl', 'tfidf', None),
-
-    ('Random Forest', 'random_forest.pkl', 'features', None),
+    # Models from train_ultra_fast.py - all use TF-IDF
+    ('Ridge Classifier', 'ridge_classifier.pkl', 'tfidf', None),
+    ('Linear SVM', 'linear_svm_fast.pkl', 'tfidf', None),
+    ('Logistic Regression', 'logistic_regression_fast.pkl', 'tfidf', None),
+    ('SGD Classifier', 'sgd_classifier.pkl', 'tfidf', None),
+    ('Passive Aggressive', 'passive_aggressive.pkl', 'tfidf', None),
+    ('KNN', 'knn.pkl', 'tfidf', None),
+    ('Nearest Centroid', 'nearest_centroid.pkl', 'tfidf', None),
+    ('Multinomial Naive Bayes', 'naive_bayes_multinomial.pkl', 'tfidf', None),
+    ('Complement Naive Bayes', 'naive_bayes_complement.pkl', 'tfidf', None),
+    ('Bernoulli Naive Bayes', 'naive_bayes_bernoulli.pkl', 'tfidf', None),
+    ('Decision Tree', 'decision_tree.pkl', 'tfidf', None),
+    ('Random Forest', 'random_forest_fast.pkl', 'tfidf', None),
+    ('Extra Trees', 'extra_trees.pkl', 'tfidf', None),
 ]
 
+# Add optimized models if they exist
 if (MODELS_DIR / 'linear_svm_optimized.pkl').exists():
     models_to_test.append(('Linear SVM (Optimized)', 'linear_svm_optimized.pkl', 'tfidf', None))
 
@@ -116,13 +126,28 @@ for model_name, model_file, input_type, model_type in models_to_test:
             model.load(MODELS_DIR)
             y_pred = model.predict(list(X_test_texts))
         else:
-            model = joblib.load(model_path)
+            # Load model (might be a dict from train_ultra_fast.py or just a model)
+            model_data = joblib.load(model_path)
+
+            if isinstance(model_data, dict):
+                # New format from train_ultra_fast.py
+                model = model_data['model']
+                model_vectorizer = model_data.get('vectorizer', None)
+            else:
+                # Old format - just the model
+                model = model_data
+                model_vectorizer = None
 
             if input_type == 'tfidf':
-                if tfidf_vectorizer is None:
+                # Use model's vectorizer if available, otherwise use shared vectorizer
+                if model_vectorizer is not None:
+                    X_test_tfidf_local = model_vectorizer.transform(X_test_texts)
+                    y_pred = model.predict(X_test_tfidf_local)
+                elif tfidf_vectorizer is not None:
+                    y_pred = model.predict(X_test_tfidf)
+                else:
                     print(f"   Warning: TF-IDF vectorizer not found")
                     continue
-                y_pred = model.predict(X_test_tfidf)
             elif input_type == 'text':
                 vectorizer_file = model_file.replace('_model.pkl', '_vectorizer.pkl').replace('.pkl', '_vectorizer.pkl')
                 if not vectorizer_file.endswith('_vectorizer.pkl'):

@@ -1,4 +1,5 @@
 import re
+import gc
 from collections import Counter
 from pathlib import Path
 from typing import Dict, List
@@ -60,6 +61,8 @@ class VocabularyAnalyzer:
                 logger.warning(f"No documents for genre {genre}")
                 continue
 
+            logger.info(f"Processing {genre} with {len(documents)} documents")
+
             doc_texts = [' '.join(doc) for doc in documents]
 
             vectorizer = TfidfVectorizer(
@@ -82,6 +85,10 @@ class VocabularyAnalyzer:
 
                 logger.info(f"{genre}: Top 10 words: {[w for w, s in word_scores[:10]]}")
 
+                # Free memory after processing each genre
+                del doc_texts, tfidf_matrix, feature_names, avg_scores, word_scores
+                gc.collect()
+
             except Exception as e:
                 logger.error(f"Error calculating TF-IDF for {genre}: {e}")
                 characteristic_words[genre] = []
@@ -96,41 +103,67 @@ class VocabularyAnalyzer:
     ) -> Dict[str, List[str]]:
         df = pd.read_csv(metadata_file)
 
-        genre_documents = {genre: [] for genre in GENRES}
-
         logger.info("Processing books to extract keywords...")
+        logger.info("Processing each genre separately to save memory")
 
-        for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing books"):
-            try:
+        genre_keywords = {}
 
-                text_path = Path(row['processed_path'])
-                if not text_path.is_absolute():
-                    from ..utils.config import PROCESSED_DATA_DIR
-                    text_path = PROCESSED_DATA_DIR.parent / text_path
+        # Process each genre separately to save memory
+        for genre in GENRES:
+            logger.info(f"\nProcessing genre: {genre}")
 
-                text = text_path.read_text(encoding='utf-8')
+            # Get only books for this genre
+            genre_df = df[df['genre'] == genre]
+            logger.info(f"  Found {len(genre_df)} books")
 
-                tokens = self.tokenize(text)
-
-                tokens = self.remove_stopwords(tokens)
-
-                if use_stemming:
-                    tokens = self.stem_tokens(tokens)
-
-                genre = row['genre']
-                if genre in genre_documents:
-                    genre_documents[genre].append(tokens)
-
-            except Exception as e:
-                logger.error(f"Error processing book {row['book_id']}: {e}")
+            if len(genre_df) == 0:
+                logger.warning(f"  No books found for {genre}")
+                genre_keywords[genre] = []
                 continue
 
-        characteristic_words = self.calculate_tfidf_scores(genre_documents)
+            # Collect documents for this genre only
+            documents = []
 
-        genre_keywords = {
-            genre: [word for word, score in words]
-            for genre, words in characteristic_words.items()
-        }
+            for idx, row in tqdm(genre_df.iterrows(), total=len(genre_df), desc=f"  Processing {genre}"):
+                try:
+                    text_path = Path(row['processed_path'])
+                    if not text_path.is_absolute():
+                        from ..utils.config import PROCESSED_DATA_DIR
+                        text_path = PROCESSED_DATA_DIR.parent / text_path
+
+                    # Read entire book
+                    text = text_path.read_text(encoding='utf-8')
+
+                    tokens = self.tokenize(text)
+                    tokens = self.remove_stopwords(tokens)
+
+                    if use_stemming:
+                        tokens = self.stem_tokens(tokens)
+
+                    documents.append(tokens)
+
+                    # Clear text from memory immediately after processing
+                    del text, tokens
+
+                except Exception as e:
+                    logger.error(f"  Error processing book {row['book_id']}: {e}")
+                    continue
+
+            # Calculate TF-IDF for this genre only
+            if documents:
+                genre_documents = {genre: documents}
+                characteristic_words = self.calculate_tfidf_scores(genre_documents)
+
+                if genre in characteristic_words:
+                    genre_keywords[genre] = [word for word, score in characteristic_words[genre]]
+                else:
+                    genre_keywords[genre] = []
+
+                # Clear this genre's documents from memory
+                del documents, genre_documents, characteristic_words
+                gc.collect()
+            else:
+                genre_keywords[genre] = []
 
         return genre_keywords
 

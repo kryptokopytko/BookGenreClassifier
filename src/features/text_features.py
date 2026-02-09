@@ -1,4 +1,5 @@
 import re
+import gc
 import numpy as np
 from pathlib import Path
 from typing import Dict, List
@@ -202,10 +203,12 @@ class TextFeatureExtractor:
 def extract_features_from_dataset(
     metadata_file: Path,
     pos_stats_file: Path = None,
-    output_file: Path = PROCESSED_DATA_DIR / "features.csv"
+    output_file: Path = PROCESSED_DATA_DIR / "features.csv",
+    batch_size: int = 50
 ) -> pd.DataFrame:
     df = pd.read_csv(metadata_file)
     logger.info(f"Extracting features from {len(df)} books")
+    logger.info(f"Processing in batches of {batch_size} books to save memory")
 
     pos_df = None
     if pos_stats_file and Path(pos_stats_file).exists():
@@ -250,9 +253,20 @@ def extract_features_from_dataset(
 
             all_features.append(features)
 
+            # Clear text from memory immediately after processing
+            del text
+
+            # Periodic garbage collection every batch_size books
+            if (idx + 1) % batch_size == 0:
+                gc.collect()
+                logger.info(f"Processed {idx + 1}/{len(df)} books, freed memory")
+
         except Exception as e:
             logger.error(f"Error extracting features from book {row['book_id']}: {e}")
             continue
+
+    # Final garbage collection before creating DataFrame
+    gc.collect()
 
     features_df = pd.DataFrame(all_features)
 
