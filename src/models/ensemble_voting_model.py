@@ -18,6 +18,7 @@ class EnsembleVotingModel:
         voting: str = 'soft',
         weights: List[float] = None
     ):
+        self.models = models
         self.voting = voting
         self.weights = weights if weights else [1.0 / len(models)] * len(models)
         self.genre_labels = None
@@ -30,36 +31,45 @@ class EnsembleVotingModel:
             _, first_model = models[0]
             if hasattr(first_model, 'genre_labels'):
                 self.genre_labels = first_model.genre_labels
+            elif hasattr(first_model, 'classes_'):
+                self.genre_labels = first_model.classes_
 
     def predict(self, data: any) -> np.ndarray:
+        if self.voting == 'soft':
+            all_probas = []
 
-        all_probas = []
+            for (name, model), weight in zip(self.models, self.weights):
+                try:
 
-        for (name, model), weight in zip(self.models, self.weights):
-            try:
+                    if hasattr(model, 'predict_proba'):
+                        proba = model.predict_proba(data)
+                    elif hasattr(model, 'decision_function'):
 
-                if hasattr(model, 'predict_proba'):
-                    proba = model.predict_proba(data)
-                elif hasattr(model, 'decision_function'):
+                        scores = model.decision_function(data)
 
-                    scores = model.decision_function(data)
+                        proba = self._softmax(scores)
+                    else:
 
-                    proba = self._softmax(scores)
-                else:
+                        preds = model.predict(data)
+                        proba = self._predictions_to_proba(preds)
 
-                    preds = model.predict(data)
-                    proba = self._predictions_to_proba(preds)
+                    all_probas.append(proba * weight)
 
-                all_probas.append(proba * weight)
-
-            except Exception as e:
-                logger.warning(f"Error getting predictions from {name}: {e}")
-                continue
+                except Exception as e:
+                    logger.warning(f"Error getting predictions from {name}: {e}")
+                    continue
 
             if not all_probas:
                 raise ValueError("No valid predictions from any model")
 
             avg_proba = np.sum(all_probas, axis=0)
+
+            if self.genre_labels is None:
+                _, first_model = self.models[0]
+                if hasattr(first_model, 'classes_'):
+                    self.genre_labels = first_model.classes_
+                else:
+                    raise ValueError("Cannot determine genre labels from models")
 
             predictions = self.genre_labels[np.argmax(avg_proba, axis=1)]
 
@@ -81,8 +91,12 @@ class EnsembleVotingModel:
                 raise ValueError("No valid predictions from any model")
 
             all_preds = np.array(all_preds)
-            from scipy.stats import mode
-            predictions = mode(all_preds, axis=0)[0].flatten()
+            predictions = []
+            for i in range(all_preds.shape[1]):
+                votes = all_preds[:, i]
+                unique, counts = np.unique(votes, return_counts=True)
+                predictions.append(unique[counts.argmax()])
+            predictions = np.array(predictions)
 
         return predictions
 

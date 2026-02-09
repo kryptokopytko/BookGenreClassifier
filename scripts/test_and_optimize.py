@@ -15,7 +15,6 @@ from src.utils.config import PROCESSED_DATA_DIR, MODELS_DIR, RESULTS_DIR
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-# Load data
 train_df = pd.read_csv(PROCESSED_DATA_DIR / "train.csv")
 val_df = pd.read_csv(PROCESSED_DATA_DIR / "val.csv")
 test_df = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
@@ -25,7 +24,6 @@ print("MODEL TESTING AND OPTIMIZATION")
 print("="*60)
 print(f"\nDataset: {len(train_df)} train, {len(val_df)} val, {len(test_df)} test")
 
-# Load text
 def load_text(row):
     genre = row['genre'].replace('/', '_')
     filename = f"{row['book_id']}.txt"
@@ -46,7 +44,6 @@ y_train = train_df['genre'].values
 y_val = val_df['genre'].values
 y_test = test_df['genre'].values
 
-# Test existing models
 print("\n" + "="*60)
 print("TESTING EXISTING MODELS")
 print("="*60)
@@ -73,7 +70,6 @@ for model_name in ['logistic_regression', 'linear_svm', 'naive_bayes', 'random_f
         model = joblib.load(model_path)
 
         if 'forest' in model_name:
-            # Load features for Random Forest
             features_df = pd.read_csv(PROCESSED_DATA_DIR / "features.csv")
             features_df = features_df.drop_duplicates(subset=['book_id'], keep='first')
 
@@ -87,7 +83,6 @@ for model_name in ['logistic_regression', 'linear_svm', 'naive_bayes', 'random_f
         acc = accuracy_score(y_test, y_pred)
         print(f"  Test Accuracy: {acc:.4f} ({acc*100:.1f}%)")
 
-# SVM Hyperparameter Optimization
 print("\n" + "="*60)
 print("SVM HYPERPARAMETER OPTIMIZATION")
 print("="*60)
@@ -114,7 +109,6 @@ for c in c_values:
 
 print(f"\nBest C: {best_c} (Val Acc: {best_val_acc:.4f})")
 
-# Train final optimized model
 print("\nTraining final optimized SVM...")
 best_svm = LinearSVC(C=best_c, max_iter=2000, random_state=42)
 best_svm.fit(X_train_tfidf, y_train)
@@ -127,11 +121,9 @@ print(f"FINAL RESULTS - Optimized Linear SVM (C={best_c})")
 print(f"{'='*60}")
 print(f"Test Accuracy: {test_acc:.4f} ({test_acc*100:.1f}%)")
 
-# Detailed classification report
 print("\nPer-Genre Results:")
 print(classification_report(y_test, y_pred_test))
 
-# Confusion Matrix
 cm = confusion_matrix(y_test, y_pred_test)
 genres = sorted(set(y_test))
 
@@ -145,11 +137,9 @@ plt.tight_layout()
 plt.savefig(RESULTS_DIR / 'optimized_svm_confusion_matrix.png', dpi=150)
 print(f"\nConfusion matrix saved to: {RESULTS_DIR / 'optimized_svm_confusion_matrix.png'}")
 
-# Save optimized model
 joblib.dump(best_svm, MODELS_DIR / 'linear_svm_optimized.pkl')
 print(f"Optimized model saved to: {MODELS_DIR / 'linear_svm_optimized.pkl'}")
 
-# Save results
 results_df = pd.DataFrame(results)
 results_df.to_csv(RESULTS_DIR / 'svm_optimization_results.csv', index=False)
 print(f"Optimization results saved to: {RESULTS_DIR / 'svm_optimization_results.csv'}")

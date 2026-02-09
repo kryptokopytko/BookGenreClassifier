@@ -1,0 +1,11 @@
+{
+  "vectorizer_path": "/home/kasia/ML/book-genre-classifier/models_saved/tfidf_vectorizer.pkl",
+  "n_features": 5000,
+  "train_samples": 3080,
+  "val_samples": 660,
+  "test_samples": 660,
+  "created_at": "2026-02-09T16:43:16.073978",
+  "load_time_sec": 2.792922258377075,
+  "vectorize_time_sec": 322.72332286834717,
+  "total_size_mb": 104.44203090667725
+}

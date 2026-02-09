@@ -26,6 +26,7 @@ class NearestCentroidModel:
         remove_stopwords: bool = True,
         use_config_params: bool = True
     ):
+        self.max_features = max_features
         self.use_lemmas = use_lemmas
         self.remove_stopwords = remove_stopwords
 
@@ -47,7 +48,7 @@ class NearestCentroidModel:
         if use_config_params:
             self.model = NearestCentroid(**NEAREST_CENTROID_PARAMS)
         else:
-            self.model = NearestCentroid(metric='cosine')
+            self.model = NearestCentroid(metric='euclidean')
 
         self.genre_labels = None
         self.train_accuracy = None
@@ -107,7 +108,8 @@ class NearestCentroidModel:
         logger.info(f"Centroids computed: shape={self.model.centroids_.shape}")
 
     def predict(self, texts: List[str]) -> np.ndarray:
-        return self.model.predict(texts)
+        X = self.vectorizer.transform(texts)
+        return self.model.predict(X)
 
     def evaluate(self, texts_test: List[str], y_test: np.ndarray) -> Dict[str, float]:
 

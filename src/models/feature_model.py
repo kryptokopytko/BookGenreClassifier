@@ -15,6 +15,7 @@ logger = get_logger(__name__)
 class FeatureBasedModel:
 
     def __init__(self, feature_columns: List[str] = None):
+        self.feature_columns = feature_columns
         self.scaler = StandardScaler()
         self.model = RandomForestClassifier(**RANDOM_FOREST_PARAMS)
         self.genre_labels = None
@@ -61,10 +62,12 @@ class FeatureBasedModel:
             logger.info(f"OOB score: {self.model.oob_score_:.4f}")
 
     def predict(self, X: np.ndarray) -> np.ndarray:
-        return self.model.predict(X)
+        X_scaled = self.scaler.transform(X)
+        return self.model.predict(X_scaled)
 
     def predict_proba(self, X: np.ndarray) -> np.ndarray:
-        return self.model.predict_proba(X)
+        X_scaled = self.scaler.transform(X)
+        return self.model.predict_proba(X_scaled)
 
     def evaluate(self, X_test: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
 

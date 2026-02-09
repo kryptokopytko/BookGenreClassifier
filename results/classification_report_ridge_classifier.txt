@@ -1,0 +1,17 @@
+                                precision    recall  f1-score   support
+
+                     Adventure       0.62      0.51      0.56        61
+                   Biographies       0.76      0.69      0.73        59
+Children & Young Adult Reading       0.56      0.57      0.57        56
+            Cooking & Drinking       1.00      0.90      0.95        52
+    Crime, Thrillers & Mystery       0.75      0.71      0.73        75
+      Engineering & Technology       0.85      0.85      0.85        59
+               History - Other       0.67      0.70      0.68        60
+                        Poetry       0.79      0.85      0.82        62
+                      Politics       0.74      0.87      0.80        53
+                       Romance       0.48      0.69      0.56        61
+     Science-Fiction & Fantasy       0.62      0.42      0.50        62
+
+                      accuracy                           0.70       660
+                     macro avg       0.71      0.71      0.70       660
+                  weighted avg       0.71      0.70      0.70       660

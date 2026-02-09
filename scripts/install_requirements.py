@@ -35,7 +35,6 @@ def install(package):
 
 all_ok = True
 
-# CPU-only torch
 try:
     import torch
     print("Biblioteka torch jest już zainstalowana ✅")
@@ -47,7 +46,6 @@ except ImportError:
         print("Nie udało się zainstalować torch ✖️")
         all_ok = False
 
-# Pozostałe biblioteki
 for lib in libraries:
     if not install(lib):
         all_ok = False

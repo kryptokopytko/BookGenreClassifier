@@ -16,7 +16,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.utils.config import PROCESSED_DATA_DIR, MODELS_DIR
 
-# Create results directory
 RESULTS_DIR = Path(__file__).parent.parent / "results"
 RESULTS_DIR.mkdir(exist_ok=True)
 
@@ -24,7 +23,6 @@ print("="*80)
 print("COMPREHENSIVE MODEL TESTING")
 print("="*80)
 
-# Load data
 print("\nLoading data...")
 train_df = pd.read_csv(PROCESSED_DATA_DIR / "train.csv")
 val_df = pd.read_csv(PROCESSED_DATA_DIR / "val.csv")
@@ -34,7 +32,6 @@ print(f"   Train: {len(train_df)} samples")
 print(f"   Val:   {len(val_df)} samples")
 print(f"   Test:  {len(test_df)} samples")
 
-# Load texts
 def load_text(row):
     """Load text from processed file."""
     genre = row['genre'].replace('/', '_')
@@ -53,7 +50,6 @@ y_test = test_df['genre'].values
 
 print(f"   Loaded {len(X_test_texts)} test texts")
 
-# Load features for tree-based models
 print("\nLoading features...")
 features_df = pd.read_csv(PROCESSED_DATA_DIR / "features.csv")
 features_df = features_df.drop_duplicates(subset=['book_id'], keep='first')
@@ -63,7 +59,6 @@ X_test_feat = test_features[feature_cols].fillna(0).values
 
 print(f"   Loaded {len(feature_cols)} features")
 
-# Load shared TF-IDF vectorizer
 tfidf_vectorizer = None
 if (MODELS_DIR / 'tfidf_vectorizer.pkl').exists():
     print(f"\nLoading shared TF-IDF vectorizer...")
@@ -71,22 +66,17 @@ if (MODELS_DIR / 'tfidf_vectorizer.pkl').exists():
     X_test_tfidf = tfidf_vectorizer.transform(X_test_texts)
     print(f"   Transformed to TF-IDF: {X_test_tfidf.shape}")
 
-# Models to test
 models_to_test = [
-    # TF-IDF based models (from train_simple.py)
     ('Logistic Regression', 'logistic_regression.pkl', 'tfidf', None),
     ('Linear SVM', 'linear_svm.pkl', 'tfidf', None),
     ('Naive Bayes', 'naive_bayes.pkl', 'tfidf', None),
 
-    # Feature-based models
     ('Random Forest', 'random_forest.pkl', 'features', None),
 ]
 
-# Check for optimized models
 if (MODELS_DIR / 'linear_svm_optimized.pkl').exists():
     models_to_test.append(('Linear SVM (Optimized)', 'linear_svm_optimized.pkl', 'tfidf', None))
 
-# Check for other model files
 if (MODELS_DIR / 'knn_model.pkl').exists():
     models_to_test.append(('KNN', 'knn_model.pkl', 'text', 'knn'))
 if (MODELS_DIR / 'ridge_model.pkl').exists():
@@ -111,7 +101,6 @@ for model_name, model_file, input_type, model_type in models_to_test:
     print(f"   Model file: {model_file}")
 
     try:
-        # Load model
         if model_type == 'knn':
             from src.models.knn_model import KNNModel
             model = KNNModel()
@@ -127,24 +116,20 @@ for model_name, model_file, input_type, model_type in models_to_test:
             model.load(MODELS_DIR)
             y_pred = model.predict(list(X_test_texts))
         else:
-            # Standard joblib model
             model = joblib.load(model_path)
 
             if input_type == 'tfidf':
-                # Use shared TF-IDF vectorizer
                 if tfidf_vectorizer is None:
                     print(f"   Warning: TF-IDF vectorizer not found")
                     continue
                 y_pred = model.predict(X_test_tfidf)
             elif input_type == 'text':
-                # Load model-specific vectorizer
                 vectorizer_file = model_file.replace('_model.pkl', '_vectorizer.pkl').replace('.pkl', '_vectorizer.pkl')
                 if not vectorizer_file.endswith('_vectorizer.pkl'):
                     vectorizer_file = model_file.replace('.pkl', '') + '_vectorizer.pkl'
 
                 vectorizer_path = MODELS_DIR / vectorizer_file
                 if not vectorizer_path.exists():
-                    # Try simple name
                     vectorizer_path = MODELS_DIR / 'vectorizer.pkl'
 
                 if vectorizer_path.exists():
@@ -155,16 +140,13 @@ for model_name, model_file, input_type, model_type in models_to_test:
                     print(f"   Warning: Vectorizer not found for {model_name}")
                     continue
             else:
-                # Feature-based
                 y_pred = model.predict(X_test_feat)
 
-        # Calculate metrics
         accuracy = accuracy_score(y_test, y_pred)
         precision, recall, f1, support = precision_recall_fscore_support(
             y_test, y_pred, average='weighted', zero_division=0
         )
 
-        # Per-class metrics
         precision_per_class, recall_per_class, f1_per_class, support_per_class = precision_recall_fscore_support(
             y_test, y_pred, average=None, zero_division=0, labels=sorted(np.unique(y_test))
         )
@@ -174,7 +156,6 @@ for model_name, model_file, input_type, model_type in models_to_test:
         print(f"   Recall:    {recall:.4f}")
         print(f"   F1 Score:  {f1:.4f}")
 
-        # Store results
         results.append({
             'model': model_name,
             'accuracy': accuracy,
@@ -184,10 +165,8 @@ for model_name, model_file, input_type, model_type in models_to_test:
             'predictions': y_pred
         })
 
-        # Generate confusion matrix
         cm = confusion_matrix(y_test, y_pred, labels=sorted(np.unique(y_test)))
 
-        # Plot confusion matrix
         plt.figure(figsize=(12, 10))
         genres = sorted(np.unique(y_test))
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
@@ -201,13 +180,11 @@ for model_name, model_file, input_type, model_type in models_to_test:
         plt.yticks(rotation=0)
         plt.tight_layout()
 
-        # Save confusion matrix
         cm_file = RESULTS_DIR / f"confusion_matrix_{model_name.lower().replace(' ', '_')}.png"
         plt.savefig(cm_file, dpi=150, bbox_inches='tight')
         plt.close()
         print(f"   Saved confusion matrix to: {cm_file}")
 
-        # Generate classification report
         report = classification_report(y_test, y_pred, zero_division=0)
         report_file = RESULTS_DIR / f"classification_report_{model_name.lower().replace(' ', '_')}.txt"
         with open(report_file, 'w') as f:
@@ -222,7 +199,6 @@ for model_name, model_file, input_type, model_type in models_to_test:
         traceback.print_exc()
         continue
 
-# Save summary results
 if results:
     print("\n" + "="*80)
     print("RESULTS SUMMARY")
@@ -236,17 +212,14 @@ if results:
         'F1 Score': r['f1']
     } for r in results])
 
-    # Sort by F1 score
     results_df = results_df.sort_values('F1 Score', ascending=False)
 
     print("\n" + results_df.to_string(index=False))
 
-    # Save results
     results_file = RESULTS_DIR / "all_models_results.csv"
     results_df.to_csv(results_file, index=False)
     print(f"\nResults saved to: {results_file}")
 
-    # Create comparison plot
     plt.figure(figsize=(14, 6))
 
     x = np.arange(len(results_df))

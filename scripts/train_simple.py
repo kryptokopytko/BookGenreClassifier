@@ -13,16 +13,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.utils.config import PROCESSED_DATA_DIR, MODELS_DIR
 
-# Load data
 train_df = pd.read_csv(PROCESSED_DATA_DIR / "train.csv")
 val_df = pd.read_csv(PROCESSED_DATA_DIR / "val.csv")
 test_df = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
 
 print(f"Loaded {len(train_df)} train, {len(val_df)} val, {len(test_df)} test samples")
 
-# Load text
 def load_text(row):
-    # Try to construct the path from book_id and genre
     genre = row['genre'].replace('/', '_')
     filename = f"{row['book_id']}.txt"
     path = PROCESSED_DATA_DIR / genre / filename
@@ -42,7 +39,6 @@ y_train = train_df['genre'].values
 y_val = val_df['genre'].values
 y_test = test_df['genre'].values
 
-# TF-IDF
 print("Creating TF-IDF features...")
 vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
 X_train_tfidf = vectorizer.fit_transform(X_train)
@@ -51,7 +47,6 @@ X_test_tfidf = vectorizer.transform(X_test)
 
 results = []
 
-# Model 1: Logistic Regression
 print("\nTraining Logistic Regression...")
 lr = LogisticRegression(max_iter=1000, random_state=42)
 lr.fit(X_train_tfidf, y_train)
@@ -67,7 +62,6 @@ results.append({
 print(f"  Train: {results[-1]['train_acc']:.4f}, Val: {results[-1]['val_acc']:.4f}, Test: {results[-1]['test_acc']:.4f}")
 joblib.dump(lr, MODELS_DIR / 'logistic_regression.pkl')
 
-# Model 2: Linear SVM
 print("\nTraining Linear SVM...")
 svm = LinearSVC(max_iter=1000, random_state=42)
 svm.fit(X_train_tfidf, y_train)
@@ -83,7 +77,6 @@ results.append({
 print(f"  Train: {results[-1]['train_acc']:.4f}, Val: {results[-1]['val_acc']:.4f}, Test: {results[-1]['test_acc']:.4f}")
 joblib.dump(svm, MODELS_DIR / 'linear_svm.pkl')
 
-# Model 3: Naive Bayes
 print("\nTraining Naive Bayes...")
 nb = MultinomialNB()
 nb.fit(X_train_tfidf, y_train)
@@ -99,10 +92,8 @@ results.append({
 print(f"  Train: {results[-1]['train_acc']:.4f}, Val: {results[-1]['val_acc']:.4f}, Test: {results[-1]['test_acc']:.4f}")
 joblib.dump(nb, MODELS_DIR / 'naive_bayes.pkl')
 
-# Model 4: Random Forest (with features)
 print("\nTraining Random Forest...")
 features_df = pd.read_csv(PROCESSED_DATA_DIR / "features.csv")
-# Remove duplicates keeping first occurrence
 features_df = features_df.drop_duplicates(subset=['book_id'], keep='first')
 
 train_features = train_df.merge(features_df, on='book_id', how='left')
@@ -128,7 +119,6 @@ results.append({
 print(f"  Train: {results[-1]['train_acc']:.4f}, Val: {results[-1]['val_acc']:.4f}, Test: {results[-1]['test_acc']:.4f}")
 joblib.dump(rf, MODELS_DIR / 'random_forest.pkl')
 
-# Save results
 results_df = pd.DataFrame(results)
 results_df.to_csv(MODELS_DIR.parent / 'results' / 'model_results.csv', index=False)
 
