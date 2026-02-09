@@ -14,7 +14,6 @@ libraries = [
     "scipy",
     "seaborn",
     "scikit-learn",
-    "stanza",
     "tqdm",
     "xgboost"
 ]
@@ -34,17 +33,6 @@ def install(package):
             return False
 
 all_ok = True
-
-try:
-    import torch
-    print("Biblioteka torch jest już zainstalowana ✅")
-except ImportError:
-    print("Instalacja CPU-only torch...")
-    try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "torch", "--index-url", "https://download.pytorch.org/whl/cpu"])
-    except subprocess.CalledProcessError:
-        print("Nie udało się zainstalować torch ✖️")
-        all_ok = False
 
 for lib in libraries:
     if not install(lib):

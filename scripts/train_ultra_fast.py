@@ -14,7 +14,6 @@ Usage:
   python3 scripts/train_ultra_fast.py              # Train all models (~1-3 min)
   python3 scripts/train_ultra_fast.py --fast-only  # Skip KNN (~1-2 min)
 
-Expected speedup: 10-20x faster than sequential training!
 """
 
 import sys

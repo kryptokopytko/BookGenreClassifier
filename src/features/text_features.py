@@ -202,18 +202,12 @@ class TextFeatureExtractor:
 
 def extract_features_from_dataset(
     metadata_file: Path,
-    pos_stats_file: Path = None,
     output_file: Path = PROCESSED_DATA_DIR / "features.csv",
     batch_size: int = 50
 ) -> pd.DataFrame:
     df = pd.read_csv(metadata_file)
     logger.info(f"Extracting features from {len(df)} books")
     logger.info(f"Processing in batches of {batch_size} books to save memory")
-
-    pos_df = None
-    if pos_stats_file and Path(pos_stats_file).exists():
-        pos_df = pd.read_csv(pos_stats_file)
-        logger.info(f"Loaded POS statistics from {pos_stats_file}")
 
     extractor = TextFeatureExtractor()
 
@@ -232,13 +226,6 @@ def extract_features_from_dataset(
             sentence_lengths = None
             num_entities = 0
 
-            if pos_df is not None:
-                pos_row = pos_df[pos_df['book_id'] == row['book_id']]
-                if not pos_row.empty:
-                    pos_ratios = pos_row.iloc[0].to_dict()
-                    num_entities = pos_ratios.pop('num_entities', 0)
-                    sentence_lengths = None
-
             features = extractor.extract_all_features(
                 text,
                 sentence_lengths=sentence_lengths,
@@ -253,10 +240,8 @@ def extract_features_from_dataset(
 
             all_features.append(features)
 
-            # Clear text from memory immediately after processing
             del text
 
-            # Periodic garbage collection every batch_size books
             if (idx + 1) % batch_size == 0:
                 gc.collect()
                 logger.info(f"Processed {idx + 1}/{len(df)} books, freed memory")
@@ -265,7 +250,6 @@ def extract_features_from_dataset(
             logger.error(f"Error extracting features from book {row['book_id']}: {e}")
             continue
 
-    # Final garbage collection before creating DataFrame
     gc.collect()
 
     features_df = pd.DataFrame(all_features)
