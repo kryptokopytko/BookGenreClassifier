@@ -169,25 +169,25 @@ MANUAL_KEYWORDS = {
 
 TOP_KEYWORDS_PER_GENRE = 100
 
-TFIDF_MAX_FEATURES = 5000  # Reduced for faster training
-TFIDF_MIN_DF = 3  # Increased to filter rare words
-TFIDF_MAX_DF = 0.85  # Slightly increased
-TFIDF_NGRAM_RANGE = (1, 2)  # Reduced to bigrams for speed
+TFIDF_MAX_FEATURES = 5000
+TFIDF_MIN_DF = 3
+TFIDF_MAX_DF = 0.85
+TFIDF_NGRAM_RANGE = (1, 2)
 
 LOGISTIC_REGRESSION_PARAMS = {
-    "C": 2.0,  # Increased for better fit (less regularization)
-    "max_iter": 2000,  # Increased for convergence
-    "solver": "saga",  # Better for large datasets
+    "C": 2.0,
+    "max_iter": 2000,
+    "solver": "saga",
     "random_state": RANDOM_STATE,
     "n_jobs": -1,
 }
 
 RANDOM_FOREST_PARAMS = {
-    "n_estimators": 200,  # Increased for better ensemble
-    "max_depth": 8,  # Reduced from 15 to prevent overfitting
-    "min_samples_split": 20,  # Increased from 10 to prevent overfitting
-    "min_samples_leaf": 10,  # Added to prevent overfitting
-    "max_features": "sqrt",  # Added for more diversity
+    "n_estimators": 200,
+    "max_depth": 8,
+    "min_samples_split": 20,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
     "random_state": RANDOM_STATE,
     "n_jobs": -1,
     "oob_score": True,
@@ -240,7 +240,7 @@ RIDGE_PARAMS = {
 }
 
 NEAREST_CENTROID_PARAMS = {
-    "metric": "euclidean",  # Changed from 'cosine' (not supported)
+    "metric": "euclidean",
     "shrink_threshold": None,
 }
 
