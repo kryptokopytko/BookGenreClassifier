@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestCentroid
 import nltk
 from nltk.corpus import stopwords
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 from ..utils.logger import get_logger
 from ..utils.config import (
@@ -52,7 +53,7 @@ class NearestCentroidModel:
         self.train_accuracy = None
 
     def load_texts(self, df: pd.DataFrame, text_column: str = 'processed_path') -> List[str]:
-
+        texts = []
         for idx, row in df.iterrows():
             try:
 
@@ -106,7 +107,7 @@ class NearestCentroidModel:
         logger.info(f"Centroids computed: shape={self.model.centroids_.shape}")
 
     def predict(self, texts: List[str]) -> np.ndarray:
-        return self.model.predict(X)
+        return self.model.predict(texts)
 
     def evaluate(self, texts_test: List[str], y_test: np.ndarray) -> Dict[str, float]:
 
@@ -127,8 +128,6 @@ class NearestCentroidModel:
         return metrics
 
     def get_centroid_top_features(self, n: int = 20) -> Dict[str, List[Tuple[str, float]]]:
-            raise ValueError("Model not trained yet")
-
         feature_names = self.vectorizer.get_feature_names_out()
         centroids = self.model.centroids_
 

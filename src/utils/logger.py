@@ -1,6 +1,5 @@
 import logging
 import sys
-from pathlib import Path
 from .config import LOG_LEVEL, LOG_FORMAT, PROJECT_ROOT
 
 def setup_logger(name: str, log_file: str = None, level: str = LOG_LEVEL) -> logging.Logger:

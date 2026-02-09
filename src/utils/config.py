@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -11,22 +10,24 @@ METADATA_FILE = DATA_DIR / "metadata.csv"
 MODELS_DIR = PROJECT_ROOT / "models_saved"
 RESULTS_DIR = PROJECT_ROOT / "results"
 
-for dir_path in [RAW_DATA_DIR, PROCESSED_DATA_DIR, MODELS_DIR, RESULTS_DIR]:
-    dir_path.mkdir(parents=True, exist_ok=True)
+RESULTS_PER_SITE = 25
 
 GENRES = [
-    "Adventure/Action",
-    "Biography",
-    "Mystery/Crime",
-    "Science Fiction",
-    "Historical Fiction",
-    "Thriller/Horror",
-    "Fantasy",
+    "Adventure",
+    "Biographies",
+    "Poetry",
     "Romance",
+    "Science-Fiction & Fantasy",
+    "Crime, Thrillers & Mystery",
+    "Children & Young Adult Reading",
+    "Engineering & Technology",
+    "History - Other",
+    "Politics",
+    "Cooking & Drinking",
 ]
 
-BOOKS_PER_GENRE = 500
-MIN_BOOK_LENGTH = 10000
+BOOKS_PER_GENRE = 400
+MIN_BOOK_LENGTH = 3000
 MAX_BOOK_LENGTH = 500000
 
 TRAIN_RATIO = 0.70
@@ -64,7 +65,17 @@ MANUAL_KEYWORDS = {
         "beloved",
         "embrace",
     ],
-    "Fantasy": [
+    "Poetry": [
+        "love",
+        "heart",
+        "nature",
+        "dream",
+        "soul",
+        "life",
+        "emotion",
+        "beauty",
+    ],
+    "Science-Fiction & Fantasy": [
         "magic",
         "wizard",
         "dragon",
@@ -74,45 +85,67 @@ MANUAL_KEYWORDS = {
         "realm",
         "sword",
     ],
-    "Thriller/Horror": [
-        "scream",
+    "Crime, Thrillers & Mystery": [
         "fear",
-        "terror",
         "blood",
         "murder",
         "dark",
-        "shadow",
         "death",
+        "detective",
+        "suspect",
+        "evidence",
     ],
-    "Historical Fiction": [
-        "century",
+    "Children & Young Adult Reading": [
+        "friend",
+        "school",
+        "adventure",
+        "magic",
+        "family",
+        "play",
+        "journey",
+        "fun",
+    ],
+    "Engineering & Technology": [
+        "machine",
+        "engineer",
+        "design",
+        "technology",
+        "experiment",
+        "system",
+        "robot",
+        "innovation",
+    ],
+    "History - Other": [
         "war",
         "king",
         "queen",
         "empire",
+        "battle",
+        "revolution",
+        "century",
         "ancient",
-        "historical",
     ],
-    "Science Fiction": [
-        "space",
-        "alien",
-        "robot",
-        "future",
-        "technology",
-        "galaxy",
-        "ship",
-        "planet",
+    "Politics": [
+        "government",
+        "policy",
+        "law",
+        "election",
+        "party",
+        "power",
+        "leader",
+        "democracy",
     ],
-    "Mystery/Crime": [
-        "detective",
-        "murder",
-        "investigation",
-        "clue",
-        "suspect",
-        "evidence",
-        "crime",
+    "Cooking & Drinking": [
+        "recipe",
+        "cook",
+        "kitchen",
+        "flavor",
+        "ingredient",
+        "dish",
+        "meal",
+        "drink",
     ],
-    "Biography": [
+    "Biographies": [
         "born",
         "life",
         "early",
@@ -122,7 +155,7 @@ MANUAL_KEYWORDS = {
         "education",
         "family",
     ],
-    "Adventure/Action": [
+    "Adventure": [
         "adventure",
         "journey",
         "battle",
@@ -210,5 +243,6 @@ NEAREST_CENTROID_PARAMS = {
 
 CV_FOLDS = 5
 
-LOG_LEVEL = "INFO"
-LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+LOG_LEVEL = "DEBUG"
+LOG_FORMAT = "%(message)s"
+# LOG_FORMAT = "%(levelname)s: %(message)s"

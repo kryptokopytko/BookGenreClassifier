@@ -5,6 +5,7 @@ import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 from ..utils.logger import get_logger
 from ..utils.config import RANDOM_FOREST_PARAMS, MODELS_DIR
@@ -60,10 +61,10 @@ class FeatureBasedModel:
             logger.info(f"OOB score: {self.model.oob_score_:.4f}")
 
     def predict(self, X: np.ndarray) -> np.ndarray:
-        return self.model.predict(X_scaled)
+        return self.model.predict(X)
 
     def predict_proba(self, X: np.ndarray) -> np.ndarray:
-        return self.model.predict_proba(X_scaled)
+        return self.model.predict_proba(X)
 
     def evaluate(self, X_test: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
 
@@ -87,7 +88,8 @@ class FeatureBasedModel:
         return metrics
 
     def get_feature_importance(self, top_n: int = 20) -> pd.DataFrame:
-
+        importances = self.model.feature_importances_
+        
         importance_df = pd.DataFrame({
             'feature': self.feature_columns,
             'importance': importances

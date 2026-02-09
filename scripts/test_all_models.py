@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Comprehensive model testing and evaluation script."""
-
 import sys
 from pathlib import Path
 import pandas as pd
@@ -28,7 +25,7 @@ print("COMPREHENSIVE MODEL TESTING")
 print("="*80)
 
 # Load data
-print("\n📂 Loading data...")
+print("\nLoading data...")
 train_df = pd.read_csv(PROCESSED_DATA_DIR / "train.csv")
 val_df = pd.read_csv(PROCESSED_DATA_DIR / "val.csv")
 test_df = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
@@ -47,17 +44,17 @@ def load_text(row):
         if path.exists():
             return path.read_text(encoding='utf-8')
     except Exception as e:
-        print(f"   ⚠️  Error loading {path}: {e}")
+        print(f"   Error loading {path}: {e}")
     return ""
 
-print("\n📖 Loading texts...")
+print("\nLoading texts...")
 X_test_texts = test_df.apply(load_text, axis=1).values
 y_test = test_df['genre'].values
 
 print(f"   Loaded {len(X_test_texts)} test texts")
 
 # Load features for tree-based models
-print("\n📊 Loading features...")
+print("\nLoading features...")
 features_df = pd.read_csv(PROCESSED_DATA_DIR / "features.csv")
 features_df = features_df.drop_duplicates(subset=['book_id'], keep='first')
 test_features = test_df.merge(features_df, on='book_id', how='left')
@@ -69,7 +66,7 @@ print(f"   Loaded {len(feature_cols)} features")
 # Load shared TF-IDF vectorizer
 tfidf_vectorizer = None
 if (MODELS_DIR / 'tfidf_vectorizer.pkl').exists():
-    print(f"\n🔤 Loading shared TF-IDF vectorizer...")
+    print(f"\nLoading shared TF-IDF vectorizer...")
     tfidf_vectorizer = joblib.load(MODELS_DIR / 'tfidf_vectorizer.pkl')
     X_test_tfidf = tfidf_vectorizer.transform(X_test_texts)
     print(f"   Transformed to TF-IDF: {X_test_tfidf.shape}")
@@ -136,7 +133,7 @@ for model_name, model_file, input_type, model_type in models_to_test:
             if input_type == 'tfidf':
                 # Use shared TF-IDF vectorizer
                 if tfidf_vectorizer is None:
-                    print(f"   ⚠️  Warning: TF-IDF vectorizer not found")
+                    print(f"   Warning: TF-IDF vectorizer not found")
                     continue
                 y_pred = model.predict(X_test_tfidf)
             elif input_type == 'text':
@@ -155,7 +152,7 @@ for model_name, model_file, input_type, model_type in models_to_test:
                     X_test_transformed = vectorizer.transform(X_test_texts)
                     y_pred = model.predict(X_test_transformed)
                 else:
-                    print(f"   ⚠️  Warning: Vectorizer not found for {model_name}")
+                    print(f"   Warning: Vectorizer not found for {model_name}")
                     continue
             else:
                 # Feature-based
@@ -172,10 +169,10 @@ for model_name, model_file, input_type, model_type in models_to_test:
             y_test, y_pred, average=None, zero_division=0, labels=sorted(np.unique(y_test))
         )
 
-        print(f"   ✅ Accuracy:  {accuracy:.4f}")
-        print(f"   ✅ Precision: {precision:.4f}")
-        print(f"   ✅ Recall:    {recall:.4f}")
-        print(f"   ✅ F1 Score:  {f1:.4f}")
+        print(f"   Accuracy:  {accuracy:.4f}")
+        print(f"   Precision: {precision:.4f}")
+        print(f"   Recall:    {recall:.4f}")
+        print(f"   F1 Score:  {f1:.4f}")
 
         # Store results
         results.append({
@@ -208,7 +205,7 @@ for model_name, model_file, input_type, model_type in models_to_test:
         cm_file = RESULTS_DIR / f"confusion_matrix_{model_name.lower().replace(' ', '_')}.png"
         plt.savefig(cm_file, dpi=150, bbox_inches='tight')
         plt.close()
-        print(f"   💾 Saved confusion matrix to: {cm_file}")
+        print(f"   Saved confusion matrix to: {cm_file}")
 
         # Generate classification report
         report = classification_report(y_test, y_pred, zero_division=0)
@@ -217,10 +214,10 @@ for model_name, model_file, input_type, model_type in models_to_test:
             f.write(f"Classification Report - {model_name}\n")
             f.write("="*80 + "\n\n")
             f.write(report)
-        print(f"   💾 Saved classification report to: {report_file}")
+        print(f"   Saved classification report to: {report_file}")
 
     except Exception as e:
-        print(f"   ❌ Error: {str(e)}")
+        print(f"   Error: {str(e)}")
         import traceback
         traceback.print_exc()
         continue
@@ -247,7 +244,7 @@ if results:
     # Save results
     results_file = RESULTS_DIR / "all_models_results.csv"
     results_df.to_csv(results_file, index=False)
-    print(f"\n💾 Results saved to: {results_file}")
+    print(f"\nResults saved to: {results_file}")
 
     # Create comparison plot
     plt.figure(figsize=(14, 6))
@@ -272,10 +269,10 @@ if results:
     comparison_file = RESULTS_DIR / "model_comparison.png"
     plt.savefig(comparison_file, dpi=150, bbox_inches='tight')
     plt.close()
-    print(f"💾 Comparison plot saved to: {comparison_file}")
+    print(f"Comparison plot saved to: {comparison_file}")
 
     print("\n" + "="*80)
-    print("✅ TESTING COMPLETE!")
+    print("TESTING COMPLETE!")
     print("="*80)
 else:
-    print("\n❌ No models were successfully tested.")
+    print("\nNo models were successfully tested.")

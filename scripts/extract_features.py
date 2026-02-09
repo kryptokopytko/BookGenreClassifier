@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Script to extract features from preprocessed books.
-
-Usage:
-    python scripts/extract_features.py
-"""
-
 import argparse
 import sys
 from pathlib import Path

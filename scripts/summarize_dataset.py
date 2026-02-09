@@ -1,16 +1,6 @@
-#!/usr/bin/env python3
-"""
-Create a beautiful summary of downloaded books.
-
-Usage:
-    python scripts/summarize_dataset.py
-"""
-
 import sys
 from pathlib import Path
 import pandas as pd
-import numpy as np
-from collections import Counter
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
@@ -48,9 +38,9 @@ def main():
         val_df = pd.read_csv(val_file)
         test_df = pd.read_csv(test_file)
 
-    print_section("📚 BOOK GENRE CLASSIFIER - DATASET SUMMARY 📚")
+    print_section("BOOK GENRE CLASSIFIER - DATASET SUMMARY")
 
-    print_section("📊 OVERALL STATISTICS", "=")
+    print_section("OVERALL STATISTICS", "=")
 
     print(f"{'Total Books:':<30} {len(df):>10,}")
     print(f"{'Unique Authors:':<30} {df['author'].nunique():>10,}")
@@ -61,7 +51,7 @@ def main():
     print(f"{'Shortest Book:':<30} {df['word_count'].min():>10,} words")
     print(f"{'Longest Book:':<30} {df['word_count'].max():>10,} words")
 
-    print_section("📖 BOOKS PER GENRE", "=")
+    print_section("BOOKS PER GENRE", "=")
 
     genre_counts = df['genre'].value_counts().sort_index()
 
@@ -77,7 +67,7 @@ def main():
         bar = "█" * bar_length
         print(f"{genre:<{max_genre_len+2}} {count:>7}  {percentage:>9.1f}%  {bar}")
 
-    print_section("👤 AUTHORS STATISTICS", "=")
+    print_section("AUTHORS STATISTICS", "=")
 
     author_counts = df.groupby('author').size().sort_values(ascending=False)
 
@@ -97,7 +87,7 @@ def main():
         author_short = author[:37] + "..." if len(author) > 40 else author
         print(f"{author_short:<40} {count:>7}  {primary_genre:<20}")
 
-    print_section("📏 WORD COUNT STATISTICS", "=")
+    print_section("WORD COUNT STATISTICS", "=")
 
     print(f"{'Statistic':<30} {'Words':>15}")
     print("-" * 50)
@@ -119,7 +109,7 @@ def main():
               f"{genre_df['word_count'].max():>10,}")
 
     if has_splits:
-        print_section("🔀 TRAIN/VAL/TEST SPLIT", "=")
+        print_section("TRAIN/VAL/TEST SPLIT", "=")
 
         print(f"{'Split':<15} {'Books':>10}  {'Authors':>10}  {'Percentage':>12}")
         print("-" * 55)
@@ -142,15 +132,15 @@ def main():
 
             print(f"{genre:<25} {train_count:>8}  {val_count:>6}  {test_count:>6}  {total_count:>7}")
 
-        print_subsection("\n⚠️  Data Quality Warnings:")
+        print_subsection("\n Data Quality Warnings:")
         warnings = []
 
         for genre in sorted(df['genre'].unique()):
             test_count = len(test_df[test_df['genre'] == genre])
             if test_count == 0:
-                warnings.append(f"  ❌ {genre}: NO books in test set!")
+                warnings.append(f"  {genre}: NO books in test set!")
             elif test_count < 3:
-                warnings.append(f"  ⚠️  {genre}: Only {test_count} book(s) in test set (very low!)")
+                warnings.append(f"  {genre}: Only {test_count} book(s) in test set (very low!)")
 
         if warnings:
             print()
@@ -166,11 +156,11 @@ def main():
         overlap = (train_authors & val_authors) | (train_authors & test_authors) | (val_authors & test_authors)
 
         if overlap:
-            print(f"\n  ⚠️  WARNING: {len(overlap)} authors appear in multiple splits!")
+            print(f"\n  WARNING: {len(overlap)} authors appear in multiple splits!")
         else:
             print("\n  ✅ No author overlap between splits (clean split by author!)")
 
-    print_section("📚 SAMPLE BOOKS (Random 5)", "=")
+    print_section("SAMPLE BOOKS (Random 5)", "=")
 
     sample_books = df.sample(min(5, len(df)))
 
@@ -181,7 +171,7 @@ def main():
         print(f"  Length: {row['word_count']:,} words")
         print(f"  ID: {row['book_id']}")
 
-    print_section("💡 RECOMMENDATIONS", "=")
+    print_section("RECOMMENDATIONS", "=")
 
     total_books = len(df)
 

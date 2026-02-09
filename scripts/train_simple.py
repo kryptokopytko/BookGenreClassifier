@@ -1,17 +1,12 @@
-#!/usr/bin/env python3
-"""Simple training script that works."""
-
 import sys
 from pathlib import Path
 import pandas as pd
-import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import LinearSVC
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
 import joblib
 
 sys.path.insert(0, str(Path(__file__).parent.parent))

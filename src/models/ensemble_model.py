@@ -1,10 +1,8 @@
 import pickle
 import numpy as np
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List
 import pandas as pd
-from sklearn.ensemble import VotingClassifier
-from sklearn.linear_model import LogisticRegression
 
 from ..utils.logger import get_logger
 from ..utils.config import MODELS_DIR, PROCESSED_DATA_DIR

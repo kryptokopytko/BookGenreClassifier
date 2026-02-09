@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Test existing models and optimize SVM hyperparameters."""
-
 import sys
 from pathlib import Path
 import pandas as pd
@@ -115,7 +112,7 @@ for c in c_values:
         best_val_acc = val_acc
         best_c = c
 
-print(f"\n✅ Best C: {best_c} (Val Acc: {best_val_acc:.4f})")
+print(f"\nBest C: {best_c} (Val Acc: {best_val_acc:.4f})")
 
 # Train final optimized model
 print("\nTraining final optimized SVM...")
@@ -157,4 +154,4 @@ results_df = pd.DataFrame(results)
 results_df.to_csv(RESULTS_DIR / 'svm_optimization_results.csv', index=False)
 print(f"Optimization results saved to: {RESULTS_DIR / 'svm_optimization_results.csv'}")
 
-print("\n✅ Testing and optimization complete!")
+print("\nTesting and optimization complete!")

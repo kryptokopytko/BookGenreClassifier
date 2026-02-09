@@ -1,7 +1,6 @@
 import pickle
 import numpy as np
 from pathlib import Path
-from typing import Dict, List, Tuple
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler

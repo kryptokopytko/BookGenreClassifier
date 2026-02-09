@@ -2,7 +2,6 @@ import stanza
 from pathlib import Path
 from typing import List, Dict, Optional
 import pickle
-from collections import Counter
 import pandas as pd
 from tqdm import tqdm
 
@@ -43,6 +42,7 @@ class POSAnalyzer:
         return doc
 
     def get_pos_counts(self, doc: stanza.Document) -> Dict[str, int]:
+        pos_counts = {}
 
         for sentence in doc.sentences:
             for word in sentence.words:
@@ -51,6 +51,7 @@ class POSAnalyzer:
         return dict(pos_counts)
 
     def get_lemmas(self, doc: stanza.Document) -> List[str]:
+        lemmas = []
 
         for sentence in doc.sentences:
             for word in sentence.words:
@@ -59,6 +60,7 @@ class POSAnalyzer:
         return lemmas
 
     def get_named_entities(self, doc: stanza.Document) -> List[Dict[str, str]]:
+        entities = []
 
         for sentence in doc.sentences:
             for entity in sentence.ents:
@@ -70,6 +72,7 @@ class POSAnalyzer:
         return entities
 
     def remove_named_entities(self, doc: stanza.Document) -> str:
+        tokens = []
 
         for sentence in doc.sentences:
             for word in sentence.words:
@@ -154,7 +157,8 @@ class POSAnalyzer:
         output_dir: Optional[Path] = None,
         remove_propn: bool = False
     ) -> List[Dict]:
-
+        results = []
+        
         for i, text in enumerate(tqdm(texts, desc="Analyzing texts")):
             try:
                 result = self.analyze_book(text, remove_propn=remove_propn)

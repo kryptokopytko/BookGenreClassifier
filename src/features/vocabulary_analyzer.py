@@ -1,13 +1,14 @@
 import re
 from collections import Counter
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Dict, List
 import pandas as pd
-import numpy as np
 from tqdm import tqdm
 import nltk
+import json
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 from ..utils.logger import get_logger
 from ..utils.config import MANUAL_KEYWORDS, TOP_KEYWORDS_PER_GENRE, GENRES

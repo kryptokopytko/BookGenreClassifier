@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from typing import Tuple, Dict, List
+from typing import Tuple
 from sklearn.model_selection import train_test_split
 
 from ..utils.logger import get_logger

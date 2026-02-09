@@ -6,13 +6,15 @@ from pathlib import Path
 from typing import Dict, List, Any
 from sklearn.metrics import (
     accuracy_score, precision_recall_fscore_support,
-    confusion_matrix, classification_report
+    confusion_matrix
 )
 
 from ..utils.logger import get_logger
-from ..utils.config import RESULTS_DIR
+from ..utils.config import RESULTS_DIR, GENRES
 
 logger = get_logger(__name__)
+
+model_names = ["baseline_model"]
 
 class ModelEvaluator:
 
@@ -119,11 +121,11 @@ class ModelEvaluator:
         output_file: Path = None,
         title: str = "Per-Class Performance"
     ):
-        precision = [metrics['precision_per_class'][g] for g in genres]
-        recall = [metrics['recall_per_class'][g] for g in genres]
-        f1 = [metrics['f1_per_class'][g] for g in genres]
+        precision = [metrics['precision_per_class'][g] for g in GENRES]
+        recall = [metrics['recall_per_class'][g] for g in GENRES]
+        f1 = [metrics['f1_per_class'][g] for g in GENRES]
 
-        x = np.arange(len(genres))
+        x = np.arange(len(GENRES))
         width = 0.25
 
         fig, ax = plt.subplots(figsize=(14, 6))
@@ -136,7 +138,7 @@ class ModelEvaluator:
         ax.set_ylabel('Score', fontsize=12)
         ax.set_title(title, fontsize=16, pad=20)
         ax.set_xticks(x)
-        ax.set_xticklabels(genres, rotation=45, ha='right')
+        ax.set_xticklabels(GENRES, rotation=45, ha='right')
         ax.legend()
         ax.grid(axis='y', alpha=0.3)
         ax.set_ylim(0, 1.0)

@@ -3,7 +3,7 @@ from typing import Dict, List, Tuple
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 from ..utils.logger import get_logger
 from ..utils.config import MODELS_DIR, PROCESSED_DATA_DIR
@@ -33,28 +33,28 @@ class EnsembleVotingModel:
 
     def predict(self, data: any) -> np.ndarray:
 
-            all_probas = []
+        all_probas = []
 
-            for (name, model), weight in zip(self.models, self.weights):
-                try:
+        for (name, model), weight in zip(self.models, self.weights):
+            try:
 
-                    if hasattr(model, 'predict_proba'):
-                        proba = model.predict_proba(data)
-                    elif hasattr(model, 'decision_function'):
+                if hasattr(model, 'predict_proba'):
+                    proba = model.predict_proba(data)
+                elif hasattr(model, 'decision_function'):
 
-                        scores = model.decision_function(data)
+                    scores = model.decision_function(data)
 
-                        proba = self._softmax(scores)
-                    else:
+                    proba = self._softmax(scores)
+                else:
 
-                        preds = model.predict(data)
-                        proba = self._predictions_to_proba(preds)
+                    preds = model.predict(data)
+                    proba = self._predictions_to_proba(preds)
 
-                    all_probas.append(proba * weight)
+                all_probas.append(proba * weight)
 
-                except Exception as e:
-                    logger.warning(f"Error getting predictions from {name}: {e}")
-                    continue
+            except Exception as e:
+                logger.warning(f"Error getting predictions from {name}: {e}")
+                continue
 
             if not all_probas:
                 raise ValueError("No valid predictions from any model")
@@ -150,7 +150,7 @@ class EnsembleVotingModel:
         return texts, labels
 
 def create_ensemble_from_trained_models(
-    model_configs: List[Tuple[str, str, any]],
+    models: List[Tuple[str, str, any]],
     voting: str = 'soft',
     weights: List[float] = None
 ) -> EnsembleVotingModel:

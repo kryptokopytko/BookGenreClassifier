@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Generate metadata.csv from existing downloaded books.
-
-Usage:
-    python scripts/generate_metadata_from_existing.py
-"""
-
 import sys
 import re
 from pathlib import Path
@@ -15,7 +7,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.utils.logger import get_logger
-from src.utils.config import RAW_DATA_DIR, DATA_DIR, GENRES
+from src.utils.config import RAW_DATA_DIR, DATA_DIR
 
 logger = get_logger(__name__)
 
@@ -123,22 +115,11 @@ def scan_and_generate_metadata(raw_dir: Path = RAW_DATA_DIR) -> pd.DataFrame:
 
     all_metadata = []
 
-    genre_mapping = {
-        'Adventure_Action': 'Adventure/Action',
-        'Mystery_Crime': 'Mystery/Crime',
-        'Science Fiction': 'Science Fiction',
-        'Historical Fiction': 'Historical Fiction',
-        'Thriller_Horror': 'Thriller/Horror',
-        'Biography': 'Biography',
-        'Fantasy': 'Fantasy',
-        'Romance': 'Romance'
-    }
-
     for genre_dir in raw_dir.iterdir():
         if not genre_dir.is_dir() or genre_dir.name.startswith('.'):
             continue
 
-        genre = genre_mapping.get(genre_dir.name, genre_dir.name)
+        genre = genre_dir.name
 
         book_files = list(genre_dir.glob('*.txt'))
         logger.info(f"Found {len(book_files)} books in {genre}")
@@ -199,7 +180,7 @@ def main():
     new_metadata_df['book_id'] = new_metadata_df['book_id'].astype(str)
     truly_new = new_metadata_df[~new_metadata_df['book_id'].isin(existing_book_ids)]
 
-    logger.info(f"\n📊 Summary:")
+    logger.info(f"\nSummary:")
     logger.info(f"  Books found in files: {len(new_metadata_df)}")
     logger.info(f"  Already in metadata: {len(new_metadata_df) - len(truly_new)}")
     logger.info(f"  New books to add: {len(truly_new)}")
@@ -215,7 +196,6 @@ def main():
         metadata_df = new_metadata_df
         logger.info(f"\n✓ Created new metadata with {len(metadata_df)} books")
 
-    # Ensure numeric columns are properly typed
     metadata_df['word_count'] = pd.to_numeric(metadata_df['word_count'], errors='coerce')
 
     metadata_df.to_csv(output_file, index=False)
@@ -245,20 +225,12 @@ def main():
     logger.info("QUALITY CHECKS")
     logger.info("="*60)
 
-    low_word_count = metadata_df[metadata_df['word_count'] < 10000]
-    if len(low_word_count) > 0:
-        logger.warning(f"⚠️  {len(low_word_count)} books have < 10,000 words (may be too short)")
-
-    high_word_count = metadata_df[metadata_df['word_count'] > 500000]
-    if len(high_word_count) > 0:
-        logger.warning(f"⚠️  {len(high_word_count)} books have > 500,000 words (may be too long)")
-
     unknown_titles = sum(metadata_df['title'] == 'Unknown')
     unknown_authors = sum(metadata_df['author'] == 'Unknown')
     if unknown_titles > 0:
-        logger.warning(f"⚠️  {unknown_titles} books have unknown titles")
+        logger.warning(f"{unknown_titles} books have unknown titles")
     if unknown_authors > 0:
-        logger.warning(f"⚠️  {unknown_authors} books have unknown authors")
+        logger.warning(f"{unknown_authors} books have unknown authors")
 
     logger.info("\n" + "="*60)
     logger.info("NEXT STEPS")

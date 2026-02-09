@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import time
 import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -14,117 +13,20 @@ from ..utils.config import (
     BOOKS_PER_GENRE,
     MIN_BOOK_LENGTH,
     MAX_BOOK_LENGTH,
+    RESULTS_PER_SITE,
+    GENRES
 )
 
 logger = get_logger(__name__)
 
+class UrlNotFoundError(Exception):
+    pass
+
 class GutenbergScraper:
     BASE_URL = "https://www.gutenberg.org"
-    SEARCH_URL = f"{BASE_URL}/ebooks/search/"
     BOOKSHELF_URL = f"{BASE_URL}/ebooks/bookshelf/"
 
-    GENRE_BOOKSHELVES = {
-        "Adventure/Action": [
-            "Adventure",
-            "Pirates Buccaneers Corsairs",
-            "Sea and Ships",
-            "Western",
-        ],
-        "Thriller/Horror": [
-            "Horror",
-            "Ghost Stories",
-            "Gothic Fiction",
-            "Detective Fiction",
-        ],
-        "Fantasy": ["Fantasy", "Mythology", "Fairy Tales"],
-        "Historical Fiction": [
-            "Historical Fiction",
-            "World War I",
-            "World War II",
-            "US Civil War",
-        ],
-        "Science Fiction": ["Science Fiction", "Precursors of Science Fiction"],
-        "Mystery/Crime": ["Detective Fiction", "Crime Fiction", "Mystery Fiction"],
-        "Biography": ["Biography", "Memoirs", "US History"],
-        "Romance": ["Love", "Romance"],
-    }
-
-    GENRE_QUERIES = {
-        "Romance": [
-            "romance love",
-            "romantic fiction",
-            "love story",
-            "courtship marriage",
-            "passion romantic",
-        ],
-        "Fantasy": [
-            "fantasy",
-            "fantasy magic",
-            "fantasy fiction",
-            "magical",
-            "wizards dragons",
-            "fairy tale",
-            "mythical creatures",
-            "enchanted kingdom",
-        ],
-        "Thriller/Horror": [
-            "horror",
-            "thriller",
-            "scary ghost",
-            "suspense terror",
-            "supernatural horror",
-            "haunted mysterious",
-            "macabre dark",
-            "creepy frightening",
-        ],
-        "Historical Fiction": [
-            "historical fiction",
-            "historical novel",
-            "history war",
-            "victorian era",
-            "ancient rome",
-            "medieval times",
-        ],
-        "Science Fiction": [
-            "science fiction",
-            "sci-fi",
-            "space alien",
-            "future technology",
-            "robot android",
-            "dystopia utopia",
-            "time travel",
-        ],
-        "Mystery/Crime": [
-            "detective mystery crime",
-            "murder investigation",
-            "detective story",
-            "whodunit police",
-            "criminal case",
-            "sleuth investigation",
-        ],
-        "Biography": [
-            "biography memoir",
-            "autobiography",
-            "life story",
-            "personal narrative",
-            "historical figure",
-        ],
-        "Adventure/Action": [
-            "action",
-            "adventure action",
-            "adventure story",
-            "exploration quest",
-            "journey expedition",
-            "treasure hunt",
-            "survival wilderness",
-            "heroic tale",
-            "daring escape",
-            "pirate sea",
-            "wild west frontier",
-        ],
-    }
-
-    def __init__(self, output_dir: Path = RAW_DATA_DIR):
+    def __init__(self, output_dir: Path = RAW_DATA_DIR, books_per_genre = BOOKS_PER_GENRE):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.session = requests.Session()
@@ -133,122 +35,151 @@ class GutenbergScraper:
                 "User-Agent": "Mozilla/5.0 (compatible; BookGenreClassifier/1.0; Educational Research)"
             }
         )
-        self.metadata = []
+        self.new_metadata = []
+        self.existing_metadata = []
+        self.books_per_genre = books_per_genre
 
-    def search_books(self, query: str, max_results: int = 500) -> List[Dict]:
-        books = []
-        page = 1
+    def is_english_book(self, book_id: str) -> bool:
+        book_url = f"{self.BASE_URL}/ebooks/{book_id}"
+        try:
+            response = self.session.get(book_url, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
 
-        while len(books) < max_results:
-            params = {"query": query, "submit_search": "Go!", "sort_order": "downloads"}
+            for tr in soup.select("table.bibrec tr"):
+                th = tr.find("th")
+                td = tr.find("td")
+                if th and td and th.text.strip() == "Language":
+                    languages = [lang.strip() for lang in td.text.split(",")]
+                    return "English" in languages
 
-            if page > 1:
-                params["start_index"] = (page - 1) * 25
+        except requests.RequestException:
+            logger.warning(f"Could not fetch language info for book {book_id}")
+            return False
 
-            try:
-                response = self.session.get(self.SEARCH_URL, params=params, timeout=10)
-                response.raise_for_status()
-                soup = BeautifulSoup(response.text, "html.parser")
+        return False
+    
+    def is_multi_genre(self, book_id: str) -> bool:
+        book_url = f"{self.BASE_URL}/ebooks/{book_id}"
+        try:
+            response = self.session.get(book_url, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
 
-                book_list = soup.find_all("li", class_="booklink")
+            category_links = soup.find_all("a", href=re.compile(r"^/ebooks/bookshelf/\d+$"))
+            categories = set(link.text.strip() for link in category_links)
+            clean_categories = {
+                cat.replace("In Category: ", "")
+                .replace(" and ", " & ")
+                .strip()
+                for cat in categories
+            }
+            
+            matching_genres = [cat for cat in clean_categories if cat in GENRES]
+            return len(matching_genres) > 1
 
-                if not book_list:
-                    logger.info(f"No more results found at page {page}")
-                    break
+        except requests.RequestException:
+            logger.warning(f"Could not fetch categories for book {book_id}")
+            return False
 
-                for book_item in book_list:
-                    if len(books) >= max_results:
-                        break
+        return True
+    
+    def get_category_map(self) -> bool:
+        categories_url = f"{self.BASE_URL}/ebooks/categories"
+        try:
+            response = self.session.get(categories_url, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+            
+            category_map = {}
 
-                    link = book_item.find("a", class_="link")
-                    if not link:
-                        continue
+            for a in soup.find_all("a", href=re.compile(r"^/ebooks/bookshelf/\d+$")):
+                shelf_id = int(a['href'].split('/')[-1])
+                category_name = a.text.strip()
+                category_map[category_name] = shelf_id
 
-                    book_url = link.get("href")
-                    book_id_match = re.search(r"/ebooks/(\d+)", book_url)
-                    if not book_id_match:
-                        continue
+            return category_map
 
-                    book_id = book_id_match.group(1)
-
-                    title_span = book_item.find("span", class_="title")
-                    title = title_span.text.strip() if title_span else f"Book {book_id}"
-
-                    author_span = book_item.find("span", class_="subtitle")
-                    author = author_span.text.strip() if author_span else "Unknown"
-
-                    books.append(
-                        {
-                            "book_id": book_id,
-                            "title": title,
-                            "author": author,
-                            "url": f"{self.BASE_URL}/ebooks/{book_id}",
-                        }
-                    )
-
-                page += 1
-                time.sleep(1)
-
-            except requests.RequestException as e:
-                logger.error(f"Error searching books: {e}")
-                break
-
-        logger.info(f"Found {len(books)} books for query '{query}'")
-        return books
+        except requests.RequestException as e:
+            logger.error(f"Error fetching categories: {e}")
+            return {}
 
     def search_bookshelf(
-        self, bookshelf_name: str, max_results: int = 300
+        self, bookshelf_name: str, bookshelf_id: int, max_results: int = 300, existing = {}, start_idx = 1
     ) -> List[Dict]:
 
         try:
-
-            bookshelf_id = bookshelf_name.lower().replace(" ", "-")
-            url = f"{self.BOOKSHELF_URL}{bookshelf_id}"
+            url = f"{self.BOOKSHELF_URL}{bookshelf_id}?start_index={start_idx}"
 
             response = self.session.get(url, timeout=10)
 
             if response.status_code != 200:
-                logger.warning(
-                    f"Bookshelf '{bookshelf_name}' not found (status {response.status_code})"
-                )
-                return []
+                if response.status_code == 404:
+                    raise UrlNotFoundError(
+                        f"Url '{url}' not found (HTTP 404)"
+                    )
+                else:
+                    logger.warning(
+                        f"Bookshelf '{bookshelf_name}' not found (status {response.status_code})"
+                    )
+                    return []
 
             soup = BeautifulSoup(response.text, "html.parser")
 
             books = []
             book_list = soup.find_all("li", class_="booklink")
 
-            for book_item in book_list[:max_results]:
 
+            idx = 0
+            while len(books) < max_results and idx < len(book_list):
+                book_item = book_list[idx]
                 link = book_item.find("a", class_="link")
-                if not link:
-                    continue
 
                 book_url = link.get("href")
                 book_id_match = re.search(r"/ebooks/(\d+)", book_url)
-                if not book_id_match:
-                    continue
 
                 book_id = book_id_match.group(1)
 
+                logger.debug(f"Consider {bookshelf_name} #{idx + start_idx}, id: {book_id}")
+
+                if book_id in existing:
+                    logger.debug(f"   |---> skipping, already in dataset")
+                    idx += 1
+                    continue
+
+                
                 title_span = book_item.find("span", class_="title")
                 title = title_span.text.strip() if title_span else f"Book {book_id}"
 
                 author_span = book_item.find("span", class_="subtitle")
                 author = author_span.text.strip() if author_span else "Unknown"
 
-                books.append(
-                    {
-                        "book_id": book_id,
-                        "title": title,
-                        "author": author,
-                        "url": f"{self.BASE_URL}/ebooks/{book_id}",
-                    }
-                )
+                if self.is_english_book(book_id):
+                    if not self.is_multi_genre(book_id):
+                        text_result = self.download_book(book_id, title)
+                        if text_result:
+                            text, word_count = text_result
+                            books.append(
+                                {
+                                    "book_id": book_id,
+                                    "title": title,
+                                    "author": author,
+                                    "url": f"{self.BASE_URL}/ebooks/{book_id}",
+                                    "text": text,
+                                    "word_count": word_count,
+                                }
+                            )
+                            logger.debug("   |---> adding")
+                    else:
+                        logger.debug("   |---> skipping, book belongs to multiple genres")
+                else:
+                    logger.debug("   |---> skipping, book language is not English")
+                idx += 1
 
-            logger.info(f"Found {len(books)} books in bookshelf '{bookshelf_name}'")
             return books
 
+        except UrlNotFoundError:
+            raise
         except Exception as e:
             logger.error(f"Error searching bookshelf '{bookshelf_name}': {e}")
             return []
@@ -274,6 +205,7 @@ class GutenbergScraper:
         self, book_id: str, title: str, min_length: int = MIN_BOOK_LENGTH
     ) -> Optional[Tuple[str, int]]:
 
+        text_url = self.get_book_text_url(book_id)
         if not text_url:
             logger.warning(f"No text URL found for book {book_id}: {title}")
             return None
@@ -291,12 +223,12 @@ class GutenbergScraper:
 
             if word_count < min_length:
                 logger.debug(
-                    f"Book {book_id} too short ({word_count} < {min_length} words), skipping"
+                    f"   |---> skipping, book too short ({word_count} < {min_length} words)"
                 )
                 return None
 
             if word_count > MAX_BOOK_LENGTH:
-                logger.info(f"Book {book_id} too long ({word_count} words), skipping")
+                logger.debug(f"skipping, book too long ({word_count} words)")
                 return None
 
             return text, word_count
@@ -315,18 +247,12 @@ class GutenbergScraper:
         return file_path
 
     def scrape_genre(
-        self, genre: str, target_count: int = BOOKS_PER_GENRE
+        self, genre: str, shelf_id: int, target_count: int = BOOKS_PER_GENRE
     ) -> List[Dict]:
-
-        queries = self.GENRE_QUERIES.get(genre, [genre])
-        if isinstance(queries, str):
-            queries = [queries]
-
-        existing_metadata = self.load_metadata()
         existing_books = {}
-        if not existing_metadata.empty:
+        if not self.existing_metadata.empty:
 
-            genre_metadata = existing_metadata[existing_metadata["genre"] == genre]
+            genre_metadata = self.existing_metadata[self.existing_metadata["genre"] == genre]
 
             existing_books = {
                 str(row["book_id"]): row.to_dict()
@@ -336,65 +262,37 @@ class GutenbergScraper:
                 f"Found {len(existing_books)} existing books for {genre} in metadata"
             )
 
-        all_search_results = []
-        seen_book_ids = set()
-
-        for query in queries:
-            logger.info(f"Searching with query: '{query}'")
-            results = self.search_books(query, max_results=target_count * 2)
-
-            for book in results:
-                book_id = book["book_id"]
-                if book_id not in seen_book_ids:
-                    all_search_results.append(book)
-                    seen_book_ids.add(book_id)
-
-            logger.info(f"Total unique books found so far: {len(all_search_results)}")
-
-        bookshelves = self.GENRE_BOOKSHELVES.get(genre, [])
-        for bookshelf in bookshelves:
-            logger.info(f"Searching bookshelf: '{bookshelf}'")
-            results = self.search_bookshelf(bookshelf, max_results=target_count)
-
-            for book in results:
-                book_id = book["book_id"]
-                if book_id not in seen_book_ids:
-                    all_search_results.append(book)
-                    seen_book_ids.add(book_id)
-
-            logger.info(f"Total unique books found so far: {len(all_search_results)}")
-
-            if len(all_search_results) >= target_count * 3:
-                break
-
-        search_results = all_search_results
-        logger.info(f"Total search results for {genre}: {len(search_results)} books")
-
         books_needed = target_count - len(existing_books)
+        if books_needed <= 0:
+            logger.info(
+                f"Needed {target_count} books, target met!\n{'-' * 70}\n"
+            )
+
+            return list(existing_books.values())
+        
         logger.info(
             f"Need {books_needed} new books (target: {target_count}, existing: {len(existing_books)})"
         )
 
-        if books_needed <= 0:
-            logger.info(
-                f"Already have {len(existing_books)} books for {genre}, target met!"
-            )
-            return list(existing_books.values())
+        start_idx = 426 
+        search_results = []
+        books_needed_copy = books_needed
 
-        rare_genres = ["Adventure/Action", "Thriller/Horror", "Fantasy"]
-        if genre in rare_genres:
-            min_book_length = 7000
-            logger.info(
-                f"⚠️  Using lower minimum ({min_book_length} words) for rare genre: {genre}"
-            )
-        else:
-            min_book_length = MIN_BOOK_LENGTH
+        while books_needed > 0:
+            try:
+                results = self.search_bookshelf(genre, shelf_id, max_results=books_needed, existing=existing_books, start_idx=start_idx)
+                search_results.extend(results)
+                books_needed -= len(results)
 
-        if len(search_results) < books_needed:
-            logger.warning(
-                f"⚠️  Only found {len(search_results)} candidates for {genre}, "
-                f"but need {books_needed} books. Will download what we can."
-            )
+                logger.debug(f"Found {len(results)} new books in bookshelf '{genre}', from {start_idx}. position")
+                if books_needed > 0:
+                    logger.debug(f"Still need {books_needed} more")
+
+                start_idx += RESULTS_PER_SITE
+            except UrlNotFoundError:
+                break
+
+        logger.info(f"Found {len(search_results)} new books in bookshelf '{genre}'")
 
         downloaded_books = list(existing_books.values())
         new_downloads = 0
@@ -403,7 +301,7 @@ class GutenbergScraper:
         progress_bar = tqdm(
             search_results,
             desc=f"Downloading {genre}",
-            total=min(len(search_results), books_needed),
+            total=min(len(search_results), books_needed_copy),
         )
 
         for book_info in progress_bar:
@@ -426,7 +324,7 @@ class GutenbergScraper:
                 )
                 downloaded_books.append(metadata_entry)
                 authors_seen.add(metadata_entry["author"])
-                logger.info(
+                logger.debug(
                     f"Book {book_id} already exists (verified), skipping download"
                 )
                 continue
@@ -436,7 +334,7 @@ class GutenbergScraper:
                 try:
                     text = file_path.read_text(encoding="utf-8")
                     word_count = len(text.split())
-                    logger.info(
+                    logger.debug(
                         f"Book {book_id} file exists but not in metadata, adding"
                     )
                 except Exception as e:
@@ -445,7 +343,7 @@ class GutenbergScraper:
                     )
 
                     result = self.download_book(
-                        book_id, title, min_length=min_book_length
+                        book_id, title, min_length=MIN_BOOK_LENGTH
                     )
                     if result is None:
                         continue
@@ -453,7 +351,7 @@ class GutenbergScraper:
                     file_path = self.save_book(book_id, text, genre)
             else:
 
-                result = self.download_book(book_id, title, min_length=min_book_length)
+                result = self.download_book(book_id, title, min_length=MIN_BOOK_LENGTH)
 
                 if result is None:
                     continue
@@ -475,7 +373,7 @@ class GutenbergScraper:
             downloaded_books.append(metadata_entry)
 
             if book_id not in existing_books:
-                self.metadata.append(metadata_entry)
+                self.new_metadata.append(metadata_entry)
                 new_downloads += 1
 
             authors_seen.add(author)
@@ -488,43 +386,38 @@ class GutenbergScraper:
                 }
             )
 
-            time.sleep(2)
-
-        logger.info(f"Genre {genre} complete:")
-        logger.info(f"  Total books: {len(downloaded_books)}")
-        logger.info(f"  New downloads: {new_downloads}")
-        logger.info(f"  Existing books: {len(existing_books)}")
-        logger.info(f"  Unique authors: {len(authors_seen)}")
-
         if len(downloaded_books) < target_count:
             logger.warning(
                 f"⚠️  Only got {len(downloaded_books)}/{target_count} books for {genre}. "
                 f"Gutenberg may not have enough books in this category."
             )
 
+        logger.info(f"{'-' * 70}\n")
+        
         return downloaded_books
 
     def scrape_all_genres(
-        self, genres: List[str], books_per_genre: int = BOOKS_PER_GENRE
+        self, genres: List[str]
     ):
-        logger.info(f"Target: {books_per_genre} books per genre")
+        self.existing_metadata = self.load_metadata()
+
+        category_map = self.get_category_map()
 
         for genre in genres:
             try:
-                self.scrape_genre(genre, books_per_genre)
+                shelf_id = category_map[genre]
+                self.scrape_genre(genre, shelf_id, self.books_per_genre)
             except Exception as e:
                 logger.error(f"Error scraping genre {genre}: {e}")
                 continue
 
         self.save_metadata()
 
-        logger.info(f"Scraping complete. Total books: {len(self.metadata)}")
-
     def save_metadata(self):
 
         existing_df = self.load_metadata()
 
-        new_df = pd.DataFrame(self.metadata)
+        new_df = pd.DataFrame(self.new_metadata)
 
         if not existing_df.empty and not new_df.empty:
 
@@ -535,7 +428,7 @@ class GutenbergScraper:
         elif not existing_df.empty:
 
             df = existing_df
-            logger.info("No new metadata to add, keeping existing data")
+            logger.debug("No new metadata to add, keeping existing data")
         elif not new_df.empty:
 
             df = new_df
@@ -546,13 +439,15 @@ class GutenbergScraper:
 
         df.to_csv(METADATA_FILE, index=False)
         logger.info(f"Metadata saved to {METADATA_FILE}")
+        logger.info(f"Books downloaded to {RAW_DATA_DIR}")
 
         logger.info("\nDataset Summary:")
         logger.info(f"Total books: {len(df)}")
+        logger.info(f"Unique authors: {df['author'].nunique()}")
+
         logger.info(f"\nBooks per genre:")
         for genre, count in df["genre"].value_counts().items():
             logger.info(f"  {genre}: {count}")
-        logger.info(f"\nUnique authors: {df['author'].nunique()}")
 
     def load_metadata(self) -> pd.DataFrame:
         if METADATA_FILE.exists():

@@ -1,6 +1,6 @@
 import re
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing import List, Tuple
 import pandas as pd
 from tqdm import tqdm
 
@@ -68,6 +68,7 @@ class GutenbergPreprocessor:
     def detect_chapters(self, text: str) -> List[Tuple[int, str]]:
 
         pattern = r'^(' + '|'.join(CHAPTER_MARKERS) + r')\s+([IVXLCDM\d]+|[A-Z][a-z]+).*$'
+        chapters = []
 
         for i, line in enumerate(text.split('\n')):
             match = re.match(pattern, line.strip(), re.IGNORECASE)
@@ -154,14 +155,15 @@ class GutenbergPreprocessor:
         chapters = self.detect_chapters(text)
 
         stats = {
-            'word_count': len(words),
+            'word_count': len(text),
             'sentence_count': len([s for s in sentences if s.strip()]),
             'chapter_count': len(chapters),
-            'avg_word_length': sum(len(w) for w in words) / len(words) if words else 0,
-            'avg_sentence_length': len(words) / len(sentences) if sentences else 0
+            'avg_word_length': sum(len(w) for w in text) / len(text),
+            'avg_sentence_length': sum(len(w) for w in sentences) / len(sentences)
         }
 
         return stats
 
 def preprocess_single_text(text: str) -> str:
+    preprocessor = GutenbergPreprocessor()
     return preprocessor.preprocess_book(text)

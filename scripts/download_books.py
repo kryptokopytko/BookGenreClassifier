@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-"""
-Script to download and preprocess books from Project Gutenberg.
-
-Usage:
-    python scripts/download_books.py --books_per_genre 100
-"""
-
 import argparse
 import sys
 from pathlib import Path
@@ -32,12 +24,6 @@ def main():
         help=f'Number of books to download per genre (default: {BOOKS_PER_GENRE})'
     )
     parser.add_argument(
-        '--genres',
-        nargs='+',
-        default=GENRES,
-        help=f'List of genres to download (default: {GENRES})'
-    )
-    parser.add_argument(
         '--skip_download',
         action='store_true',
         help='Skip downloading, only preprocess existing books'
@@ -55,43 +41,29 @@ def main():
 
     args = parser.parse_args()
 
-    logger.info("="*60)
+    logger.info("="*70)
     logger.info("BOOK DOWNLOAD AND PREPROCESSING")
-    logger.info("="*60)
+    logger.info("="*70)
 
     if not args.skip_download:
-        logger.info("\nStep 1: Downloading books from Project Gutenberg")
-        logger.info("-"*60)
+        logger.info(f"\nStep 1: Downloading books from Project Gutenberg, {args.books_per_genre} books per genre")
+        logger.info(f"{'=' * 70}\n")
 
-        priority_genres = [
-            "Adventure/Action",
-            "Thriller/Horror",
-            "Fantasy",
-        ]
-
-        genres_to_download = args.genres.copy()
-        if genres_to_download == GENRES:
-            remaining_genres = [g for g in genres_to_download if g not in priority_genres]
-            genres_to_download = priority_genres + remaining_genres
-
-            logger.info("\n⚠️  Prioritizing underrepresented genres:")
-            for genre in priority_genres:
-                logger.info(f"   📚 {genre}")
-            logger.info("")
-
-        scraper = GutenbergScraper(output_dir=RAW_DATA_DIR)
+        genres_to_download = GENRES
+        
+        scraper = GutenbergScraper(output_dir=RAW_DATA_DIR, books_per_genre=args.books_per_genre)
         scraper.scrape_all_genres(
             genres=genres_to_download,
-            books_per_genre=args.books_per_genre
         )
 
-        logger.info(f"\nDownloaded books to: {RAW_DATA_DIR}")
+        logger.info(f"\nDownloaded books complete")
+        logger.info(f"{'=' * 70}\n")
     else:
         logger.info("\nStep 1: Skipping download (--skip_download)")
 
     if not args.skip_preprocessing:
         logger.info("\nStep 2: Preprocessing books")
-        logger.info("-"*60)
+        logger.info(f"{'=' * 70}\n")
 
         from src.utils.config import METADATA_FILE
 
@@ -110,7 +82,7 @@ def main():
 
     if not args.skip_splitting:
         logger.info("\nStep 3: Splitting data by author")
-        logger.info("-"*60)
+        logger.info(f"{'=' * 70}\n")
 
         metadata_file = PROCESSED_DATA_DIR / "metadata_processed.csv"
 
@@ -132,9 +104,9 @@ def main():
     else:
         logger.info("\nStep 3: Skipping data splitting (--skip_splitting)")
 
-    logger.info("\n" + "="*60)
+    logger.info("\n" + "="*70)
     logger.info("DOWNLOAD AND PREPROCESSING COMPLETE")
-    logger.info("="*60)
+    logger.info("="*70)
     logger.info("\nNext steps:")
     logger.info("1. Extract features: python scripts/extract_features.py")
     logger.info("2. Train models: python scripts/train_all_models.py")
