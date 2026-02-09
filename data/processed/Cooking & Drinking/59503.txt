@@ -1,0 +1,705 @@
+Produced by Tom Cosmas compiled from images made available
+by The Internet Archive.
+
+Transcriber Note
+
+Text emphasis denoted as _Italic_.
+
+U. S. DEPARTMENT OF AGRICULTURE.
+
+FARMERS' BULLETIN No. 175.
+
+Home Manufacture and Use of Unfermented Grape Juice.
+
+BY
+
+GEORGE C. HUSMANN,
+
+Expert in Charge of Viticultural Investigations,
+Bureau of Plant Industry,
+U. S. Department of Agriculture.
+
+WASHINGTON:
+GOVERNMENT PRINTING
+1903.
+
+LETTER OF TRANSMITTAL.
+
+U. S. Department of Agriculture,
+Bureau of Plant Industry,
+_Washington, D. C., May 28, 1903._
+
+Sir: I have the honor to transmit herewith a paper on Home manufacture
+and use of unfermented grape juice, by Mr. George C. Husmann, expert in
+charge of viticultural investigations in this Bureau, and to recommend
+it for publication as a Farmers' Bulletin.
+
+Part of the matter contained in this paper has already been published
+in Bulletin No. 24 of this Bureau on the Manufacture and Preservation
+of Unfermented Grape Must, but the widespread interest in the subject
+and the demand for information regarding appliances and methods of
+manufacture adapted to the ordinary farm and kitchen makes desirable its
+wider circulation through the Farmers' Bulletin series.
+
+Respectfully,
+
+B. T. Galloway,
+_Chief of Bureau_.
+
+Hon. James Wilson, _Secretary_.
+
+CONTENTS.
+
+Page.
+
+Introduction 5
+
+Historical notes 5
+
+Composition of the grape 6
+
+Causes of fermentation 6
+
+Methods of preventing fermentation 6
+
+Home manufacture 7
+
+Manufacture of larger quantities 9
+
+Useful appliances 10
+
+Composition of unfermented grape juice 12
+
+Flavor and quality in grape juice 12
+
+Uses of unfermented grape juice 13
+
+Food value of unfermented grape juice 13
+
+A few good recipes 14
+
+ILLUSTRATIONS.
+
+Page.
+
+Fig. 1. Cloth hand press 8
+
+2. Cloth or felt filter 8
+
+3. Pasteurizer for juice in bottles 8
+
+4. Drip bag 9
+
+5. Barrel and skid 9
+
+6. Sulphur hook 10
+
+7. Corking machine 10
+
+8. Home-made lever press 11
+
+B. P. I.--62. Pom. I.--18.
+
+HOME MANUFACTURE AND USE OF UNFERMENTED GRAPE JUICE.
+
+INTRODUCTION.
+
+Unfermented grape juice has no doubt been used ever since wine has
+been made from the grape. The following practical suggestions will
+enable housewives to put up unfermented juice at the time of the fruit
+harvest, and thus to utilize much fruit that is now annually lost
+through inability to preserve it in the fresh state. In this form it is
+a pleasant, wholesome drink and food well adapted to home use. On some
+farms enough such preventable wastes occur almost every year to largely
+reduce the possible profits, or even to cause failure to meet the running
+expenses of the farm. By preventing these wastes an unprofitable farm may
+often be made profitable.
+
+HISTORICAL NOTES.
+
+Galenius, the Greek physician and writer says (A. D. 131): "A good many
+Asiatic wines were stored in bottles which were hung in the corner of
+fireplaces, where, by evaporation, they became dry." This process was
+called "fumarium."
+
+The Greeks had two kinds of wine, "protoplon," or first juice of the
+grape before pressing, and "denterion," or pressed juice. The Romans
+called them "vinum primarium" and "vinum secondarium." Some of them drank
+the juice before fermentation had started, and called it "mustum." After
+the must or juice had been through a heating process (called "reduction"
+nowadays), they called it "frutum," and when, after long heating, it had
+been reduced to one-half or one-third its original volume, they called it
+"sapa." This was used by the Romans on their bread and was equivalent to
+what we now call grape syrup.
+
+In Europe physicians often send their patients to the wine-growing
+districts during vintage time to take daily rations of the fresh juice as
+it comes from the crusher. This, however, restricts its use to a brief
+season of the year and to the immediate vicinity of the vineyards, or to
+individuals who are yet strong enough to undertake the journey.
+
+Of late years repeated efforts have been made to prevent the juice from
+fermenting and to preserve it in vessels of such size and shape as can be
+easily transported, thus rendering its use possible at all times of the
+year. Until recently its use has been almost exclusively restricted to
+juice for medicinal or sacramental purposes. Unrestricted and general use
+has been retarded through lack of knowledge of the principles underlying
+the process of manufacture. This lack of knowledge and of the necessary
+skill in applying it has resulted in many failures, thus rendering the
+production of a good article uncertain and expensive.
+
+COMPOSITION OF THE GRAPE.
+
+The grape contains 12 to 28 per cent of sugar, about 2 to 3 per cent of
+nitrogenous substances, and some tartaric and malic acids. The skins
+contain tannin, cream of tartar, and coloring matter. The seeds contain
+tannin, starchy matters, and fat. The stems contain tannin, diverse
+acids, and mucilaginous matter. The value of the juice made from any
+grape is determined by the relative proportion and composition of these
+various parts.
+
+CAUSES OF FERMENTATION.
+
+It is well known that grapes and other fruits when ripe have the
+invisible spores of various fungi, yeasts (ferments), and bacteria
+adhering to their skins and stems. When dry these spores are inert, but
+after the grapes are crushed and the spores are immersed in the juice
+they become active and begin to multiply. If the juice is warm, the
+changes take place rapidly; if, on the other hand, it is cool, the change
+is slower. But in either case, if left alone, the organisms increase
+until the juice ferments. The most favorable temperature for fermentation
+is between 65° F. and 88° F. Cold checks, but does not kill, the ferment.
+This fermentation, now commonly called the elliptic yeast, changes the
+sugar in the grape to alcohol and carbonic-acid gas, and is the leading
+factor in converting must[A] into wine. Hence it will be readily seen
+that to keep grape juice sweet fermentation must be prevented, and to be
+salable the product must be clear, bright, and attractive.
+
+[A] The word "must" as used in wine making invariably refers to the
+unfermented juice of the grape and is so used in this publication.
+
+METHODS OF PREVENTING FERMENTATION.
+
+Fermentation may be prevented in either of two ways:
+
+(1) By chemical methods, which consist in the addition of germ poisons
+or antiseptics, which either kill the germs or prevent their growth. Of
+these the principal ones used are salicylic, sulphurous, boracic, and
+benzoic acids, formalin, fluorides, and saccharin. As these substances
+are generally regarded as adulterants and injurious, their use is not
+recommended.
+
+(2) Mechanical means are sometimes employed. The germs are either removed
+by some mechanical means, such as filtering or a centrifugal apparatus,
+or they are destroyed by heat, electricity, etc. Of these, heat has so
+far been found the most practical.
+
+When a liquid is heated to a sufficiently high temperature all organisms
+in it are killed. The degree of heat required, however, differs not
+only with the particular kind of organism, but also with the liquid
+in which they are held. Time is also a factor. An organism may not be
+killed if heated to a high temperature and quickly cooled. If, however,
+the temperature is kept at the same high degree for some time, it will
+be killed. It must also be borne in mind that fungi, including yeasts,
+exist in the growing and the resting states, the latter being much more
+resistant than the former. A characteristic of the fungi and their spores
+is their great resistance to heat when dry. In this state they can be
+heated to 212° F. without being killed. The spores of the common mold
+are even more resistant. This should be well considered in sterilizing
+bottles and corks, which should be steamed to 240° F. for at least
+fifteen minutes.
+
+Practical tests so far made indicate that grape juice can be safely
+sterilized at from 165° F. to 176° F. At this temperature the flavor is
+hardly changed, while at a temperature much above 200° F. it is. This is
+an important point, as the flavor and quality of the product depend on it.
+
+This bulletin being intended for the farmer or the housewife only, the
+writer refers such readers as desire to go into the manufacture of grape
+juice in a systematic manner for commercial purposes to Bulletin 24,
+Bureau of Plant Industry, Department of Agriculture, on the same subject,
+this publication treating only of methods that can be applied in every
+home.
+
+HOME MANUFACTURE.
+
+Use only clean, sound, well-ripened but not over-ripe grapes. If
+an ordinary cider mill is at hand, it may be used for crushing and
+pressing, or the grapes may be crushed and pressed with the hands. If
+a light-colored juice is desired, put the crushed grapes in a cleanly
+washed cloth sack and tie up. Then either hang up securely and twist it
+or let two persons take hold, one on each end of the sack (fig. 1, p.
+8), and twist until the greater part of the juice is expressed. Then
+gradually heat the juice in a double boiler or a large stone jar in a
+pan of hot water, so that the juice does not come in direct contact with
+the fire, at a temperature of 180° F. to 200° F.; never above 200° F.
+It is best to use a thermometer, but if there be none at hand heat the
+juice until it steams, but do not allow it to boil. Put it in a glass
+or enameled vessel to settle for twenty-four hours; carefully drain
+the juice from the sediment, and run it through several thicknesses of
+clean flannel, or a conic filter made from woolen cloth or felt may be
+used. This filter is fixed to a hoop of iron, which can be suspended
+wherever necessary (fig. 2). After this fill into clean bottles. Do not
+fill entirely, but leave room for the liquid to expand when again heated.
+Fit a thin board over the bottom of an ordinary wash boiler (fig. 3),
+set the filled bottles (ordinary glass fruit jars are just as good) in
+it, fill in with water around the bottles to within about an inch of
+the tops, and gradually heat until it is about to simmer. Then take the
+bottles out and cork or seal immediately. It is a good idea to take
+the further precaution of sealing the corks over with sealing wax or
+paraffin to prevent mold germs from entering through the corks. Should
+it be desired to make a red juice, heat the crushed grapes to not above
+200° F., strain through a clean cloth or drip bag, as shown in fig. 4
+(no pressure should be used), set away to cool and settle, and proceed
+the same as with light-colored juice. Many people do not even go to the
+trouble of letting the juice settle after straining it, but reheat and
+seal it up immediately, simply setting the vessels away in a cool place
+in an upright position where they will be undisturbed. The juice is thus
+allowed to settle, and when wanted for use the clear juice is simply
+taken off the sediment. Any person familiar with the process of canning
+fruit can also preserve grape juice, for the principles involved are
+identical.
+
+[Illustration: Fig. 1.--Cloth and press.]
+
+[Illustration: Fig. 2.--Cloth or felt filter.]
+
+[Illustration: Fig. 3.--Pasteurizer for juice in bottles: _DB_,
+Double bottom. _ST_, Steam pipe. _W_, Water bath. _T_, Thermometer.
+(Bottle shows method of adjusting a cork holder of sheet metal.)]
+
+[Illustration: Fig. 4.--Drip bag.]
+
+One of the leading defects so far found in unfermented juice is that
+much of it is not clear, a condition which very much detracts from its
+otherwise attractive appearance and due to two causes already alluded
+to. Either the final sterilization in bottles has been at a higher
+temperature than the preceding one, or the juice has not been properly
+filtered or has not been filtered at all. In other cases the juice has
+been sterilized at such a high temperature that it has a disagreeable
+scorched taste. It should be remembered that attempts to sterilize at
+a temperature above 195° F. are dangerous, so far as the flavor of the
+finished product is concerned.
+
+Another serious mistake is sometimes made by putting the juice into
+bottles so large that much of it becomes spoiled before it is used after
+the bottles are opened. Unfermented grape juice properly made and bottled
+will keep indefinitely, if it is not exposed to the atmosphere or mold
+germs; but when a bottle is once opened it should, like canned goods, be
+used as soon as possible, to keep it from spoiling.
+
+MANUFACTURE OF LARGER QUANTITIES.
+
+Another method of making unfermented grape juice, which is often resorted
+to where a sufficiently large quantity is made atone time, consists in
+this:
+
+Take a clean keg or barrel (one that has previously been made sweet).
+Lay this upon a skid consisting of two scantlings or pieces of timber of
+perhaps 20 feet long, in such a manner as to make a runway (fig. 5). Then
+take a sulphur match, made by dipping strips of clean muslin about 1 inch
+wide and 10 inches long into melted brimstone, cool it and attach it to
+a piece of wire fastened in the lower end of a bung and bent over at the
+end, so as to form a hook (fig. 6). Light the match and by means of the
+wire suspend it in the barrel, bung the barrel up tight, and allow it to
+burn as long as it will. Repeat this until fresh sulphur matches will no
+longer burn in the barrel.
+
+[Illustration: Fig. 5.--Barrel and skid.]
+
+[Illustration: Fig. 6.--Sulphur hook.]
+
+Then take enough fresh grape juice to fill the barrel one-third full,
+bung up tight, and roll and agitate violently on the skid for a few
+minutes. Then burn more sulphur matches in it until no more will burn,
+fill in more juice until the barrel is about two-thirds full; agitate
+and roll again. Repeat the burning process as before, after which fill
+the barrel completely with grape juice and roll. The barrel should then
+be bunged tightly and stored in a cool place with the bung up, and so
+secured that the package can not be shaken. In the course of a few weeks
+the juice will have become clear and can then be racked of' and filled
+into bottles or jars direct, sterilized, and corked or sealed up ready
+for use. By this method, however, unless skillfully handled, the juice is
+apt to have a slight taste of the sulphur.
+
+A FEW USEFUL APPLIANCES.
+
+Fig. 7 shows a very practical and inexpensive corking machine. The
+illustration shows the cork in place, ready to be driven through the
+tapering hole in the machine into the neck of the bottle underneath. The
+corks should be put in hot water and allowed to stand for a few minutes
+before using in order to soften and make them pliable. This enables one
+to use a cork large enough to seal securely.
+
+[Illustration: Fig. 7.--Corking machine.]
+
+Care should be taken to set the bottles on a flat piece of rubber or on
+a piece of cloth folded several times, as shown in the figure, so as
+to take the jar of the blow when the cork is driven. It is even a wise
+precaution to have a pan underneath, as it frequently occurs that bottles
+thought to be entirely good have blemishes and break.
+
+[Illustration: Fig. 8.--Home-made lever press. A, Press basket.
+B, Press bottom. C, Tub. D, Skids. E, Lever. P, Upright posts. G, Block
+and tackle. T, Lever bolt. I, Press block.]
+
+An ordinary cider press is not expensive; nevertheless the majority of
+farms do not have one, and it frequently occurs that a farm is located
+so far away from any establishment dealing in such implements that the
+fruit might spoil or not be sufficiently valuable to justify the purchase
+price and time lost and expense incurred in getting it. Fig. 8 gives an
+illustration of a lever press, very efficient for this and similar uses,
+which any farmer handy with tools can make, the material for which can be
+found on almost any farm at any time. The press consists of the following
+parts:
+
+Two upright posts (F) set deep and firmly in the ground side by side and
+about 12 inches apart. (It is a good idea to attach some deadmen to them
+in the ground to prevent them pulling out too easily.) Between these
+posts the lever (E) is hung by means of a bolt (T), or the lever may
+be hung to the side of a building, or a hole notched into a tree large
+enough to admit the end of the lever and a bolt run through that. At the
+other end of the lever are two posts, so set that the lever can be raised
+up between them by means of block and tackle. The press itself consists
+of two timbers (D), on which the press bottom (B) rests, and on this
+bottom is the press basket, consisting of the two sides and two ends,
+and so constructed that it can be easily taken apart and set up again,
+being held together at the ends by means of rods (L). The sides and ends
+should be bored full of small holes from three-eighths to one-half inch
+in diameter to allow exit for the juice.
+
+After the press is filled, the top (which is made to fit in the inside of
+the basket) and cross blocks (1) are put on and the lever is then allowed
+to press down on it. A press like this has the advantage that it can be
+filled in the evening and left to press until morning while the farmer
+sleeps. The precaution, of course, must be taken to set a tub (C) large
+enough to hold the juice under the press.
+
+It is perhaps well to state that the longer and heavier the lever the
+greater the pressure it exerts. Where it is not convenient to make the
+lever very long, weights are placed or hung on the outer extremity of
+the lever to increase the pressure. It will thus be seen that with a
+little ingenuity a person can adapt the press to suit his individual
+requirements.
+
+For ordinary purposes a press basket 3 feet square and 2 feet high will
+be found a very convenient size. This will accommodate a ton of crushed
+grapes.
+
+COMPOSITION OF UNFERMENTED GRAPE JUICE.
+
+Herewith are given the component parts of a California and a Concord
+unfermented grape juice, the former being analyzed by the California
+Experiment Station, the latter by the Bureau of Chemistry, United States
+Department of Agriculture:
+
+Concord. California.
+
+_Per cent._ _Per cent._
+Solid contents 20.37 20.60
+Total acids (as tartaric) .663 .53
+Volatile acids .023 .03
+Grape sugar 18.54 19.15
+Free tartaric acids .025 .07
+Ash .255 .19
+Phosphoric acids .027 .04
+Cream of tartar .55 .59
+
+This table is interesting in so far that California unfermented grape
+juices are made from Viniferas or foreign varieties, whereas the Concord
+is a Labruska or one of our American sorts. The difference in taste and
+smell is even more pronounced than the analysis would indicate.
+
+FLAVOR AND QUALITY IN GRAPE JUICE.
+
+In the making of unfermented grape juice a great deal of judgment can be
+displayed and many variations produced so as to suit almost any taste by
+the careful selection of the varieties of grapes from which it is made.
+From the Mission grape, for instance, when fully ripe, a juice would
+be obtained that would be delicate and simply sweet, without any other
+taste; from the Muscat we would get that rich musky flavor found in our
+leading raisins; in the Concord that sprightly foxy taste so well known;
+in the Catawba or Isabella that fragrance so peculiarly their own, and in
+the Iona a pleasing, mild, yet just pronounced enough aroma and taste to
+strike the right spot. Thus we might continue along the list.
+
+Equally as pronounced variations in color can be had, as, for instance,
+almost colorless, yellow, orange, light red, red, and a deep purple.
+
+The writer has often been asked what kind of grapes should be used in
+making unfermented grape juice, when, as a matter of fact, it can be made
+from any grape; not only this, but unfermented juice is made from other
+fruits as well, for instance, apples, pears, cherries--and berries of
+different kinds yield excellent juices. It is really good judgment in
+selecting the right varieties when planting for fruit production. That
+also determines the quality of our unfermented juice. For instance, the
+richer, sweeter, and better in quality the fruit we use, the richer,
+sweeter, and better will be our unfermented juice. If, on the other hand,
+the fruit is sour, green, and insipid, the juice will be likewise. As
+stated before, the intention of this bulletin is to show how to avoid
+some wastes, and to increase income by utilizing those products of which
+there is a surplus, and instead of, as is usually done, letting them rot,
+convert them into something that can be kept, used, and disposed of at
+any time when desired, or when fresh fruit is not available.
+
+USES OF UNFERMENTED GRAPE JUICE.
+
+The uses are indeed many. It is used in sickness, convalescence, and good
+health; as a preventive, restorative, and cure; by the young, by persons
+in the prime of life, and by those in old age. It is used in churches for
+sacramental purposes; at soda fountains as a cool and refreshing drink;
+in homes, at hotels, and at restaurants as a food, as a beverage, as a
+dessert, and in many other ways. When people become accustomed to it they
+rarely give it up. When properly prepared, unfermented grape juice can be
+made to please the eye by its color and attractive appearance, the sense
+of smell by its aroma or fragrance, the palate by its pleasant flavor.
+
+It is food and drink, refreshment and nourishment, all in one. Not a by
+product, but made from fruit going to waste--one of the blessings given
+us, that some are too careless, others too ignorant, to make use of.
+
+FOOD VALUE OF UNFERMENTED GRAPE JUICE.
+
+The effects of unfermented grape juice on the human system have been
+studied for a number of years, especially at the so-called grape cures
+so long in vogue in Europe. A smaller number of investigations have been
+made in laboratories.
+
+It is quite generally claimed that using a reasonably large amount
+of unfermented grape juice with an otherwise suitable mixed diet is
+beneficial and that digestion is improved, intestinal fermentation
+diminished, and that gains in body weight result. It should not be
+forgotten that the abundant diet and hygienic methods of living practiced
+at the grape cures play an important part, but even taking all this into
+account it seems fair to conclude that some of the good results can be
+directly attributed to the unfermented grape juice.
+
+Grape juice contains the same kinds of nutrients as other foods. The
+percentage of water is high, and thus it resembles liquid foods more
+closely than solid foods. It is sometimes compared with milk, the most
+common liquid food. It contains less water than milk, more carbohydrates,
+and less protein, fat, and ash. Carbohydrates, largely present in the
+form of sugar, are the principal nutritive ingredients. It is evident,
+therefore, that grape juice is essentially an energy yielding food, and
+may help the body to become fatter, though it can not materially assist
+in building nitrogenous tissue. Sugars in moderate amounts are wholesome
+foods, and grape juice offers such material in a reasonably dilute as
+well as palatable form. Undoubtedly the agreeable flavor increases the
+appetite, a by no means unimportant consideration.
+
+A FEW GOOD RECIPES.
+
+GRAPE NECTAR.
+
+Take the juice of 2 lemons and 1 orange, 1 pint of grape juice, 1 small
+cup of sugar, and a pint of water. Serve ice cold. If served from punch
+bowl, sliced lemon and orange add to the appearance.
+
+AN INVALID DRINK.
+
+Put in the bottom of a wineglass 2 tablespoonfuls of grape juice; add to
+this the beaten white of 1 egg and a little chopped ice; sprinkle sugar
+over the top and serve. This is often served in sanitariums.
+
+GRAPE PUNCH.
+
+Boil together 1 pound of sugar and half a pint of water until it spins a
+thread; take from the fire and when cool add the juice of 6 lemons and
+a quart of grape juice. Stand aside overnight. Serve with plain water,
+apollinaris, or soda water.
+
+GRAPE SHERBET.
+
+For 8 persons mix 1 pint of grape juice (unfermented), juice of lemon and
+1 heaping tablespoonful of gelatine, dissolved in boiling water; freeze
+quickly; add beaten white of 1 egg just before finish.
+
+GRAPE ICE CREAM.
+
+One quart of unfermented grape juice, 1 quart of cream, 1 pound of sugar,
+and the juice of 1 lemon.
+
+SYLLABUB.
+
+One quart of fresh cream, whites of 4 eggs, 1 glass of grape juice, 2
+small cups of powdered sugar; whip half the sugar with the cream, the
+balance with the eggs; mix well; add grape juice and pour over sweetened
+strawberries and pineapples, or oranges and bananas. Serve cold.
+
+BOHEMIAN CREAM.
+
+One pint thick cream, 1 pint grape-juice jelly; stir together; put in
+cups and set on ice. Serve with lady fingers.
+
+Besides the recipes just given many more are enumerated, such as grape
+ice, grape lemonade, grape water ice, grape juice and egg, baked bananas,
+snow pudding, grape gelatine, junket and grape jelly, tutti-frutti jelly,
+grape float, grape jelly, grape juice plain, grape soda water, and scores
+of others.
+
+FARMERS' BULLETINS.
+
+The following is a list of the Farmers' Bulletins available for
+distribution, showing the number, title, and size in pages of each.
+Copies will be sent to any address on application to any Senator,
+Representative, or Delegate in Congress, or to the Secretary of
+Agriculture, Washington, D. C. The missing numbers have been
+discontinued, being superseded by later bulletins.
+
+16. Leguminous Plants. Pp. 24.
+21. Barnyard Manure. Pp. 32.
+22. The Feeding of Farm Animals. Pp. 32.
+24. Hog Cholera and Swine Plague. Pp. 16.
+25. Peanuts: Culture and Uses. Pp. 24.
+27. Flax for Seed and Fiber. Pp. 16.
+28. Weeds: And How to Kill Them. Pp. 32.
+29. Souring and Other Changes in Milk. Pp. 23.
+30. Grape Diseases on the Pacific Coast. Pp. 15.
+31. Alfalfa, or Lucern. Pp. 24.
+32. Silos and Silage. Pp. 32.
+33. Peach Growing for Market. Pp. 24.
+34. Meats: Composition and Cooking. Pp. 29.
+35. Potato Culture. Pp. 24.
+36. Cotton Seed and Its Products. Pp. 16.
+37. Kafir Corn: Culture and Uses. Pp. 12.
+38. Spraying for Fruit Diseases. Pp. 12.
+39. Onion Culture. Pp. 31.
+40. Farm Drainage. Pp. 24.
+42. Facts About Milk. Pp. 29.
+43. Sewage Disposal on the Farm. Pp. 20.
+44. Commercial Fertilizers. Pp. 24.
+45. Insects Injurious to Stored Grain. Pp. 24.
+46. Irrigation in Humid Climates. Pp. 27.
+47. Insects Affecting the Cotton Plant. Pp. 32.
+48. The Manuring of Cotton. Pp. 16.
+49. Sheep Feeding. Pp. 24.
+50. Sorghum as a Forage Crop. Pp. 20.
+51. Standard Varieties of Chickens. Pp. 48.
+52. The Sugar Beet. Pp. 48.
+53. How to Grow Mushrooms. Pp. 20.
+54. Some Common Birds. Pp. 40.
+55. The Dairy Herd. Pp. 24.
+56. Experiment Station Work--I. Pp. 31.
+57. Butter Making on the Farm. Pp. 16.
+58. The Soy Bean as a Forage Crop. Pp. 24.
+59. Bee Keeping. Pp. 32.
+60. Methods of Curing Tobacco. Pp. 16.
+61. Asparagus Culture. Pp. 40.
+62. Marketing Farm Produce. Pp. 28.
+63. Care of Milk on the Farm. Pp. 40.
+64. Ducks and Geese. Pp. 48.
+65. Experiment Station Work--II. Pp. 32.
+66. Meadows and Pastures. Pp. 28.
+68. The Black Rot of the Cabbage. Pp. 22.
+69. Experiment Station Work--III. Pp. 32.
+70. Insect Enemies of the Grape. Pp. 23.
+71. Essentials in Beef Production. Pp. 24.
+72. Cattle Ranges of the Southwest. Pp. 32.
+73. Experiment Station Work--IV. Pp. 32.
+74. Milk as Food. Pp. 39.
+75. The Grain Smuts. Pp. 20.
+76. Tomato Growing. Pp. 30.
+77. The Liming of Soils. Pp. 19.
+78. Experiment Station Work--V. Pp. 32.
+79. Experiment Station Work--VI. Pp. 28.
+80. The Peach Twig-borer. Pp. 16.
+81. Corn Culture in the South. Pp. 24.
+82. The Culture of Tobacco. Pp. 24.
+83. Tobacco Soils. Pp. 23.
+84. Experiment Station Work--VII. Pp. 32.
+85. Fish as Food. Pp. 30.
+86. Thirty Poisonous Plants. Pp. 32.
+87. Experiment Station Work--VIII. Pp. 32.
+88. Alkali Lands. Pp. 23.
+89. Cowpeas. Pp. 16.
+91. Potato Diseases and Treatment. Pp. 12.
+92. Experiment Station Work--IX. Pp. 30.
+93. Sugar as Food. Pp. 27.
+94. The Vegetable Garden. Pp. 24.
+95. Good Roads for Farmers. Pp 47.
+96. Raising Sheep for Mutton. Pp. 48.
+97. Experiment Station Work--X. Pp. 32.
+98. Suggestions to Southern Farmers. Pp. 48.
+99. Insect Enemies of Shade Trees. Pp. 30.
+100. Hog Raising in the South. Pp. 40.
+101. Millets. Pp, 28.
+102. Southern Forage Plants. Pp. 48.
+103. Experiment Station Work--XI. Pp. 32.
+104. Notes on Frost. Pp, 24.
+105. Experiment Station Work--XII. Pp. 32.
+106. Breeds of Dairy Cattle. Pp. 48.
+107. Experiment Station Work--XIII. Pp. 32.
+108. Saltbushes. Pp. 20.
+109. Farmers' Reading Courses. Pp. 20.
+110. Rice Culture in the United States. Pp. 28.
+111. Farmers' Interest in Good Seed. Pp. 24.
+112. Bread and Bread Making. Pp. 39.
+113. The Apple and How to Grow It. Pp. 32.
+114. Experiment Station Work--XIV. Pp. 28.
+115. Hop Culture in California. Pp. 27.
+116. Irrigation in Fruit Growing. Pp. 48.
+117. Sheep, Hogs, and Horses in the Northwest. Pp. 28.
+118. Grape Growing in the South. Pp. 32.
+119. Experiment Station Work--XV. Pp. 31.
+120. Insects Affecting Tobacco. Pp. 32.
+121. Beans, Peas, and other Legumes as Food. Pp. 32.
+122. Experiment Station Work--XVI. Pp. 32.
+123. Red Clover Seed: Information for Purchasers. Pp. 11.
+124. Experiment Station Work--XVII. Pp. 32.
+125. Protection of Food Products from Injurious Temperatures. Pp. 26.
+126. Practical Suggestions for Farm Buildings. Pp. 48.
+127. Important Insecticides. Pp. 42.
+128. Eggs and Their Uses as Food. Pp. 32.
+129. Sweet Potatoes. Pp. 40.
+130. The Mexican Cotton-Boll Weevil. Pp. 30.
+131. Household Tests for Detection of Oleomargarine and Renovated
+Butter. Pp. 11.
+132. Insect Enemies of Growing Wheat. Pp. 40.
+133. Experiment Station Work--XVIII. Pp. 32.
+134. Tree Planting in Rural School Grounds. Pp. 38.
+135. Sorghum Sirup Manufacture. Pp. 40.
+136. Earth Roads. Pp. 24.
+137. The Angora Goat. Pp. 48.
+138. Irrigation in Field and Garden. Pp. 40.
+139. Emmer: A grain for the Semiarid Regions. Pp. 16.
+140. Pineapple Growing. Pp. 48.
+141. Poultry Raising on the Farm. Pp. 16.
+142. The Nutritive and Economic Value of Food. Pp. 48.
+143. The Conformation of Beef and Dairy Cattle. Pp. 44.
+144. Experiment Station Work--XIX. Pp. 32.
+145. Carbon Bisulphid as an Insecticide. Pp: 28.
+146. Insecticides and Fungicides. Pp. 16.
+147. Winter Forage Crops for the South. Pp. 36.
+148. Celery Culture. Pp. 32.
+149. Experiment Station Work--XX. Pp. 32.
+150. Clearing New Land. Pp. 24.
+151. Dairying in the South. Pp. 48.
+152. Scabies in Cattle. Pp. 24.
+153. Orchard Enemies in the Pacific Northwest. Pp. 39.
+154. The Fruit Garden: Preparation and Care. Pp. 20.
+155. How Insects Affect Health in Rural Districts. Pp. 20.
+156. The Home Vineyard. Pp. 24.
+157. The Propagation of Plants. Pp. 24.
+158. How to Build Small Irrigation Ditches. Pp. 28.
+159. Scab in Sheep. (In press.)
+160. Game Laws for 1902. Pp. 56.
+161. Practical Suggestions for Fruit Growers. Pp. 28
+162. Experiment Station Work--XXI. Pp. 32.
+163. Methods of Controlling the Boll-Weevil. Pp. 16.
+164. Rape as a Forage Crop. Pp. 16.
+165. Culture of the Silkworm. Pp. 32.
+166. Cheese Making on the Farm. Pp. 16.
+167. Cassava. Pp. 32.
+168. Pearl Millet. Pp. 16.
+169. Experiment Station Work--XXII.
+170. Principles of Horse Feeding.
+171. The Control of the Codling Moth.
+172. Scale Insects and Mites on Citrus Trees.
+173. A primer of Forestry.
+174. Broom Corn.
+
+* * * * *
+
+Transcriber Note
+
+All illustrations have been move so as to not split paragraphs.
