@@ -12,7 +12,7 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from ..utils.logger import get_logger
-from ..utils.config import MANUAL_KEYWORDS, TOP_KEYWORDS_PER_GENRE, GENRES
+from ..utils.config import TOP_KEYWORDS_PER_GENRE, GENRES
 
 logger = get_logger(__name__)
 
@@ -85,7 +85,6 @@ class VocabularyAnalyzer:
 
                 logger.info(f"{genre}: Top 10 words: {[w for w, s in word_scores[:10]]}")
 
-                # Free memory after processing each genre
                 del doc_texts, tfidf_matrix, feature_names, avg_scores, word_scores
                 gc.collect()
 
@@ -98,8 +97,7 @@ class VocabularyAnalyzer:
     def extract_genre_keywords(
         self,
         metadata_file: Path,
-        use_lemmas: bool = False,
-        use_stemming: bool = False
+        stem_tokens: False
     ) -> Dict[str, List[str]]:
         df = pd.read_csv(metadata_file)
 
@@ -108,11 +106,9 @@ class VocabularyAnalyzer:
 
         genre_keywords = {}
 
-        # Process each genre separately to save memory
         for genre in GENRES:
             logger.info(f"\nProcessing genre: {genre}")
 
-            # Get only books for this genre
             genre_df = df[df['genre'] == genre]
             logger.info(f"  Found {len(genre_df)} books")
 
@@ -121,7 +117,6 @@ class VocabularyAnalyzer:
                 genre_keywords[genre] = []
                 continue
 
-            # Collect documents for this genre only
             documents = []
 
             for idx, row in tqdm(genre_df.iterrows(), total=len(genre_df), desc=f"  Processing {genre}"):
@@ -131,25 +126,22 @@ class VocabularyAnalyzer:
                         from ..utils.config import PROCESSED_DATA_DIR
                         text_path = PROCESSED_DATA_DIR.parent / text_path
 
-                    # Read entire book
                     text = text_path.read_text(encoding='utf-8')
 
                     tokens = self.tokenize(text)
                     tokens = self.remove_stopwords(tokens)
 
-                    if use_stemming:
+                    if stem_tokens:
                         tokens = self.stem_tokens(tokens)
 
                     documents.append(tokens)
 
-                    # Clear text from memory immediately after processing
                     del text, tokens
 
                 except Exception as e:
                     logger.error(f"  Error processing book {row['book_id']}: {e}")
                     continue
 
-            # Calculate TF-IDF for this genre only
             if documents:
                 genre_documents = {genre: documents}
                 characteristic_words = self.calculate_tfidf_scores(genre_documents)
@@ -159,7 +151,6 @@ class VocabularyAnalyzer:
                 else:
                     genre_keywords[genre] = []
 
-                # Clear this genre's documents from memory
                 del documents, genre_documents, characteristic_words
                 gc.collect()
             else:
@@ -170,26 +161,19 @@ class VocabularyAnalyzer:
     def get_all_keywords(
         self,
         metadata_file: Path = None,
-        use_manual: bool = True,
-        use_automatic: bool = True
+        genres = GENRES
     ) -> Dict[str, List[str]]:
         from collections import defaultdict
         all_keywords = defaultdict(list)
 
-        if use_manual:
-            for genre in GENRES:
-                if genre in MANUAL_KEYWORDS:
-                    all_keywords[genre].extend(MANUAL_KEYWORDS[genre])
+        if metadata_file is None:
+            raise ValueError("metadata_file required for automatic keyword extraction")
 
-        if use_automatic:
-            if metadata_file is None:
-                raise ValueError("metadata_file required for automatic keyword extraction")
+        automatic_keywords = self.extract_genre_keywords(metadata_file, genres=genres)
 
-            automatic_keywords = self.extract_genre_keywords(metadata_file)
-
-            for genre in GENRES:
-                if genre in automatic_keywords:
-                    all_keywords[genre].extend(automatic_keywords[genre])
+        for genre in GENRES:
+            if genre in automatic_keywords:
+                all_keywords[genre].extend(automatic_keywords[genre])
 
         for genre in GENRES:
             all_keywords[genre] = list(set(all_keywords[genre]))
@@ -224,15 +208,14 @@ class VocabularyAnalyzer:
 def extract_and_save_keywords(
     metadata_file: Path,
     output_file: Path,
-    use_stemming: bool = False
+    genres = GENRES
 ) -> Dict[str, List[str]]:
 
     analyzer = VocabularyAnalyzer()
 
     keywords = analyzer.get_all_keywords(
         metadata_file=metadata_file,
-        use_manual=True,
-        use_automatic=True
+        genres=genres
     )
 
     output_file = Path(output_file)

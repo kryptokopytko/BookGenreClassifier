@@ -42,13 +42,6 @@ book-genre-classifier/
 
 Dane zostały podzielone po autorach aby zapobiec data leakage.
 
-### Modele
-
-- **Linear SVM**
-- **Logistic Regression**
-- **Random Forest**
-- **Naive Bayes**
-
 ## Komendy
 
 ```bash
@@ -60,7 +53,7 @@ python3 scripts/install_requirenments.py
 python3 scripts/download_books.py
 
 # wyodrębnienie features
-python3 scripts/extract_features.py --skip_pos --skip_keywords
+python3 scripts/extract_features.py # opcjonalnie: --skip_keywords --skip_statistical
 
 # trenowanie i testowanie modeli
 python3 scripts/train_ultra_fast.py
@@ -69,9 +62,7 @@ python3 scripts/train_ultra_fast.py
 python3 scripts/test_and_optimize.py
 ```
 
-## Wyniki
-
-### Wytrenowane Modele (Dataset: 3,703 książki)
+## Wyniki dla poszczególnych modeli
 
 | Model                   | Test Acc | Precision | Recall | F1 Score |
 | ----------------------- | -------- | --------- | ------ | -------- |
@@ -84,6 +75,5 @@ python3 scripts/test_and_optimize.py
 | **Nearest Centroid**    | %        |           |        |          |
 | **KNN**                 | %        |           |        |          |
 | **Style-based**         | %        |           |        |          |
-| **XGBoost**             | %        |           |        |          |
 | **LightGBM**            | %        |           |        |          |
 | **Ensemble**            | %        |           |        |          |
