@@ -8,8 +8,7 @@ Celem projektu jest automatyczne przypisywanie książkom gatunków literackich 
 
 ```
 book-genre-classifier/
-├── src/                    # Kod źródłowy (data, features, models, evaluation)
-├── scripts/                # Skrypty treningowe
+├── src/                    # Kod źródłowy
 ├── data/                   # raw/, processed/, metadata.csv
 ├── models_saved/           # Wytrenowane modele (.pkl)
 └── results/                # Wyniki i metryki
@@ -46,34 +45,18 @@ Dane zostały podzielone po autorach aby zapobiec data leakage.
 
 ```bash
 # instalacja wymaganych bibliotek
-python3 scripts/install_requirenments.py
+python3 install_requirenments.py
 
 # pobranie danych, preprocessing i podział danych
 # pominięcie wybranego kroku: --skip_download --skip_preprocessing --skip_splitting
-python3 scripts/download_books.py
+python3 src/download_books.py
 
 # wyodrębnienie features
-python3 scripts/extract_features.py # opcjonalnie: --skip_keywords --skip_statistical
+python3 src/features/extract_features.py # opcjonalnie: --skip_keywords --skip_statistical
+
+python3 src/generate_vectorizer.py
+python3 src/cache_vectorized_data.py
 
 # trenowanie i testowanie modeli
-python3 scripts/train_ultra_fast.py
-
-# samo (wolne) testowanie modeli
-python3 scripts/test_and_optimize.py
+python3 src/train_ultra_fast.py
 ```
-
-## Wyniki dla poszczególnych modeli
-
-| Model                   | Test Acc | Precision | Recall | F1 Score |
-| ----------------------- | -------- | --------- | ------ | -------- |
-| **Linear SVM**          | %        |           |        |          |
-| **Linear SVM (Opt)**    | %        |           |        |          |
-| **Logistic Regression** | %        |           |        |          |
-| **Random Forest**       | %        |           |        |          |
-| **Naive Bayes**         | %        |           |        |          |
-| **Ridge Classifier**    | %        |           |        |          |
-| **Nearest Centroid**    | %        |           |        |          |
-| **KNN**                 | %        |           |        |          |
-| **Style-based**         | %        |           |        |          |
-| **LightGBM**            | %        |           |        |          |
-| **Ensemble**            | %        |           |        |          |

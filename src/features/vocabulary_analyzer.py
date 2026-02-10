@@ -100,6 +100,8 @@ class VocabularyAnalyzer:
         stem_tokens: False
     ) -> Dict[str, List[str]]:
         df = pd.read_csv(metadata_file)
+        train_df = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
+        train_book_ids = set(train_df['book_id'])
 
         logger.info("Processing books to extract keywords...")
         logger.info("Processing each genre separately to save memory")
@@ -121,6 +123,8 @@ class VocabularyAnalyzer:
 
             for idx, row in tqdm(genre_df.iterrows(), total=len(genre_df), desc=f"  Processing {genre}"):
                 try:
+                    if row['book_id'] not in train_book_ids:
+                        continue
                     text_path = Path(row['processed_path'])
                     if not text_path.is_absolute():
                         from ..utils.config import PROCESSED_DATA_DIR
