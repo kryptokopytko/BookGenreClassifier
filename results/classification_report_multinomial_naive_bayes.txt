@@ -1,20 +1,17 @@
-Classification Report - Multinomial Naive Bayes
-================================================================================
-
                                 precision    recall  f1-score   support
 
-                     Adventure       0.57      0.54      0.55        61
-                   Biographies       0.65      0.59      0.62        59
-Children & Young Adult Reading       0.53      0.55      0.54        56
-            Cooking & Drinking       0.96      0.87      0.91        52
-    Crime, Thrillers & Mystery       0.77      0.68      0.72        75
-      Engineering & Technology       0.86      0.86      0.86        59
-               History - Other       0.61      0.68      0.65        60
-                        Poetry       0.76      0.76      0.76        62
-                      Politics       0.73      0.85      0.78        53
-                       Romance       0.47      0.62      0.54        61
-     Science-Fiction & Fantasy       0.62      0.45      0.52        62
+                     Adventure       0.11      0.21      0.15        61
+                   Biographies       0.28      0.12      0.17        59
+Children & Young Adult Reading       0.09      0.09      0.09        56
+            Cooking & Drinking       0.50      0.46      0.48        52
+    Crime, Thrillers & Mystery       0.36      0.12      0.18        75
+      Engineering & Technology       0.70      0.12      0.20        59
+               History - Other       0.27      0.07      0.11        60
+                        Poetry       0.19      0.31      0.24        62
+                      Politics       0.00      0.00      0.00        53
+                       Romance       0.16      0.11      0.13        61
+     Science-Fiction & Fantasy       0.18      0.61      0.27        62
 
-                      accuracy                           0.67       660
-                     macro avg       0.68      0.68      0.68       660
-                  weighted avg       0.68      0.67      0.67       660
+                      accuracy                           0.20       660
+                     macro avg       0.26      0.20      0.18       660
+                  weighted avg       0.26      0.20      0.18       660

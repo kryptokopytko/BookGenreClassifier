@@ -1,10 +1,11 @@
 """
-ULTRA-FAST PARALLEL MODEL TRAINING with ALL OPTIMIZATIONS:
-1. Uses cached pre-vectorized data (instant load ~1-2s)
-2. Trains multiple models in parallel (6 workers)
-3. Memory-optimized with garbage collection
-4. All model parameters tuned for speed/quality balance
-5. Trains 13 different classifiers:
+ULTRA-FAST PARALLEL MODEL TRAINING with FEATURE COMBINATION:
+1. Baseline models (Ridge, Nearest Centroid) and SVM use TF-IDF only
+2. Advanced models use TF-IDF + extracted features (5000 + 28 = 5028 features)
+3. Trains multiple models in parallel (6 workers)
+4. Memory-optimized with garbage collection
+5. All model parameters tuned for speed/quality balance
+6. Trains 13 different classifiers:
    - Linear Models: Ridge, Linear SVM, Logistic Regression, SGD, Passive Aggressive
    - Nearest Neighbors: KNN, Nearest Centroid
    - Probabilistic: 3x Naive Bayes variants (Multinomial, Complement, Bernoulli)
@@ -59,28 +60,79 @@ if not cache_dir.exists() or not (cache_dir / "X_train.npz").exists():
     print("Run: python3 scripts/cache_vectorized_data.py")
     sys.exit(1)
 
-# Load cached vectors (INSTANT!)
-print("\n⚡ Loading cached vectorized data...")
+# Load cached TF-IDF vectors (for baseline and SVM models)
+print("\n⚡ Loading cached TF-IDF vectors (for baseline & SVM)...")
 start_load = time.time()
 
-X_train = sparse.load_npz(cache_dir / "X_train.npz")
+X_train_tfidf = sparse.load_npz(cache_dir / "X_train.npz")
 y_train = np.load(cache_dir / "y_train.npy", allow_pickle=True)
 
-X_val = sparse.load_npz(cache_dir / "X_val.npz")
+X_val_tfidf = sparse.load_npz(cache_dir / "X_val.npz")
 y_val = np.load(cache_dir / "y_val.npy", allow_pickle=True)
 
-X_test = sparse.load_npz(cache_dir / "X_test.npz")
+X_test_tfidf = sparse.load_npz(cache_dir / "X_test.npz")
 y_test = np.load(cache_dir / "y_test.npy", allow_pickle=True)
 
-load_time = time.time() - start_load
+load_time_tfidf = time.time() - start_load
 
-print(f"✓ Loaded in {load_time:.2f}s (vs ~30-60s without cache!)")
-print(f"  Train: {X_train.shape}")
-print(f"  Val:   {X_val.shape}")
-print(f"  Test:  {X_test.shape}")
+print(f"✓ TF-IDF vectors loaded in {load_time_tfidf:.2f}s")
+print(f"  Train: {X_train_tfidf.shape}")
+print(f"  Val:   {X_val_tfidf.shape}")
+print(f"  Test:  {X_test_tfidf.shape}")
 
 # Load vectorizer for saving with models
 vectorizer = joblib.load(MODELS_DIR / "tfidf_vectorizer.pkl")
+
+# Load extracted features (for advanced models)
+print("\n⚡ Loading extracted features (for other models)...")
+features_file = PROCESSED_DATA_DIR / "features.csv"
+if not features_file.exists():
+    print(f"\n❌ Features file not found: {features_file}")
+    print("Run: python3 scripts/extract_features.py")
+    sys.exit(1)
+
+start_load = time.time()
+features_df = pd.read_csv(features_file)
+
+# Load train/val/test splits to match with features
+train_df = pd.read_csv(PROCESSED_DATA_DIR / "train.csv")
+val_df = pd.read_csv(PROCESSED_DATA_DIR / "val.csv")
+test_df = pd.read_csv(PROCESSED_DATA_DIR / "test.csv")
+
+# Merge features with splits (on book_id)
+train_features = train_df[['book_id']].merge(features_df, on='book_id', how='left')
+val_features = val_df[['book_id']].merge(features_df, on='book_id', how='left')
+test_features = test_df[['book_id']].merge(features_df, on='book_id', how='left')
+
+# Select only numeric features (excluding book_id, title, author, genre)
+feature_cols = [col for col in features_df.columns
+                if col not in ['book_id', 'title', 'author', 'genre']
+                and features_df[col].dtype in ['int64', 'float64']]
+
+X_train_features = train_features[feature_cols].fillna(0).values
+X_val_features = val_features[feature_cols].fillna(0).values
+X_test_features = test_features[feature_cols].fillna(0).values
+
+load_time_features = time.time() - start_load
+
+print(f"✓ Features loaded in {load_time_features:.2f}s")
+print(f"  Train: {X_train_features.shape}")
+print(f"  Val:   {X_val_features.shape}")
+print(f"  Test:  {X_test_features.shape}")
+print(f"  Feature columns: {len(feature_cols)}")
+
+# Combine TF-IDF and extracted features for advanced models
+print("\n⚡ Combining TF-IDF + Features for advanced models...")
+from scipy.sparse import hstack as sparse_hstack
+
+X_train_combined = sparse_hstack([X_train_tfidf, sparse.csr_matrix(X_train_features)])
+X_val_combined = sparse_hstack([X_val_tfidf, sparse.csr_matrix(X_val_features)])
+X_test_combined = sparse_hstack([X_test_tfidf, sparse.csr_matrix(X_test_features)])
+
+print(f"✓ Combined data created:")
+print(f"  Train: {X_train_combined.shape} (TF-IDF: {X_train_tfidf.shape[1]} + Features: {X_train_features.shape[1]})")
+print(f"  Val:   {X_val_combined.shape}")
+print(f"  Test:  {X_test_combined.shape}")
 
 # Model training function (for parallel execution)
 def train_single_model(model_config):
@@ -89,7 +141,17 @@ def train_single_model(model_config):
     model_class = model_config['class']
     params = model_config['params']
 
-    print(f"\n[{model_name}] Starting training...")
+    # Get data from config
+    X_train = model_config['X_train']
+    X_val = model_config['X_val']
+    X_test = model_config['X_test']
+    y_train = model_config['y_train']
+    y_val = model_config['y_val']
+    y_test = model_config['y_test']
+    vectorizer = model_config.get('vectorizer', None)
+    data_type = model_config.get('data_type', 'Unknown')
+
+    print(f"\n[{model_name}] Starting training with {data_type}...")
     start_time = time.time()
 
     try:
@@ -162,98 +224,113 @@ def train_single_model(model_config):
 
 # Define models to train
 models_config = [
+    # BASELINE MODELS - Use TF-IDF
     {
         'name': 'Ridge Classifier',
         'class': RidgeClassifier,
         'params': {'alpha': 1.0, 'random_state': 42},
-        'save_name': 'ridge_classifier.pkl'
-    },
-    {
-        'name': 'Linear SVM',
-        'class': LinearSVC,
-        'params': {'C': 10.0, 'max_iter': 2000, 'random_state': 42},  # Optimized: C=10.0 gives 75.6% vs C=1.0 at 6.8%
-        'save_name': 'linear_svm_fast.pkl'
-    },
-    {
-        'name': 'Logistic Regression',
-        'class': LogisticRegression,
-        'params': {'C': 2.0, 'solver': 'saga', 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
-        'save_name': 'logistic_regression_fast.pkl'
-    },
-    {
-        'name': 'SGD Classifier',
-        'class': SGDClassifier,
-        'params': {'loss': 'log_loss', 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
-        'save_name': 'sgd_classifier.pkl'
-    },
-    {
-        'name': 'Passive Aggressive',
-        'class': PassiveAggressiveClassifier,
-        'params': {'C': 1.0, 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
-        'save_name': 'passive_aggressive.pkl'
-    },
-    {
-        'name': 'KNN',
-        'class': KNeighborsClassifier,
-        'params': {'n_neighbors': 3, 'n_jobs': -1, 'algorithm': 'brute'},  # Optimized for speed
-        'save_name': 'knn.pkl',
-        'is_slow': True  # KNN can be slow with large sparse matrices
+        'save_name': 'ridge_classifier.pkl',
+        'use_tfidf': True
     },
     {
         'name': 'Nearest Centroid',
         'class': NearestCentroid,
         'params': {'metric': 'euclidean'},
-        'save_name': 'nearest_centroid.pkl'
+        'save_name': 'nearest_centroid.pkl',
+        'use_tfidf': True
+    },
+    {
+        'name': 'Linear SVM',
+        'class': LinearSVC,
+        'params': {'C': 10.0, 'max_iter': 2000, 'random_state': 42},
+        'save_name': 'linear_svm_fast.pkl',
+        'use_tfidf': True
+    },
+    # ADVANCED MODELS - Use TF-IDF + extracted features
+    {
+        'name': 'Logistic Regression',
+        'class': LogisticRegression,
+        'params': {'C': 2.0, 'solver': 'saga', 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
+        'save_name': 'logistic_regression_fast.pkl',
+        'use_tfidf': False
+    },
+    {
+        'name': 'SGD Classifier',
+        'class': SGDClassifier,
+        'params': {'loss': 'log_loss', 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
+        'save_name': 'sgd_classifier.pkl',
+        'use_tfidf': False
+    },
+    {
+        'name': 'Passive Aggressive',
+        'class': PassiveAggressiveClassifier,
+        'params': {'C': 1.0, 'max_iter': 1000, 'random_state': 42, 'n_jobs': -1},
+        'save_name': 'passive_aggressive.pkl',
+        'use_tfidf': False
+    },
+    {
+        'name': 'KNN',
+        'class': KNeighborsClassifier,
+        'params': {'n_neighbors': 3, 'n_jobs': -1, 'algorithm': 'brute'},
+        'save_name': 'knn.pkl',
+        'is_slow': True,
+        'use_tfidf': False
     },
     {
         'name': 'Multinomial Naive Bayes',
         'class': MultinomialNB,
         'params': {'alpha': 0.1},
-        'save_name': 'naive_bayes_multinomial.pkl'
+        'save_name': 'naive_bayes_multinomial.pkl',
+        'use_tfidf': False
     },
     {
         'name': 'Complement Naive Bayes',
         'class': ComplementNB,
         'params': {'alpha': 0.1},
-        'save_name': 'naive_bayes_complement.pkl'
+        'save_name': 'naive_bayes_complement.pkl',
+        'use_tfidf': False
     },
     {
         'name': 'Bernoulli Naive Bayes',
         'class': BernoulliNB,
         'params': {'alpha': 0.1},
-        'save_name': 'naive_bayes_bernoulli.pkl'
+        'save_name': 'naive_bayes_bernoulli.pkl',
+        'use_tfidf': False
     },
     {
         'name': 'Decision Tree',
         'class': DecisionTreeClassifier,
         'params': {'max_depth': 20, 'min_samples_leaf': 5, 'random_state': 42},
-        'save_name': 'decision_tree.pkl'
+        'save_name': 'decision_tree.pkl',
+        'use_tfidf': False
     },
     {
         'name': 'Random Forest',
         'class': RandomForestClassifier,
         'params': {
-            'n_estimators': 150,      # Reduced for speed (was 200)
-            'max_depth': 12,          # Reduced for speed (was 15)
+            'n_estimators': 150,
+            'max_depth': 12,
             'min_samples_leaf': 5,
-            'max_features': 'sqrt',   # Speed optimization
+            'max_features': 'sqrt',
             'random_state': 42,
             'n_jobs': -1
         },
-        'save_name': 'random_forest_fast.pkl'
+        'save_name': 'random_forest_fast.pkl',
+        'use_tfidf': False
     },
     {
         'name': 'Extra Trees',
         'class': ExtraTreesClassifier,
         'params': {
-            'n_estimators': 150,      # Reduced for speed (was 200)
-            'max_depth': 12,          # Reduced for speed (was 15)
+            'n_estimators': 150,
+            'max_depth': 12,
             'min_samples_leaf': 5,
-            'max_features': 'sqrt',   # Speed optimization
+            'max_features': 'sqrt',
             'random_state': 42,
             'n_jobs': -1
         },
-        'save_name': 'extra_trees.pkl'
+        'save_name': 'extra_trees.pkl',
+        'use_tfidf': False
     }
 ]
 
@@ -263,9 +340,40 @@ if args.fast_only:
     models_config = [m for m in models_config if not m.get('is_slow', False)]
     print(f"\n⏩ Skipped slow models: {', '.join(slow_models)}")
 
+# Add data to each model config
+print("\n📊 Preparing data for each model...")
+for config in models_config:
+    use_tfidf = config.get('use_tfidf', False)
+    if use_tfidf:
+        config['X_train'] = X_train_tfidf
+        config['X_val'] = X_val_tfidf
+        config['X_test'] = X_test_tfidf
+        config['data_type'] = 'TF-IDF only'
+    else:
+        config['X_train'] = X_train_combined
+        config['X_val'] = X_val_combined
+        config['X_test'] = X_test_combined
+        config['data_type'] = 'TF-IDF + Features'
+
+    config['y_train'] = y_train
+    config['y_val'] = y_val
+    config['y_test'] = y_test
+    config['vectorizer'] = vectorizer
+
 print("\n" + "="*80)
 print(f"🚀 TRAINING {len(models_config)} MODELS IN PARALLEL")
 print("="*80)
+
+# Count models by data type
+tfidf_models = [m['name'] for m in models_config if m.get('use_tfidf', False)]
+combined_models = [m['name'] for m in models_config if not m.get('use_tfidf', False)]
+
+print(f"\n📊 Models using TF-IDF only ({len(tfidf_models)}):")
+for model in tfidf_models:
+    print(f"  - {model}")
+print(f"\n📊 Models using TF-IDF + Features ({len(combined_models)}):")
+for model in combined_models:
+    print(f"  - {model}")
 
 # Train models in parallel
 results = []
@@ -356,7 +464,8 @@ if len(successful_results) > 0:
 print("\n" + "="*80)
 print("⚡ PERFORMANCE SUMMARY ⚡")
 print("="*80)
-print(f"Data Loading:     {load_time:.2f}s (was ~30-60s)")
+print(f"TF-IDF Loading:   {load_time_tfidf:.2f}s (was ~30-60s)")
+print(f"Features Loading: {load_time_features:.2f}s")
 print(f"Total Training:   {total_training_time:.1f}s")
 print(f"Models Trained:   {len(successful_results)}/{len(models_config)}")
 print(f"Parallel Workers: {max_workers}")

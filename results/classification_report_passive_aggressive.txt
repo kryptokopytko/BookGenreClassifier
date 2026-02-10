@@ -1,20 +1,17 @@
-Classification Report - Passive Aggressive
-================================================================================
-
                                 precision    recall  f1-score   support
 
-                     Adventure       0.42      0.75      0.54        61
-                   Biographies       0.85      0.78      0.81        59
-Children & Young Adult Reading       0.57      0.59      0.58        56
-            Cooking & Drinking       1.00      0.92      0.96        52
-    Crime, Thrillers & Mystery       0.97      0.48      0.64        75
-      Engineering & Technology       0.90      0.88      0.89        59
-               History - Other       0.76      0.52      0.61        60
-                        Poetry       0.89      0.87      0.88        62
-                      Politics       0.81      0.83      0.82        53
-                       Romance       0.43      0.75      0.55        61
-     Science-Fiction & Fantasy       0.74      0.40      0.52        62
+                     Adventure       0.00      0.00      0.00        61
+                   Biographies       0.00      0.00      0.00        59
+Children & Young Adult Reading       0.10      0.30      0.15        56
+            Cooking & Drinking       0.12      0.33      0.17        52
+    Crime, Thrillers & Mystery       0.00      0.00      0.00        75
+      Engineering & Technology       0.00      0.00      0.00        59
+               History - Other       0.00      0.00      0.00        60
+                        Poetry       1.00      0.02      0.03        62
+                      Politics       0.11      0.09      0.10        53
+                       Romance       0.07      0.02      0.03        61
+     Science-Fiction & Fantasy       0.14      0.61      0.23        62
 
-                      accuracy                           0.70       660
-                     macro avg       0.76      0.71      0.71       660
-                  weighted avg       0.76      0.70      0.70       660
+                      accuracy                           0.12       660
+                     macro avg       0.14      0.12      0.06       660
+                  weighted avg       0.14      0.12      0.06       660

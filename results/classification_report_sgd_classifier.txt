@@ -1,20 +1,17 @@
-Classification Report - SGD Classifier
-================================================================================
-
                                 precision    recall  f1-score   support
 
-                     Adventure       0.52      0.52      0.52        61
-                   Biographies       0.72      0.66      0.69        59
-Children & Young Adult Reading       0.57      0.48      0.52        56
-            Cooking & Drinking       0.96      0.90      0.93        52
-    Crime, Thrillers & Mystery       0.89      0.43      0.58        75
-      Engineering & Technology       0.75      0.90      0.82        59
-               History - Other       0.70      0.65      0.67        60
-                        Poetry       0.79      0.84      0.81        62
-                      Politics       0.80      0.77      0.79        53
-                       Romance       0.39      0.70      0.51        61
-     Science-Fiction & Fantasy       0.49      0.47      0.48        62
+                     Adventure       0.00      0.00      0.00        61
+                   Biographies       0.00      0.00      0.00        59
+Children & Young Adult Reading       0.00      0.00      0.00        56
+            Cooking & Drinking       0.00      0.00      0.00        52
+    Crime, Thrillers & Mystery       0.20      0.03      0.05        75
+      Engineering & Technology       0.12      0.05      0.07        59
+               History - Other       0.00      0.00      0.00        60
+                        Poetry       0.36      0.55      0.44        62
+                      Politics       0.00      0.00      0.00        53
+                       Romance       0.00      0.00      0.00        61
+     Science-Fiction & Fantasy       0.09      0.79      0.17        62
 
-                      accuracy                           0.66       660
-                     macro avg       0.69      0.67      0.67       660
-                  weighted avg       0.69      0.66      0.66       660
+                      accuracy                           0.13       660
+                     macro avg       0.07      0.13      0.07       660
+                  weighted avg       0.08      0.13      0.07       660
